@@ -1,0 +1,221 @@
+{
+  "is_conflict": true,
+  "number_of_conflicts": 12,
+  "places_of_conflicts": [
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection"
+  ],
+  "conflict_vehicles": [
+    {
+      "vehicle1_id": "V158",
+      "vehicle2_id": "V159",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 4.72,
+      "vehicle2_time_to_conflict_s": 5.228,
+      "arrival_time_gap_s": 0.509,
+      "yield_vehicle": "V159",
+      "priority_vehicle": "V158"
+    },
+    {
+      "vehicle1_id": "V158",
+      "vehicle2_id": "V161",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 5.2,
+      "vehicle2_time_to_conflict_s": 5.08,
+      "arrival_time_gap_s": 0.12,
+      "yield_vehicle": "V161",
+      "priority_vehicle": "V158"
+    },
+    {
+      "vehicle1_id": "V158",
+      "vehicle2_id": "V164",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 5.92,
+      "vehicle2_time_to_conflict_s": 5.2,
+      "arrival_time_gap_s": 0.719,
+      "yield_vehicle": "V164",
+      "priority_vehicle": "V158"
+    },
+    {
+      "vehicle1_id": "V159",
+      "vehicle2_id": "V160",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 4.817,
+      "vehicle2_time_to_conflict_s": 5.3,
+      "arrival_time_gap_s": 0.483,
+      "yield_vehicle": "V160",
+      "priority_vehicle": "V159"
+    },
+    {
+      "vehicle1_id": "V159",
+      "vehicle2_id": "V162",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.176,
+      "vehicle1_time_to_conflict_s": 4.776,
+      "vehicle2_time_to_conflict_s": 5.24,
+      "arrival_time_gap_s": 0.464,
+      "yield_vehicle": "V162",
+      "priority_vehicle": "V159"
+    },
+    {
+      "vehicle1_id": "V160",
+      "vehicle2_id": "V161",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 4.94,
+      "vehicle2_time_to_conflict_s": 5.4,
+      "arrival_time_gap_s": 0.46,
+      "yield_vehicle": "V161",
+      "priority_vehicle": "V160"
+    },
+    {
+      "vehicle1_id": "V160",
+      "vehicle2_id": "V162",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 5.84,
+      "vehicle2_time_to_conflict_s": 4.8,
+      "arrival_time_gap_s": 1.04,
+      "yield_vehicle": "V162",
+      "priority_vehicle": "V160"
+    },
+    {
+      "vehicle1_id": "V160",
+      "vehicle2_id": "V163",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 4.4,
+      "vehicle2_time_to_conflict_s": 5.754,
+      "arrival_time_gap_s": 1.354,
+      "yield_vehicle": "V163",
+      "priority_vehicle": "V160"
+    },
+    {
+      "vehicle1_id": "V161",
+      "vehicle2_id": "V162",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 5.88,
+      "vehicle2_time_to_conflict_s": 5.764,
+      "arrival_time_gap_s": 0.116,
+      "yield_vehicle": "V162",
+      "priority_vehicle": "V161"
+    },
+    {
+      "vehicle1_id": "V161",
+      "vehicle2_id": "V163",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 5.88,
+      "vehicle2_time_to_conflict_s": 5.0,
+      "arrival_time_gap_s": 0.88,
+      "yield_vehicle": "V163",
+      "priority_vehicle": "V161"
+    },
+    {
+      "vehicle1_id": "V161",
+      "vehicle2_id": "V164",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 4.6,
+      "vehicle2_time_to_conflict_s": 5.891,
+      "arrival_time_gap_s": 1.291,
+      "yield_vehicle": "V164",
+      "priority_vehicle": "V161"
+    },
+    {
+      "vehicle1_id": "V162",
+      "vehicle2_id": "V163",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 5.764,
+      "vehicle2_time_to_conflict_s": 5.0,
+      "arrival_time_gap_s": 0.764,
+      "yield_vehicle": "V163",
+      "priority_vehicle": "V162"
+    }
+  ],
+  "decisions": [
+    {
+      "vehicle_id": "V158",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V159",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V160",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V161",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V164",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V162",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V163",
+      "action": "yield"
+    }
+  ],
+  "priority_order": [
+    "V158",
+    "V159",
+    "V160",
+    "V161",
+    "V164",
+    "V162",
+    "V163"
+  ],
+  "waiting_times": {
+    "V158": 0.0,
+    "V159": 1.8,
+    "V160": 1.8,
+    "V161": 1.8,
+    "V162": 1.8,
+    "V163": 1.8,
+    "V164": 1.4
+  },
+  "ground_truth_method": "geometric_reconstruction_v1_not_author_code",
+  "ground_truth_config": {
+    "conflict_distance_m": 2.2,
+    "temporal_threshold_s": 2.5,
+    "intersection_half_width_m": 8.0,
+    "clearance_time_s": 2.0,
+    "sample_step": 0.025
+  },
+  "ground_truth_backend": "reconstruction"
+}

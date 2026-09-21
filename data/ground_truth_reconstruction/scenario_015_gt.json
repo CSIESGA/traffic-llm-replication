@@ -1,0 +1,85 @@
+{
+  "is_conflict": true,
+  "number_of_conflicts": 2,
+  "places_of_conflicts": [
+    "intersection",
+    "intersection"
+  ],
+  "conflict_vehicles": [
+    {
+      "vehicle1_id": "V147",
+      "vehicle2_id": "V148",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 8.127,
+      "vehicle2_time_to_conflict_s": 7.1,
+      "arrival_time_gap_s": 1.027,
+      "yield_vehicle": "V148",
+      "priority_vehicle": "V147"
+    },
+    {
+      "vehicle1_id": "V148",
+      "vehicle2_id": "V149",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 7.96,
+      "vehicle2_time_to_conflict_s": 7.3,
+      "arrival_time_gap_s": 0.66,
+      "yield_vehicle": "V149",
+      "priority_vehicle": "V148"
+    }
+  ],
+  "decisions": [
+    {
+      "vehicle_id": "V151",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V150",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V146",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V147",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V148",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V149",
+      "action": "yield"
+    }
+  ],
+  "priority_order": [
+    "V151",
+    "V150",
+    "V146",
+    "V147",
+    "V148",
+    "V149"
+  ],
+  "waiting_times": {
+    "V146": 0.0,
+    "V147": 0.0,
+    "V148": 2.1,
+    "V149": 1.8,
+    "V150": 0.0,
+    "V151": 0.0
+  },
+  "ground_truth_method": "geometric_reconstruction_v1_not_author_code",
+  "ground_truth_config": {
+    "conflict_distance_m": 2.2,
+    "temporal_threshold_s": 2.5,
+    "intersection_half_width_m": 8.0,
+    "clearance_time_s": 2.0,
+    "sample_step": 0.025
+  },
+  "ground_truth_backend": "reconstruction"
+}

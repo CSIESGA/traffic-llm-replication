@@ -1,0 +1,86 @@
+{
+  "is_conflict": true,
+  "number_of_conflicts": 3,
+  "places_of_conflicts": [
+    "intersection",
+    "intersection",
+    "intersection"
+  ],
+  "conflict_vehicles": [
+    {
+      "vehicle1_id": "V115",
+      "vehicle2_id": "V116",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 8.205,
+      "vehicle2_time_to_conflict_s": 7.5,
+      "arrival_time_gap_s": 0.705,
+      "yield_vehicle": "V116",
+      "priority_vehicle": "V115"
+    },
+    {
+      "vehicle1_id": "V115",
+      "vehicle2_id": "V118",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 7.0,
+      "vehicle2_time_to_conflict_s": 8.275,
+      "arrival_time_gap_s": 1.275,
+      "yield_vehicle": "V115",
+      "priority_vehicle": "V118"
+    },
+    {
+      "vehicle1_id": "V117",
+      "vehicle2_id": "V118",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.176,
+      "vehicle1_time_to_conflict_s": 8.185,
+      "vehicle2_time_to_conflict_s": 7.636,
+      "arrival_time_gap_s": 0.549,
+      "yield_vehicle": "V118",
+      "priority_vehicle": "V117"
+    }
+  ],
+  "decisions": [
+    {
+      "vehicle_id": "V117",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V115",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V118",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V116",
+      "action": "yield"
+    }
+  ],
+  "priority_order": [
+    "V117",
+    "V115",
+    "V118",
+    "V116"
+  ],
+  "waiting_times": {
+    "V115": 2.1,
+    "V116": 1.5,
+    "V117": 0.0,
+    "V118": 2.1
+  },
+  "ground_truth_method": "geometric_reconstruction_v1_not_author_code",
+  "ground_truth_config": {
+    "conflict_distance_m": 2.2,
+    "temporal_threshold_s": 2.5,
+    "intersection_half_width_m": 8.0,
+    "clearance_time_s": 2.0,
+    "sample_step": 0.025
+  },
+  "ground_truth_backend": "reconstruction"
+}

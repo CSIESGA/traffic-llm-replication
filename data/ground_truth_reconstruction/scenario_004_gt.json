@@ -1,0 +1,48 @@
+{
+  "is_conflict": true,
+  "number_of_conflicts": 1,
+  "places_of_conflicts": [
+    "intersection"
+  ],
+  "conflict_vehicles": [
+    {
+      "vehicle1_id": "V107",
+      "vehicle2_id": "V108",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 5.0,
+      "vehicle2_time_to_conflict_s": 6.347,
+      "arrival_time_gap_s": 1.347,
+      "yield_vehicle": "V107",
+      "priority_vehicle": "V108"
+    }
+  ],
+  "decisions": [
+    {
+      "vehicle_id": "V108",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V107",
+      "action": "yield"
+    }
+  ],
+  "priority_order": [
+    "V108",
+    "V107"
+  ],
+  "waiting_times": {
+    "V107": 2.3,
+    "V108": 0.0
+  },
+  "ground_truth_method": "geometric_reconstruction_v1_not_author_code",
+  "ground_truth_config": {
+    "conflict_distance_m": 2.2,
+    "temporal_threshold_s": 2.5,
+    "intersection_half_width_m": 8.0,
+    "clearance_time_s": 2.0,
+    "sample_step": 0.025
+  },
+  "ground_truth_backend": "reconstruction"
+}

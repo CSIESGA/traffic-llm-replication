@@ -1,0 +1,6 @@
+﻿scenario,gt_conflict,llm_conflict,binary_correct,gt_pairs,pred_pairs,pair_exact_match
+scenario_001,True,True,True,1,1,True
+scenario_002,False,False,True,0,0,True
+scenario_003,False,False,True,0,0,True
+scenario_004,True,True,True,1,1,True
+scenario_005,False,False,True,0,0,True

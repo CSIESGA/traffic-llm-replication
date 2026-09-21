@@ -1,0 +1,34 @@
+{
+"is_conflict": false,
+"number_of_conflicts": 0,
+"places_of_conflicts": [],
+"conflict_vehicles": [],
+"decisions": [
+{
+"vehicle_id": "V109",
+"action": "proceed",
+"reason": "The vehicle is making a right turn and its movement does not create a relevant collision risk with the other right-turning vehicles."
+},
+{
+"vehicle_id": "V110",
+"action": "proceed",
+"reason": "The vehicle is making a right turn and its movement does not create a relevant collision risk with the other right-turning vehicles."
+},
+{
+"vehicle_id": "V111",
+"action": "proceed",
+"reason": "The vehicle is making a right turn and its movement does not create a relevant collision risk with the other right-turning vehicles."
+}
+],
+"priority_order": [
+"V109",
+"V110",
+"V111"
+],
+"waiting_times": {
+"V109": 0.0,
+"V110": 0.0,
+"V111": 0.0
+},
+"explanation": "All three vehicles are making right turns from different approaches and have identical estimated arrival times of 6.0 seconds. Their intended right-turn movements do not create a relevant intersecting-path collision risk, so no conflict is detected and no vehicle needs to yield or wait."
+}

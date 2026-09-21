@@ -1,0 +1,99 @@
+{
+  "is_conflict": true,
+  "number_of_conflicts": 4,
+  "places_of_conflicts": [
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection"
+  ],
+  "conflict_vehicles": [
+    {
+      "vehicle1_id": "V217",
+      "vehicle2_id": "V218",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 8.1,
+      "vehicle2_time_to_conflict_s": 7.74,
+      "arrival_time_gap_s": 0.36,
+      "yield_vehicle": "V218",
+      "priority_vehicle": "V217"
+    },
+    {
+      "vehicle1_id": "V217",
+      "vehicle2_id": "V220",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 7.74,
+      "vehicle2_time_to_conflict_s": 8.1,
+      "arrival_time_gap_s": 0.36,
+      "yield_vehicle": "V217",
+      "priority_vehicle": "V220"
+    },
+    {
+      "vehicle1_id": "V218",
+      "vehicle2_id": "V219",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 8.1,
+      "vehicle2_time_to_conflict_s": 7.74,
+      "arrival_time_gap_s": 0.36,
+      "yield_vehicle": "V219",
+      "priority_vehicle": "V218"
+    },
+    {
+      "vehicle1_id": "V219",
+      "vehicle2_id": "V220",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 8.1,
+      "vehicle2_time_to_conflict_s": 7.74,
+      "arrival_time_gap_s": 0.36,
+      "yield_vehicle": "V220",
+      "priority_vehicle": "V219"
+    }
+  ],
+  "decisions": [
+    {
+      "vehicle_id": "V217",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V218",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V219",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V220",
+      "action": "yield"
+    }
+  ],
+  "priority_order": [
+    "V217",
+    "V218",
+    "V219",
+    "V220"
+  ],
+  "waiting_times": {
+    "V217": 2.0,
+    "V218": 2.0,
+    "V219": 2.0,
+    "V220": 2.0
+  },
+  "ground_truth_method": "geometric_reconstruction_v1_not_author_code",
+  "ground_truth_config": {
+    "conflict_distance_m": 2.2,
+    "temporal_threshold_s": 2.5,
+    "intersection_half_width_m": 8.0,
+    "clearance_time_s": 2.0,
+    "sample_step": 0.025
+  },
+  "ground_truth_backend": "reconstruction"
+}

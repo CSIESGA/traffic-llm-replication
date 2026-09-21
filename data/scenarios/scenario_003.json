@@ -1,0 +1,20 @@
+{
+  "vehicles_scenario": [
+    {
+      "vehicle_id": "V105",
+      "lane": "1",
+      "speed": 50.0,
+      "distance_to_intersection": 83.33,
+      "direction": "north",
+      "destination": "F"
+    },
+    {
+      "vehicle_id": "V106",
+      "lane": "5",
+      "speed": 50.0,
+      "distance_to_intersection": 83.33,
+      "direction": "south",
+      "destination": "B"
+    }
+  ]
+}

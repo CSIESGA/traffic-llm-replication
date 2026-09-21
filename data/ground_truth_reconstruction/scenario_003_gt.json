@@ -1,0 +1,33 @@
+{
+  "is_conflict": false,
+  "number_of_conflicts": 0,
+  "places_of_conflicts": [],
+  "conflict_vehicles": [],
+  "decisions": [
+    {
+      "vehicle_id": "V105",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V106",
+      "action": "proceed"
+    }
+  ],
+  "priority_order": [
+    "V105",
+    "V106"
+  ],
+  "waiting_times": {
+    "V105": 0.0,
+    "V106": 0.0
+  },
+  "ground_truth_method": "geometric_reconstruction_v1_not_author_code",
+  "ground_truth_config": {
+    "conflict_distance_m": 2.2,
+    "temporal_threshold_s": 2.5,
+    "intersection_half_width_m": 8.0,
+    "clearance_time_s": 2.0,
+    "sample_step": 0.025
+  },
+  "ground_truth_backend": "reconstruction"
+}

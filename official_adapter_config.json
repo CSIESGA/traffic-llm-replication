@@ -1,0 +1,9 @@
+{
+  "configured": false,
+  "mode": "python_function",
+  "module_path": "",
+  "function": "",
+  "input_kind": "scenario_dict",
+  "kwargs": {},
+  "notes": "Populate module_path/function only after inspecting the actual Zenodo files. Paths are relative to vendor/zenodo_14171745/extracted. Do not guess the authors' API."
+}

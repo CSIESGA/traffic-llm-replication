@@ -1,0 +1,25 @@
+# Python 虛擬環境
+.venv/
+venv/
+env/
+
+# Python 快取
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本機環境變數與金鑰
+.env
+.env.*
+!.env.example
+
+# 暫存檔與日誌
+*.log
+*.tmp
+*.bak
+
+# 下載的第三方原始資料
+vendor/zenodo_14171745/raw/
+vendor/zenodo_14171745/extracted/

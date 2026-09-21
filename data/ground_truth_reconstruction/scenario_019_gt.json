@@ -1,0 +1,175 @@
+{
+  "is_conflict": true,
+  "number_of_conflicts": 8,
+  "places_of_conflicts": [
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection"
+  ],
+  "conflict_vehicles": [
+    {
+      "vehicle1_id": "V172",
+      "vehicle2_id": "V173",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 7.268,
+      "vehicle2_time_to_conflict_s": 6.2,
+      "arrival_time_gap_s": 1.068,
+      "yield_vehicle": "V173",
+      "priority_vehicle": "V172"
+    },
+    {
+      "vehicle1_id": "V172",
+      "vehicle2_id": "V175",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 6.0,
+      "vehicle2_time_to_conflict_s": 7.564,
+      "arrival_time_gap_s": 1.564,
+      "yield_vehicle": "V175",
+      "priority_vehicle": "V172"
+    },
+    {
+      "vehicle1_id": "V172",
+      "vehicle2_id": "V177",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 6.0,
+      "vehicle2_time_to_conflict_s": 7.541,
+      "arrival_time_gap_s": 1.541,
+      "yield_vehicle": "V172",
+      "priority_vehicle": "V177"
+    },
+    {
+      "vehicle1_id": "V172",
+      "vehicle2_id": "V178",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 7.268,
+      "vehicle2_time_to_conflict_s": 7.706,
+      "arrival_time_gap_s": 0.438,
+      "yield_vehicle": "V172",
+      "priority_vehicle": "V178"
+    },
+    {
+      "vehicle1_id": "V173",
+      "vehicle2_id": "V178",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 6.2,
+      "vehicle2_time_to_conflict_s": 7.706,
+      "arrival_time_gap_s": 1.506,
+      "yield_vehicle": "V173",
+      "priority_vehicle": "V178"
+    },
+    {
+      "vehicle1_id": "V174",
+      "vehicle2_id": "V179",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 6.4,
+      "vehicle2_time_to_conflict_s": 7.875,
+      "arrival_time_gap_s": 1.475,
+      "yield_vehicle": "V174",
+      "priority_vehicle": "V179"
+    },
+    {
+      "vehicle1_id": "V175",
+      "vehicle2_id": "V176",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 6.6,
+      "vehicle2_time_to_conflict_s": 7.38,
+      "arrival_time_gap_s": 0.78,
+      "yield_vehicle": "V175",
+      "priority_vehicle": "V176"
+    },
+    {
+      "vehicle1_id": "V175",
+      "vehicle2_id": "V177",
+      "is_conflict": true,
+      "reason": "spatiotemporal_path_overlap",
+      "minimum_path_separation_m": 0.0,
+      "vehicle1_time_to_conflict_s": 7.564,
+      "vehicle2_time_to_conflict_s": 7.541,
+      "arrival_time_gap_s": 0.023,
+      "yield_vehicle": "V175",
+      "priority_vehicle": "V177"
+    }
+  ],
+  "decisions": [
+    {
+      "vehicle_id": "V176",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V177",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V178",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V179",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V174",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V172",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V173",
+      "action": "yield"
+    },
+    {
+      "vehicle_id": "V175",
+      "action": "yield"
+    }
+  ],
+  "priority_order": [
+    "V176",
+    "V177",
+    "V178",
+    "V179",
+    "V174",
+    "V172",
+    "V173",
+    "V175"
+  ],
+  "waiting_times": {
+    "V172": 3.2,
+    "V173": 3.0,
+    "V174": 3.0,
+    "V175": 2.4,
+    "V176": 0.0,
+    "V177": 0.0,
+    "V178": 0.0,
+    "V179": 0.0
+  },
+  "ground_truth_method": "geometric_reconstruction_v1_not_author_code",
+  "ground_truth_config": {
+    "conflict_distance_m": 2.2,
+    "temporal_threshold_s": 2.5,
+    "intersection_half_width_m": 8.0,
+    "clearance_time_s": 2.0,
+    "sample_step": 0.025
+  },
+  "ground_truth_backend": "reconstruction"
+}

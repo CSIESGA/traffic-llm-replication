@@ -1,0 +1,36 @@
+{
+  "vehicles_scenario": [
+    {
+      "vehicle_id": "V119",
+      "lane": "1",
+      "speed": 55.0,
+      "distance_to_intersection": 76.39,
+      "direction": "north",
+      "destination": "H"
+    },
+    {
+      "vehicle_id": "V120",
+      "lane": "3",
+      "speed": 35.0,
+      "distance_to_intersection": 48.61,
+      "direction": "east",
+      "destination": "H"
+    },
+    {
+      "vehicle_id": "V121",
+      "lane": "5",
+      "speed": 50.0,
+      "distance_to_intersection": 125.0,
+      "direction": "south",
+      "destination": "B"
+    },
+    {
+      "vehicle_id": "V122",
+      "lane": "7",
+      "speed": 45.0,
+      "distance_to_intersection": 150.0,
+      "direction": "west",
+      "destination": "F"
+    }
+  ]
+}

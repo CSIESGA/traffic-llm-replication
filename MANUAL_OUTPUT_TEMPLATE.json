@@ -1,0 +1,12 @@
+{
+  "is_conflict": false,
+  "number_of_conflicts": 0,
+  "places_of_conflicts": [],
+  "conflict_vehicles": [],
+  "decisions": [
+    {"vehicle_id": "VXXX", "action": "proceed", "reason": "..."}
+  ],
+  "priority_order": ["VXXX"],
+  "waiting_times": {"VXXX": 0.0},
+  "explanation": "..."
+}

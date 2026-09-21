@@ -1,0 +1,27 @@
+{
+"is_conflict": false,
+"number_of_conflicts": 0,
+"places_of_conflicts": [],
+"conflict_vehicles": [],
+"decisions": [
+{
+"vehicle_id": "V105",
+"action": "proceed",
+"reason": "V105 travels straight from the north approach, while V106 travels straight from the opposite south approach; their opposing straight movements do not create an intersecting collision path."
+},
+{
+"vehicle_id": "V106",
+"action": "proceed",
+"reason": "V106 travels straight from the south approach, while V105 travels straight from the opposite north approach; their opposing straight movements do not create an intersecting collision path."
+}
+],
+"priority_order": [
+"V105",
+"V106"
+],
+"waiting_times": {
+"V105": 0.0,
+"V106": 0.0
+},
+"explanation": "No conflict is detected. V105 and V106 approach from opposite directions and both travel straight. Although both reach the intersection in approximately 6.0 seconds, their straight movements use opposing trajectories rather than crossing trajectories, so neither vehicle needs to yield or wait."
+}
