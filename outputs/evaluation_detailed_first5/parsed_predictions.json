@@ -1,0 +1,336 @@
+{
+  "scenario_002": {
+    "raw_source": {
+      "path": "outputs/detailed_llm/scenario_002.txt",
+      "sha256": "ef5f6dd924ee9112083baf10b2e9774387cc7fafbe89127ce64d717edcf5bd2d"
+    },
+    "prediction": {
+      "is_conflict": false,
+      "number_of_conflicts": 0,
+      "places_of_conflicts": [],
+      "conflict_vehicles": [],
+      "decisions": [
+        {
+          "vehicle_id": "V103",
+          "action": "proceed",
+          "reason": "V103 reaches the intersection substantially earlier, with no established overlapping occupancy with V104."
+        },
+        {
+          "vehicle_id": "V104",
+          "action": "proceed",
+          "reason": "V104 arrives later, so the provided timing does not establish simultaneous intersection occupancy."
+        }
+      ],
+      "priority_order": [
+        "V103",
+        "V104"
+      ],
+      "waiting_times": {
+        "V103": 0,
+        "V104": 0
+      },
+      "explanation": "At 45 km/h, V103 is about 4 seconds away and V104 about 10 seconds away. Their roughly 6-second arrival separation does not establish a conflict. Exact path geometry and intersection traversal duration are unspecified, so finer spatial conflict analysis is unavailable."
+    },
+    "validation": {
+      "format": "plain_json",
+      "consistency_warnings": []
+    }
+  },
+  "scenario_121": {
+    "raw_source": {
+      "path": "outputs/detailed_llm/scenario_121.txt",
+      "sha256": "e6970bcf80fcb924164a95645a9261826e2d1c6f8dfcb3ab425e853adde8aa70"
+    },
+    "prediction": {
+      "is_conflict": false,
+      "number_of_conflicts": 0,
+      "places_of_conflicts": [],
+      "conflict_vehicles": [],
+      "decisions": [
+        {
+          "vehicle_id": "V1518",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 25.4 seconds; input does not establish simultaneous path occupancy with another vehicle."
+        },
+        {
+          "vehicle_id": "V4277",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 65.7 seconds, substantially later than all other vehicles under constant-speed assumptions."
+        },
+        {
+          "vehicle_id": "V7136",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 27.0 seconds; timing alone does not establish a conflict with another intended path."
+        },
+        {
+          "vehicle_id": "V2898",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 18.7 seconds, providing temporal separation from the other vehicles under current speeds."
+        }
+      ],
+      "priority_order": [
+        "V1518",
+        "V4277",
+        "V7136",
+        "V2898"
+      ],
+      "waiting_times": {
+        "V1518": 0,
+        "V4277": 0,
+        "V7136": 0,
+        "V2898": 0
+      },
+      "explanation": "Constant-speed arrival estimates are V2898 18.7 s, V1518 25.4 s, V7136 27.0 s, and V4277 65.7 s. The input provides intended destinations but does not establish exact trajectories, intersection occupancy durations, signal phases, or precise path-crossing geometry; therefore no conflict is established."
+    },
+    "validation": {
+      "format": "plain_json",
+      "consistency_warnings": []
+    }
+  },
+  "scenario_138": {
+    "raw_source": {
+      "path": "outputs/detailed_llm/scenario_138.txt",
+      "sha256": "77c3849521e06a9eaf6376867d2b687d522b9bff7152d8939600c5c6d46a0610"
+    },
+    "prediction": {
+      "is_conflict": true,
+      "number_of_conflicts": 1,
+      "places_of_conflicts": [
+        "intersection"
+      ],
+      "conflict_vehicles": [
+        {
+          "vehicle1_id": "V8276",
+          "vehicle2_id": "V3187",
+          "reason": "Both target G from different approaches, with estimated intersection arrivals about 3.5 seconds apart, creating a potential merging conflict."
+        }
+      ],
+      "decisions": [
+        {
+          "vehicle_id": "V8905",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 7.2 seconds; no sufficiently simultaneous shared-destination conflict is established from the supplied information."
+        },
+        {
+          "vehicle_id": "V3499",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 14.5 seconds; its shared destination with V8905 has substantial temporal separation."
+        },
+        {
+          "vehicle_id": "V9206",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 24.7 seconds; the other lane-2 vehicle is much farther behind temporally."
+        },
+        {
+          "vehicle_id": "V6136",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 57.1 seconds, well separated from other listed vehicles and the preceding lane-2 vehicle."
+        },
+        {
+          "vehicle_id": "V3187",
+          "action": "yield",
+          "reason": "Its estimated 14.1-second arrival follows V8276 toward shared destination G closely enough to warrant yielding."
+        },
+        {
+          "vehicle_id": "V1155",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 17.6 seconds; no shared-destination or precisely established crossing conflict is identified."
+        },
+        {
+          "vehicle_id": "V3175",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 17.7 seconds; no sufficiently simultaneous shared-destination conflict is established."
+        },
+        {
+          "vehicle_id": "V8276",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 10.5 seconds, giving it earlier recommended priority over V3187 toward shared destination G."
+        }
+      ],
+      "priority_order": [
+        "V8276",
+        "V3187",
+        "V8905",
+        "V3499",
+        "V9206",
+        "V6136",
+        "V1155",
+        "V3175"
+      ],
+      "waiting_times": {
+        "V8905": 0,
+        "V3499": 0,
+        "V9206": 0,
+        "V6136": 0,
+        "V3187": 2.0,
+        "V1155": 0,
+        "V3175": 0,
+        "V8276": 0
+      },
+      "explanation": "Constant-speed arrival estimates identify a potential G-destination conflict between V8276 and V3187. Exact trajectories, vehicle dimensions, signal states, braking behavior, and conflict-point geometry are not supplied, so precise collision locations and definitive crossing conflicts cannot be established."
+    },
+    "validation": {
+      "format": "plain_json",
+      "consistency_warnings": []
+    }
+  },
+  "scenario_174": {
+    "raw_source": {
+      "path": "outputs/detailed_llm/scenario_174.txt",
+      "sha256": "a6630ae677217b95d01e0940e4743a4f20f56c6b8baf16a7783a87078798c90c"
+    },
+    "prediction": {
+      "is_conflict": true,
+      "number_of_conflicts": 2,
+      "places_of_conflicts": [
+        "intersection",
+        "intersection"
+      ],
+      "conflict_vehicles": [
+        {
+          "vehicle1_id": "V5790",
+          "vehicle2_id": "V6899",
+          "reason": "Predicted intersection arrivals are about 0.59 seconds apart; their different approaches create a potential path conflict."
+        },
+        {
+          "vehicle1_id": "V8424",
+          "vehicle2_id": "V6899",
+          "reason": "Predicted intersection arrivals are about 1.05 seconds apart; simultaneous occupancy may conflict depending on exact path geometry."
+        }
+      ],
+      "decisions": [
+        {
+          "vehicle_id": "V5790",
+          "action": "yield",
+          "reason": "Potentially conflicts with earlier-arriving V6899; yielding provides separation through the intersection."
+        },
+        {
+          "vehicle_id": "V8583",
+          "action": "proceed",
+          "reason": "Predicted arrival is separated from identified conflict arrivals, with no specific path conflict established."
+        },
+        {
+          "vehicle_id": "V4936",
+          "action": "proceed",
+          "reason": "Predicted arrival is substantially later than other vehicles, so no timing conflict is identified."
+        },
+        {
+          "vehicle_id": "V9073",
+          "action": "proceed",
+          "reason": "Predicted arrival is substantially later than identified conflict traffic, with no specific conflict established."
+        },
+        {
+          "vehicle_id": "V8424",
+          "action": "slow_down",
+          "reason": "Arrival closely follows V6899 and V5790; slowing increases temporal separation at the intersection."
+        },
+        {
+          "vehicle_id": "V8251",
+          "action": "proceed",
+          "reason": "Predicted arrival precedes the identified conflict window sufficiently; no specific overlapping path is established."
+        },
+        {
+          "vehicle_id": "V2063",
+          "action": "proceed",
+          "reason": "Earliest predicted arrival gives substantial temporal separation from all other vehicles."
+        },
+        {
+          "vehicle_id": "V6899",
+          "action": "proceed",
+          "reason": "Arrives slightly before both identified conflicting vehicles; recommended priority minimizes unnecessary delay."
+        }
+      ],
+      "priority_order": [
+        "V6899",
+        "V5790",
+        "V8424",
+        "V8583",
+        "V4936",
+        "V9073",
+        "V8251",
+        "V2063"
+      ],
+      "waiting_times": {
+        "V5790": 2.0,
+        "V8583": 0,
+        "V4936": 0,
+        "V9073": 0,
+        "V8424": 3.0,
+        "V8251": 0,
+        "V2063": 0,
+        "V6899": 0
+      },
+      "explanation": "Constant-speed arrival estimates identify close timing among V6899, V5790, and V8424. Exact trajectory geometry, vehicle dimensions, signal state, acceleration, and conflict-zone occupancy are not provided, so the reported conflicts are precautionary timing-based judgments rather than established collisions."
+    },
+    "validation": {
+      "format": "plain_json",
+      "consistency_warnings": []
+    }
+  },
+  "scenario_309": {
+    "raw_source": {
+      "path": "outputs/detailed_llm/scenario_309.txt",
+      "sha256": "757cbc680a39faf15cd051372ff2d159db1562a4cb5d1e7aae83a38cb36182cd"
+    },
+    "prediction": {
+      "is_conflict": true,
+      "number_of_conflicts": 1,
+      "places_of_conflicts": [
+        "intersection"
+      ],
+      "conflict_vehicles": [
+        {
+          "vehicle1_id": "V8053",
+          "vehicle2_id": "V2754",
+          "reason": "Their intended paths may intersect, and constant-speed arrival estimates are only about 1.7 seconds apart."
+        }
+      ],
+      "decisions": [
+        {
+          "vehicle_id": "V8087",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 12.0 seconds, well separated from the identified conflicting pair."
+        },
+        {
+          "vehicle_id": "V7896",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 53.0 seconds, substantially later than the identified conflict interval."
+        },
+        {
+          "vehicle_id": "V8053",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 32.9 seconds; assigning priority separates it from V2754."
+        },
+        {
+          "vehicle_id": "V2754",
+          "action": "yield",
+          "reason": "Estimated arrival is about 34.6 seconds, close to V8053; yielding provides temporal separation."
+        },
+        {
+          "vehicle_id": "V1696",
+          "action": "proceed",
+          "reason": "Estimated arrival is about 45.3 seconds, sufficiently separated from the identified conflict interval."
+        }
+      ],
+      "priority_order": [
+        "V8053",
+        "V2754",
+        "V8087",
+        "V7896",
+        "V1696"
+      ],
+      "waiting_times": {
+        "V8087": 0,
+        "V7896": 0,
+        "V8053": 0,
+        "V2754": 3,
+        "V1696": 0
+      },
+      "explanation": "Arrival estimates assume constant speeds: V8087 12.0 s, V8053 32.9 s, V2754 34.6 s, V1696 45.3 s, V7896 53.0 s. Exact path geometry, signal states, vehicle dimensions, braking behavior, and conflict-point coordinates are not established by the input."
+    },
+    "validation": {
+      "format": "plain_json",
+      "consistency_warnings": []
+    }
+  }
+}

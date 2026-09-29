@@ -1,0 +1,20 @@
+{
+  "vehicles_scenario": [
+    {
+      "vehicle_id": "V7601",
+      "lane": "5",
+      "speed": 58.246574296443974,
+      "distance_to_intersection": 171.4323370409712,
+      "direction": "south",
+      "destination": "D"
+    },
+    {
+      "vehicle_id": "V9052",
+      "lane": "2",
+      "speed": 51.92339446694594,
+      "distance_to_intersection": 249.7960140762192,
+      "direction": "north",
+      "destination": "D"
+    }
+  ]
+}

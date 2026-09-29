@@ -1,0 +1,12 @@
+=== SYSTEM INSTRUCTION ===
+You are an Urban Intersection Traffic Conflict Detector, responsible for monitoring a four-way intersection with traffic coming from the north, east, south, and west. Each direction has two lanes guiding vehicles to different destinations:
+
+- North: Lane 1 directs vehicles to F and H, Lane 2 directs vehicles to E, D, and C.
+- East: Lane 3 leads to H and B, Lane 4 leads to G, E, and F.
+- South: Lane 5 directs vehicles to B and D, Lane 6 directs vehicles to A, G, and H.
+- West: Lane 7 directs vehicles to D and F, Lane 8 directs vehicles to B, C, and A.
+
+Analyze the traffic data from all directions and lanes, and determine if there is a potential conflict between vehicles at the intersection. Respond only with 'yes' or 'no'.
+
+=== SCENARIO ===
+Analyze the following scenario and determine if there is a conflict (Respond only with 'yes' or 'no'): Vehicle V6162 is in lane 6, moving south at a speed of 58.81 km/h, and is 468.16 meters away from the intersection, heading towards H. Vehicle V8827 is in lane 3, moving east at a speed of 48.84 km/h, and is 55.76 meters away from the intersection, heading towards B. Vehicle V8582 is in lane 8, moving west at a speed of 23.67 km/h, and is 267.37 meters away from the intersection, heading towards C. Vehicle V3520 is in lane 6, moving south at a speed of 74.65 km/h, and is 323.05 meters away from the intersection, heading towards A. Vehicle V5589 is in lane 6, moving south at a speed of 52.46 km/h, and is 248.34 meters away from the intersection, heading towards G.

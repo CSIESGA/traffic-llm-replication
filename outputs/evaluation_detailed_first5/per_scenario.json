@@ -1,0 +1,2739 @@
+[
+  {
+    "scenario": "scenario_001",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V101->V102"
+    ]
+  },
+  {
+    "scenario": "scenario_002",
+    "group": "original_or_unassigned",
+    "status": "evaluated",
+    "ground_truth_warnings": [],
+    "gt_conflict": false,
+    "llm_conflict": false,
+    "binary_correct": true,
+    "gt_pair_count": 0,
+    "predicted_pair_count": 0,
+    "pair_tp": 0,
+    "pair_fp": 0,
+    "pair_fn": 0,
+    "pair_set_exact": true,
+    "missing_pairs": [],
+    "extra_pairs": [],
+    "reported_count_exact": true,
+    "reported_count_absolute_error": 0,
+    "action_correct": 2,
+    "action_total": 2,
+    "action_records": [
+      {
+        "vehicle_id": "V103",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V104",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      }
+    ],
+    "actions_exact": true,
+    "gt_ranked_order": [],
+    "predicted_order_filtered_to_gt_ranked": [],
+    "priority_order_exact": null,
+    "priority_rank_correct": 0,
+    "priority_rank_total": 0,
+    "priority_pair_correct": 0,
+    "priority_pair_total": 0,
+    "unranked_vehicle_ids": [
+      "V103",
+      "V104"
+    ],
+    "waiting_records": [
+      {
+        "vehicle_id": "V103",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V104",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      }
+    ],
+    "waiting_mae": 0.0,
+    "waiting_exact": true,
+    "places_coarse_exact": true,
+    "validation": {
+      "format": "plain_json",
+      "consistency_warnings": []
+    },
+    "all_scored_fields_exact": true
+  },
+  {
+    "scenario": "scenario_003",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_004",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V107->V108"
+    ]
+  },
+  {
+    "scenario": "scenario_005",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V109->V110",
+      "pair_yield_vs_global_rank:V110->V111"
+    ]
+  },
+  {
+    "scenario": "scenario_006",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_007",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V115->V116"
+    ]
+  },
+  {
+    "scenario": "scenario_008",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V217->V218",
+      "pair_yield_vs_global_rank:V218->V219",
+      "pair_yield_vs_global_rank:V219->V220"
+    ]
+  },
+  {
+    "scenario": "scenario_009",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V120->V119"
+    ]
+  },
+  {
+    "scenario": "scenario_010",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V123->V124",
+      "pair_yield_vs_global_rank:V125->V126"
+    ]
+  },
+  {
+    "scenario": "scenario_011",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_012",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V131->V132",
+      "pair_yield_vs_global_rank:V132->V133",
+      "pair_yield_vs_global_rank:V133->V134"
+    ]
+  },
+  {
+    "scenario": "scenario_013",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V136->V137",
+      "pair_yield_vs_global_rank:V137->V138"
+    ]
+  },
+  {
+    "scenario": "scenario_014",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_015",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V146->V147",
+      "pair_yield_vs_global_rank:V148->V149"
+    ]
+  },
+  {
+    "scenario": "scenario_016",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V152->V153",
+      "pair_yield_vs_global_rank:V153->V154",
+      "pair_yield_vs_global_rank:V154->V155"
+    ]
+  },
+  {
+    "scenario": "scenario_017",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V162->V163",
+      "pair_yield_vs_global_rank:V163->V164"
+    ]
+  },
+  {
+    "scenario": "scenario_018",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_019",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V172->V173",
+      "pair_yield_vs_global_rank:V173->V174",
+      "pair_yield_vs_global_rank:V173->V176",
+      "pair_yield_vs_global_rank:V174->V175",
+      "pair_yield_vs_global_rank:V174->V176",
+      "pair_yield_vs_global_rank:V174->V177",
+      "pair_yield_vs_global_rank:V175->V176",
+      "pair_yield_vs_global_rank:V175->V177",
+      "pair_yield_vs_global_rank:V175->V178",
+      "pair_yield_vs_global_rank:V176->V177",
+      "pair_yield_vs_global_rank:V177->V178",
+      "pair_yield_vs_global_rank:V178->V179"
+    ]
+  },
+  {
+    "scenario": "scenario_020",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_021",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V188->V189",
+      "pair_yield_vs_global_rank:V189->V190",
+      "pair_yield_vs_global_rank:V190->V191",
+      "pair_yield_vs_global_rank:V192->V193",
+      "pair_yield_vs_global_rank:V193->V194",
+      "pair_yield_vs_global_rank:V194->V195"
+    ]
+  },
+  {
+    "scenario": "scenario_022",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V196->V197",
+      "pair_yield_vs_global_rank:V199->V197"
+    ]
+  },
+  {
+    "scenario": "scenario_023",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V203->V204",
+      "pair_yield_vs_global_rank:V203->V205",
+      "pair_yield_vs_global_rank:V204->V205"
+    ]
+  },
+  {
+    "scenario": "scenario_024",
+    "group": "original_or_unassigned",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V213->V214",
+      "pair_yield_vs_global_rank:V214->V215",
+      "pair_yield_vs_global_rank:V215->V216"
+    ]
+  },
+  {
+    "scenario": "scenario_025",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_026",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_027",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_028",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_029",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_030",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_031",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_032",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V2285->V1800"
+    ]
+  },
+  {
+    "scenario": "scenario_033",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_034",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_035",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_036",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_037",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_038",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_039",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_040",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_041",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_042",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_043",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_044",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_045",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_046",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_047",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_048",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_049",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_050",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_051",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_052",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_053",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_054",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_055",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_056",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_057",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_058",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_059",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_060",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_061",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_062",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_063",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_064",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_065",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_066",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_067",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_068",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_069",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_070",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_071",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_072",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_073",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_074",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_075",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V9825->V3254"
+    ]
+  },
+  {
+    "scenario": "scenario_076",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_077",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_078",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_079",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_080",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V3917->V4647"
+    ]
+  },
+  {
+    "scenario": "scenario_081",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_082",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_083",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_084",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_085",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_086",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_087",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_088",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_089",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_090",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_091",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V5510->V9626"
+    ]
+  },
+  {
+    "scenario": "scenario_092",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_093",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_094",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_095",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_096",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_097",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_098",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_099",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_100",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_101",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_102",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_103",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_104",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_105",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_106",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_107",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_108",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_109",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_110",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_111",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_112",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_113",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_114",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_115",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_116",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_117",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_118",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_119",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_120",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_121",
+    "group": "four",
+    "status": "evaluated",
+    "ground_truth_warnings": [],
+    "gt_conflict": true,
+    "llm_conflict": false,
+    "binary_correct": false,
+    "gt_pair_count": 1,
+    "predicted_pair_count": 0,
+    "pair_tp": 0,
+    "pair_fp": 0,
+    "pair_fn": 1,
+    "pair_set_exact": false,
+    "missing_pairs": [
+      [
+        "V1518",
+        "V7136"
+      ]
+    ],
+    "extra_pairs": [],
+    "reported_count_exact": false,
+    "reported_count_absolute_error": 1,
+    "action_correct": 3,
+    "action_total": 4,
+    "action_records": [
+      {
+        "vehicle_id": "V1518",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V4277",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V7136",
+        "expected": "yield",
+        "predicted": "proceed",
+        "correct": false
+      },
+      {
+        "vehicle_id": "V2898",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      }
+    ],
+    "actions_exact": false,
+    "gt_ranked_order": [
+      "V1518",
+      "V7136"
+    ],
+    "predicted_order_filtered_to_gt_ranked": [
+      "V1518",
+      "V7136"
+    ],
+    "priority_order_exact": true,
+    "priority_rank_correct": 2,
+    "priority_rank_total": 2,
+    "priority_pair_correct": 1,
+    "priority_pair_total": 1,
+    "unranked_vehicle_ids": [
+      "V4277",
+      "V2898"
+    ],
+    "waiting_records": [
+      {
+        "vehicle_id": "V1518",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": true
+      },
+      {
+        "vehicle_id": "V7136",
+        "expected": 1,
+        "predicted": 0,
+        "absolute_error": 1,
+        "within_tolerance": false,
+        "gt_conflicting": true
+      },
+      {
+        "vehicle_id": "V4277",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V2898",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      }
+    ],
+    "waiting_mae": 0.25,
+    "waiting_exact": false,
+    "places_coarse_exact": false,
+    "validation": {
+      "format": "plain_json",
+      "consistency_warnings": []
+    },
+    "all_scored_fields_exact": false
+  },
+  {
+    "scenario": "scenario_122",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_123",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_124",
+    "group": "four",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_125",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_126",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_127",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V4566->V5721"
+    ]
+  },
+  {
+    "scenario": "scenario_128",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_129",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_130",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_131",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V4273->V2209"
+    ]
+  },
+  {
+    "scenario": "scenario_132",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_133",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_134",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_135",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_136",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_137",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V3217->V7458"
+    ]
+  },
+  {
+    "scenario": "scenario_138",
+    "group": "eight",
+    "status": "evaluated",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V3187->V3499"
+    ],
+    "gt_conflict": true,
+    "llm_conflict": true,
+    "binary_correct": true,
+    "gt_pair_count": 6,
+    "predicted_pair_count": 1,
+    "pair_tp": 1,
+    "pair_fp": 0,
+    "pair_fn": 5,
+    "pair_set_exact": false,
+    "missing_pairs": [
+      [
+        "V1155",
+        "V3499"
+      ],
+      [
+        "V3175",
+        "V3187"
+      ],
+      [
+        "V3175",
+        "V3499"
+      ],
+      [
+        "V3187",
+        "V3499"
+      ],
+      [
+        "V8276",
+        "V8905"
+      ]
+    ],
+    "extra_pairs": [],
+    "reported_count_exact": false,
+    "reported_count_absolute_error": 5,
+    "action_correct": 5,
+    "action_total": 8,
+    "action_records": [
+      {
+        "vehicle_id": "V8905",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V3499",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V9206",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V6136",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V3187",
+        "expected": "yield",
+        "predicted": "yield",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V1155",
+        "expected": "yield",
+        "predicted": "proceed",
+        "correct": false
+      },
+      {
+        "vehicle_id": "V3175",
+        "expected": "yield",
+        "predicted": "proceed",
+        "correct": false
+      },
+      {
+        "vehicle_id": "V8276",
+        "expected": "yield",
+        "predicted": "proceed",
+        "correct": false
+      }
+    ],
+    "actions_exact": false,
+    "gt_ranked_order": [
+      "V8905",
+      "V8276",
+      "V3187",
+      "V3499",
+      "V1155",
+      "V3175"
+    ],
+    "predicted_order_filtered_to_gt_ranked": [
+      "V8276",
+      "V3187",
+      "V8905",
+      "V3499",
+      "V1155",
+      "V3175"
+    ],
+    "priority_order_exact": false,
+    "priority_rank_correct": 3,
+    "priority_rank_total": 6,
+    "priority_pair_correct": 13,
+    "priority_pair_total": 15,
+    "unranked_vehicle_ids": [
+      "V9206",
+      "V6136"
+    ],
+    "waiting_records": [
+      {
+        "vehicle_id": "V8905",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": true
+      },
+      {
+        "vehicle_id": "V8276",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": true
+      },
+      {
+        "vehicle_id": "V3187",
+        "expected": 0,
+        "predicted": 2.0,
+        "absolute_error": 2.0,
+        "within_tolerance": false,
+        "gt_conflicting": true
+      },
+      {
+        "vehicle_id": "V3499",
+        "expected": 2,
+        "predicted": 0,
+        "absolute_error": 2,
+        "within_tolerance": false,
+        "gt_conflicting": true
+      },
+      {
+        "vehicle_id": "V1155",
+        "expected": 1,
+        "predicted": 0,
+        "absolute_error": 1,
+        "within_tolerance": false,
+        "gt_conflicting": true
+      },
+      {
+        "vehicle_id": "V3175",
+        "expected": 3,
+        "predicted": 0,
+        "absolute_error": 3,
+        "within_tolerance": false,
+        "gt_conflicting": true
+      },
+      {
+        "vehicle_id": "V9206",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V6136",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      }
+    ],
+    "waiting_mae": 1.0,
+    "waiting_exact": false,
+    "places_coarse_exact": false,
+    "validation": {
+      "format": "plain_json",
+      "consistency_warnings": []
+    },
+    "all_scored_fields_exact": false
+  },
+  {
+    "scenario": "scenario_139",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V8955->V5379",
+      "pair_yield_vs_global_rank:V6444->V8955",
+      "pair_yield_vs_global_rank:V6444->V5379"
+    ]
+  },
+  {
+    "scenario": "scenario_140",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V8406->V1584"
+    ]
+  },
+  {
+    "scenario": "scenario_141",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V2182->V5824"
+    ]
+  },
+  {
+    "scenario": "scenario_142",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_143",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_144",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V5762->V7808",
+      "pair_yield_vs_global_rank:V5906->V7086"
+    ]
+  },
+  {
+    "scenario": "scenario_145",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_146",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_147",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_148",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_149",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V2765->V2783"
+    ]
+  },
+  {
+    "scenario": "scenario_150",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V3395->V3854"
+    ]
+  },
+  {
+    "scenario": "scenario_151",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_152",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_153",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_154",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V3466->V8645"
+    ]
+  },
+  {
+    "scenario": "scenario_155",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_156",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_157",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_158",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_159",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_160",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_161",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V6417->V6264"
+    ]
+  },
+  {
+    "scenario": "scenario_162",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V2030->V5157",
+      "pair_yield_vs_global_rank:V1130->V7497"
+    ]
+  },
+  {
+    "scenario": "scenario_163",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_164",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V9316->V8169"
+    ]
+  },
+  {
+    "scenario": "scenario_165",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V1235->V7439"
+    ]
+  },
+  {
+    "scenario": "scenario_166",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V4731->V8083"
+    ]
+  },
+  {
+    "scenario": "scenario_167",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V8950->V5663",
+      "pair_yield_vs_global_rank:V8950->V7684"
+    ]
+  },
+  {
+    "scenario": "scenario_168",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_169",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_170",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_171",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V8851->V5815"
+    ]
+  },
+  {
+    "scenario": "scenario_172",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_173",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_174",
+    "group": "eight",
+    "status": "evaluated",
+    "ground_truth_warnings": [],
+    "gt_conflict": true,
+    "llm_conflict": true,
+    "binary_correct": true,
+    "gt_pair_count": 1,
+    "predicted_pair_count": 2,
+    "pair_tp": 0,
+    "pair_fp": 2,
+    "pair_fn": 1,
+    "pair_set_exact": false,
+    "missing_pairs": [
+      [
+        "V8251",
+        "V8583"
+      ]
+    ],
+    "extra_pairs": [
+      [
+        "V5790",
+        "V6899"
+      ],
+      [
+        "V6899",
+        "V8424"
+      ]
+    ],
+    "reported_count_exact": false,
+    "reported_count_absolute_error": 1,
+    "action_correct": 5,
+    "action_total": 8,
+    "action_records": [
+      {
+        "vehicle_id": "V5790",
+        "expected": "proceed",
+        "predicted": "yield",
+        "correct": false
+      },
+      {
+        "vehicle_id": "V8583",
+        "expected": "yield",
+        "predicted": "proceed",
+        "correct": false
+      },
+      {
+        "vehicle_id": "V4936",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V9073",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V8424",
+        "expected": "proceed",
+        "predicted": "slow_down",
+        "correct": false
+      },
+      {
+        "vehicle_id": "V8251",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V2063",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V6899",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      }
+    ],
+    "actions_exact": false,
+    "gt_ranked_order": [
+      "V8251",
+      "V8583"
+    ],
+    "predicted_order_filtered_to_gt_ranked": [
+      "V8583",
+      "V8251"
+    ],
+    "priority_order_exact": false,
+    "priority_rank_correct": 0,
+    "priority_rank_total": 2,
+    "priority_pair_correct": 0,
+    "priority_pair_total": 1,
+    "unranked_vehicle_ids": [
+      "V5790",
+      "V4936",
+      "V9073",
+      "V8424",
+      "V2063",
+      "V6899"
+    ],
+    "waiting_records": [
+      {
+        "vehicle_id": "V8251",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": true
+      },
+      {
+        "vehicle_id": "V8583",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": true
+      },
+      {
+        "vehicle_id": "V5790",
+        "expected": 0,
+        "predicted": 2.0,
+        "absolute_error": 2.0,
+        "within_tolerance": false,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V4936",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V9073",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V8424",
+        "expected": 0,
+        "predicted": 3.0,
+        "absolute_error": 3.0,
+        "within_tolerance": false,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V2063",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V6899",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      }
+    ],
+    "waiting_mae": 0.625,
+    "waiting_exact": false,
+    "places_coarse_exact": false,
+    "validation": {
+      "format": "plain_json",
+      "consistency_warnings": []
+    },
+    "all_scored_fields_exact": false
+  },
+  {
+    "scenario": "scenario_175",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_176",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_177",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_178",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_179",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_180",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_181",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_182",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_183",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_184",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_185",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_186",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_187",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_188",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_189",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_190",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_191",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_192",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_193",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_194",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_195",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_196",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_197",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_198",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_199",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_200",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_201",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_202",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_203",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_204",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_205",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_206",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_207",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_208",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_209",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_210",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_211",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_212",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_213",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_214",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_215",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_216",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_217",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_218",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_219",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_220",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_221",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_222",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_223",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_224",
+    "group": "eight",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_225",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_226",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_227",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V7725->V1754"
+    ]
+  },
+  {
+    "scenario": "scenario_228",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_229",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_230",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_231",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V6076->V4382"
+    ]
+  },
+  {
+    "scenario": "scenario_232",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_233",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V2737->V2201"
+    ]
+  },
+  {
+    "scenario": "scenario_234",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_235",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_236",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_237",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V5996->V9209"
+    ]
+  },
+  {
+    "scenario": "scenario_238",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_239",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_240",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_241",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_242",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_243",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_244",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_245",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_246",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_247",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_248",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_249",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_250",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V1774->V4464"
+    ]
+  },
+  {
+    "scenario": "scenario_251",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V6383->V5507"
+    ]
+  },
+  {
+    "scenario": "scenario_252",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_253",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_254",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V4826->V3230"
+    ]
+  },
+  {
+    "scenario": "scenario_255",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_256",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_257",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V9662->V3406",
+      "pair_yield_vs_global_rank:V2814->V8623"
+    ]
+  },
+  {
+    "scenario": "scenario_258",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_259",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_260",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_261",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_262",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V7570->V8971"
+    ]
+  },
+  {
+    "scenario": "scenario_263",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_264",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_265",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_266",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_267",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_268",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_269",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_270",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_271",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_272",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V1319->V9011"
+    ]
+  },
+  {
+    "scenario": "scenario_273",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_274",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_275",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V6766->V2041"
+    ]
+  },
+  {
+    "scenario": "scenario_276",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_277",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_278",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_279",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_280",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_281",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_282",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_283",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_284",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_285",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_286",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_287",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_288",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_289",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_290",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_291",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_292",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_293",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_294",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_295",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V6681->V2565"
+    ]
+  },
+  {
+    "scenario": "scenario_296",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": [
+      "pair_yield_vs_global_rank:V4183->V1738"
+    ]
+  },
+  {
+    "scenario": "scenario_297",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_298",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_299",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_300",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_301",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_302",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_303",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_304",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_305",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_306",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_307",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_308",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_309",
+    "group": "mixed",
+    "status": "evaluated",
+    "ground_truth_warnings": [],
+    "gt_conflict": false,
+    "llm_conflict": true,
+    "binary_correct": false,
+    "gt_pair_count": 0,
+    "predicted_pair_count": 1,
+    "pair_tp": 0,
+    "pair_fp": 1,
+    "pair_fn": 0,
+    "pair_set_exact": false,
+    "missing_pairs": [],
+    "extra_pairs": [
+      [
+        "V2754",
+        "V8053"
+      ]
+    ],
+    "reported_count_exact": false,
+    "reported_count_absolute_error": 1,
+    "action_correct": 4,
+    "action_total": 5,
+    "action_records": [
+      {
+        "vehicle_id": "V8087",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V7896",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V8053",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      },
+      {
+        "vehicle_id": "V2754",
+        "expected": "proceed",
+        "predicted": "yield",
+        "correct": false
+      },
+      {
+        "vehicle_id": "V1696",
+        "expected": "proceed",
+        "predicted": "proceed",
+        "correct": true
+      }
+    ],
+    "actions_exact": false,
+    "gt_ranked_order": [],
+    "predicted_order_filtered_to_gt_ranked": [],
+    "priority_order_exact": null,
+    "priority_rank_correct": 0,
+    "priority_rank_total": 0,
+    "priority_pair_correct": 0,
+    "priority_pair_total": 0,
+    "unranked_vehicle_ids": [
+      "V8087",
+      "V7896",
+      "V8053",
+      "V2754",
+      "V1696"
+    ],
+    "waiting_records": [
+      {
+        "vehicle_id": "V8087",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V7896",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V8053",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V2754",
+        "expected": 0,
+        "predicted": 3,
+        "absolute_error": 3,
+        "within_tolerance": false,
+        "gt_conflicting": false
+      },
+      {
+        "vehicle_id": "V1696",
+        "expected": 0,
+        "predicted": 0,
+        "absolute_error": 0,
+        "within_tolerance": true,
+        "gt_conflicting": false
+      }
+    ],
+    "waiting_mae": 0.6,
+    "waiting_exact": false,
+    "places_coarse_exact": false,
+    "validation": {
+      "format": "plain_json",
+      "consistency_warnings": []
+    },
+    "all_scored_fields_exact": false
+  },
+  {
+    "scenario": "scenario_310",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_311",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_312",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_313",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_314",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_315",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_316",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_317",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_318",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_319",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_320",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_321",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_322",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_323",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  },
+  {
+    "scenario": "scenario_324",
+    "group": "mixed",
+    "status": "missing_prediction",
+    "ground_truth_warnings": []
+  }
+]

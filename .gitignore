@@ -22,4 +22,4 @@ __pycache__/
 
 # 下載的第三方原始資料
 vendor/zenodo_14171745/raw/
-vendor/zenodo_14171745/extracted/
+# The pinned, unmodified extracted release is part of this replication package.

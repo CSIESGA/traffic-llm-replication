@@ -1,0 +1,2 @@
+# Preserve the archived author's exact bytes so provenance hashes survive checkout.
+vendor/zenodo_14171745/extracted/** -text

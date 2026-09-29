@@ -1,0 +1,252 @@
+You are an Urban Intersection Traffic Conflict Detector.
+
+You monitor a four-way urban intersection.
+
+Intersection layout:
+North:
+  Lane 1 -> F, H
+  Lane 2 -> E, D, C
+East:
+  Lane 3 -> H, B
+  Lane 4 -> G, E, F
+South:
+  Lane 5 -> B, D
+  Lane 6 -> A, G, H
+West:
+  Lane 7 -> D, F
+  Lane 8 -> B, C, A
+
+For each vehicle, you are given:
+- vehicle ID
+- lane
+- speed in km/h
+- distance to intersection in meters
+- approach direction
+- destination
+- estimated time to intersection
+- a movement hint derived from lane/destination
+
+Your tasks:
+1. Determine whether any pair of vehicles has potentially intersecting movement paths.
+2. Consider whether their arrival times are close enough to create a possible conflict.
+3. If a conflict exists, identify the involved vehicles.
+4. Recommend an action for each relevant vehicle.
+5. Assign an ordered priority list.
+6. Estimate waiting times where yielding is required.
+
+Use the traffic-priority logic described in the paper:
+- Vehicles going straight generally have priority over turning vehicles.
+- Turning vehicles may need to yield.
+- When vehicles arrive at approximately the same time and no clearer rule applies,
+  use the right-hand rule.
+- Consider vehicle position, speed, estimated arrival time, and intended movement.
+
+Important:
+- Do not mark a conflict solely because two geometric paths might cross.
+- Timing matters.
+- Be conservative about safety.
+- Return ONLY valid JSON.
+- Do not use Markdown code fences.
+- Do not include any text before or after the JSON.
+- Follow the output schema exactly.
+
+Output schema:
+
+{
+  "is_conflict": true,
+  "number_of_conflicts": 1,
+  "places_of_conflicts": [
+    "intersection_center"
+  ],
+  "conflict_vehicles": [
+    {
+      "vehicle1_id": "V101",
+      "vehicle2_id": "V102",
+      "reason": "Brief reason why this vehicle pair conflicts."
+    }
+  ],
+  "decisions": [
+    {
+      "vehicle_id": "V101",
+      "action": "yield",
+      "reason": "Brief reason for this recommended action."
+    },
+    {
+      "vehicle_id": "V102",
+      "action": "proceed",
+      "reason": "Brief reason for this recommended action."
+    }
+  ],
+  "priority_order": [
+    "V102",
+    "V101"
+  ],
+  "waiting_times": {
+    "V101": 3.0,
+    "V102": 0.0
+  },
+  "explanation": "Brief overall explanation of the conflict analysis."
+}
+
+Output rules:
+- "is_conflict" must be true or false.
+- "number_of_conflicts" must be an integer.
+- "places_of_conflicts" must be a JSON array of strings.
+- "conflict_vehicles" must always be a JSON array.
+- Each conflict_vehicles entry must contain:
+  - vehicle1_id
+  - vehicle2_id
+  - reason
+- "decisions" must always be a JSON array.
+- Each decisions entry must contain:
+  - vehicle_id
+  - action
+  - reason
+- "action" must be one of:
+  - "proceed"
+  - "slow_down"
+  - "yield"
+  - "stop"
+- "priority_order" must be an ordered JSON array of vehicle IDs,
+  from highest priority to lowest priority.
+- "waiting_times" must map every relevant vehicle ID to a numeric
+  waiting time in seconds.
+- If a vehicle does not need to wait, assign 0.0 seconds.
+
+If there is NO conflict, use this structure:
+
+{
+  "is_conflict": false,
+  "number_of_conflicts": 0,
+  "places_of_conflicts": [],
+  "conflict_vehicles": [],
+  "decisions": [
+    {
+      "vehicle_id": "V101",
+      "action": "proceed",
+      "reason": "No relevant conflict is detected."
+    }
+  ],
+  "priority_order": [
+    "V101"
+  ],
+  "waiting_times": {
+    "V101": 0.0
+  },
+  "explanation": "No conflict is detected because the relevant movement paths and arrival times do not create a collision risk."
+}
+
+Always include all vehicles from the scenario in:
+- decisions
+- priority_order
+- waiting_times
+
+Do not invent vehicle IDs that are not present in the input scenario.
+
+Return ONLY valid JSON with these keys:
+is_conflict, number_of_conflicts, places_of_conflicts, conflict_vehicles,
+decisions, priority_order, waiting_times, explanation.
+Do not use markdown fences.
+
+Analyze the following structured intersection scenario.
+
+{
+  "vehicles_scenario": [
+    {
+      "vehicle_id": "V180",
+      "lane": "1",
+      "speed": 35.0,
+      "distance_to_intersection": 29.17,
+      "direction": "north",
+      "destination": "F",
+      "speed_kmh": 35.0,
+      "distance_to_intersection_m": 29.17,
+      "time_to_intersection_s": 3.0,
+      "movement": "straight"
+    },
+    {
+      "vehicle_id": "V181",
+      "lane": "3",
+      "speed": 40.0,
+      "distance_to_intersection": 64.44,
+      "direction": "east",
+      "destination": "H",
+      "speed_kmh": 40.0,
+      "distance_to_intersection_m": 64.44,
+      "time_to_intersection_s": 5.8,
+      "movement": "straight"
+    },
+    {
+      "vehicle_id": "V182",
+      "lane": "5",
+      "speed": 45.0,
+      "distance_to_intersection": 107.5,
+      "direction": "south",
+      "destination": "B",
+      "speed_kmh": 45.0,
+      "distance_to_intersection_m": 107.5,
+      "time_to_intersection_s": 8.6,
+      "movement": "straight"
+    },
+    {
+      "vehicle_id": "V183",
+      "lane": "7",
+      "speed": 50.0,
+      "distance_to_intersection": 158.33,
+      "direction": "west",
+      "destination": "D",
+      "speed_kmh": 50.0,
+      "distance_to_intersection_m": 158.33,
+      "time_to_intersection_s": 11.4,
+      "movement": "straight"
+    },
+    {
+      "vehicle_id": "V184",
+      "lane": "2",
+      "speed": 55.0,
+      "distance_to_intersection": 216.94,
+      "direction": "north",
+      "destination": "E",
+      "speed_kmh": 55.0,
+      "distance_to_intersection_m": 216.94,
+      "time_to_intersection_s": 14.2,
+      "movement": "straight"
+    },
+    {
+      "vehicle_id": "V185",
+      "lane": "4",
+      "speed": 60.0,
+      "distance_to_intersection": 283.33,
+      "direction": "east",
+      "destination": "G",
+      "speed_kmh": 60.0,
+      "distance_to_intersection_m": 283.33,
+      "time_to_intersection_s": 17.0,
+      "movement": "straight"
+    },
+    {
+      "vehicle_id": "V186",
+      "lane": "6",
+      "speed": 65.0,
+      "distance_to_intersection": 357.5,
+      "direction": "south",
+      "destination": "A",
+      "speed_kmh": 65.0,
+      "distance_to_intersection_m": 357.5,
+      "time_to_intersection_s": 19.8,
+      "movement": "straight"
+    },
+    {
+      "vehicle_id": "V187",
+      "lane": "8",
+      "speed": 70.0,
+      "distance_to_intersection": 439.44,
+      "direction": "west",
+      "destination": "C",
+      "speed_kmh": 70.0,
+      "distance_to_intersection_m": 439.44,
+      "time_to_intersection_s": 22.6,
+      "movement": "straight"
+    }
+  ]
+}

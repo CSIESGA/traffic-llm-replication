@@ -1,0 +1,25 @@
+{
+  "author_source_integrity": "passed",
+  "published_author_csv_parity_records": 100,
+  "scenario_count": 324,
+  "prompt_count": 324,
+  "official_gt_count": 324,
+  "author_conflict_count": 171,
+  "author_no_conflict_count": 153,
+  "original_24_unchanged_in_git": true,
+  "original_24_conflict_count": 21,
+  "original_24_label_changes": [
+    "scenario_005",
+    "scenario_006",
+    "scenario_012",
+    "scenario_014",
+    "scenario_016",
+    "scenario_018",
+    "scenario_020"
+  ],
+  "generated_300_seed_reproduction": "exact_match_including_all_raw_author_labels",
+  "prompt_and_gt_hashes": "passed",
+  "unit_tests_passed": 22,
+  "new_llm_predictions_collected": 0,
+  "ground_truth_manifest_scope_guard": "passed"
+}

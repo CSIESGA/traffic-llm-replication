@@ -1,243 +1,121 @@
-# import json
-# from intersection import INTERSECTION_LAYOUT
+"""Author v1.0.0 binary-classification wording for manual experiments.
+
+Source: sarimasri3/Intersection-Conflict-Detection, tag v1.0.0:
+  run_evaluation.py::system_instruction
+  gpt_finetuning/prepare_data.py::parse_scenario_to_string
+  gpt_finetuning/prepare_data.py::prepare_test_data_for_gpt
+
+Only the six original input fields are serialized. In particular, neither
+derived movement/TTI nor simulator answers are injected into the prompt.
+Manual chat cannot assign a real system-role message; the combined text below
+preserves the author's wording and makes the two original sections explicit.
+"""
+
+from collections.abc import Iterable
+
+from vehicle import Vehicle
 
 
-# def layout_to_text() -> str:
-#     lines = []
+PROTOCOL_NAME = "author_v1_binary_manual"
+EXPECTED_OUTPUT = "yes_or_no"
+AUTHOR_TAG = "v1.0.0"
+PROMPT_SOURCES = [
+    "https://github.com/sarimasri3/Intersection-Conflict-Detection/blob/v1.0.0/run_evaluation.py",
+    "https://github.com/sarimasri3/Intersection-Conflict-Detection/blob/v1.0.0/gpt_finetuning/prepare_data.py",
+]
 
-#     for direction, lane_map in INTERSECTION_LAYOUT.items():
-#         lines.append(direction.capitalize() + ":")
-#         for lane, destinations in lane_map.items():
-#             lines.append(
-#                 f"  Lane {lane} -> {', '.join(destinations)}"
-#             )
+# Exact author's system instruction, excluding surrounding whitespace.
+SYSTEM_PROMPT = """
+You are an Urban Intersection Traffic Conflict Detector, responsible for monitoring a four-way intersection with traffic coming from the north, east, south, and west. Each direction has two lanes guiding vehicles to different destinations:
 
-#     return "\n".join(lines)
+- North: Lane 1 directs vehicles to F and H, Lane 2 directs vehicles to E, D, and C.
+- East: Lane 3 leads to H and B, Lane 4 leads to G, E, and F.
+- South: Lane 5 directs vehicles to B and D, Lane 6 directs vehicles to A, G, and H.
+- West: Lane 7 directs vehicles to D and F, Lane 8 directs vehicles to B, C, and A.
 
-
-# SYSTEM_PROMPT = f"""
-# You are an Urban Intersection Traffic Conflict Detector.
-
-# You monitor a four-way urban intersection.
-
-# Intersection layout:
-# {layout_to_text()}
-
-# For each vehicle, you are given:
-# - vehicle ID
-# - lane
-# - speed in km/h
-# - distance to intersection in meters
-# - approach direction
-# - destination
-# - estimated time to intersection
-# - a movement hint derived from lane/destination
-
-# Your tasks:
-# 1. Determine whether any pair of vehicles has potentially intersecting movement paths.
-# 2. Consider whether their arrival times are close enough to create a possible conflict.
-# 3. If a conflict exists, identify the involved vehicles.
-# 4. Recommend an action for each relevant vehicle.
-# 5. Assign an ordered priority list.
-# 6. Estimate waiting times where yielding is required.
-
-# Use the traffic-priority logic described in the paper:
-# - Vehicles going straight generally have priority over turning vehicles.
-# - Turning vehicles may need to yield.
-# - When vehicles arrive at approximately the same time and no clearer rule applies,
-#   use the right-hand rule.
-# - Consider vehicle position, speed, estimated arrival time, and intended movement.
-
-# Important:
-# - Do not mark a conflict solely because two geometric paths might cross.
-# - Timing matters.
-# - Be conservative about safety.
-# - Return only the requested structured result.
-# """.strip()
-
-
-# def scenario_to_text(vehicles) -> str:
-#     structured = [v.to_structured_state() for v in vehicles]
-#     return json.dumps(
-#         {"vehicles_scenario": structured},
-#         indent=2,
-#         ensure_ascii=False,
-#     )
-
-
-# def build_user_prompt(vehicles) -> str:
-#     return (
-#         "Analyze the following structured intersection scenario.\n\n"
-#         + scenario_to_text(vehicles)
-#     )
-import json
-from intersection import INTERSECTION_LAYOUT
-
-
-def layout_to_text() -> str:
-    lines = []
-
-    for direction, lane_map in INTERSECTION_LAYOUT.items():
-        lines.append(direction.capitalize() + ":")
-        for lane, destinations in lane_map.items():
-            lines.append(
-                f"  Lane {lane} -> {', '.join(destinations)}"
-            )
-
-    return "\n".join(lines)
-
-
-SYSTEM_PROMPT = f"""
-You are an Urban Intersection Traffic Conflict Detector.
-
-You monitor a four-way urban intersection.
-
-Intersection layout:
-{layout_to_text()}
-
-For each vehicle, you are given:
-- vehicle ID
-- lane
-- speed in km/h
-- distance to intersection in meters
-- approach direction
-- destination
-- estimated time to intersection
-- a movement hint derived from lane/destination
-
-Your tasks:
-1. Determine whether any pair of vehicles has potentially intersecting movement paths.
-2. Consider whether their arrival times are close enough to create a possible conflict.
-3. If a conflict exists, identify the involved vehicles.
-4. Recommend an action for each relevant vehicle.
-5. Assign an ordered priority list.
-6. Estimate waiting times where yielding is required.
-
-Use the traffic-priority logic described in the paper:
-- Vehicles going straight generally have priority over turning vehicles.
-- Turning vehicles may need to yield.
-- When vehicles arrive at approximately the same time and no clearer rule applies,
-  use the right-hand rule.
-- Consider vehicle position, speed, estimated arrival time, and intended movement.
-
-Important:
-- Do not mark a conflict solely because two geometric paths might cross.
-- Timing matters.
-- Be conservative about safety.
-- Return ONLY valid JSON.
-- Do not use Markdown code fences.
-- Do not include any text before or after the JSON.
-- Follow the output schema exactly.
-
-Output schema:
-
-{{
-  "is_conflict": true,
-  "number_of_conflicts": 1,
-  "places_of_conflicts": [
-    "intersection_center"
-  ],
-  "conflict_vehicles": [
-    {{
-      "vehicle1_id": "V101",
-      "vehicle2_id": "V102",
-      "reason": "Brief reason why this vehicle pair conflicts."
-    }}
-  ],
-  "decisions": [
-    {{
-      "vehicle_id": "V101",
-      "action": "yield",
-      "reason": "Brief reason for this recommended action."
-    }},
-    {{
-      "vehicle_id": "V102",
-      "action": "proceed",
-      "reason": "Brief reason for this recommended action."
-    }}
-  ],
-  "priority_order": [
-    "V102",
-    "V101"
-  ],
-  "waiting_times": {{
-    "V101": 3.0,
-    "V102": 0.0
-  }},
-  "explanation": "Brief overall explanation of the conflict analysis."
-}}
-
-Output rules:
-- "is_conflict" must be true or false.
-- "number_of_conflicts" must be an integer.
-- "places_of_conflicts" must be a JSON array of strings.
-- "conflict_vehicles" must always be a JSON array.
-- Each conflict_vehicles entry must contain:
-  - vehicle1_id
-  - vehicle2_id
-  - reason
-- "decisions" must always be a JSON array.
-- Each decisions entry must contain:
-  - vehicle_id
-  - action
-  - reason
-- "action" must be one of:
-  - "proceed"
-  - "slow_down"
-  - "yield"
-  - "stop"
-- "priority_order" must be an ordered JSON array of vehicle IDs,
-  from highest priority to lowest priority.
-- "waiting_times" must map every relevant vehicle ID to a numeric
-  waiting time in seconds.
-- If a vehicle does not need to wait, assign 0.0 seconds.
-
-If there is NO conflict, use this structure:
-
-{{
-  "is_conflict": false,
-  "number_of_conflicts": 0,
-  "places_of_conflicts": [],
-  "conflict_vehicles": [],
-  "decisions": [
-    {{
-      "vehicle_id": "V101",
-      "action": "proceed",
-      "reason": "No relevant conflict is detected."
-    }}
-  ],
-  "priority_order": [
-    "V101"
-  ],
-  "waiting_times": {{
-    "V101": 0.0
-  }},
-  "explanation": "No conflict is detected because the relevant movement paths and arrival times do not create a collision risk."
-}}
-
-Always include all vehicles from the scenario in:
-- decisions
-- priority_order
-- waiting_times
-
-Do not invent vehicle IDs that are not present in the input scenario.
+Analyze the traffic data from all directions and lanes, and determine if there is a potential conflict between vehicles at the intersection. Respond only with 'yes' or 'no'.
 """.strip()
 
 
-def scenario_to_text(vehicles) -> str:
-    structured = [v.to_structured_state() for v in vehicles]
+def scenario_to_text(vehicles: Iterable[Vehicle]) -> str:
+    """Render the author's natural-language template in original vehicle order.
 
-    return json.dumps(
-        {
-            "vehicles_scenario": structured
-        },
-        indent=2,
-        ensure_ascii=False,
+    The author's formatting rounds speed and distance to two decimal places.
+    The input Scenario itself is not modified or enriched.
+    """
+    return " ".join(
+        f"Vehicle {vehicle.vehicle_id} is in lane {vehicle.lane}, "
+        f"moving {vehicle.direction} at a speed of {vehicle.speed:.2f} km/h, "
+        f"and is {vehicle.distance_to_intersection:.2f} meters away from the "
+        f"intersection, heading towards {vehicle.destination}."
+        for vehicle in vehicles
     )
 
 
-def build_user_prompt(vehicles) -> str:
+def build_user_prompt(vehicles: Iterable[Vehicle]) -> str:
+    """Match the author's classification test message, without its true label."""
     return (
-        "Analyze the following structured intersection scenario.\n\n"
+        "Analyze the following scenario and determine if there is a conflict "
+        "(Respond only with 'yes' or 'no'): "
         + scenario_to_text(vehicles)
     )
+
+
+def build_manual_prompt(vehicles: Iterable[Vehicle]) -> str:
+    """Combine system/user text into a single copy-and-paste message."""
+    return (
+        "=== SYSTEM INSTRUCTION ===\n"
+        + SYSTEM_PROMPT
+        + "\n\n=== SCENARIO ===\n"
+        + build_user_prompt(vehicles)
+        + "\n"
+    )
+
+
+DETAILED_PROTOCOL_NAME = "project_detailed_v1_full_precision"
+DETAILED_EXPECTED_OUTPUT = "legacy_eight_field_json"
+DETAILED_SYSTEM_PROMPT = SYSTEM_PROMPT.split("Analyze the traffic data")[0].strip() + """
+
+Analyze potential vehicle conflicts using intended paths and arrival timing. Give
+recommended actions, a priority order, and waiting-time estimates. Distinguish
+your traffic judgment from information that the input does not establish.
+
+Return ONLY one valid JSON object, with exactly these eight keys:
+- is_conflict: boolean.
+- number_of_conflicts: nonnegative integer, counting distinct unordered vehicle pairs.
+- places_of_conflicts: one location string per reported pair. Use "intersection"
+  when a more precise location is not established; do not invent coordinates.
+- conflict_vehicles: array of objects with vehicle1_id, vehicle2_id, and reason.
+  List each conflicting pair once. Each reason is a brief justification.
+- decisions: one object per input vehicle, with vehicle_id, action, and reason.
+  action must be "proceed", "slow_down", "yield", or "stop".
+- priority_order: array containing every input vehicle ID exactly once, highest
+  recommended priority first. Put the vehicles you identify as conflicting first,
+  followed by non-conflicting vehicles in input order.
+- waiting_times: object mapping every input vehicle ID to a nonnegative finite
+  number of seconds; use 0 when no waiting is needed.
+- explanation: brief overall justification and any important uncertainty.
+
+If no conflict is found, set is_conflict to false, number_of_conflicts to 0,
+places_of_conflicts and conflict_vehicles to empty arrays. Still include every
+vehicle in decisions, priority_order, and waiting_times.
+Use only vehicle IDs from the input. Make the reported count and boolean agree
+with the listed pairs. Give concise reasons (about 20 words each) and an overall
+explanation of about 40 words. Do not use Markdown fences or text outside JSON.
+"""
+
+
+def detailed_scenario_to_text(vehicles: Iterable[Vehicle]) -> str:
+    """Six original fields, without rounding away numeric information or GT hints."""
+    return " ".join(
+        f"Vehicle {v.vehicle_id} is in lane {v.lane}, moving {v.direction} "
+        f"at a speed of {v.speed!r} km/h, and is {v.distance_to_intersection!r} "
+        f"meters away from the intersection, heading towards {v.destination}."
+        for v in vehicles
+    )
+
+
+def build_detailed_prompt(vehicles: Iterable[Vehicle]) -> str:
+    """Project extension matching archived answer keys, not an original author prompt."""
+    return ("=== SYSTEM INSTRUCTION ===\n" + DETAILED_SYSTEM_PROMPT
+            + "\n\n=== SCENARIO ===\n" + detailed_scenario_to_text(vehicles) + "\n")

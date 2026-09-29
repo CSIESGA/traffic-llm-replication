@@ -1,0 +1,44 @@
+{
+  "vehicles_scenario": [
+    {
+      "vehicle_id": "V5236",
+      "lane": "8",
+      "speed": 53.66973405979665,
+      "distance_to_intersection": 62.31170644355052,
+      "direction": "west",
+      "destination": "C"
+    },
+    {
+      "vehicle_id": "V4759",
+      "lane": "5",
+      "speed": 22.16926829854935,
+      "distance_to_intersection": 268.5875616457553,
+      "direction": "south",
+      "destination": "D"
+    },
+    {
+      "vehicle_id": "V1766",
+      "lane": "6",
+      "speed": 64.04314692657333,
+      "distance_to_intersection": 281.0276865587282,
+      "direction": "south",
+      "destination": "A"
+    },
+    {
+      "vehicle_id": "V8665",
+      "lane": "5",
+      "speed": 25.33715317060964,
+      "distance_to_intersection": 399.6998738257718,
+      "direction": "south",
+      "destination": "D"
+    },
+    {
+      "vehicle_id": "V9712",
+      "lane": "3",
+      "speed": 24.227251881582784,
+      "distance_to_intersection": 199.6745243157191,
+      "direction": "east",
+      "destination": "H"
+    }
+  ]
+}

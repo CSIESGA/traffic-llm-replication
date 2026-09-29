@@ -1,0 +1,36 @@
+{
+  "vehicles_scenario": [
+    {
+      "vehicle_id": "V1518",
+      "lane": "7",
+      "speed": 29.771287536972068,
+      "distance_to_intersection": 210.30950667774476,
+      "direction": "west",
+      "destination": "F"
+    },
+    {
+      "vehicle_id": "V4277",
+      "lane": "4",
+      "speed": 21.560655322824328,
+      "distance_to_intersection": 393.5434195285348,
+      "direction": "east",
+      "destination": "E"
+    },
+    {
+      "vehicle_id": "V7136",
+      "lane": "5",
+      "speed": 44.17450547111298,
+      "distance_to_intersection": 331.14027323003677,
+      "direction": "south",
+      "destination": "B"
+    },
+    {
+      "vehicle_id": "V2898",
+      "lane": "7",
+      "speed": 79.54559867371823,
+      "distance_to_intersection": 413.2398704827539,
+      "direction": "west",
+      "destination": "D"
+    }
+  ]
+}

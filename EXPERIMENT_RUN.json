@@ -1,0 +1,22 @@
+{
+  "run_id": "manual_author_v1_20260928",
+  "protocol": "author_v1_binary_manual",
+  "task": "scenario_conflict_binary_classification",
+  "n_planned_scenarios": 324,
+  "trial_order_seed": 20260928,
+  "trial_order_file": "data/manual_trial_order.csv",
+  "trial_order_sha256": "a5a3bdf34b524d0b21ad64a5ac0c442e2468f207c3629f1019fe88be36743160",
+  "prompt_manifest_file": "prompts/prompt_manifest.json",
+  "prompt_manifest_sha256": "a6495513bd88b51f25edb840ae46303d01e9563e079622e1297df8ee3eeebfe3",
+  "model_name_as_shown": null,
+  "model_version_if_known": null,
+  "interface_used": null,
+  "started_at_with_timezone": null,
+  "finished_at_with_timezone": null,
+  "memory_setting": null,
+  "custom_instructions_setting": null,
+  "new_chat_per_scenario": true,
+  "first_response_only": true,
+  "api_used": false,
+  "notes": "Fill observed model/interface/date/settings before collection. Unknown version stays null. No predictions have been collected for this run."
+}

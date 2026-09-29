@@ -1,0 +1,14 @@
+{
+  "validated_at": "2026-09-28T16:50:11.609328+00:00",
+  "unit_tests_passed": 34,
+  "detailed_prompt_count": 324,
+  "author_source_integrity": "passed",
+  "binary_and_detailed_prompt_and_scenario_hashes": "passed",
+  "detailed_prompt_content_matches_builder": "passed",
+  "trial_order_preserved": true,
+  "old_binary_answers_preserved": 6,
+  "ground_truth_pair_global_disagreement_scenarios": 52,
+  "new_detailed_llm_answers": 0,
+  "evaluation_status": "pending",
+  "test_fixture_policy": "Synthetic outputs used only in temporary test directories; never formal LLM results."
+}

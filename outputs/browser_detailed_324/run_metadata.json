@@ -1,0 +1,2946 @@
+{
+  "run_id": "chatgpt_browser_detailed_324",
+  "created_at": "2026-09-28T15:48:25.887219+00:00",
+  "status": "ready",
+  "protocol": "project_detailed_v1_full_precision",
+  "n_planned_scenarios": 324,
+  "n_responses_collected": 0,
+  "api_used": false,
+  "interface_used": "ChatGPT web, Chrome extension UI",
+  "model_name_as_shown": null,
+  "model_version_if_known": null,
+  "model_version_evidence": "Fill observed UI label on first submission; do not infer backend snapshot.",
+  "reasoning_setting_as_shown": null,
+  "temporary_chat_setting": null,
+  "personalization": null,
+  "personalization_evidence": null,
+  "account_settings_unchanged": true,
+  "new_chat_per_scenario": true,
+  "first_response_only": true,
+  "selection_policy": "All 324 rows of the existing seeded order, without consulting ground truth.",
+  "trial_order_file": "outputs/browser_detailed_324/trial_order.csv",
+  "trial_order_sha256": "9bf5bfc8fe2ac9c328c1f7f7c5272706702a0154734dee15c47ed741280cdd73",
+  "prompt_manifest_sha256": "8dd39f5888ddfb1f70ab9eeee8d31baeca59a3e95cdef3e0249ba66559c08fbc",
+  "prompt_manifest_file": "prompts/detailed/prompt_manifest.json",
+  "started_at_with_timezone": null,
+  "finished_at_with_timezone": null,
+  "raw_response_policy": "Save first completed visible answer verbatim; no retries based on answer correctness or formatting.",
+  "trials": [
+    {
+      "trial": 1,
+      "scenario_id": "scenario_174",
+      "prompt_file": "prompts/detailed/scenario_174.txt",
+      "answer_filename": "scenario_174.txt",
+      "answer_file": "outputs/detailed_llm/scenario_174.txt",
+      "prompt_sha256": "9a251d283105985bcdf37ec4c63a61244bdf8902273cafaf8b996575be6ff199",
+      "status": "not_started"
+    },
+    {
+      "trial": 2,
+      "scenario_id": "scenario_121",
+      "prompt_file": "prompts/detailed/scenario_121.txt",
+      "answer_filename": "scenario_121.txt",
+      "answer_file": "outputs/detailed_llm/scenario_121.txt",
+      "prompt_sha256": "0ea3f5c2c33d34d58b92921ce954883de5fb1047d56e92cf9034369f6477a658",
+      "status": "not_started"
+    },
+    {
+      "trial": 3,
+      "scenario_id": "scenario_309",
+      "prompt_file": "prompts/detailed/scenario_309.txt",
+      "answer_filename": "scenario_309.txt",
+      "answer_file": "outputs/detailed_llm/scenario_309.txt",
+      "prompt_sha256": "5a22cff24fbd244f8ef9961acdb4c910c2e851581a3677c689c628cffa57c226",
+      "status": "not_started"
+    },
+    {
+      "trial": 4,
+      "scenario_id": "scenario_198",
+      "prompt_file": "prompts/detailed/scenario_198.txt",
+      "answer_filename": "scenario_198.txt",
+      "answer_file": "outputs/detailed_llm/scenario_198.txt",
+      "prompt_sha256": "ec74f79bffdb0640e57626256b6ab3672beb0d45fbf90f319635b26c98f83523",
+      "status": "not_started"
+    },
+    {
+      "trial": 5,
+      "scenario_id": "scenario_321",
+      "prompt_file": "prompts/detailed/scenario_321.txt",
+      "answer_filename": "scenario_321.txt",
+      "answer_file": "outputs/detailed_llm/scenario_321.txt",
+      "prompt_sha256": "0293914d05934716ad99cf6217088be91ba13663c765af5c828954b96540d83f",
+      "status": "not_started"
+    },
+    {
+      "trial": 6,
+      "scenario_id": "scenario_050",
+      "prompt_file": "prompts/detailed/scenario_050.txt",
+      "answer_filename": "scenario_050.txt",
+      "answer_file": "outputs/detailed_llm/scenario_050.txt",
+      "prompt_sha256": "c938020c1a29eef4d9d48f67d21c8ecfb1555880a1dc96c90956cc1f4f9c67a0",
+      "status": "not_started"
+    },
+    {
+      "trial": 7,
+      "scenario_id": "scenario_059",
+      "prompt_file": "prompts/detailed/scenario_059.txt",
+      "answer_filename": "scenario_059.txt",
+      "answer_file": "outputs/detailed_llm/scenario_059.txt",
+      "prompt_sha256": "f598260a1e929fb4263d5be1be7611402d326733eb3885abdc797d57eb11486c",
+      "status": "not_started"
+    },
+    {
+      "trial": 8,
+      "scenario_id": "scenario_225",
+      "prompt_file": "prompts/detailed/scenario_225.txt",
+      "answer_filename": "scenario_225.txt",
+      "answer_file": "outputs/detailed_llm/scenario_225.txt",
+      "prompt_sha256": "ca67629efbbb71628f1ac8299d35eff1ace03b1ad8b8c1857568c834d897e165",
+      "status": "not_started"
+    },
+    {
+      "trial": 9,
+      "scenario_id": "scenario_184",
+      "prompt_file": "prompts/detailed/scenario_184.txt",
+      "answer_filename": "scenario_184.txt",
+      "answer_file": "outputs/detailed_llm/scenario_184.txt",
+      "prompt_sha256": "0bf7596f08371355b9a012a862cd65bbb0b9454c8e09b3aef8f00f76e52dd2a0",
+      "status": "not_started"
+    },
+    {
+      "trial": 10,
+      "scenario_id": "scenario_212",
+      "prompt_file": "prompts/detailed/scenario_212.txt",
+      "answer_filename": "scenario_212.txt",
+      "answer_file": "outputs/detailed_llm/scenario_212.txt",
+      "prompt_sha256": "ac7f0c7c9e7c0cfdedb8796fab57b6eaebaa5959624d44ef3c919d38be5f27f3",
+      "status": "not_started"
+    },
+    {
+      "trial": 11,
+      "scenario_id": "scenario_249",
+      "prompt_file": "prompts/detailed/scenario_249.txt",
+      "answer_filename": "scenario_249.txt",
+      "answer_file": "outputs/detailed_llm/scenario_249.txt",
+      "prompt_sha256": "a4fb564ca291b8fd15c1dafde1578c690e4f4197f1d374db7d0ae6b25f916bf3",
+      "status": "not_started"
+    },
+    {
+      "trial": 12,
+      "scenario_id": "scenario_273",
+      "prompt_file": "prompts/detailed/scenario_273.txt",
+      "answer_filename": "scenario_273.txt",
+      "answer_file": "outputs/detailed_llm/scenario_273.txt",
+      "prompt_sha256": "4d13577479e7818a648cd93f43df4eeaeda051610d5eb5b9846806809ebc450c",
+      "status": "not_started"
+    },
+    {
+      "trial": 13,
+      "scenario_id": "scenario_157",
+      "prompt_file": "prompts/detailed/scenario_157.txt",
+      "answer_filename": "scenario_157.txt",
+      "answer_file": "outputs/detailed_llm/scenario_157.txt",
+      "prompt_sha256": "86a4aea0af58272be8fa772ee84c7a6bc2cfdcf511800471ca876a57ad9387da",
+      "status": "not_started"
+    },
+    {
+      "trial": 14,
+      "scenario_id": "scenario_061",
+      "prompt_file": "prompts/detailed/scenario_061.txt",
+      "answer_filename": "scenario_061.txt",
+      "answer_file": "outputs/detailed_llm/scenario_061.txt",
+      "prompt_sha256": "bb6fcb1e6657ea8bdd3431a7b2041b2fe76d74a5b472c877cab941acf02dacd9",
+      "status": "not_started"
+    },
+    {
+      "trial": 15,
+      "scenario_id": "scenario_188",
+      "prompt_file": "prompts/detailed/scenario_188.txt",
+      "answer_filename": "scenario_188.txt",
+      "answer_file": "outputs/detailed_llm/scenario_188.txt",
+      "prompt_sha256": "073e7a2d32c6310c766ef9cbd34a61b097973a3d6cbd08619db6b6270ca67477",
+      "status": "not_started"
+    },
+    {
+      "trial": 16,
+      "scenario_id": "scenario_064",
+      "prompt_file": "prompts/detailed/scenario_064.txt",
+      "answer_filename": "scenario_064.txt",
+      "answer_file": "outputs/detailed_llm/scenario_064.txt",
+      "prompt_sha256": "c13ca202bb3fb3c26e0daf41650d0f851224a5fd3f2dbb1d778d443e1bebf128",
+      "status": "not_started"
+    },
+    {
+      "trial": 17,
+      "scenario_id": "scenario_151",
+      "prompt_file": "prompts/detailed/scenario_151.txt",
+      "answer_filename": "scenario_151.txt",
+      "answer_file": "outputs/detailed_llm/scenario_151.txt",
+      "prompt_sha256": "6441fc9dae7736512502164898c56b48022942aca0f1c29e8631d1a2a924854e",
+      "status": "not_started"
+    },
+    {
+      "trial": 18,
+      "scenario_id": "scenario_156",
+      "prompt_file": "prompts/detailed/scenario_156.txt",
+      "answer_filename": "scenario_156.txt",
+      "answer_file": "outputs/detailed_llm/scenario_156.txt",
+      "prompt_sha256": "b66550937a879e16dd1ccbfbb3121b26994e0dc30421b8c50ef43cf4190fbb78",
+      "status": "not_started"
+    },
+    {
+      "trial": 19,
+      "scenario_id": "scenario_257",
+      "prompt_file": "prompts/detailed/scenario_257.txt",
+      "answer_filename": "scenario_257.txt",
+      "answer_file": "outputs/detailed_llm/scenario_257.txt",
+      "prompt_sha256": "2883d8c97cfac768cba42cb327f22025a823cf7abf16c773670cec260ee3b1f4",
+      "status": "not_started"
+    },
+    {
+      "trial": 20,
+      "scenario_id": "scenario_147",
+      "prompt_file": "prompts/detailed/scenario_147.txt",
+      "answer_filename": "scenario_147.txt",
+      "answer_file": "outputs/detailed_llm/scenario_147.txt",
+      "prompt_sha256": "abc93ea3f699e9c8af5ce255387237dfb0738ff449479699220e83b1c4342ee0",
+      "status": "not_started"
+    },
+    {
+      "trial": 21,
+      "scenario_id": "scenario_311",
+      "prompt_file": "prompts/detailed/scenario_311.txt",
+      "answer_filename": "scenario_311.txt",
+      "answer_file": "outputs/detailed_llm/scenario_311.txt",
+      "prompt_sha256": "1aab4c81d7fea10ecf715b5621e2b1e0fa00e79d97306461fc9662470c27a1b8",
+      "status": "not_started"
+    },
+    {
+      "trial": 22,
+      "scenario_id": "scenario_150",
+      "prompt_file": "prompts/detailed/scenario_150.txt",
+      "answer_filename": "scenario_150.txt",
+      "answer_file": "outputs/detailed_llm/scenario_150.txt",
+      "prompt_sha256": "420cc02c9ad0f5efca48c0216cb8c636947c13190cef3b63ea25a487e526a383",
+      "status": "not_started"
+    },
+    {
+      "trial": 23,
+      "scenario_id": "scenario_109",
+      "prompt_file": "prompts/detailed/scenario_109.txt",
+      "answer_filename": "scenario_109.txt",
+      "answer_file": "outputs/detailed_llm/scenario_109.txt",
+      "prompt_sha256": "1f251e56e07919db1fff2e03bbd99c6e7acc761531dd9ec36b973073a890d55e",
+      "status": "not_started"
+    },
+    {
+      "trial": 24,
+      "scenario_id": "scenario_305",
+      "prompt_file": "prompts/detailed/scenario_305.txt",
+      "answer_filename": "scenario_305.txt",
+      "answer_file": "outputs/detailed_llm/scenario_305.txt",
+      "prompt_sha256": "2188cc5b3e983736de361faf60b212618389ced7740e2fa98551fa6aca1f99fb",
+      "status": "not_started"
+    },
+    {
+      "trial": 25,
+      "scenario_id": "scenario_019",
+      "prompt_file": "prompts/detailed/scenario_019.txt",
+      "answer_filename": "scenario_019.txt",
+      "answer_file": "outputs/detailed_llm/scenario_019.txt",
+      "prompt_sha256": "ea0e99c82d4cd3278b26344c673d69f7f72c615022e9f950f0252989f4242797",
+      "status": "not_started"
+    },
+    {
+      "trial": 26,
+      "scenario_id": "scenario_261",
+      "prompt_file": "prompts/detailed/scenario_261.txt",
+      "answer_filename": "scenario_261.txt",
+      "answer_file": "outputs/detailed_llm/scenario_261.txt",
+      "prompt_sha256": "fcacc57194ce8c605ffb3a901f6599776ff9c637dfe7396a2495f08e6bad522e",
+      "status": "not_started"
+    },
+    {
+      "trial": 27,
+      "scenario_id": "scenario_073",
+      "prompt_file": "prompts/detailed/scenario_073.txt",
+      "answer_filename": "scenario_073.txt",
+      "answer_file": "outputs/detailed_llm/scenario_073.txt",
+      "prompt_sha256": "a53a85c4efce8188165961273eaf985c351c8b8204765079783f4395f17b1800",
+      "status": "not_started"
+    },
+    {
+      "trial": 28,
+      "scenario_id": "scenario_060",
+      "prompt_file": "prompts/detailed/scenario_060.txt",
+      "answer_filename": "scenario_060.txt",
+      "answer_file": "outputs/detailed_llm/scenario_060.txt",
+      "prompt_sha256": "ce6f6576317ab5e85bf6ef255f61fbecd3912579f5058405dafbdfefd10a3201",
+      "status": "not_started"
+    },
+    {
+      "trial": 29,
+      "scenario_id": "scenario_010",
+      "prompt_file": "prompts/detailed/scenario_010.txt",
+      "answer_filename": "scenario_010.txt",
+      "answer_file": "outputs/detailed_llm/scenario_010.txt",
+      "prompt_sha256": "e2136242a8e29545537e235f937b92fb1f723fee6fbffd63e0bbcf9942ecdfc2",
+      "status": "not_started"
+    },
+    {
+      "trial": 30,
+      "scenario_id": "scenario_289",
+      "prompt_file": "prompts/detailed/scenario_289.txt",
+      "answer_filename": "scenario_289.txt",
+      "answer_file": "outputs/detailed_llm/scenario_289.txt",
+      "prompt_sha256": "ca4bd663e0fc55d46f915be2d165124d1ec773e9aab4f9648f86789ab477d488",
+      "status": "not_started"
+    },
+    {
+      "trial": 31,
+      "scenario_id": "scenario_083",
+      "prompt_file": "prompts/detailed/scenario_083.txt",
+      "answer_filename": "scenario_083.txt",
+      "answer_file": "outputs/detailed_llm/scenario_083.txt",
+      "prompt_sha256": "48f7d27d6590d4cecd23c90416946fdfcba6bb2ec91db039447e10b71224098c",
+      "status": "not_started"
+    },
+    {
+      "trial": 32,
+      "scenario_id": "scenario_118",
+      "prompt_file": "prompts/detailed/scenario_118.txt",
+      "answer_filename": "scenario_118.txt",
+      "answer_file": "outputs/detailed_llm/scenario_118.txt",
+      "prompt_sha256": "65a47521436a762b24830d240925bb441bf3e33da660d47cf024b721a572f15d",
+      "status": "not_started"
+    },
+    {
+      "trial": 33,
+      "scenario_id": "scenario_115",
+      "prompt_file": "prompts/detailed/scenario_115.txt",
+      "answer_filename": "scenario_115.txt",
+      "answer_file": "outputs/detailed_llm/scenario_115.txt",
+      "prompt_sha256": "54669428b61ffca697ff5bd22e6d85e2c07883bba1ebe282b40bdec92f33545d",
+      "status": "not_started"
+    },
+    {
+      "trial": 34,
+      "scenario_id": "scenario_004",
+      "prompt_file": "prompts/detailed/scenario_004.txt",
+      "answer_filename": "scenario_004.txt",
+      "answer_file": "outputs/detailed_llm/scenario_004.txt",
+      "prompt_sha256": "200a85b7170db754350bb1828b7c390df924be946bf38f24beb743ee0672459a",
+      "status": "not_started"
+    },
+    {
+      "trial": 35,
+      "scenario_id": "scenario_137",
+      "prompt_file": "prompts/detailed/scenario_137.txt",
+      "answer_filename": "scenario_137.txt",
+      "answer_file": "outputs/detailed_llm/scenario_137.txt",
+      "prompt_sha256": "bb7192f7db0389c3a52ffd216f04e4e3586ce88db5b4486b31b27ebeaf7f588a",
+      "status": "not_started"
+    },
+    {
+      "trial": 36,
+      "scenario_id": "scenario_063",
+      "prompt_file": "prompts/detailed/scenario_063.txt",
+      "answer_filename": "scenario_063.txt",
+      "answer_file": "outputs/detailed_llm/scenario_063.txt",
+      "prompt_sha256": "609e6809e2ffe94f296461db1c55c73630913d8b24c24f7103f84e30397cf9ea",
+      "status": "not_started"
+    },
+    {
+      "trial": 37,
+      "scenario_id": "scenario_045",
+      "prompt_file": "prompts/detailed/scenario_045.txt",
+      "answer_filename": "scenario_045.txt",
+      "answer_file": "outputs/detailed_llm/scenario_045.txt",
+      "prompt_sha256": "26dd0b89c1edb3d389d2dc4b00e4a0335c1abc18f51356450dfd9c75cd4670d7",
+      "status": "not_started"
+    },
+    {
+      "trial": 38,
+      "scenario_id": "scenario_274",
+      "prompt_file": "prompts/detailed/scenario_274.txt",
+      "answer_filename": "scenario_274.txt",
+      "answer_file": "outputs/detailed_llm/scenario_274.txt",
+      "prompt_sha256": "c20771a4b33b11c9efa241187f67a2cfb0767435eee86296363992fe76c92e70",
+      "status": "not_started"
+    },
+    {
+      "trial": 39,
+      "scenario_id": "scenario_081",
+      "prompt_file": "prompts/detailed/scenario_081.txt",
+      "answer_filename": "scenario_081.txt",
+      "answer_file": "outputs/detailed_llm/scenario_081.txt",
+      "prompt_sha256": "21682f4c71cc96b43f0ec173690fe32dc55d2c765249e45f6c59f82f7990ac69",
+      "status": "not_started"
+    },
+    {
+      "trial": 40,
+      "scenario_id": "scenario_310",
+      "prompt_file": "prompts/detailed/scenario_310.txt",
+      "answer_filename": "scenario_310.txt",
+      "answer_file": "outputs/detailed_llm/scenario_310.txt",
+      "prompt_sha256": "eb48f290a0fe8d3f289511fbfac959c3654d19b47f990d66826b62f5e3d26921",
+      "status": "not_started"
+    },
+    {
+      "trial": 41,
+      "scenario_id": "scenario_216",
+      "prompt_file": "prompts/detailed/scenario_216.txt",
+      "answer_filename": "scenario_216.txt",
+      "answer_file": "outputs/detailed_llm/scenario_216.txt",
+      "prompt_sha256": "691d73be326d93237fe4575e7b28dcd909a099983a692b5374f019f1da248ea6",
+      "status": "not_started"
+    },
+    {
+      "trial": 42,
+      "scenario_id": "scenario_135",
+      "prompt_file": "prompts/detailed/scenario_135.txt",
+      "answer_filename": "scenario_135.txt",
+      "answer_file": "outputs/detailed_llm/scenario_135.txt",
+      "prompt_sha256": "0463a3dd79b958f7cc2d5550a30c884f49aaada6d117b8c477041f22c92140cc",
+      "status": "not_started"
+    },
+    {
+      "trial": 43,
+      "scenario_id": "scenario_106",
+      "prompt_file": "prompts/detailed/scenario_106.txt",
+      "answer_filename": "scenario_106.txt",
+      "answer_file": "outputs/detailed_llm/scenario_106.txt",
+      "prompt_sha256": "ad7b3f8f778196e46cea6f61c1d9af2b8fbac0b630a2d713dcf85258419f8056",
+      "status": "not_started"
+    },
+    {
+      "trial": 44,
+      "scenario_id": "scenario_240",
+      "prompt_file": "prompts/detailed/scenario_240.txt",
+      "answer_filename": "scenario_240.txt",
+      "answer_file": "outputs/detailed_llm/scenario_240.txt",
+      "prompt_sha256": "6af6a51eea74282c3b4d29653b103aef03548bdd8ae8b3d9e35c48b0d3f7cf19",
+      "status": "not_started"
+    },
+    {
+      "trial": 45,
+      "scenario_id": "scenario_219",
+      "prompt_file": "prompts/detailed/scenario_219.txt",
+      "answer_filename": "scenario_219.txt",
+      "answer_file": "outputs/detailed_llm/scenario_219.txt",
+      "prompt_sha256": "e4af17472f0bd14dbae300d86d9e2f779a6ee4d94274a966e934249d2941acb9",
+      "status": "not_started"
+    },
+    {
+      "trial": 46,
+      "scenario_id": "scenario_269",
+      "prompt_file": "prompts/detailed/scenario_269.txt",
+      "answer_filename": "scenario_269.txt",
+      "answer_file": "outputs/detailed_llm/scenario_269.txt",
+      "prompt_sha256": "d3d700ea7e3971c03793c617fce66897f643017b58e6e76130fcbc2f4bd04076",
+      "status": "not_started"
+    },
+    {
+      "trial": 47,
+      "scenario_id": "scenario_202",
+      "prompt_file": "prompts/detailed/scenario_202.txt",
+      "answer_filename": "scenario_202.txt",
+      "answer_file": "outputs/detailed_llm/scenario_202.txt",
+      "prompt_sha256": "c2b808a43d6567bacb3247db08b8ab9b1b3d5ae2e82ca02e584510a73fc00113",
+      "status": "not_started"
+    },
+    {
+      "trial": 48,
+      "scenario_id": "scenario_162",
+      "prompt_file": "prompts/detailed/scenario_162.txt",
+      "answer_filename": "scenario_162.txt",
+      "answer_file": "outputs/detailed_llm/scenario_162.txt",
+      "prompt_sha256": "c4613791568b58fa3c2b55fa3c4e8a2b5af94e50c8f02dd12fc23c6dcfc386d0",
+      "status": "not_started"
+    },
+    {
+      "trial": 49,
+      "scenario_id": "scenario_022",
+      "prompt_file": "prompts/detailed/scenario_022.txt",
+      "answer_filename": "scenario_022.txt",
+      "answer_file": "outputs/detailed_llm/scenario_022.txt",
+      "prompt_sha256": "c723ef59c8c24997c4d988469ec0068251f8479642697a76b81d77e4d816c6d7",
+      "status": "not_started"
+    },
+    {
+      "trial": 50,
+      "scenario_id": "scenario_136",
+      "prompt_file": "prompts/detailed/scenario_136.txt",
+      "answer_filename": "scenario_136.txt",
+      "answer_file": "outputs/detailed_llm/scenario_136.txt",
+      "prompt_sha256": "95e9a33a83627e748be50350efbe4a66f938076164f2cf845f730986ce2a1499",
+      "status": "not_started"
+    },
+    {
+      "trial": 51,
+      "scenario_id": "scenario_278",
+      "prompt_file": "prompts/detailed/scenario_278.txt",
+      "answer_filename": "scenario_278.txt",
+      "answer_file": "outputs/detailed_llm/scenario_278.txt",
+      "prompt_sha256": "b3c0592de50d7b6b65747f378542606c780f3772b4a1792674cd8edd5d79849f",
+      "status": "not_started"
+    },
+    {
+      "trial": 52,
+      "scenario_id": "scenario_130",
+      "prompt_file": "prompts/detailed/scenario_130.txt",
+      "answer_filename": "scenario_130.txt",
+      "answer_file": "outputs/detailed_llm/scenario_130.txt",
+      "prompt_sha256": "faba13dc283fe597dac3cda4dfe8b46df6568ddff74c6d964d6e544b021aafca",
+      "status": "not_started"
+    },
+    {
+      "trial": 53,
+      "scenario_id": "scenario_027",
+      "prompt_file": "prompts/detailed/scenario_027.txt",
+      "answer_filename": "scenario_027.txt",
+      "answer_file": "outputs/detailed_llm/scenario_027.txt",
+      "prompt_sha256": "eb7311be40ee6630eae7f95cb33e7378f0ea9ab72db2c43692fbe118f2387ed6",
+      "status": "not_started"
+    },
+    {
+      "trial": 54,
+      "scenario_id": "scenario_138",
+      "prompt_file": "prompts/detailed/scenario_138.txt",
+      "answer_filename": "scenario_138.txt",
+      "answer_file": "outputs/detailed_llm/scenario_138.txt",
+      "prompt_sha256": "5c069c1dbc9ec82552113d751e704dcd9c230684a38ea80338880b2b2c99bf42",
+      "status": "not_started"
+    },
+    {
+      "trial": 55,
+      "scenario_id": "scenario_054",
+      "prompt_file": "prompts/detailed/scenario_054.txt",
+      "answer_filename": "scenario_054.txt",
+      "answer_file": "outputs/detailed_llm/scenario_054.txt",
+      "prompt_sha256": "4ee3d2590fd1fff91a06c8f0b222c6585697f1c6e89bece1d19705c81fa15c15",
+      "status": "not_started"
+    },
+    {
+      "trial": 56,
+      "scenario_id": "scenario_105",
+      "prompt_file": "prompts/detailed/scenario_105.txt",
+      "answer_filename": "scenario_105.txt",
+      "answer_file": "outputs/detailed_llm/scenario_105.txt",
+      "prompt_sha256": "b13218ea264cafa8ab94725f465a67982c5c33ee84cf47e99fab63eb7aedca35",
+      "status": "not_started"
+    },
+    {
+      "trial": 57,
+      "scenario_id": "scenario_194",
+      "prompt_file": "prompts/detailed/scenario_194.txt",
+      "answer_filename": "scenario_194.txt",
+      "answer_file": "outputs/detailed_llm/scenario_194.txt",
+      "prompt_sha256": "207cdbdc4a5bf7e0105f4aa9bb0d915b90eba34245e3ed5e155f99d17ed39268",
+      "status": "not_started"
+    },
+    {
+      "trial": 58,
+      "scenario_id": "scenario_140",
+      "prompt_file": "prompts/detailed/scenario_140.txt",
+      "answer_filename": "scenario_140.txt",
+      "answer_file": "outputs/detailed_llm/scenario_140.txt",
+      "prompt_sha256": "f6b8884eefc5ff0537a507cc6ced2200042227e0f4b21a07e0eea1d4cc9bca15",
+      "status": "not_started"
+    },
+    {
+      "trial": 59,
+      "scenario_id": "scenario_158",
+      "prompt_file": "prompts/detailed/scenario_158.txt",
+      "answer_filename": "scenario_158.txt",
+      "answer_file": "outputs/detailed_llm/scenario_158.txt",
+      "prompt_sha256": "b510b4ea35aac30b62a8adca992ade869865b50a99ea9dc93b1e607715620343",
+      "status": "not_started"
+    },
+    {
+      "trial": 60,
+      "scenario_id": "scenario_091",
+      "prompt_file": "prompts/detailed/scenario_091.txt",
+      "answer_filename": "scenario_091.txt",
+      "answer_file": "outputs/detailed_llm/scenario_091.txt",
+      "prompt_sha256": "d9d291b818cec8a10452b16a490d833899d2df845eb94db2e768f34aa0a13dcf",
+      "status": "not_started"
+    },
+    {
+      "trial": 61,
+      "scenario_id": "scenario_297",
+      "prompt_file": "prompts/detailed/scenario_297.txt",
+      "answer_filename": "scenario_297.txt",
+      "answer_file": "outputs/detailed_llm/scenario_297.txt",
+      "prompt_sha256": "218e6add366a488d2a06db9a8410ba08472fa7de38760e1c1bbbfb404565671e",
+      "status": "not_started"
+    },
+    {
+      "trial": 62,
+      "scenario_id": "scenario_034",
+      "prompt_file": "prompts/detailed/scenario_034.txt",
+      "answer_filename": "scenario_034.txt",
+      "answer_file": "outputs/detailed_llm/scenario_034.txt",
+      "prompt_sha256": "a91de84b905ece75b9d1877b9648aedc9488402a2fc0908530593c056217cee0",
+      "status": "not_started"
+    },
+    {
+      "trial": 63,
+      "scenario_id": "scenario_163",
+      "prompt_file": "prompts/detailed/scenario_163.txt",
+      "answer_filename": "scenario_163.txt",
+      "answer_file": "outputs/detailed_llm/scenario_163.txt",
+      "prompt_sha256": "d54fc776c133332a4392dc3ff8ef4f0b6de29278556d3e08fbf279148ee79964",
+      "status": "not_started"
+    },
+    {
+      "trial": 64,
+      "scenario_id": "scenario_042",
+      "prompt_file": "prompts/detailed/scenario_042.txt",
+      "answer_filename": "scenario_042.txt",
+      "answer_file": "outputs/detailed_llm/scenario_042.txt",
+      "prompt_sha256": "4a166ba7670caa68b4c831046a8872fc037302b20aaf329c62c71f3e3c5d5256",
+      "status": "not_started"
+    },
+    {
+      "trial": 65,
+      "scenario_id": "scenario_132",
+      "prompt_file": "prompts/detailed/scenario_132.txt",
+      "answer_filename": "scenario_132.txt",
+      "answer_file": "outputs/detailed_llm/scenario_132.txt",
+      "prompt_sha256": "d0db7e6a7c159891eecaecbea021957cd8abbf4d57f5928ac0ab5007083fd791",
+      "status": "not_started"
+    },
+    {
+      "trial": 66,
+      "scenario_id": "scenario_155",
+      "prompt_file": "prompts/detailed/scenario_155.txt",
+      "answer_filename": "scenario_155.txt",
+      "answer_file": "outputs/detailed_llm/scenario_155.txt",
+      "prompt_sha256": "cf8e389d7a87588e9d85a95bfa759c37c651452a38ca04ec273a427007e08a2a",
+      "status": "not_started"
+    },
+    {
+      "trial": 67,
+      "scenario_id": "scenario_230",
+      "prompt_file": "prompts/detailed/scenario_230.txt",
+      "answer_filename": "scenario_230.txt",
+      "answer_file": "outputs/detailed_llm/scenario_230.txt",
+      "prompt_sha256": "d126ab9ff8aec161bf3619ff930440f5f8f50db288e3509eeefe7ef6accb076f",
+      "status": "not_started"
+    },
+    {
+      "trial": 68,
+      "scenario_id": "scenario_114",
+      "prompt_file": "prompts/detailed/scenario_114.txt",
+      "answer_filename": "scenario_114.txt",
+      "answer_file": "outputs/detailed_llm/scenario_114.txt",
+      "prompt_sha256": "69587b6780fd4f5a6f2196ec65cf1ebc6fe6abbe178f9c84a0ece667b5dde2d7",
+      "status": "not_started"
+    },
+    {
+      "trial": 69,
+      "scenario_id": "scenario_008",
+      "prompt_file": "prompts/detailed/scenario_008.txt",
+      "answer_filename": "scenario_008.txt",
+      "answer_file": "outputs/detailed_llm/scenario_008.txt",
+      "prompt_sha256": "6b83dadb6d91c7319d14a8a5d244a16085a11e27bdd3620584fe5f2ec3cb1d70",
+      "status": "not_started"
+    },
+    {
+      "trial": 70,
+      "scenario_id": "scenario_204",
+      "prompt_file": "prompts/detailed/scenario_204.txt",
+      "answer_filename": "scenario_204.txt",
+      "answer_file": "outputs/detailed_llm/scenario_204.txt",
+      "prompt_sha256": "e6b7582d8f85b40c2ff395adda5b0c35be84ed043270a5467ec777ab1282ad22",
+      "status": "not_started"
+    },
+    {
+      "trial": 71,
+      "scenario_id": "scenario_222",
+      "prompt_file": "prompts/detailed/scenario_222.txt",
+      "answer_filename": "scenario_222.txt",
+      "answer_file": "outputs/detailed_llm/scenario_222.txt",
+      "prompt_sha256": "1bb8acc92cfc61c3193eb85ffacf3a78be4c9f33c38c8d03272a4e9b01be5542",
+      "status": "not_started"
+    },
+    {
+      "trial": 72,
+      "scenario_id": "scenario_044",
+      "prompt_file": "prompts/detailed/scenario_044.txt",
+      "answer_filename": "scenario_044.txt",
+      "answer_file": "outputs/detailed_llm/scenario_044.txt",
+      "prompt_sha256": "2e5deee0a081123b73184533d0b2cf1dc44cb721044382e0853b21050bb778d5",
+      "status": "not_started"
+    },
+    {
+      "trial": 73,
+      "scenario_id": "scenario_182",
+      "prompt_file": "prompts/detailed/scenario_182.txt",
+      "answer_filename": "scenario_182.txt",
+      "answer_file": "outputs/detailed_llm/scenario_182.txt",
+      "prompt_sha256": "ca8cff45542fde7302069b2270d0f5a20233322fb64c71117b6c84f6fed0b0d5",
+      "status": "not_started"
+    },
+    {
+      "trial": 74,
+      "scenario_id": "scenario_200",
+      "prompt_file": "prompts/detailed/scenario_200.txt",
+      "answer_filename": "scenario_200.txt",
+      "answer_file": "outputs/detailed_llm/scenario_200.txt",
+      "prompt_sha256": "5b378b3cc3d13cb78c28c4563ee8e91ad3769a95e3d86e2d920d2c3d80eb016f",
+      "status": "not_started"
+    },
+    {
+      "trial": 75,
+      "scenario_id": "scenario_317",
+      "prompt_file": "prompts/detailed/scenario_317.txt",
+      "answer_filename": "scenario_317.txt",
+      "answer_file": "outputs/detailed_llm/scenario_317.txt",
+      "prompt_sha256": "68e7352ae18a3eb94137d69e3defe798ad5358738b14e74a8a217821fdf3afce",
+      "status": "not_started"
+    },
+    {
+      "trial": 76,
+      "scenario_id": "scenario_012",
+      "prompt_file": "prompts/detailed/scenario_012.txt",
+      "answer_filename": "scenario_012.txt",
+      "answer_file": "outputs/detailed_llm/scenario_012.txt",
+      "prompt_sha256": "f85fcb59c876552e89abdd396b07dde249664b4be2c33cfd394332bd6fb907f9",
+      "status": "not_started"
+    },
+    {
+      "trial": 77,
+      "scenario_id": "scenario_007",
+      "prompt_file": "prompts/detailed/scenario_007.txt",
+      "answer_filename": "scenario_007.txt",
+      "answer_file": "outputs/detailed_llm/scenario_007.txt",
+      "prompt_sha256": "b906adf4ad7c9de69345df15060a00e8a653ec3ebe16ef7838c1260377378167",
+      "status": "not_started"
+    },
+    {
+      "trial": 78,
+      "scenario_id": "scenario_072",
+      "prompt_file": "prompts/detailed/scenario_072.txt",
+      "answer_filename": "scenario_072.txt",
+      "answer_file": "outputs/detailed_llm/scenario_072.txt",
+      "prompt_sha256": "1ac62fd85f943430ded5c9504bcda351898dc3f4f8840f46134698bf041ff5bb",
+      "status": "not_started"
+    },
+    {
+      "trial": 79,
+      "scenario_id": "scenario_126",
+      "prompt_file": "prompts/detailed/scenario_126.txt",
+      "answer_filename": "scenario_126.txt",
+      "answer_file": "outputs/detailed_llm/scenario_126.txt",
+      "prompt_sha256": "fea00afa72f134f99a9c944689e45a2d634ce69eafbff1b177ab8c4a67fea2da",
+      "status": "not_started"
+    },
+    {
+      "trial": 80,
+      "scenario_id": "scenario_014",
+      "prompt_file": "prompts/detailed/scenario_014.txt",
+      "answer_filename": "scenario_014.txt",
+      "answer_file": "outputs/detailed_llm/scenario_014.txt",
+      "prompt_sha256": "771509dbdcf041ae0cc34d5c4dc793093d3204787600305a616bc4ee5e915849",
+      "status": "not_started"
+    },
+    {
+      "trial": 81,
+      "scenario_id": "scenario_165",
+      "prompt_file": "prompts/detailed/scenario_165.txt",
+      "answer_filename": "scenario_165.txt",
+      "answer_file": "outputs/detailed_llm/scenario_165.txt",
+      "prompt_sha256": "6fa95b4a96f2f5954faa9770cbfb38ccf44343f9fe1fc1d25354716a5f7234f6",
+      "status": "not_started"
+    },
+    {
+      "trial": 82,
+      "scenario_id": "scenario_238",
+      "prompt_file": "prompts/detailed/scenario_238.txt",
+      "answer_filename": "scenario_238.txt",
+      "answer_file": "outputs/detailed_llm/scenario_238.txt",
+      "prompt_sha256": "beb43dbc6b8bd361792f5b0af4aaf26b682d0b5c009ac56b3cbee75375b87652",
+      "status": "not_started"
+    },
+    {
+      "trial": 83,
+      "scenario_id": "scenario_304",
+      "prompt_file": "prompts/detailed/scenario_304.txt",
+      "answer_filename": "scenario_304.txt",
+      "answer_file": "outputs/detailed_llm/scenario_304.txt",
+      "prompt_sha256": "a9b7a7ca259adf3b6416a7cccc93a3ed71a804da05884ac3445fd9e7dd1dd027",
+      "status": "not_started"
+    },
+    {
+      "trial": 84,
+      "scenario_id": "scenario_189",
+      "prompt_file": "prompts/detailed/scenario_189.txt",
+      "answer_filename": "scenario_189.txt",
+      "answer_file": "outputs/detailed_llm/scenario_189.txt",
+      "prompt_sha256": "486b011a889fbe732cc08121e043d2e3af7352e9fa98db8a741d6c85f5f0a573",
+      "status": "not_started"
+    },
+    {
+      "trial": 85,
+      "scenario_id": "scenario_099",
+      "prompt_file": "prompts/detailed/scenario_099.txt",
+      "answer_filename": "scenario_099.txt",
+      "answer_file": "outputs/detailed_llm/scenario_099.txt",
+      "prompt_sha256": "ad9b4df40c8402b188aa0306c89105ba3ed4a856182738dbb32e47d40f3cd720",
+      "status": "not_started"
+    },
+    {
+      "trial": 86,
+      "scenario_id": "scenario_065",
+      "prompt_file": "prompts/detailed/scenario_065.txt",
+      "answer_filename": "scenario_065.txt",
+      "answer_file": "outputs/detailed_llm/scenario_065.txt",
+      "prompt_sha256": "f53e9c6de0040c8f4daba978006415cc57d1278e79209889a794671a37228aef",
+      "status": "not_started"
+    },
+    {
+      "trial": 87,
+      "scenario_id": "scenario_312",
+      "prompt_file": "prompts/detailed/scenario_312.txt",
+      "answer_filename": "scenario_312.txt",
+      "answer_file": "outputs/detailed_llm/scenario_312.txt",
+      "prompt_sha256": "a86dd8a27ad91a3ea993c88f8d0b62798c014d1a6b3fb862dc335f6664987bda",
+      "status": "not_started"
+    },
+    {
+      "trial": 88,
+      "scenario_id": "scenario_241",
+      "prompt_file": "prompts/detailed/scenario_241.txt",
+      "answer_filename": "scenario_241.txt",
+      "answer_file": "outputs/detailed_llm/scenario_241.txt",
+      "prompt_sha256": "2d895179b931f06465de3a17eea6491b25c95f866dd40c72a5c02828c9d31554",
+      "status": "not_started"
+    },
+    {
+      "trial": 89,
+      "scenario_id": "scenario_011",
+      "prompt_file": "prompts/detailed/scenario_011.txt",
+      "answer_filename": "scenario_011.txt",
+      "answer_file": "outputs/detailed_llm/scenario_011.txt",
+      "prompt_sha256": "cc1137af27dd1bf6516206ab5707f6cd0eb10f5d3aeb6ffa9b921fc7a6805a30",
+      "status": "not_started"
+    },
+    {
+      "trial": 90,
+      "scenario_id": "scenario_246",
+      "prompt_file": "prompts/detailed/scenario_246.txt",
+      "answer_filename": "scenario_246.txt",
+      "answer_file": "outputs/detailed_llm/scenario_246.txt",
+      "prompt_sha256": "5b0c75abcc04309f6c64b16b3413545850ef46989827804104908ab426305039",
+      "status": "not_started"
+    },
+    {
+      "trial": 91,
+      "scenario_id": "scenario_266",
+      "prompt_file": "prompts/detailed/scenario_266.txt",
+      "answer_filename": "scenario_266.txt",
+      "answer_file": "outputs/detailed_llm/scenario_266.txt",
+      "prompt_sha256": "66b589e76cbd7767b36ad79152e808071fb5ad95fdc7fa0c1980c601931bcb88",
+      "status": "not_started"
+    },
+    {
+      "trial": 92,
+      "scenario_id": "scenario_146",
+      "prompt_file": "prompts/detailed/scenario_146.txt",
+      "answer_filename": "scenario_146.txt",
+      "answer_file": "outputs/detailed_llm/scenario_146.txt",
+      "prompt_sha256": "2702d53da834e9425cce4863f142881eb6462548ba5f12ef8e9040cf3c8d3975",
+      "status": "not_started"
+    },
+    {
+      "trial": 93,
+      "scenario_id": "scenario_173",
+      "prompt_file": "prompts/detailed/scenario_173.txt",
+      "answer_filename": "scenario_173.txt",
+      "answer_file": "outputs/detailed_llm/scenario_173.txt",
+      "prompt_sha256": "d0f7784904034779073ec815255df3a42c71892d2148a450c2b85739ea154e35",
+      "status": "not_started"
+    },
+    {
+      "trial": 94,
+      "scenario_id": "scenario_272",
+      "prompt_file": "prompts/detailed/scenario_272.txt",
+      "answer_filename": "scenario_272.txt",
+      "answer_file": "outputs/detailed_llm/scenario_272.txt",
+      "prompt_sha256": "6acae081b91616c837360f6904a469c1d434e233227fc35c205c00120217fe4d",
+      "status": "not_started"
+    },
+    {
+      "trial": 95,
+      "scenario_id": "scenario_223",
+      "prompt_file": "prompts/detailed/scenario_223.txt",
+      "answer_filename": "scenario_223.txt",
+      "answer_file": "outputs/detailed_llm/scenario_223.txt",
+      "prompt_sha256": "2bc43c4a5ea5c5b2e9d70868a0449cebe741ee72033367f8432168b4b768517d",
+      "status": "not_started"
+    },
+    {
+      "trial": 96,
+      "scenario_id": "scenario_285",
+      "prompt_file": "prompts/detailed/scenario_285.txt",
+      "answer_filename": "scenario_285.txt",
+      "answer_file": "outputs/detailed_llm/scenario_285.txt",
+      "prompt_sha256": "7ecdf3dd53ceca0a586c8745536530ef0433cd07c74fca4b2ac076835209d324",
+      "status": "not_started"
+    },
+    {
+      "trial": 97,
+      "scenario_id": "scenario_196",
+      "prompt_file": "prompts/detailed/scenario_196.txt",
+      "answer_filename": "scenario_196.txt",
+      "answer_file": "outputs/detailed_llm/scenario_196.txt",
+      "prompt_sha256": "5350e20396dbaebeeb689b416ee3bf2988558b1c9941e98c1366a058e788f40b",
+      "status": "not_started"
+    },
+    {
+      "trial": 98,
+      "scenario_id": "scenario_075",
+      "prompt_file": "prompts/detailed/scenario_075.txt",
+      "answer_filename": "scenario_075.txt",
+      "answer_file": "outputs/detailed_llm/scenario_075.txt",
+      "prompt_sha256": "125532a7a73f1fc9761a06f09e014207b0cc23c7730b196dbb992772f8df784e",
+      "status": "not_started"
+    },
+    {
+      "trial": 99,
+      "scenario_id": "scenario_318",
+      "prompt_file": "prompts/detailed/scenario_318.txt",
+      "answer_filename": "scenario_318.txt",
+      "answer_file": "outputs/detailed_llm/scenario_318.txt",
+      "prompt_sha256": "b00197cbf74c144b59eb6b8b5faf5eccc74cd86e5d8a9a89f28f09465df14c85",
+      "status": "not_started"
+    },
+    {
+      "trial": 100,
+      "scenario_id": "scenario_084",
+      "prompt_file": "prompts/detailed/scenario_084.txt",
+      "answer_filename": "scenario_084.txt",
+      "answer_file": "outputs/detailed_llm/scenario_084.txt",
+      "prompt_sha256": "72b6f0fb80114eaaa9b021404428184d6eeb8b76047efae21fdd12a0edf0867e",
+      "status": "not_started"
+    },
+    {
+      "trial": 101,
+      "scenario_id": "scenario_176",
+      "prompt_file": "prompts/detailed/scenario_176.txt",
+      "answer_filename": "scenario_176.txt",
+      "answer_file": "outputs/detailed_llm/scenario_176.txt",
+      "prompt_sha256": "aa15199a7c99fe1e91a829337224327b81770f0a3ffdb948c99d6e17f323751b",
+      "status": "not_started"
+    },
+    {
+      "trial": 102,
+      "scenario_id": "scenario_128",
+      "prompt_file": "prompts/detailed/scenario_128.txt",
+      "answer_filename": "scenario_128.txt",
+      "answer_file": "outputs/detailed_llm/scenario_128.txt",
+      "prompt_sha256": "f820b06b4b89e30c250c05f914e2454bb54550082fd5726bb01218b105aad465",
+      "status": "not_started"
+    },
+    {
+      "trial": 103,
+      "scenario_id": "scenario_203",
+      "prompt_file": "prompts/detailed/scenario_203.txt",
+      "answer_filename": "scenario_203.txt",
+      "answer_file": "outputs/detailed_llm/scenario_203.txt",
+      "prompt_sha256": "79ac7fe4cf086a24bcef56d179047b09e397c3b0dc495ef3f3aab8005e61a21a",
+      "status": "not_started"
+    },
+    {
+      "trial": 104,
+      "scenario_id": "scenario_192",
+      "prompt_file": "prompts/detailed/scenario_192.txt",
+      "answer_filename": "scenario_192.txt",
+      "answer_file": "outputs/detailed_llm/scenario_192.txt",
+      "prompt_sha256": "4c7aa05357cd4fbe196a07fb773dcda62eefae58912f033fdfecd379f8ef37ea",
+      "status": "not_started"
+    },
+    {
+      "trial": 105,
+      "scenario_id": "scenario_178",
+      "prompt_file": "prompts/detailed/scenario_178.txt",
+      "answer_filename": "scenario_178.txt",
+      "answer_file": "outputs/detailed_llm/scenario_178.txt",
+      "prompt_sha256": "5fe87b5466edeeae1ca0fe48b090159f73ce1e8018801771b20e20829ec6a48f",
+      "status": "not_started"
+    },
+    {
+      "trial": 106,
+      "scenario_id": "scenario_095",
+      "prompt_file": "prompts/detailed/scenario_095.txt",
+      "answer_filename": "scenario_095.txt",
+      "answer_file": "outputs/detailed_llm/scenario_095.txt",
+      "prompt_sha256": "99876a1c2c2d4caa7a38dc1964e0241902a7d82790590352288a7294c8edac38",
+      "status": "not_started"
+    },
+    {
+      "trial": 107,
+      "scenario_id": "scenario_239",
+      "prompt_file": "prompts/detailed/scenario_239.txt",
+      "answer_filename": "scenario_239.txt",
+      "answer_file": "outputs/detailed_llm/scenario_239.txt",
+      "prompt_sha256": "207e404d13a0e34d7c6ef40872628791014cf1f8bbe12e33006d2188a9b8ea3d",
+      "status": "not_started"
+    },
+    {
+      "trial": 108,
+      "scenario_id": "scenario_117",
+      "prompt_file": "prompts/detailed/scenario_117.txt",
+      "answer_filename": "scenario_117.txt",
+      "answer_file": "outputs/detailed_llm/scenario_117.txt",
+      "prompt_sha256": "bf3ea92497e578ae9bcdcbf5f42abaf12eed52784a4b38497bc91a2ef7de2d10",
+      "status": "not_started"
+    },
+    {
+      "trial": 109,
+      "scenario_id": "scenario_208",
+      "prompt_file": "prompts/detailed/scenario_208.txt",
+      "answer_filename": "scenario_208.txt",
+      "answer_file": "outputs/detailed_llm/scenario_208.txt",
+      "prompt_sha256": "3d854c94c0aeb96dcfe00d623928896d7a617eba8a12a87eaaa51ebc8c773192",
+      "status": "not_started"
+    },
+    {
+      "trial": 110,
+      "scenario_id": "scenario_070",
+      "prompt_file": "prompts/detailed/scenario_070.txt",
+      "answer_filename": "scenario_070.txt",
+      "answer_file": "outputs/detailed_llm/scenario_070.txt",
+      "prompt_sha256": "a0330934fe9def5c5fc07c68a17715270ee4b8708c0d393904c23bc93639fc97",
+      "status": "not_started"
+    },
+    {
+      "trial": 111,
+      "scenario_id": "scenario_263",
+      "prompt_file": "prompts/detailed/scenario_263.txt",
+      "answer_filename": "scenario_263.txt",
+      "answer_file": "outputs/detailed_llm/scenario_263.txt",
+      "prompt_sha256": "3566f47e16986952dd190451a521c3add2910082424c44f39b07678bf8ac7c47",
+      "status": "not_started"
+    },
+    {
+      "trial": 112,
+      "scenario_id": "scenario_191",
+      "prompt_file": "prompts/detailed/scenario_191.txt",
+      "answer_filename": "scenario_191.txt",
+      "answer_file": "outputs/detailed_llm/scenario_191.txt",
+      "prompt_sha256": "7f670969f58bd576040c44730addfe8c3c1081176b476b475724629dd513d73d",
+      "status": "not_started"
+    },
+    {
+      "trial": 113,
+      "scenario_id": "scenario_302",
+      "prompt_file": "prompts/detailed/scenario_302.txt",
+      "answer_filename": "scenario_302.txt",
+      "answer_file": "outputs/detailed_llm/scenario_302.txt",
+      "prompt_sha256": "a16d7078ac37bb8db3e631a73947e0376411e938828ef58daa757c35092cd4fc",
+      "status": "not_started"
+    },
+    {
+      "trial": 114,
+      "scenario_id": "scenario_281",
+      "prompt_file": "prompts/detailed/scenario_281.txt",
+      "answer_filename": "scenario_281.txt",
+      "answer_file": "outputs/detailed_llm/scenario_281.txt",
+      "prompt_sha256": "f95e25d9eaca4ee3fd4e70963527143d389206c4e341ecabb9dec32ef0b4a960",
+      "status": "not_started"
+    },
+    {
+      "trial": 115,
+      "scenario_id": "scenario_232",
+      "prompt_file": "prompts/detailed/scenario_232.txt",
+      "answer_filename": "scenario_232.txt",
+      "answer_file": "outputs/detailed_llm/scenario_232.txt",
+      "prompt_sha256": "effbb34feec340b8168c4244cd591d9120e5f244ffa4d0afd0f97872f433dae7",
+      "status": "not_started"
+    },
+    {
+      "trial": 116,
+      "scenario_id": "scenario_199",
+      "prompt_file": "prompts/detailed/scenario_199.txt",
+      "answer_filename": "scenario_199.txt",
+      "answer_file": "outputs/detailed_llm/scenario_199.txt",
+      "prompt_sha256": "4c67de2415712c65f4f0c0349c3ead2862e49b24cb2c1acc8fbd95b840365e17",
+      "status": "not_started"
+    },
+    {
+      "trial": 117,
+      "scenario_id": "scenario_056",
+      "prompt_file": "prompts/detailed/scenario_056.txt",
+      "answer_filename": "scenario_056.txt",
+      "answer_file": "outputs/detailed_llm/scenario_056.txt",
+      "prompt_sha256": "5dfb2576840f884cb27a8017ff3dcf99227339b094e15d7851851356873f8ea9",
+      "status": "not_started"
+    },
+    {
+      "trial": 118,
+      "scenario_id": "scenario_149",
+      "prompt_file": "prompts/detailed/scenario_149.txt",
+      "answer_filename": "scenario_149.txt",
+      "answer_file": "outputs/detailed_llm/scenario_149.txt",
+      "prompt_sha256": "3772bf6bc4e5ab36ae0413a4031ac0cec01d75cfc8313c17a64532a9045ccbc3",
+      "status": "not_started"
+    },
+    {
+      "trial": 119,
+      "scenario_id": "scenario_267",
+      "prompt_file": "prompts/detailed/scenario_267.txt",
+      "answer_filename": "scenario_267.txt",
+      "answer_file": "outputs/detailed_llm/scenario_267.txt",
+      "prompt_sha256": "5c7beab1eef9bec64c48bb3ece6d1fe577d63ecf145058b59c91ea6e4a5c10e5",
+      "status": "not_started"
+    },
+    {
+      "trial": 120,
+      "scenario_id": "scenario_313",
+      "prompt_file": "prompts/detailed/scenario_313.txt",
+      "answer_filename": "scenario_313.txt",
+      "answer_file": "outputs/detailed_llm/scenario_313.txt",
+      "prompt_sha256": "8433e44ffa0fcf22b5399e89ec40e8a4c098e4e02976e6a76e540bed37ab2d40",
+      "status": "not_started"
+    },
+    {
+      "trial": 121,
+      "scenario_id": "scenario_029",
+      "prompt_file": "prompts/detailed/scenario_029.txt",
+      "answer_filename": "scenario_029.txt",
+      "answer_file": "outputs/detailed_llm/scenario_029.txt",
+      "prompt_sha256": "0c020b96b6c50a6ae6ff8adc97427d20883e283342dfc80efa0e9cddcf8985d0",
+      "status": "not_started"
+    },
+    {
+      "trial": 122,
+      "scenario_id": "scenario_020",
+      "prompt_file": "prompts/detailed/scenario_020.txt",
+      "answer_filename": "scenario_020.txt",
+      "answer_file": "outputs/detailed_llm/scenario_020.txt",
+      "prompt_sha256": "d0297bfa20e5cc99f0ade5e5c11bd55d2c639e772887071a64a9bb0307999ed6",
+      "status": "not_started"
+    },
+    {
+      "trial": 123,
+      "scenario_id": "scenario_035",
+      "prompt_file": "prompts/detailed/scenario_035.txt",
+      "answer_filename": "scenario_035.txt",
+      "answer_file": "outputs/detailed_llm/scenario_035.txt",
+      "prompt_sha256": "fe894c4dbf1318862036697ecd276828147597d601d9ebb3efb2367d3ab9c0b5",
+      "status": "not_started"
+    },
+    {
+      "trial": 124,
+      "scenario_id": "scenario_277",
+      "prompt_file": "prompts/detailed/scenario_277.txt",
+      "answer_filename": "scenario_277.txt",
+      "answer_file": "outputs/detailed_llm/scenario_277.txt",
+      "prompt_sha256": "c1b478538721ba9091cfbb1d35dd0823011ee77a6eff1cec99f9fe8e23814e04",
+      "status": "not_started"
+    },
+    {
+      "trial": 125,
+      "scenario_id": "scenario_175",
+      "prompt_file": "prompts/detailed/scenario_175.txt",
+      "answer_filename": "scenario_175.txt",
+      "answer_file": "outputs/detailed_llm/scenario_175.txt",
+      "prompt_sha256": "9dc7bbe86113e6e9ca869f47e662e31449ba2f66665179faacb542da00535100",
+      "status": "not_started"
+    },
+    {
+      "trial": 126,
+      "scenario_id": "scenario_159",
+      "prompt_file": "prompts/detailed/scenario_159.txt",
+      "answer_filename": "scenario_159.txt",
+      "answer_file": "outputs/detailed_llm/scenario_159.txt",
+      "prompt_sha256": "05470b7bbee9f7b5378f1a11ad09a564e39c5aad0b64252c0079f0df7e53b502",
+      "status": "not_started"
+    },
+    {
+      "trial": 127,
+      "scenario_id": "scenario_320",
+      "prompt_file": "prompts/detailed/scenario_320.txt",
+      "answer_filename": "scenario_320.txt",
+      "answer_file": "outputs/detailed_llm/scenario_320.txt",
+      "prompt_sha256": "f82664b1a6f5e08eb7ca19f7844b5c1d44983e541ac3ff8637cda24f60beeb8b",
+      "status": "not_started"
+    },
+    {
+      "trial": 128,
+      "scenario_id": "scenario_074",
+      "prompt_file": "prompts/detailed/scenario_074.txt",
+      "answer_filename": "scenario_074.txt",
+      "answer_file": "outputs/detailed_llm/scenario_074.txt",
+      "prompt_sha256": "f146b8af89a1a762b3f56260f74793f444070b5abace78b61a9eaf33c5e4a8f9",
+      "status": "not_started"
+    },
+    {
+      "trial": 129,
+      "scenario_id": "scenario_018",
+      "prompt_file": "prompts/detailed/scenario_018.txt",
+      "answer_filename": "scenario_018.txt",
+      "answer_file": "outputs/detailed_llm/scenario_018.txt",
+      "prompt_sha256": "b95f3313cc9065470cec7512908a9957fbb58d74ae2cc48d7f1a59f54524ca3d",
+      "status": "not_started"
+    },
+    {
+      "trial": 130,
+      "scenario_id": "scenario_043",
+      "prompt_file": "prompts/detailed/scenario_043.txt",
+      "answer_filename": "scenario_043.txt",
+      "answer_file": "outputs/detailed_llm/scenario_043.txt",
+      "prompt_sha256": "32a948cb4cbf7653b12239cf34d96455e90844311c419c337ae8c9c4d8a16ecc",
+      "status": "not_started"
+    },
+    {
+      "trial": 131,
+      "scenario_id": "scenario_036",
+      "prompt_file": "prompts/detailed/scenario_036.txt",
+      "answer_filename": "scenario_036.txt",
+      "answer_file": "outputs/detailed_llm/scenario_036.txt",
+      "prompt_sha256": "7a4b2d02d000c565b5201ac6341f24a5128c824cdaaee943ae9f0a439b36c114",
+      "status": "not_started"
+    },
+    {
+      "trial": 132,
+      "scenario_id": "scenario_082",
+      "prompt_file": "prompts/detailed/scenario_082.txt",
+      "answer_filename": "scenario_082.txt",
+      "answer_file": "outputs/detailed_llm/scenario_082.txt",
+      "prompt_sha256": "1ce022abdd61d5d00f6edae30b7c9162a575fad43d0d0cc358e1817b9111fb58",
+      "status": "not_started"
+    },
+    {
+      "trial": 133,
+      "scenario_id": "scenario_301",
+      "prompt_file": "prompts/detailed/scenario_301.txt",
+      "answer_filename": "scenario_301.txt",
+      "answer_file": "outputs/detailed_llm/scenario_301.txt",
+      "prompt_sha256": "b591b331c5bc3bba97f684b9abcc9fb657168094c4f3e13c1497499e3b73e0d3",
+      "status": "not_started"
+    },
+    {
+      "trial": 134,
+      "scenario_id": "scenario_032",
+      "prompt_file": "prompts/detailed/scenario_032.txt",
+      "answer_filename": "scenario_032.txt",
+      "answer_file": "outputs/detailed_llm/scenario_032.txt",
+      "prompt_sha256": "159c3981c535005dbf7848159f237a32055ccb1f87ac463260ac0c6c11f6698b",
+      "status": "not_started"
+    },
+    {
+      "trial": 135,
+      "scenario_id": "scenario_211",
+      "prompt_file": "prompts/detailed/scenario_211.txt",
+      "answer_filename": "scenario_211.txt",
+      "answer_file": "outputs/detailed_llm/scenario_211.txt",
+      "prompt_sha256": "110d8c74cf47f83d04b4c925c33c46a585ac047d314ebf57939954bf5d546732",
+      "status": "not_started"
+    },
+    {
+      "trial": 136,
+      "scenario_id": "scenario_258",
+      "prompt_file": "prompts/detailed/scenario_258.txt",
+      "answer_filename": "scenario_258.txt",
+      "answer_file": "outputs/detailed_llm/scenario_258.txt",
+      "prompt_sha256": "8b36b6a09059fcbebd27af494d90796f599813610048c45df5db20fe15fb6c9b",
+      "status": "not_started"
+    },
+    {
+      "trial": 137,
+      "scenario_id": "scenario_185",
+      "prompt_file": "prompts/detailed/scenario_185.txt",
+      "answer_filename": "scenario_185.txt",
+      "answer_file": "outputs/detailed_llm/scenario_185.txt",
+      "prompt_sha256": "aa2b237a637b495b870171b9cdc93ce4b1e806b119bfc6b74d5b89d385d248a7",
+      "status": "not_started"
+    },
+    {
+      "trial": 138,
+      "scenario_id": "scenario_040",
+      "prompt_file": "prompts/detailed/scenario_040.txt",
+      "answer_filename": "scenario_040.txt",
+      "answer_file": "outputs/detailed_llm/scenario_040.txt",
+      "prompt_sha256": "e46de0fa000270a578473350d560055c297212c61cf86cf3259ed30c208ffd3e",
+      "status": "not_started"
+    },
+    {
+      "trial": 139,
+      "scenario_id": "scenario_023",
+      "prompt_file": "prompts/detailed/scenario_023.txt",
+      "answer_filename": "scenario_023.txt",
+      "answer_file": "outputs/detailed_llm/scenario_023.txt",
+      "prompt_sha256": "c07ff5a7aaf241a986da98f4118309edbf6962a3a086966c39395f5f224076fc",
+      "status": "not_started"
+    },
+    {
+      "trial": 140,
+      "scenario_id": "scenario_298",
+      "prompt_file": "prompts/detailed/scenario_298.txt",
+      "answer_filename": "scenario_298.txt",
+      "answer_file": "outputs/detailed_llm/scenario_298.txt",
+      "prompt_sha256": "2d47e47096effa07e35fef82554f387ea45a0852aceaa860fa17e78353fa3f07",
+      "status": "not_started"
+    },
+    {
+      "trial": 141,
+      "scenario_id": "scenario_038",
+      "prompt_file": "prompts/detailed/scenario_038.txt",
+      "answer_filename": "scenario_038.txt",
+      "answer_file": "outputs/detailed_llm/scenario_038.txt",
+      "prompt_sha256": "9afe2f1c7c52c91c156f82c2a5a5b01fd49b6d97b4d64b31345f2f6b65c3ba05",
+      "status": "not_started"
+    },
+    {
+      "trial": 142,
+      "scenario_id": "scenario_294",
+      "prompt_file": "prompts/detailed/scenario_294.txt",
+      "answer_filename": "scenario_294.txt",
+      "answer_file": "outputs/detailed_llm/scenario_294.txt",
+      "prompt_sha256": "e373649242cea93c14cf7430637161a05ec08814ff8f429c2abf51e029488398",
+      "status": "not_started"
+    },
+    {
+      "trial": 143,
+      "scenario_id": "scenario_028",
+      "prompt_file": "prompts/detailed/scenario_028.txt",
+      "answer_filename": "scenario_028.txt",
+      "answer_file": "outputs/detailed_llm/scenario_028.txt",
+      "prompt_sha256": "018241d4ae328c4e687b2371ffc7f6244a6e0a7638dba68c1546fc1d5874e08a",
+      "status": "not_started"
+    },
+    {
+      "trial": 144,
+      "scenario_id": "scenario_085",
+      "prompt_file": "prompts/detailed/scenario_085.txt",
+      "answer_filename": "scenario_085.txt",
+      "answer_file": "outputs/detailed_llm/scenario_085.txt",
+      "prompt_sha256": "9e793c7c9a5ad5d576400c43bcd2aa557aafa829b1617f5818ae018c27cdd3e6",
+      "status": "not_started"
+    },
+    {
+      "trial": 145,
+      "scenario_id": "scenario_248",
+      "prompt_file": "prompts/detailed/scenario_248.txt",
+      "answer_filename": "scenario_248.txt",
+      "answer_file": "outputs/detailed_llm/scenario_248.txt",
+      "prompt_sha256": "a9f1f23de6254816dec62c9460052358ba58db1d41391115f74a3c163b3fc9be",
+      "status": "not_started"
+    },
+    {
+      "trial": 146,
+      "scenario_id": "scenario_315",
+      "prompt_file": "prompts/detailed/scenario_315.txt",
+      "answer_filename": "scenario_315.txt",
+      "answer_file": "outputs/detailed_llm/scenario_315.txt",
+      "prompt_sha256": "97050400146f0b4ef093329f2f7e083037565b0e9d9a21917843084e73e75c7d",
+      "status": "not_started"
+    },
+    {
+      "trial": 147,
+      "scenario_id": "scenario_057",
+      "prompt_file": "prompts/detailed/scenario_057.txt",
+      "answer_filename": "scenario_057.txt",
+      "answer_file": "outputs/detailed_llm/scenario_057.txt",
+      "prompt_sha256": "79f4f0af65709d19ffe5d69a8a5294b05b9fcf04dd4b3884e102a07c7142ff0e",
+      "status": "not_started"
+    },
+    {
+      "trial": 148,
+      "scenario_id": "scenario_170",
+      "prompt_file": "prompts/detailed/scenario_170.txt",
+      "answer_filename": "scenario_170.txt",
+      "answer_file": "outputs/detailed_llm/scenario_170.txt",
+      "prompt_sha256": "9bf99512b35b507c08a181f46851f85f7b0f300d859a9b8d8fae02b580c3e65a",
+      "status": "not_started"
+    },
+    {
+      "trial": 149,
+      "scenario_id": "scenario_231",
+      "prompt_file": "prompts/detailed/scenario_231.txt",
+      "answer_filename": "scenario_231.txt",
+      "answer_file": "outputs/detailed_llm/scenario_231.txt",
+      "prompt_sha256": "6fa8a92609b02750a615d29dfbdfb4439fd173627cc44a162320875f19e5437f",
+      "status": "not_started"
+    },
+    {
+      "trial": 150,
+      "scenario_id": "scenario_021",
+      "prompt_file": "prompts/detailed/scenario_021.txt",
+      "answer_filename": "scenario_021.txt",
+      "answer_file": "outputs/detailed_llm/scenario_021.txt",
+      "prompt_sha256": "c3eec5afa1bc8519cb01cfbc5b84db9efaf3f7e983f94fe2c9d714bffdaa0399",
+      "status": "not_started"
+    },
+    {
+      "trial": 151,
+      "scenario_id": "scenario_141",
+      "prompt_file": "prompts/detailed/scenario_141.txt",
+      "answer_filename": "scenario_141.txt",
+      "answer_file": "outputs/detailed_llm/scenario_141.txt",
+      "prompt_sha256": "319b6ad39e3309bb335f6621c476bdb805fb845d04b2ea1c781b529f5572cd98",
+      "status": "not_started"
+    },
+    {
+      "trial": 152,
+      "scenario_id": "scenario_123",
+      "prompt_file": "prompts/detailed/scenario_123.txt",
+      "answer_filename": "scenario_123.txt",
+      "answer_file": "outputs/detailed_llm/scenario_123.txt",
+      "prompt_sha256": "208bf40216667d7d70f52c8a2fae570f0a0bfb7f0a21fd5a2ed444c9009ddcc8",
+      "status": "not_started"
+    },
+    {
+      "trial": 153,
+      "scenario_id": "scenario_243",
+      "prompt_file": "prompts/detailed/scenario_243.txt",
+      "answer_filename": "scenario_243.txt",
+      "answer_file": "outputs/detailed_llm/scenario_243.txt",
+      "prompt_sha256": "fb826cb4bd83541f2330e16494bd708778514d7e65d1a1b68e8dca5f105131df",
+      "status": "not_started"
+    },
+    {
+      "trial": 154,
+      "scenario_id": "scenario_168",
+      "prompt_file": "prompts/detailed/scenario_168.txt",
+      "answer_filename": "scenario_168.txt",
+      "answer_file": "outputs/detailed_llm/scenario_168.txt",
+      "prompt_sha256": "722f7262e8a526f7c1dc0438967a48989b9b63d05c85bf36bc9d6b8b0cc5986c",
+      "status": "not_started"
+    },
+    {
+      "trial": 155,
+      "scenario_id": "scenario_153",
+      "prompt_file": "prompts/detailed/scenario_153.txt",
+      "answer_filename": "scenario_153.txt",
+      "answer_file": "outputs/detailed_llm/scenario_153.txt",
+      "prompt_sha256": "daef46c9078b6b36fb6afc5e303c08826b39c722f12fed0fedce9197b61806cb",
+      "status": "not_started"
+    },
+    {
+      "trial": 156,
+      "scenario_id": "scenario_226",
+      "prompt_file": "prompts/detailed/scenario_226.txt",
+      "answer_filename": "scenario_226.txt",
+      "answer_file": "outputs/detailed_llm/scenario_226.txt",
+      "prompt_sha256": "c00d9c4f0e7be37c6c1bfd804fbdc08b682ab52045001e2c0e3c1b6b1986f242",
+      "status": "not_started"
+    },
+    {
+      "trial": 157,
+      "scenario_id": "scenario_229",
+      "prompt_file": "prompts/detailed/scenario_229.txt",
+      "answer_filename": "scenario_229.txt",
+      "answer_file": "outputs/detailed_llm/scenario_229.txt",
+      "prompt_sha256": "b98eb496b64c3ddd88ef67e2488cdb0eb887c4ca2d3cf7d7a4ce71d7e1a16113",
+      "status": "not_started"
+    },
+    {
+      "trial": 158,
+      "scenario_id": "scenario_268",
+      "prompt_file": "prompts/detailed/scenario_268.txt",
+      "answer_filename": "scenario_268.txt",
+      "answer_file": "outputs/detailed_llm/scenario_268.txt",
+      "prompt_sha256": "a919d5b9e7687a6bbbeb5c03f5754df2a3843ace2d7b868762aed1000b06bf6c",
+      "status": "not_started"
+    },
+    {
+      "trial": 159,
+      "scenario_id": "scenario_252",
+      "prompt_file": "prompts/detailed/scenario_252.txt",
+      "answer_filename": "scenario_252.txt",
+      "answer_file": "outputs/detailed_llm/scenario_252.txt",
+      "prompt_sha256": "7402cc30a193a6b58651c4cdaa5d6234d48a3d25a43cd1d25461c58cc277a262",
+      "status": "not_started"
+    },
+    {
+      "trial": 160,
+      "scenario_id": "scenario_171",
+      "prompt_file": "prompts/detailed/scenario_171.txt",
+      "answer_filename": "scenario_171.txt",
+      "answer_file": "outputs/detailed_llm/scenario_171.txt",
+      "prompt_sha256": "1cb2088cbaa2526b429abf07615f110de841789b00de50494253621c78379636",
+      "status": "not_started"
+    },
+    {
+      "trial": 161,
+      "scenario_id": "scenario_253",
+      "prompt_file": "prompts/detailed/scenario_253.txt",
+      "answer_filename": "scenario_253.txt",
+      "answer_file": "outputs/detailed_llm/scenario_253.txt",
+      "prompt_sha256": "c8fe763fc3c56c0e3263bc3ffecb41988a7523c15cf262f767cf09eff8f551d0",
+      "status": "not_started"
+    },
+    {
+      "trial": 162,
+      "scenario_id": "scenario_093",
+      "prompt_file": "prompts/detailed/scenario_093.txt",
+      "answer_filename": "scenario_093.txt",
+      "answer_file": "outputs/detailed_llm/scenario_093.txt",
+      "prompt_sha256": "5492c4b32677821351d00ecf3a164ac0ebf0f562dce07e894d068726529a4e8a",
+      "status": "not_started"
+    },
+    {
+      "trial": 163,
+      "scenario_id": "scenario_160",
+      "prompt_file": "prompts/detailed/scenario_160.txt",
+      "answer_filename": "scenario_160.txt",
+      "answer_file": "outputs/detailed_llm/scenario_160.txt",
+      "prompt_sha256": "dc740c5444f63fb0dfd24030a512eaf20282631d4dc23a125d81e47f22f9a85c",
+      "status": "not_started"
+    },
+    {
+      "trial": 164,
+      "scenario_id": "scenario_116",
+      "prompt_file": "prompts/detailed/scenario_116.txt",
+      "answer_filename": "scenario_116.txt",
+      "answer_file": "outputs/detailed_llm/scenario_116.txt",
+      "prompt_sha256": "a03180ebee5651437833c9c8ec033d9104d2e0e6fc144c279cb06db2d9609b05",
+      "status": "not_started"
+    },
+    {
+      "trial": 165,
+      "scenario_id": "scenario_039",
+      "prompt_file": "prompts/detailed/scenario_039.txt",
+      "answer_filename": "scenario_039.txt",
+      "answer_file": "outputs/detailed_llm/scenario_039.txt",
+      "prompt_sha256": "56d4a4a0cec784a43d79f8b959d36ec8691698dde4329b5d30a4a4515e874efa",
+      "status": "not_started"
+    },
+    {
+      "trial": 166,
+      "scenario_id": "scenario_324",
+      "prompt_file": "prompts/detailed/scenario_324.txt",
+      "answer_filename": "scenario_324.txt",
+      "answer_file": "outputs/detailed_llm/scenario_324.txt",
+      "prompt_sha256": "e4c9f81a8e12c89da44ca85fbad9b1e9bf593febcf0521231da2561959d20f8f",
+      "status": "not_started"
+    },
+    {
+      "trial": 167,
+      "scenario_id": "scenario_002",
+      "prompt_file": "prompts/detailed/scenario_002.txt",
+      "answer_filename": "scenario_002.txt",
+      "answer_file": "outputs/detailed_llm/scenario_002.txt",
+      "prompt_sha256": "c99c6437f618cf2f5f16c18baaf6f116ba117585695d7404113fc17ba58ef455",
+      "status": "not_started"
+    },
+    {
+      "trial": 168,
+      "scenario_id": "scenario_214",
+      "prompt_file": "prompts/detailed/scenario_214.txt",
+      "answer_filename": "scenario_214.txt",
+      "answer_file": "outputs/detailed_llm/scenario_214.txt",
+      "prompt_sha256": "4bf30a685e8b5931ecf7913a5312320100dd0da0fa15df105a128991878039a6",
+      "status": "not_started"
+    },
+    {
+      "trial": 169,
+      "scenario_id": "scenario_078",
+      "prompt_file": "prompts/detailed/scenario_078.txt",
+      "answer_filename": "scenario_078.txt",
+      "answer_file": "outputs/detailed_llm/scenario_078.txt",
+      "prompt_sha256": "91a9c59f1c3c9f33443cdfa6be54ef8c1668ffb003bf16909f6ea1155108477a",
+      "status": "not_started"
+    },
+    {
+      "trial": 170,
+      "scenario_id": "scenario_235",
+      "prompt_file": "prompts/detailed/scenario_235.txt",
+      "answer_filename": "scenario_235.txt",
+      "answer_file": "outputs/detailed_llm/scenario_235.txt",
+      "prompt_sha256": "617e1457d8ab9d7c847bcaff6937a01a504586723beaebd6a2659752933d1e20",
+      "status": "not_started"
+    },
+    {
+      "trial": 171,
+      "scenario_id": "scenario_094",
+      "prompt_file": "prompts/detailed/scenario_094.txt",
+      "answer_filename": "scenario_094.txt",
+      "answer_file": "outputs/detailed_llm/scenario_094.txt",
+      "prompt_sha256": "a308dbcf36d3a0883e46684b8e9518c82d1f0c95aaf7dfb8c620ff62511eaba4",
+      "status": "not_started"
+    },
+    {
+      "trial": 172,
+      "scenario_id": "scenario_131",
+      "prompt_file": "prompts/detailed/scenario_131.txt",
+      "answer_filename": "scenario_131.txt",
+      "answer_file": "outputs/detailed_llm/scenario_131.txt",
+      "prompt_sha256": "90788339a90b624defe6edf206d73a8b64c2d4b8724b4454c0006c4b72718c74",
+      "status": "not_started"
+    },
+    {
+      "trial": 173,
+      "scenario_id": "scenario_209",
+      "prompt_file": "prompts/detailed/scenario_209.txt",
+      "answer_filename": "scenario_209.txt",
+      "answer_file": "outputs/detailed_llm/scenario_209.txt",
+      "prompt_sha256": "4f89556e859eed971a9e661a860417d2f80db872b1db29b9295ac93965f9dd27",
+      "status": "not_started"
+    },
+    {
+      "trial": 174,
+      "scenario_id": "scenario_016",
+      "prompt_file": "prompts/detailed/scenario_016.txt",
+      "answer_filename": "scenario_016.txt",
+      "answer_file": "outputs/detailed_llm/scenario_016.txt",
+      "prompt_sha256": "4bd968f347eb949ec53e89996e0b610850c788796b3f07ad0d05367e7bea9339",
+      "status": "not_started"
+    },
+    {
+      "trial": 175,
+      "scenario_id": "scenario_062",
+      "prompt_file": "prompts/detailed/scenario_062.txt",
+      "answer_filename": "scenario_062.txt",
+      "answer_file": "outputs/detailed_llm/scenario_062.txt",
+      "prompt_sha256": "d4d8cb605ec1f32558cc6de7cbfe9d7bae0cc81827894cf0e9700ba95e76a943",
+      "status": "not_started"
+    },
+    {
+      "trial": 176,
+      "scenario_id": "scenario_077",
+      "prompt_file": "prompts/detailed/scenario_077.txt",
+      "answer_filename": "scenario_077.txt",
+      "answer_file": "outputs/detailed_llm/scenario_077.txt",
+      "prompt_sha256": "b0e0e239b2abeb48f1ecd7081663a682c78c5e8292988bc15c835b91de077471",
+      "status": "not_started"
+    },
+    {
+      "trial": 177,
+      "scenario_id": "scenario_300",
+      "prompt_file": "prompts/detailed/scenario_300.txt",
+      "answer_filename": "scenario_300.txt",
+      "answer_file": "outputs/detailed_llm/scenario_300.txt",
+      "prompt_sha256": "af120639a69a1d5eaaddcdb3acdfcd33d0e0ec15020e86d54b4648975698df82",
+      "status": "not_started"
+    },
+    {
+      "trial": 178,
+      "scenario_id": "scenario_104",
+      "prompt_file": "prompts/detailed/scenario_104.txt",
+      "answer_filename": "scenario_104.txt",
+      "answer_file": "outputs/detailed_llm/scenario_104.txt",
+      "prompt_sha256": "02d72e0a24be59437e6122ef56ede0121d245b01461bfec6cdfaf6917208a232",
+      "status": "not_started"
+    },
+    {
+      "trial": 179,
+      "scenario_id": "scenario_169",
+      "prompt_file": "prompts/detailed/scenario_169.txt",
+      "answer_filename": "scenario_169.txt",
+      "answer_file": "outputs/detailed_llm/scenario_169.txt",
+      "prompt_sha256": "b4632d95197c8b1a127f43a5269e2b8e7459b8494c2ed9a52d2b066b3314511f",
+      "status": "not_started"
+    },
+    {
+      "trial": 180,
+      "scenario_id": "scenario_071",
+      "prompt_file": "prompts/detailed/scenario_071.txt",
+      "answer_filename": "scenario_071.txt",
+      "answer_file": "outputs/detailed_llm/scenario_071.txt",
+      "prompt_sha256": "7dd64c5aad46a5956260ea624d7eaf57755bce19c6702ea858bcd0a134b5ea04",
+      "status": "not_started"
+    },
+    {
+      "trial": 181,
+      "scenario_id": "scenario_319",
+      "prompt_file": "prompts/detailed/scenario_319.txt",
+      "answer_filename": "scenario_319.txt",
+      "answer_file": "outputs/detailed_llm/scenario_319.txt",
+      "prompt_sha256": "673a770fc9f796082b4ddebc95fe3eb14dc634ced81cedfb460cc06026b56ef0",
+      "status": "not_started"
+    },
+    {
+      "trial": 182,
+      "scenario_id": "scenario_079",
+      "prompt_file": "prompts/detailed/scenario_079.txt",
+      "answer_filename": "scenario_079.txt",
+      "answer_file": "outputs/detailed_llm/scenario_079.txt",
+      "prompt_sha256": "c41c58826391c200c4cee1707c3da44acc29eaa5af01f21abc897e7e35f402c6",
+      "status": "not_started"
+    },
+    {
+      "trial": 183,
+      "scenario_id": "scenario_119",
+      "prompt_file": "prompts/detailed/scenario_119.txt",
+      "answer_filename": "scenario_119.txt",
+      "answer_file": "outputs/detailed_llm/scenario_119.txt",
+      "prompt_sha256": "57e72335536acab954f913ef1154c22bb9de70c811899498264b34f7701f0659",
+      "status": "not_started"
+    },
+    {
+      "trial": 184,
+      "scenario_id": "scenario_046",
+      "prompt_file": "prompts/detailed/scenario_046.txt",
+      "answer_filename": "scenario_046.txt",
+      "answer_file": "outputs/detailed_llm/scenario_046.txt",
+      "prompt_sha256": "148212d304d0d0a009a76f03e1d70f2029e4eb720f174304e29f032a5f2c74fa",
+      "status": "not_started"
+    },
+    {
+      "trial": 185,
+      "scenario_id": "scenario_187",
+      "prompt_file": "prompts/detailed/scenario_187.txt",
+      "answer_filename": "scenario_187.txt",
+      "answer_file": "outputs/detailed_llm/scenario_187.txt",
+      "prompt_sha256": "fa22d392f368916a597b12ff2c464018a557a08764536f495dcff29bb42c17c8",
+      "status": "not_started"
+    },
+    {
+      "trial": 186,
+      "scenario_id": "scenario_250",
+      "prompt_file": "prompts/detailed/scenario_250.txt",
+      "answer_filename": "scenario_250.txt",
+      "answer_file": "outputs/detailed_llm/scenario_250.txt",
+      "prompt_sha256": "cef32067d5297c57f0a8b6e03fc13bcd69ddf497e4191c57ddc2e1e2e21b0bd2",
+      "status": "not_started"
+    },
+    {
+      "trial": 187,
+      "scenario_id": "scenario_098",
+      "prompt_file": "prompts/detailed/scenario_098.txt",
+      "answer_filename": "scenario_098.txt",
+      "answer_file": "outputs/detailed_llm/scenario_098.txt",
+      "prompt_sha256": "10a28d2a6e2bfde44333eeb04d492f6c3b24b6dfd7281ad8a69b341e16fa47b3",
+      "status": "not_started"
+    },
+    {
+      "trial": 188,
+      "scenario_id": "scenario_306",
+      "prompt_file": "prompts/detailed/scenario_306.txt",
+      "answer_filename": "scenario_306.txt",
+      "answer_file": "outputs/detailed_llm/scenario_306.txt",
+      "prompt_sha256": "23625f20ef886db33dcf26fdcb3c0dbda7b71a3267810b3609bc69f19c01174c",
+      "status": "not_started"
+    },
+    {
+      "trial": 189,
+      "scenario_id": "scenario_207",
+      "prompt_file": "prompts/detailed/scenario_207.txt",
+      "answer_filename": "scenario_207.txt",
+      "answer_file": "outputs/detailed_llm/scenario_207.txt",
+      "prompt_sha256": "960bb570f7eccdc443dfbfb7f37c302eb3cc0a5915cde31cec94c98c7b9fd0d2",
+      "status": "not_started"
+    },
+    {
+      "trial": 190,
+      "scenario_id": "scenario_197",
+      "prompt_file": "prompts/detailed/scenario_197.txt",
+      "answer_filename": "scenario_197.txt",
+      "answer_file": "outputs/detailed_llm/scenario_197.txt",
+      "prompt_sha256": "25824791389df472805d07e5cd9e4c52e9a9cd7e12ade575bf62e79cf5b9315d",
+      "status": "not_started"
+    },
+    {
+      "trial": 191,
+      "scenario_id": "scenario_100",
+      "prompt_file": "prompts/detailed/scenario_100.txt",
+      "answer_filename": "scenario_100.txt",
+      "answer_file": "outputs/detailed_llm/scenario_100.txt",
+      "prompt_sha256": "e28c6aa317736ca73d509ec2a848ce8256bc476eb4b2d047e8ec5c99277b1922",
+      "status": "not_started"
+    },
+    {
+      "trial": 192,
+      "scenario_id": "scenario_103",
+      "prompt_file": "prompts/detailed/scenario_103.txt",
+      "answer_filename": "scenario_103.txt",
+      "answer_file": "outputs/detailed_llm/scenario_103.txt",
+      "prompt_sha256": "296b85c01f6eafcb4c2223773482fccc428afcee0e3fb1368b6dfebecabbbc7c",
+      "status": "not_started"
+    },
+    {
+      "trial": 193,
+      "scenario_id": "scenario_133",
+      "prompt_file": "prompts/detailed/scenario_133.txt",
+      "answer_filename": "scenario_133.txt",
+      "answer_file": "outputs/detailed_llm/scenario_133.txt",
+      "prompt_sha256": "b0895b411c0f1404d6d35c6b33addfda30b970e5fdf827968d86ce3178840267",
+      "status": "not_started"
+    },
+    {
+      "trial": 194,
+      "scenario_id": "scenario_167",
+      "prompt_file": "prompts/detailed/scenario_167.txt",
+      "answer_filename": "scenario_167.txt",
+      "answer_file": "outputs/detailed_llm/scenario_167.txt",
+      "prompt_sha256": "6639b008a679c143ad308f111b6883c5c23450485bdd2fcbfd33f1696082d97c",
+      "status": "not_started"
+    },
+    {
+      "trial": 195,
+      "scenario_id": "scenario_161",
+      "prompt_file": "prompts/detailed/scenario_161.txt",
+      "answer_filename": "scenario_161.txt",
+      "answer_file": "outputs/detailed_llm/scenario_161.txt",
+      "prompt_sha256": "f58fe914fe5eebcc3546bdc9e64a1312fa43e757329f28881d5ddda3e891890f",
+      "status": "not_started"
+    },
+    {
+      "trial": 196,
+      "scenario_id": "scenario_180",
+      "prompt_file": "prompts/detailed/scenario_180.txt",
+      "answer_filename": "scenario_180.txt",
+      "answer_file": "outputs/detailed_llm/scenario_180.txt",
+      "prompt_sha256": "153b9803b3159d8f104960b5e772d16622a21dd133deeab590a3857c54088ef3",
+      "status": "not_started"
+    },
+    {
+      "trial": 197,
+      "scenario_id": "scenario_242",
+      "prompt_file": "prompts/detailed/scenario_242.txt",
+      "answer_filename": "scenario_242.txt",
+      "answer_file": "outputs/detailed_llm/scenario_242.txt",
+      "prompt_sha256": "896818f1b4bcb7acdbed5a34e6575c887de8366b90b24df09cfc1bc235b28280",
+      "status": "not_started"
+    },
+    {
+      "trial": 198,
+      "scenario_id": "scenario_108",
+      "prompt_file": "prompts/detailed/scenario_108.txt",
+      "answer_filename": "scenario_108.txt",
+      "answer_file": "outputs/detailed_llm/scenario_108.txt",
+      "prompt_sha256": "e5eff17151e989e606da9cb90ded8746f8f028fce340aecd59943535ec62ff0d",
+      "status": "not_started"
+    },
+    {
+      "trial": 199,
+      "scenario_id": "scenario_292",
+      "prompt_file": "prompts/detailed/scenario_292.txt",
+      "answer_filename": "scenario_292.txt",
+      "answer_file": "outputs/detailed_llm/scenario_292.txt",
+      "prompt_sha256": "ca0757f667b2a125111684c71f9d894237c37b9764b958c06848d719962ec7ea",
+      "status": "not_started"
+    },
+    {
+      "trial": 200,
+      "scenario_id": "scenario_037",
+      "prompt_file": "prompts/detailed/scenario_037.txt",
+      "answer_filename": "scenario_037.txt",
+      "answer_file": "outputs/detailed_llm/scenario_037.txt",
+      "prompt_sha256": "4d3bc552dafcd2467cf424c7b2ed19eb6f6fb4c0773d9863c9f14d2ff8fec957",
+      "status": "not_started"
+    },
+    {
+      "trial": 201,
+      "scenario_id": "scenario_003",
+      "prompt_file": "prompts/detailed/scenario_003.txt",
+      "answer_filename": "scenario_003.txt",
+      "answer_file": "outputs/detailed_llm/scenario_003.txt",
+      "prompt_sha256": "1f1ef592fc5251303c847363fc648e13686ef5e180b7a368bb5069935f0d2ac5",
+      "status": "not_started"
+    },
+    {
+      "trial": 202,
+      "scenario_id": "scenario_303",
+      "prompt_file": "prompts/detailed/scenario_303.txt",
+      "answer_filename": "scenario_303.txt",
+      "answer_file": "outputs/detailed_llm/scenario_303.txt",
+      "prompt_sha256": "6c7bc2c68df8f72d77c9cc64160e914076e6ea693fab4915fe22b9656fb0f5a0",
+      "status": "not_started"
+    },
+    {
+      "trial": 203,
+      "scenario_id": "scenario_076",
+      "prompt_file": "prompts/detailed/scenario_076.txt",
+      "answer_filename": "scenario_076.txt",
+      "answer_file": "outputs/detailed_llm/scenario_076.txt",
+      "prompt_sha256": "206fea3b5b1d1999d76595097a37da415650a86c56b7d752caefdfd58453117d",
+      "status": "not_started"
+    },
+    {
+      "trial": 204,
+      "scenario_id": "scenario_080",
+      "prompt_file": "prompts/detailed/scenario_080.txt",
+      "answer_filename": "scenario_080.txt",
+      "answer_file": "outputs/detailed_llm/scenario_080.txt",
+      "prompt_sha256": "ce601d407361ed7222fcf708e7a82f23247997b469bb3919737528ba8a80eadb",
+      "status": "not_started"
+    },
+    {
+      "trial": 205,
+      "scenario_id": "scenario_314",
+      "prompt_file": "prompts/detailed/scenario_314.txt",
+      "answer_filename": "scenario_314.txt",
+      "answer_file": "outputs/detailed_llm/scenario_314.txt",
+      "prompt_sha256": "6cb8de9380dd1f9e804b6e76902d8f76165ac2e45ede076f1749bc0e48bd4a9d",
+      "status": "not_started"
+    },
+    {
+      "trial": 206,
+      "scenario_id": "scenario_233",
+      "prompt_file": "prompts/detailed/scenario_233.txt",
+      "answer_filename": "scenario_233.txt",
+      "answer_file": "outputs/detailed_llm/scenario_233.txt",
+      "prompt_sha256": "bfc48df1dec2d559f3b6338aa0a067d52df43c3b5103b8ff75511c8ca0fb74e5",
+      "status": "not_started"
+    },
+    {
+      "trial": 207,
+      "scenario_id": "scenario_111",
+      "prompt_file": "prompts/detailed/scenario_111.txt",
+      "answer_filename": "scenario_111.txt",
+      "answer_file": "outputs/detailed_llm/scenario_111.txt",
+      "prompt_sha256": "cefc8b6110c48c3dafbe47bda16cc174a663a43d9539a4749e5532b2c93035d1",
+      "status": "not_started"
+    },
+    {
+      "trial": 208,
+      "scenario_id": "scenario_127",
+      "prompt_file": "prompts/detailed/scenario_127.txt",
+      "answer_filename": "scenario_127.txt",
+      "answer_file": "outputs/detailed_llm/scenario_127.txt",
+      "prompt_sha256": "a9a1001201ae593f88fdf10095302325319b148b43ed551bef3a2ddabaea644d",
+      "status": "not_started"
+    },
+    {
+      "trial": 209,
+      "scenario_id": "scenario_031",
+      "prompt_file": "prompts/detailed/scenario_031.txt",
+      "answer_filename": "scenario_031.txt",
+      "answer_file": "outputs/detailed_llm/scenario_031.txt",
+      "prompt_sha256": "46d482615ad30fa12dbe7a234be6fcd27d01363567b1502e0427647d119c24ec",
+      "status": "not_started"
+    },
+    {
+      "trial": 210,
+      "scenario_id": "scenario_154",
+      "prompt_file": "prompts/detailed/scenario_154.txt",
+      "answer_filename": "scenario_154.txt",
+      "answer_file": "outputs/detailed_llm/scenario_154.txt",
+      "prompt_sha256": "f53045b460939946c6ec00930e2be9ac622b55e5de1bbe0d74f80c3e79dd5202",
+      "status": "not_started"
+    },
+    {
+      "trial": 211,
+      "scenario_id": "scenario_288",
+      "prompt_file": "prompts/detailed/scenario_288.txt",
+      "answer_filename": "scenario_288.txt",
+      "answer_file": "outputs/detailed_llm/scenario_288.txt",
+      "prompt_sha256": "bb71e3108a0f4e0bf009a77ef5d5dfecd47ba28dfcdbbb9de938f4888fde2074",
+      "status": "not_started"
+    },
+    {
+      "trial": 212,
+      "scenario_id": "scenario_053",
+      "prompt_file": "prompts/detailed/scenario_053.txt",
+      "answer_filename": "scenario_053.txt",
+      "answer_file": "outputs/detailed_llm/scenario_053.txt",
+      "prompt_sha256": "dc10c36dec97a410c61e9a699f01fd26331048b679babf936860b89cdf3fb76a",
+      "status": "not_started"
+    },
+    {
+      "trial": 213,
+      "scenario_id": "scenario_224",
+      "prompt_file": "prompts/detailed/scenario_224.txt",
+      "answer_filename": "scenario_224.txt",
+      "answer_file": "outputs/detailed_llm/scenario_224.txt",
+      "prompt_sha256": "9e69cd481e6a06634e38caf2852bc49034780b9181ff5d19383d693fa67253c6",
+      "status": "not_started"
+    },
+    {
+      "trial": 214,
+      "scenario_id": "scenario_286",
+      "prompt_file": "prompts/detailed/scenario_286.txt",
+      "answer_filename": "scenario_286.txt",
+      "answer_file": "outputs/detailed_llm/scenario_286.txt",
+      "prompt_sha256": "69a12c75909bd13b893e2b4fc6cec18a0c097fe2b16678109b3810def51e103d",
+      "status": "not_started"
+    },
+    {
+      "trial": 215,
+      "scenario_id": "scenario_102",
+      "prompt_file": "prompts/detailed/scenario_102.txt",
+      "answer_filename": "scenario_102.txt",
+      "answer_file": "outputs/detailed_llm/scenario_102.txt",
+      "prompt_sha256": "eb3ea0052768c1489af068471c94f22e6a603da37c750fd3c1c6fb897037b3dd",
+      "status": "not_started"
+    },
+    {
+      "trial": 216,
+      "scenario_id": "scenario_006",
+      "prompt_file": "prompts/detailed/scenario_006.txt",
+      "answer_filename": "scenario_006.txt",
+      "answer_file": "outputs/detailed_llm/scenario_006.txt",
+      "prompt_sha256": "bd3e2defaedd2e3358361d9958ead3cc50a27c91be78f1fc11c090b31358144b",
+      "status": "not_started"
+    },
+    {
+      "trial": 217,
+      "scenario_id": "scenario_067",
+      "prompt_file": "prompts/detailed/scenario_067.txt",
+      "answer_filename": "scenario_067.txt",
+      "answer_file": "outputs/detailed_llm/scenario_067.txt",
+      "prompt_sha256": "35a58f4381d17f45395a482ff69f13221b25a5c0a8d45fcc4b93f4dafed1ab6b",
+      "status": "not_started"
+    },
+    {
+      "trial": 218,
+      "scenario_id": "scenario_215",
+      "prompt_file": "prompts/detailed/scenario_215.txt",
+      "answer_filename": "scenario_215.txt",
+      "answer_file": "outputs/detailed_llm/scenario_215.txt",
+      "prompt_sha256": "2a25f6b6df0192d6d279152b81b3e3baeac496ea93074711785cf33ea46ae28c",
+      "status": "not_started"
+    },
+    {
+      "trial": 219,
+      "scenario_id": "scenario_112",
+      "prompt_file": "prompts/detailed/scenario_112.txt",
+      "answer_filename": "scenario_112.txt",
+      "answer_file": "outputs/detailed_llm/scenario_112.txt",
+      "prompt_sha256": "4b37d92f266b1bc8ed2354109dc227a6d5f4e9ae997350c0c1a33a3c4c1ec569",
+      "status": "not_started"
+    },
+    {
+      "trial": 220,
+      "scenario_id": "scenario_254",
+      "prompt_file": "prompts/detailed/scenario_254.txt",
+      "answer_filename": "scenario_254.txt",
+      "answer_file": "outputs/detailed_llm/scenario_254.txt",
+      "prompt_sha256": "9d8d63879441312736f0378a0edee92b2dce8a0e572aeeb22126f00509d471ba",
+      "status": "not_started"
+    },
+    {
+      "trial": 221,
+      "scenario_id": "scenario_293",
+      "prompt_file": "prompts/detailed/scenario_293.txt",
+      "answer_filename": "scenario_293.txt",
+      "answer_file": "outputs/detailed_llm/scenario_293.txt",
+      "prompt_sha256": "42f0654fc6b92b95c5b9769e3fc94e4e1a71402e8be1c764096ec0245e958bf3",
+      "status": "not_started"
+    },
+    {
+      "trial": 222,
+      "scenario_id": "scenario_280",
+      "prompt_file": "prompts/detailed/scenario_280.txt",
+      "answer_filename": "scenario_280.txt",
+      "answer_file": "outputs/detailed_llm/scenario_280.txt",
+      "prompt_sha256": "4471bd9a33f162531ef2baa21b6af5914d10812c33521fa0d2b561efe8b52cb7",
+      "status": "not_started"
+    },
+    {
+      "trial": 223,
+      "scenario_id": "scenario_193",
+      "prompt_file": "prompts/detailed/scenario_193.txt",
+      "answer_filename": "scenario_193.txt",
+      "answer_file": "outputs/detailed_llm/scenario_193.txt",
+      "prompt_sha256": "bc52e7325c8fc6d1482ab8821a8fc4245fb427c3e8ef462656862d5a53473959",
+      "status": "not_started"
+    },
+    {
+      "trial": 224,
+      "scenario_id": "scenario_058",
+      "prompt_file": "prompts/detailed/scenario_058.txt",
+      "answer_filename": "scenario_058.txt",
+      "answer_file": "outputs/detailed_llm/scenario_058.txt",
+      "prompt_sha256": "6466a71b85589682d1bb0a303b911670f6f24cb5615b6841b5877f52dc24fe54",
+      "status": "not_started"
+    },
+    {
+      "trial": 225,
+      "scenario_id": "scenario_213",
+      "prompt_file": "prompts/detailed/scenario_213.txt",
+      "answer_filename": "scenario_213.txt",
+      "answer_file": "outputs/detailed_llm/scenario_213.txt",
+      "prompt_sha256": "df3ed4f46a3e6ca5e25fc598d5ba82a31f9d246af8674ef3fdbcf2706fda03a3",
+      "status": "not_started"
+    },
+    {
+      "trial": 226,
+      "scenario_id": "scenario_210",
+      "prompt_file": "prompts/detailed/scenario_210.txt",
+      "answer_filename": "scenario_210.txt",
+      "answer_file": "outputs/detailed_llm/scenario_210.txt",
+      "prompt_sha256": "7799b2ae38948f762e5432f9665dcfdbd14e8cfe827667ac57bf22b981919704",
+      "status": "not_started"
+    },
+    {
+      "trial": 227,
+      "scenario_id": "scenario_265",
+      "prompt_file": "prompts/detailed/scenario_265.txt",
+      "answer_filename": "scenario_265.txt",
+      "answer_file": "outputs/detailed_llm/scenario_265.txt",
+      "prompt_sha256": "05e4aa63c1f21a28efad691916b5fff97dc770f9b43a120acdc9fe4d266faed5",
+      "status": "not_started"
+    },
+    {
+      "trial": 228,
+      "scenario_id": "scenario_205",
+      "prompt_file": "prompts/detailed/scenario_205.txt",
+      "answer_filename": "scenario_205.txt",
+      "answer_file": "outputs/detailed_llm/scenario_205.txt",
+      "prompt_sha256": "fa24965687dc3a52f5e6b8a6c27a73bf3c8a6b1124767b28de75d7b52515b869",
+      "status": "not_started"
+    },
+    {
+      "trial": 229,
+      "scenario_id": "scenario_308",
+      "prompt_file": "prompts/detailed/scenario_308.txt",
+      "answer_filename": "scenario_308.txt",
+      "answer_file": "outputs/detailed_llm/scenario_308.txt",
+      "prompt_sha256": "41b097adf19d4375e5140dcd4221592a2af75b0c28f11a939b28cdf05e92c01c",
+      "status": "not_started"
+    },
+    {
+      "trial": 230,
+      "scenario_id": "scenario_068",
+      "prompt_file": "prompts/detailed/scenario_068.txt",
+      "answer_filename": "scenario_068.txt",
+      "answer_file": "outputs/detailed_llm/scenario_068.txt",
+      "prompt_sha256": "823d352529b872e671819139c364e5377b0f3015727f2ee5c4a961bb488231f4",
+      "status": "not_started"
+    },
+    {
+      "trial": 231,
+      "scenario_id": "scenario_164",
+      "prompt_file": "prompts/detailed/scenario_164.txt",
+      "answer_filename": "scenario_164.txt",
+      "answer_file": "outputs/detailed_llm/scenario_164.txt",
+      "prompt_sha256": "9762bc7eef8a42d108eb5a100bd370861cc159b022504af4ee54eb4fbb452975",
+      "status": "not_started"
+    },
+    {
+      "trial": 232,
+      "scenario_id": "scenario_090",
+      "prompt_file": "prompts/detailed/scenario_090.txt",
+      "answer_filename": "scenario_090.txt",
+      "answer_file": "outputs/detailed_llm/scenario_090.txt",
+      "prompt_sha256": "66c748bcdb0a84b65386fb1ab794b3cff3b9677149f6f3a0602ab867bacfd548",
+      "status": "not_started"
+    },
+    {
+      "trial": 233,
+      "scenario_id": "scenario_096",
+      "prompt_file": "prompts/detailed/scenario_096.txt",
+      "answer_filename": "scenario_096.txt",
+      "answer_file": "outputs/detailed_llm/scenario_096.txt",
+      "prompt_sha256": "4cf25692525acf0bd31d033eadbf88a6f75957c1a44a34909f2ca635b6150f39",
+      "status": "not_started"
+    },
+    {
+      "trial": 234,
+      "scenario_id": "scenario_048",
+      "prompt_file": "prompts/detailed/scenario_048.txt",
+      "answer_filename": "scenario_048.txt",
+      "answer_file": "outputs/detailed_llm/scenario_048.txt",
+      "prompt_sha256": "4456d832f4e0b6bdea33925f5ae7977ef7605df572753d388731ffb05f8465c1",
+      "status": "not_started"
+    },
+    {
+      "trial": 235,
+      "scenario_id": "scenario_177",
+      "prompt_file": "prompts/detailed/scenario_177.txt",
+      "answer_filename": "scenario_177.txt",
+      "answer_file": "outputs/detailed_llm/scenario_177.txt",
+      "prompt_sha256": "e21bcda4efc79bbd3ef5d43c9369c2dc8954d8fc0337e3c2027d01868d283c6e",
+      "status": "not_started"
+    },
+    {
+      "trial": 236,
+      "scenario_id": "scenario_256",
+      "prompt_file": "prompts/detailed/scenario_256.txt",
+      "answer_filename": "scenario_256.txt",
+      "answer_file": "outputs/detailed_llm/scenario_256.txt",
+      "prompt_sha256": "f31c195286dd8d1552e84172918aa7c3e9ae16180757554826b2013f8e435729",
+      "status": "not_started"
+    },
+    {
+      "trial": 237,
+      "scenario_id": "scenario_291",
+      "prompt_file": "prompts/detailed/scenario_291.txt",
+      "answer_filename": "scenario_291.txt",
+      "answer_file": "outputs/detailed_llm/scenario_291.txt",
+      "prompt_sha256": "10bf62cceba9abb081c5d773a3249e5b8a919dc6940b71cbcc818bb416b25f8c",
+      "status": "not_started"
+    },
+    {
+      "trial": 238,
+      "scenario_id": "scenario_299",
+      "prompt_file": "prompts/detailed/scenario_299.txt",
+      "answer_filename": "scenario_299.txt",
+      "answer_file": "outputs/detailed_llm/scenario_299.txt",
+      "prompt_sha256": "00f124c42aac31def7e008a73f5817317a3e922a787654ab78d823a7cd97789b",
+      "status": "not_started"
+    },
+    {
+      "trial": 239,
+      "scenario_id": "scenario_244",
+      "prompt_file": "prompts/detailed/scenario_244.txt",
+      "answer_filename": "scenario_244.txt",
+      "answer_file": "outputs/detailed_llm/scenario_244.txt",
+      "prompt_sha256": "d470dcc1b5d440cf392fc45614bba008c24e32abf6a590ec4ef0a29d6b75e5e2",
+      "status": "not_started"
+    },
+    {
+      "trial": 240,
+      "scenario_id": "scenario_283",
+      "prompt_file": "prompts/detailed/scenario_283.txt",
+      "answer_filename": "scenario_283.txt",
+      "answer_file": "outputs/detailed_llm/scenario_283.txt",
+      "prompt_sha256": "1b0d9bb5ed2474f7716c262ad5f8a04be4bfd37e13681619496dc23710220cf7",
+      "status": "not_started"
+    },
+    {
+      "trial": 241,
+      "scenario_id": "scenario_255",
+      "prompt_file": "prompts/detailed/scenario_255.txt",
+      "answer_filename": "scenario_255.txt",
+      "answer_file": "outputs/detailed_llm/scenario_255.txt",
+      "prompt_sha256": "b74086f49d3159dcd34d03b8b937745046aa0e94aed6ac79a39614a1986694d6",
+      "status": "not_started"
+    },
+    {
+      "trial": 242,
+      "scenario_id": "scenario_145",
+      "prompt_file": "prompts/detailed/scenario_145.txt",
+      "answer_filename": "scenario_145.txt",
+      "answer_file": "outputs/detailed_llm/scenario_145.txt",
+      "prompt_sha256": "7b3bb775986426a70cb16aa716defd753f7cba66123ef7c13e13351d39a91499",
+      "status": "not_started"
+    },
+    {
+      "trial": 243,
+      "scenario_id": "scenario_142",
+      "prompt_file": "prompts/detailed/scenario_142.txt",
+      "answer_filename": "scenario_142.txt",
+      "answer_file": "outputs/detailed_llm/scenario_142.txt",
+      "prompt_sha256": "e600ad20507e580d53d8fd9aa7a0933e805778d1710504b6174088589bd0040c",
+      "status": "not_started"
+    },
+    {
+      "trial": 244,
+      "scenario_id": "scenario_251",
+      "prompt_file": "prompts/detailed/scenario_251.txt",
+      "answer_filename": "scenario_251.txt",
+      "answer_file": "outputs/detailed_llm/scenario_251.txt",
+      "prompt_sha256": "47ed9aa7456db1163a8e49eec601d32b63076a2c33c01e0b93d2d889d9be25c9",
+      "status": "not_started"
+    },
+    {
+      "trial": 245,
+      "scenario_id": "scenario_026",
+      "prompt_file": "prompts/detailed/scenario_026.txt",
+      "answer_filename": "scenario_026.txt",
+      "answer_file": "outputs/detailed_llm/scenario_026.txt",
+      "prompt_sha256": "a329c62baf701f9923ec1d75c927b91257d152f941f78a6eb3870b145ccb4a8f",
+      "status": "not_started"
+    },
+    {
+      "trial": 246,
+      "scenario_id": "scenario_236",
+      "prompt_file": "prompts/detailed/scenario_236.txt",
+      "answer_filename": "scenario_236.txt",
+      "answer_file": "outputs/detailed_llm/scenario_236.txt",
+      "prompt_sha256": "7c16ed203622c013beb551e71fca5576ddb28f6340b4eaac4ca465aa977baf57",
+      "status": "not_started"
+    },
+    {
+      "trial": 247,
+      "scenario_id": "scenario_152",
+      "prompt_file": "prompts/detailed/scenario_152.txt",
+      "answer_filename": "scenario_152.txt",
+      "answer_file": "outputs/detailed_llm/scenario_152.txt",
+      "prompt_sha256": "b57331da2afabfb09bd38e2a096ded760706919ec68d18329a56915db1be1627",
+      "status": "not_started"
+    },
+    {
+      "trial": 248,
+      "scenario_id": "scenario_088",
+      "prompt_file": "prompts/detailed/scenario_088.txt",
+      "answer_filename": "scenario_088.txt",
+      "answer_file": "outputs/detailed_llm/scenario_088.txt",
+      "prompt_sha256": "d2ec7bcc25c1a48b8ef3ef55abd71d05cd294ed9323db20daf257d1f3121114f",
+      "status": "not_started"
+    },
+    {
+      "trial": 249,
+      "scenario_id": "scenario_279",
+      "prompt_file": "prompts/detailed/scenario_279.txt",
+      "answer_filename": "scenario_279.txt",
+      "answer_file": "outputs/detailed_llm/scenario_279.txt",
+      "prompt_sha256": "5a4ff4a4043fbff711c2739098d29a21f1101c336bb96d4154f0f28ea208cba9",
+      "status": "not_started"
+    },
+    {
+      "trial": 250,
+      "scenario_id": "scenario_201",
+      "prompt_file": "prompts/detailed/scenario_201.txt",
+      "answer_filename": "scenario_201.txt",
+      "answer_file": "outputs/detailed_llm/scenario_201.txt",
+      "prompt_sha256": "c96099169ac94f496b11b2430477bbccff122888d2d53baa87eb49c884e1f253",
+      "status": "not_started"
+    },
+    {
+      "trial": 251,
+      "scenario_id": "scenario_041",
+      "prompt_file": "prompts/detailed/scenario_041.txt",
+      "answer_filename": "scenario_041.txt",
+      "answer_file": "outputs/detailed_llm/scenario_041.txt",
+      "prompt_sha256": "d69ebcc255b20e1c726cdbff020a6559ff139d35cd0c605560b99eafcc2b3cec",
+      "status": "not_started"
+    },
+    {
+      "trial": 252,
+      "scenario_id": "scenario_227",
+      "prompt_file": "prompts/detailed/scenario_227.txt",
+      "answer_filename": "scenario_227.txt",
+      "answer_file": "outputs/detailed_llm/scenario_227.txt",
+      "prompt_sha256": "b8e17821bc5ee6f366a017c34df6536b84ca4b1395de473d2ee752e8ba525a63",
+      "status": "not_started"
+    },
+    {
+      "trial": 253,
+      "scenario_id": "scenario_195",
+      "prompt_file": "prompts/detailed/scenario_195.txt",
+      "answer_filename": "scenario_195.txt",
+      "answer_file": "outputs/detailed_llm/scenario_195.txt",
+      "prompt_sha256": "0039a82f2ae7ff4074226549e98abfdb27b411d9986e7abb06853e70636e3a4f",
+      "status": "not_started"
+    },
+    {
+      "trial": 254,
+      "scenario_id": "scenario_323",
+      "prompt_file": "prompts/detailed/scenario_323.txt",
+      "answer_filename": "scenario_323.txt",
+      "answer_file": "outputs/detailed_llm/scenario_323.txt",
+      "prompt_sha256": "17f2638990a7f54ae3f7f5cbf947d67562ab22028bfd4f1a96d0c52a3de85c05",
+      "status": "not_started"
+    },
+    {
+      "trial": 255,
+      "scenario_id": "scenario_221",
+      "prompt_file": "prompts/detailed/scenario_221.txt",
+      "answer_filename": "scenario_221.txt",
+      "answer_file": "outputs/detailed_llm/scenario_221.txt",
+      "prompt_sha256": "e3e57137e621305f73531a0c226177f899a7ee7849efe3214fc719a7b7a4914a",
+      "status": "not_started"
+    },
+    {
+      "trial": 256,
+      "scenario_id": "scenario_024",
+      "prompt_file": "prompts/detailed/scenario_024.txt",
+      "answer_filename": "scenario_024.txt",
+      "answer_file": "outputs/detailed_llm/scenario_024.txt",
+      "prompt_sha256": "2d3e1bae70848aabfa869f562f28be6b6cc53a66ddf70737ce7a0a4ad07c15a2",
+      "status": "not_started"
+    },
+    {
+      "trial": 257,
+      "scenario_id": "scenario_234",
+      "prompt_file": "prompts/detailed/scenario_234.txt",
+      "answer_filename": "scenario_234.txt",
+      "answer_file": "outputs/detailed_llm/scenario_234.txt",
+      "prompt_sha256": "ee5006a4f3ec9483ac66e14c672a43242c3a9f09f28d116d0e38c62aef3eeabf",
+      "status": "not_started"
+    },
+    {
+      "trial": 258,
+      "scenario_id": "scenario_307",
+      "prompt_file": "prompts/detailed/scenario_307.txt",
+      "answer_filename": "scenario_307.txt",
+      "answer_file": "outputs/detailed_llm/scenario_307.txt",
+      "prompt_sha256": "d1172e9367958bc00b7c78d23bf841f03362783861a8f7593cfd3bc6851679fc",
+      "status": "not_started"
+    },
+    {
+      "trial": 259,
+      "scenario_id": "scenario_069",
+      "prompt_file": "prompts/detailed/scenario_069.txt",
+      "answer_filename": "scenario_069.txt",
+      "answer_file": "outputs/detailed_llm/scenario_069.txt",
+      "prompt_sha256": "7b15c88f8f9fa2be2f314d5685046c8ccd7f9547aaaa6eb5d1253209a0405dea",
+      "status": "not_started"
+    },
+    {
+      "trial": 260,
+      "scenario_id": "scenario_143",
+      "prompt_file": "prompts/detailed/scenario_143.txt",
+      "answer_filename": "scenario_143.txt",
+      "answer_file": "outputs/detailed_llm/scenario_143.txt",
+      "prompt_sha256": "0516dec2b381a9fa28323f4b6a50cdf206eaead3c2aaa33a205759ac2ce6b5c8",
+      "status": "not_started"
+    },
+    {
+      "trial": 261,
+      "scenario_id": "scenario_276",
+      "prompt_file": "prompts/detailed/scenario_276.txt",
+      "answer_filename": "scenario_276.txt",
+      "answer_file": "outputs/detailed_llm/scenario_276.txt",
+      "prompt_sha256": "315c19b7a8c24e9f9e2d0cfdbc22a4c38cdaf7df3d4656421f15494a884277ec",
+      "status": "not_started"
+    },
+    {
+      "trial": 262,
+      "scenario_id": "scenario_296",
+      "prompt_file": "prompts/detailed/scenario_296.txt",
+      "answer_filename": "scenario_296.txt",
+      "answer_file": "outputs/detailed_llm/scenario_296.txt",
+      "prompt_sha256": "ed6e7a812ac2cb549b4252d3cd7633b584416fffb4d7b12f52ebad5f80f7c527",
+      "status": "not_started"
+    },
+    {
+      "trial": 263,
+      "scenario_id": "scenario_259",
+      "prompt_file": "prompts/detailed/scenario_259.txt",
+      "answer_filename": "scenario_259.txt",
+      "answer_file": "outputs/detailed_llm/scenario_259.txt",
+      "prompt_sha256": "dc379ca78e418ca4d1d7afa729495df6b69d67539e3f159e5041efeb47a2c95e",
+      "status": "not_started"
+    },
+    {
+      "trial": 264,
+      "scenario_id": "scenario_270",
+      "prompt_file": "prompts/detailed/scenario_270.txt",
+      "answer_filename": "scenario_270.txt",
+      "answer_file": "outputs/detailed_llm/scenario_270.txt",
+      "prompt_sha256": "f4a49fb3275a9f9f86e73d1903bb5f29848ec98f2be362faec531e842b49a32c",
+      "status": "not_started"
+    },
+    {
+      "trial": 265,
+      "scenario_id": "scenario_055",
+      "prompt_file": "prompts/detailed/scenario_055.txt",
+      "answer_filename": "scenario_055.txt",
+      "answer_file": "outputs/detailed_llm/scenario_055.txt",
+      "prompt_sha256": "00cc2d0ad47c530005538bd84030a1f934b861dc247789200e1bd1bb38bc95b5",
+      "status": "not_started"
+    },
+    {
+      "trial": 266,
+      "scenario_id": "scenario_190",
+      "prompt_file": "prompts/detailed/scenario_190.txt",
+      "answer_filename": "scenario_190.txt",
+      "answer_file": "outputs/detailed_llm/scenario_190.txt",
+      "prompt_sha256": "735175ca7650dfd4eb505b44b14c0dbfef293f9d681e559c01fa920844673616",
+      "status": "not_started"
+    },
+    {
+      "trial": 267,
+      "scenario_id": "scenario_290",
+      "prompt_file": "prompts/detailed/scenario_290.txt",
+      "answer_filename": "scenario_290.txt",
+      "answer_file": "outputs/detailed_llm/scenario_290.txt",
+      "prompt_sha256": "7725283bb8117639b289576e0f2fcad81085c233d1c0a13c881b7500f72ff36b",
+      "status": "not_started"
+    },
+    {
+      "trial": 268,
+      "scenario_id": "scenario_264",
+      "prompt_file": "prompts/detailed/scenario_264.txt",
+      "answer_filename": "scenario_264.txt",
+      "answer_file": "outputs/detailed_llm/scenario_264.txt",
+      "prompt_sha256": "aede1a26d312ac5d2d14bd21a4ab943e8a1dedb875de5a84b815ccd637e995ac",
+      "status": "not_started"
+    },
+    {
+      "trial": 269,
+      "scenario_id": "scenario_033",
+      "prompt_file": "prompts/detailed/scenario_033.txt",
+      "answer_filename": "scenario_033.txt",
+      "answer_file": "outputs/detailed_llm/scenario_033.txt",
+      "prompt_sha256": "29b97622ed66d6d3c796355c08f274276f223bf1b72f3ca173d82d073ed08c46",
+      "status": "not_started"
+    },
+    {
+      "trial": 270,
+      "scenario_id": "scenario_275",
+      "prompt_file": "prompts/detailed/scenario_275.txt",
+      "answer_filename": "scenario_275.txt",
+      "answer_file": "outputs/detailed_llm/scenario_275.txt",
+      "prompt_sha256": "fda872009a40ee595c5021c6bd98961b78fb0142a79c21ca63115131bb2f1618",
+      "status": "not_started"
+    },
+    {
+      "trial": 271,
+      "scenario_id": "scenario_066",
+      "prompt_file": "prompts/detailed/scenario_066.txt",
+      "answer_filename": "scenario_066.txt",
+      "answer_file": "outputs/detailed_llm/scenario_066.txt",
+      "prompt_sha256": "6f88ecc786ab904327faa76d689dd1ea701452c486cded93c6ebcf76ea467d10",
+      "status": "not_started"
+    },
+    {
+      "trial": 272,
+      "scenario_id": "scenario_087",
+      "prompt_file": "prompts/detailed/scenario_087.txt",
+      "answer_filename": "scenario_087.txt",
+      "answer_file": "outputs/detailed_llm/scenario_087.txt",
+      "prompt_sha256": "3fe0a9347119bef8abc7428830d493114af754bbdf09d88b337a36bdac478c5d",
+      "status": "not_started"
+    },
+    {
+      "trial": 273,
+      "scenario_id": "scenario_166",
+      "prompt_file": "prompts/detailed/scenario_166.txt",
+      "answer_filename": "scenario_166.txt",
+      "answer_file": "outputs/detailed_llm/scenario_166.txt",
+      "prompt_sha256": "79a49a38d50794a517e9d3d3beede0b69eaadcf78275a0a6146d6543214e256f",
+      "status": "not_started"
+    },
+    {
+      "trial": 274,
+      "scenario_id": "scenario_186",
+      "prompt_file": "prompts/detailed/scenario_186.txt",
+      "answer_filename": "scenario_186.txt",
+      "answer_file": "outputs/detailed_llm/scenario_186.txt",
+      "prompt_sha256": "dfe57646c166771d471a5e857889cae68c52516c5e360bcc87dfef72588086ae",
+      "status": "not_started"
+    },
+    {
+      "trial": 275,
+      "scenario_id": "scenario_047",
+      "prompt_file": "prompts/detailed/scenario_047.txt",
+      "answer_filename": "scenario_047.txt",
+      "answer_file": "outputs/detailed_llm/scenario_047.txt",
+      "prompt_sha256": "c8177cd3bb7f7466211e32403f819f5aa57ca82d1ee4dd8db9c5fd4b6a714601",
+      "status": "not_started"
+    },
+    {
+      "trial": 276,
+      "scenario_id": "scenario_009",
+      "prompt_file": "prompts/detailed/scenario_009.txt",
+      "answer_filename": "scenario_009.txt",
+      "answer_file": "outputs/detailed_llm/scenario_009.txt",
+      "prompt_sha256": "74455c5bed9e35022c8388ecb2c73f86f565c92e39931f7c1281b6905e73901d",
+      "status": "not_started"
+    },
+    {
+      "trial": 277,
+      "scenario_id": "scenario_220",
+      "prompt_file": "prompts/detailed/scenario_220.txt",
+      "answer_filename": "scenario_220.txt",
+      "answer_file": "outputs/detailed_llm/scenario_220.txt",
+      "prompt_sha256": "76bdfe8296c39764c743ceb5cbd767bf80c54bc42bfdb2fc24fb8f6ed34a1f5e",
+      "status": "not_started"
+    },
+    {
+      "trial": 278,
+      "scenario_id": "scenario_217",
+      "prompt_file": "prompts/detailed/scenario_217.txt",
+      "answer_filename": "scenario_217.txt",
+      "answer_file": "outputs/detailed_llm/scenario_217.txt",
+      "prompt_sha256": "6b8efc42118f24fba772d5c920bed75393c90b1295f1bef0d395b958d46699a7",
+      "status": "not_started"
+    },
+    {
+      "trial": 279,
+      "scenario_id": "scenario_245",
+      "prompt_file": "prompts/detailed/scenario_245.txt",
+      "answer_filename": "scenario_245.txt",
+      "answer_file": "outputs/detailed_llm/scenario_245.txt",
+      "prompt_sha256": "3769e1af6e52254ef8eebfe0d9a934bcc804fdcde4fdb59f8ee2ed15bfa4528c",
+      "status": "not_started"
+    },
+    {
+      "trial": 280,
+      "scenario_id": "scenario_287",
+      "prompt_file": "prompts/detailed/scenario_287.txt",
+      "answer_filename": "scenario_287.txt",
+      "answer_file": "outputs/detailed_llm/scenario_287.txt",
+      "prompt_sha256": "aa9c7fb4893f01df17ed188424a0a7ee474ab8f74c89d976ccdcceff69a487a6",
+      "status": "not_started"
+    },
+    {
+      "trial": 281,
+      "scenario_id": "scenario_125",
+      "prompt_file": "prompts/detailed/scenario_125.txt",
+      "answer_filename": "scenario_125.txt",
+      "answer_file": "outputs/detailed_llm/scenario_125.txt",
+      "prompt_sha256": "23f5339b31c717408e6ea5a9883d53122d8ccda761af2766e1dc814c64f23aa3",
+      "status": "not_started"
+    },
+    {
+      "trial": 282,
+      "scenario_id": "scenario_120",
+      "prompt_file": "prompts/detailed/scenario_120.txt",
+      "answer_filename": "scenario_120.txt",
+      "answer_file": "outputs/detailed_llm/scenario_120.txt",
+      "prompt_sha256": "bf4d69112368fb5bd4243e505ba2619327b9c484cb3ed107668252dabb28dfc8",
+      "status": "not_started"
+    },
+    {
+      "trial": 283,
+      "scenario_id": "scenario_025",
+      "prompt_file": "prompts/detailed/scenario_025.txt",
+      "answer_filename": "scenario_025.txt",
+      "answer_file": "outputs/detailed_llm/scenario_025.txt",
+      "prompt_sha256": "95ae56b3fa0cbd091c167ea0c7ac2015c87a9b36c0596184742345f05904911a",
+      "status": "not_started"
+    },
+    {
+      "trial": 284,
+      "scenario_id": "scenario_260",
+      "prompt_file": "prompts/detailed/scenario_260.txt",
+      "answer_filename": "scenario_260.txt",
+      "answer_file": "outputs/detailed_llm/scenario_260.txt",
+      "prompt_sha256": "dabc1c05ba342d7b1cffa125726fb06c95d92622d6dd060948e31309a906392c",
+      "status": "not_started"
+    },
+    {
+      "trial": 285,
+      "scenario_id": "scenario_179",
+      "prompt_file": "prompts/detailed/scenario_179.txt",
+      "answer_filename": "scenario_179.txt",
+      "answer_file": "outputs/detailed_llm/scenario_179.txt",
+      "prompt_sha256": "5bd0a53fd53fc90a64c196cdbcc58dbf259613e1257269a1738ef8c7f8fd7ece",
+      "status": "not_started"
+    },
+    {
+      "trial": 286,
+      "scenario_id": "scenario_005",
+      "prompt_file": "prompts/detailed/scenario_005.txt",
+      "answer_filename": "scenario_005.txt",
+      "answer_file": "outputs/detailed_llm/scenario_005.txt",
+      "prompt_sha256": "db632f9f80601fe62da1b124dc4c02e83aa36453955fe1aa85bb19c114f1aff8",
+      "status": "not_started"
+    },
+    {
+      "trial": 287,
+      "scenario_id": "scenario_001",
+      "prompt_file": "prompts/detailed/scenario_001.txt",
+      "answer_filename": "scenario_001.txt",
+      "answer_file": "outputs/detailed_llm/scenario_001.txt",
+      "prompt_sha256": "69e22a98e09f825ae5f85f6134f6e2293ca061e04e6b99e001315269c571be79",
+      "status": "not_started"
+    },
+    {
+      "trial": 288,
+      "scenario_id": "scenario_218",
+      "prompt_file": "prompts/detailed/scenario_218.txt",
+      "answer_filename": "scenario_218.txt",
+      "answer_file": "outputs/detailed_llm/scenario_218.txt",
+      "prompt_sha256": "a44207ff441d8b549ecf0cfba139d92815b6d2da8e5fe52ce6a2df4872ead185",
+      "status": "not_started"
+    },
+    {
+      "trial": 289,
+      "scenario_id": "scenario_129",
+      "prompt_file": "prompts/detailed/scenario_129.txt",
+      "answer_filename": "scenario_129.txt",
+      "answer_file": "outputs/detailed_llm/scenario_129.txt",
+      "prompt_sha256": "64aa1b364232399524cdeddb8f71382dd7d7827d56b196db2308aa5c42a1719f",
+      "status": "not_started"
+    },
+    {
+      "trial": 290,
+      "scenario_id": "scenario_183",
+      "prompt_file": "prompts/detailed/scenario_183.txt",
+      "answer_filename": "scenario_183.txt",
+      "answer_file": "outputs/detailed_llm/scenario_183.txt",
+      "prompt_sha256": "e0ee8a49ceb29880c56d9cfcb0ccfa89521094e3aa251dc86c70bb869185090e",
+      "status": "not_started"
+    },
+    {
+      "trial": 291,
+      "scenario_id": "scenario_086",
+      "prompt_file": "prompts/detailed/scenario_086.txt",
+      "answer_filename": "scenario_086.txt",
+      "answer_file": "outputs/detailed_llm/scenario_086.txt",
+      "prompt_sha256": "02dbb844590ad0300a70b8e733b0c805b635657ccef04bc8970c7595b0c83f1a",
+      "status": "not_started"
+    },
+    {
+      "trial": 292,
+      "scenario_id": "scenario_124",
+      "prompt_file": "prompts/detailed/scenario_124.txt",
+      "answer_filename": "scenario_124.txt",
+      "answer_file": "outputs/detailed_llm/scenario_124.txt",
+      "prompt_sha256": "715e6af9d8b1aad5c3def2a70270d8507cc639a17e752ed0581a2d5cb0d93516",
+      "status": "not_started"
+    },
+    {
+      "trial": 293,
+      "scenario_id": "scenario_052",
+      "prompt_file": "prompts/detailed/scenario_052.txt",
+      "answer_filename": "scenario_052.txt",
+      "answer_file": "outputs/detailed_llm/scenario_052.txt",
+      "prompt_sha256": "2366cf050aa99fb91d93a93b4aeed31272a65d69530a69ba5b5ef5cacdd4be2b",
+      "status": "not_started"
+    },
+    {
+      "trial": 294,
+      "scenario_id": "scenario_113",
+      "prompt_file": "prompts/detailed/scenario_113.txt",
+      "answer_filename": "scenario_113.txt",
+      "answer_file": "outputs/detailed_llm/scenario_113.txt",
+      "prompt_sha256": "eb3bcdf767474f09bc0f038c1a7fabf1027f3b8da91a7565b85b90eee18e66e3",
+      "status": "not_started"
+    },
+    {
+      "trial": 295,
+      "scenario_id": "scenario_092",
+      "prompt_file": "prompts/detailed/scenario_092.txt",
+      "answer_filename": "scenario_092.txt",
+      "answer_file": "outputs/detailed_llm/scenario_092.txt",
+      "prompt_sha256": "9031570fd080785a3b2f7db46ee69b3d48cd7a04d10a32fdc78dbb8c1d00b432",
+      "status": "not_started"
+    },
+    {
+      "trial": 296,
+      "scenario_id": "scenario_107",
+      "prompt_file": "prompts/detailed/scenario_107.txt",
+      "answer_filename": "scenario_107.txt",
+      "answer_file": "outputs/detailed_llm/scenario_107.txt",
+      "prompt_sha256": "246fab0926bb5ba99ccdd2ce643ba2529fc988d0aabc901d7a3cc3ee0c9a8ced",
+      "status": "not_started"
+    },
+    {
+      "trial": 297,
+      "scenario_id": "scenario_089",
+      "prompt_file": "prompts/detailed/scenario_089.txt",
+      "answer_filename": "scenario_089.txt",
+      "answer_file": "outputs/detailed_llm/scenario_089.txt",
+      "prompt_sha256": "0b05eaf546cbf031679448dbc21dd8a926f63ba470b7618a3e4ec6831f2645f4",
+      "status": "not_started"
+    },
+    {
+      "trial": 298,
+      "scenario_id": "scenario_316",
+      "prompt_file": "prompts/detailed/scenario_316.txt",
+      "answer_filename": "scenario_316.txt",
+      "answer_file": "outputs/detailed_llm/scenario_316.txt",
+      "prompt_sha256": "4628a517fc5a82d1477ce0df9935839fde5aa2fc63e446066186d9736f704e4e",
+      "status": "not_started"
+    },
+    {
+      "trial": 299,
+      "scenario_id": "scenario_148",
+      "prompt_file": "prompts/detailed/scenario_148.txt",
+      "answer_filename": "scenario_148.txt",
+      "answer_file": "outputs/detailed_llm/scenario_148.txt",
+      "prompt_sha256": "e55db8118da5ca0cb18b10b0f8c2cfdf93fd82f07718732e7a17fec3d711509a",
+      "status": "not_started"
+    },
+    {
+      "trial": 300,
+      "scenario_id": "scenario_247",
+      "prompt_file": "prompts/detailed/scenario_247.txt",
+      "answer_filename": "scenario_247.txt",
+      "answer_file": "outputs/detailed_llm/scenario_247.txt",
+      "prompt_sha256": "4e83f0c2093eb2ea3ce1a9724dc3edc383fa1d32eb5db41c3ad8f6ba1c7a214b",
+      "status": "not_started"
+    },
+    {
+      "trial": 301,
+      "scenario_id": "scenario_122",
+      "prompt_file": "prompts/detailed/scenario_122.txt",
+      "answer_filename": "scenario_122.txt",
+      "answer_file": "outputs/detailed_llm/scenario_122.txt",
+      "prompt_sha256": "d51ec2c7911f6dce583dacae19eb2535ecf70e26e418039ad6d0e263aaf74991",
+      "status": "not_started"
+    },
+    {
+      "trial": 302,
+      "scenario_id": "scenario_013",
+      "prompt_file": "prompts/detailed/scenario_013.txt",
+      "answer_filename": "scenario_013.txt",
+      "answer_file": "outputs/detailed_llm/scenario_013.txt",
+      "prompt_sha256": "8437715b718536644cbeefe7df49a8d718ff73e7ee52855dca548f9e73696c1e",
+      "status": "not_started"
+    },
+    {
+      "trial": 303,
+      "scenario_id": "scenario_284",
+      "prompt_file": "prompts/detailed/scenario_284.txt",
+      "answer_filename": "scenario_284.txt",
+      "answer_file": "outputs/detailed_llm/scenario_284.txt",
+      "prompt_sha256": "cbcb7345844aaf930afe3f4a0021cee7e2feea3437e6f541f3cf4354e901ae6a",
+      "status": "not_started"
+    },
+    {
+      "trial": 304,
+      "scenario_id": "scenario_139",
+      "prompt_file": "prompts/detailed/scenario_139.txt",
+      "answer_filename": "scenario_139.txt",
+      "answer_file": "outputs/detailed_llm/scenario_139.txt",
+      "prompt_sha256": "05db337dc645a0ceb710142774f152f3c21df47a8e6004f669868a77773dc4a3",
+      "status": "not_started"
+    },
+    {
+      "trial": 305,
+      "scenario_id": "scenario_097",
+      "prompt_file": "prompts/detailed/scenario_097.txt",
+      "answer_filename": "scenario_097.txt",
+      "answer_file": "outputs/detailed_llm/scenario_097.txt",
+      "prompt_sha256": "e235eb9c12a375cea4443da904cbebdb2a782e237895bcd9b8450868e96f53f8",
+      "status": "not_started"
+    },
+    {
+      "trial": 306,
+      "scenario_id": "scenario_030",
+      "prompt_file": "prompts/detailed/scenario_030.txt",
+      "answer_filename": "scenario_030.txt",
+      "answer_file": "outputs/detailed_llm/scenario_030.txt",
+      "prompt_sha256": "36908982d5edd2021fd223a77ea2243540da319a2df3b273a0b6f8c51dec65ab",
+      "status": "not_started"
+    },
+    {
+      "trial": 307,
+      "scenario_id": "scenario_051",
+      "prompt_file": "prompts/detailed/scenario_051.txt",
+      "answer_filename": "scenario_051.txt",
+      "answer_file": "outputs/detailed_llm/scenario_051.txt",
+      "prompt_sha256": "be8046d6688f15af20a51f7269061d6ab388e39c5a84bfc487cf23d336305700",
+      "status": "not_started"
+    },
+    {
+      "trial": 308,
+      "scenario_id": "scenario_271",
+      "prompt_file": "prompts/detailed/scenario_271.txt",
+      "answer_filename": "scenario_271.txt",
+      "answer_file": "outputs/detailed_llm/scenario_271.txt",
+      "prompt_sha256": "28af12dbabf46c695425fd3132c416685f82e3b883108729b258bf977659dbc6",
+      "status": "not_started"
+    },
+    {
+      "trial": 309,
+      "scenario_id": "scenario_295",
+      "prompt_file": "prompts/detailed/scenario_295.txt",
+      "answer_filename": "scenario_295.txt",
+      "answer_file": "outputs/detailed_llm/scenario_295.txt",
+      "prompt_sha256": "4620d86f7bf5a9012fd5951026e0f7cd3d9ebc8f79ae4d616347c79e45bacdd2",
+      "status": "not_started"
+    },
+    {
+      "trial": 310,
+      "scenario_id": "scenario_206",
+      "prompt_file": "prompts/detailed/scenario_206.txt",
+      "answer_filename": "scenario_206.txt",
+      "answer_file": "outputs/detailed_llm/scenario_206.txt",
+      "prompt_sha256": "954ca9dda2385ede0e183252adb8b563fd8e7823b3e395544574688e75c308ca",
+      "status": "not_started"
+    },
+    {
+      "trial": 311,
+      "scenario_id": "scenario_134",
+      "prompt_file": "prompts/detailed/scenario_134.txt",
+      "answer_filename": "scenario_134.txt",
+      "answer_file": "outputs/detailed_llm/scenario_134.txt",
+      "prompt_sha256": "d19d516cb4706262c64a9c913ae5a2e8eb86f8082c6680aaaf081431292c37b2",
+      "status": "not_started"
+    },
+    {
+      "trial": 312,
+      "scenario_id": "scenario_015",
+      "prompt_file": "prompts/detailed/scenario_015.txt",
+      "answer_filename": "scenario_015.txt",
+      "answer_file": "outputs/detailed_llm/scenario_015.txt",
+      "prompt_sha256": "e039d6f0cdc9e704df3a5edcb5264dabf4d8ae1a558c54e0be88116ba941e2a1",
+      "status": "not_started"
+    },
+    {
+      "trial": 313,
+      "scenario_id": "scenario_237",
+      "prompt_file": "prompts/detailed/scenario_237.txt",
+      "answer_filename": "scenario_237.txt",
+      "answer_file": "outputs/detailed_llm/scenario_237.txt",
+      "prompt_sha256": "720d59ef6248ea2a79c167805e87a3b195d415183ded4ba046b8d88298674f82",
+      "status": "not_started"
+    },
+    {
+      "trial": 314,
+      "scenario_id": "scenario_322",
+      "prompt_file": "prompts/detailed/scenario_322.txt",
+      "answer_filename": "scenario_322.txt",
+      "answer_file": "outputs/detailed_llm/scenario_322.txt",
+      "prompt_sha256": "846cf042afdde2ff60cebc2933cd48a8e797e90a9eb2ce2eeef9bf2a9ef2b154",
+      "status": "not_started"
+    },
+    {
+      "trial": 315,
+      "scenario_id": "scenario_262",
+      "prompt_file": "prompts/detailed/scenario_262.txt",
+      "answer_filename": "scenario_262.txt",
+      "answer_file": "outputs/detailed_llm/scenario_262.txt",
+      "prompt_sha256": "4f4a4f66e5a9beb3f48749ba6fb79377d66dca499575d45b11b72d35731fa08a",
+      "status": "not_started"
+    },
+    {
+      "trial": 316,
+      "scenario_id": "scenario_172",
+      "prompt_file": "prompts/detailed/scenario_172.txt",
+      "answer_filename": "scenario_172.txt",
+      "answer_file": "outputs/detailed_llm/scenario_172.txt",
+      "prompt_sha256": "ca20ca408437419023542ae8e4a89c12479287abf3feeec828ec1db7300dbaba",
+      "status": "not_started"
+    },
+    {
+      "trial": 317,
+      "scenario_id": "scenario_101",
+      "prompt_file": "prompts/detailed/scenario_101.txt",
+      "answer_filename": "scenario_101.txt",
+      "answer_file": "outputs/detailed_llm/scenario_101.txt",
+      "prompt_sha256": "60993247ba6bbbd324eb6c79dabe750fc8ddcab2cae27bc658b7b84e91274924",
+      "status": "not_started"
+    },
+    {
+      "trial": 318,
+      "scenario_id": "scenario_181",
+      "prompt_file": "prompts/detailed/scenario_181.txt",
+      "answer_filename": "scenario_181.txt",
+      "answer_file": "outputs/detailed_llm/scenario_181.txt",
+      "prompt_sha256": "1eea8df51508d4c07936743c8aef86c2ffb2f2347e63750f7b0926f34f68994a",
+      "status": "not_started"
+    },
+    {
+      "trial": 319,
+      "scenario_id": "scenario_228",
+      "prompt_file": "prompts/detailed/scenario_228.txt",
+      "answer_filename": "scenario_228.txt",
+      "answer_file": "outputs/detailed_llm/scenario_228.txt",
+      "prompt_sha256": "c0f0af5f59a4491b44a84abb99138c1f6aa4c840cb624e1a5669584e2d142345",
+      "status": "not_started"
+    },
+    {
+      "trial": 320,
+      "scenario_id": "scenario_049",
+      "prompt_file": "prompts/detailed/scenario_049.txt",
+      "answer_filename": "scenario_049.txt",
+      "answer_file": "outputs/detailed_llm/scenario_049.txt",
+      "prompt_sha256": "a8f670fcc5764be71368638e84ef2306d605157c31428afdc2c77cfa6ad6f761",
+      "status": "not_started"
+    },
+    {
+      "trial": 321,
+      "scenario_id": "scenario_110",
+      "prompt_file": "prompts/detailed/scenario_110.txt",
+      "answer_filename": "scenario_110.txt",
+      "answer_file": "outputs/detailed_llm/scenario_110.txt",
+      "prompt_sha256": "b681a5a4b576d9f3819609a00aa23ffb9dea39c6b1e051b796b1373bf449fa5a",
+      "status": "not_started"
+    },
+    {
+      "trial": 322,
+      "scenario_id": "scenario_017",
+      "prompt_file": "prompts/detailed/scenario_017.txt",
+      "answer_filename": "scenario_017.txt",
+      "answer_file": "outputs/detailed_llm/scenario_017.txt",
+      "prompt_sha256": "dbc9b07229638237cc8ff6bb443741fec039ef352e899347d9d44a8523349764",
+      "status": "not_started"
+    },
+    {
+      "trial": 323,
+      "scenario_id": "scenario_144",
+      "prompt_file": "prompts/detailed/scenario_144.txt",
+      "answer_filename": "scenario_144.txt",
+      "answer_file": "outputs/detailed_llm/scenario_144.txt",
+      "prompt_sha256": "0aab2ad31c2626dd38c0873d45b7fb53e1019b8938209dd91223cb992f1ff3fa",
+      "status": "not_started"
+    },
+    {
+      "trial": 324,
+      "scenario_id": "scenario_282",
+      "prompt_file": "prompts/detailed/scenario_282.txt",
+      "answer_filename": "scenario_282.txt",
+      "answer_file": "outputs/detailed_llm/scenario_282.txt",
+      "prompt_sha256": "e0c1e91c6ed92f515bef37f60059eb255c187e9d3c156cd5035ee6356e9b1151",
+      "status": "not_started"
+    }
+  ]
+}

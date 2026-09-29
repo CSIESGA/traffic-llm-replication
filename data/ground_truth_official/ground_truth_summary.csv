@@ -1,0 +1,325 @@
+﻿scenario,vehicle_count,is_conflict,number_of_conflicts,conflict_pairs,ground_truth_backend
+scenario_001,2,True,1,V101--V102,official_zenodo_14171746
+scenario_002,2,False,0,,official_zenodo_14171746
+scenario_003,2,False,0,,official_zenodo_14171746
+scenario_004,2,True,1,V107--V108,official_zenodo_14171746
+scenario_005,3,True,2,V109--V110 | V110--V111,official_zenodo_14171746
+scenario_006,3,True,1,V112--V113,official_zenodo_14171746
+scenario_007,4,True,4,V115--V116 | V115--V118 | V116--V117 | V117--V118,official_zenodo_14171746
+scenario_008,4,True,4,V217--V218 | V217--V220 | V218--V219 | V219--V220,official_zenodo_14171746
+scenario_009,4,True,2,V119--V120 | V121--V122,official_zenodo_14171746
+scenario_010,4,True,4,V123--V124 | V123--V126 | V124--V125 | V125--V126,official_zenodo_14171746
+scenario_011,4,False,0,,official_zenodo_14171746
+scenario_012,5,True,7,V131--V132 | V131--V134 | V132--V133 | V132--V135 | V133--V134 | V133--V135 | V134--V135,official_zenodo_14171746
+scenario_013,5,True,4,V136--V137 | V136--V139 | V137--V138 | V138--V139,official_zenodo_14171746
+scenario_014,5,True,1,V144--V145,official_zenodo_14171746
+scenario_015,6,True,4,V146--V147 | V146--V149 | V147--V148 | V148--V149,official_zenodo_14171746
+scenario_016,6,True,4,V152--V153 | V152--V155 | V153--V154 | V154--V155,official_zenodo_14171746
+scenario_017,7,True,11,V158--V163 | V158--V164 | V159--V162 | V159--V164 | V160--V162 | V160--V163 | V161--V162 | V161--V163 | V161--V164 | V162--V163 | V163--V164,official_zenodo_14171746
+scenario_018,7,True,3,V168--V169 | V169--V170 | V170--V171,official_zenodo_14171746
+scenario_019,8,True,20,V172--V173 | V172--V175 | V172--V177 | V172--V178 | V172--V179 | V173--V174 | V173--V176 | V173--V178 | V173--V179 | V174--V175 | V174--V176 | V174--V177 | V174--V179 | V175--V176 | V175--V177 | V175--V178 | V176--V177 | V176--V179 | V177--V178 | V178--V179,official_zenodo_14171746
+scenario_020,8,True,4,V183--V184 | V184--V185 | V185--V186 | V186--V187,official_zenodo_14171746
+scenario_021,8,True,20,V188--V189 | V188--V191 | V188--V193 | V188--V194 | V188--V195 | V189--V190 | V189--V192 | V189--V194 | V189--V195 | V190--V191 | V190--V192 | V190--V193 | V190--V195 | V191--V192 | V191--V193 | V191--V194 | V192--V193 | V192--V195 | V193--V194 | V194--V195,official_zenodo_14171746
+scenario_022,6,True,6,V196--V197 | V196--V198 | V196--V199 | V197--V199 | V198--V199 | V200--V201,official_zenodo_14171746
+scenario_023,7,True,9,V202--V203 | V202--V204 | V202--V205 | V203--V204 | V203--V205 | V204--V205 | V206--V207 | V206--V208 | V207--V208,official_zenodo_14171746
+scenario_024,8,True,4,V213--V214 | V213--V216 | V214--V215 | V215--V216,official_zenodo_14171746
+scenario_025,4,True,1,V7591--V4891,official_zenodo_14171746
+scenario_026,4,False,0,,official_zenodo_14171746
+scenario_027,4,False,0,,official_zenodo_14171746
+scenario_028,4,True,1,V5238--V2957,official_zenodo_14171746
+scenario_029,4,False,0,,official_zenodo_14171746
+scenario_030,4,True,1,V1292--V7845,official_zenodo_14171746
+scenario_031,4,True,1,V8777--V8122,official_zenodo_14171746
+scenario_032,4,True,1,V2285--V1800,official_zenodo_14171746
+scenario_033,4,False,0,,official_zenodo_14171746
+scenario_034,4,True,1,V7371--V1998,official_zenodo_14171746
+scenario_035,4,False,0,,official_zenodo_14171746
+scenario_036,4,True,1,V9104--V5596,official_zenodo_14171746
+scenario_037,4,True,1,V6837--V5960,official_zenodo_14171746
+scenario_038,4,True,1,V1677--V3252,official_zenodo_14171746
+scenario_039,4,False,0,,official_zenodo_14171746
+scenario_040,4,True,1,V7903--V2912,official_zenodo_14171746
+scenario_041,4,False,0,,official_zenodo_14171746
+scenario_042,4,True,1,V4569--V8300,official_zenodo_14171746
+scenario_043,4,True,1,V9929--V2980,official_zenodo_14171746
+scenario_044,4,True,1,V3065--V9405,official_zenodo_14171746
+scenario_045,4,False,0,,official_zenodo_14171746
+scenario_046,4,True,1,V1895--V2410,official_zenodo_14171746
+scenario_047,4,False,0,,official_zenodo_14171746
+scenario_048,4,False,0,,official_zenodo_14171746
+scenario_049,4,False,0,,official_zenodo_14171746
+scenario_050,4,True,1,V1427--V2066,official_zenodo_14171746
+scenario_051,4,False,0,,official_zenodo_14171746
+scenario_052,4,False,0,,official_zenodo_14171746
+scenario_053,4,False,0,,official_zenodo_14171746
+scenario_054,4,False,0,,official_zenodo_14171746
+scenario_055,4,False,0,,official_zenodo_14171746
+scenario_056,4,False,0,,official_zenodo_14171746
+scenario_057,4,True,1,V8066--V6680,official_zenodo_14171746
+scenario_058,4,True,1,V3082--V9023,official_zenodo_14171746
+scenario_059,4,False,0,,official_zenodo_14171746
+scenario_060,4,False,0,,official_zenodo_14171746
+scenario_061,4,True,2,V5993--V4099 | V5993--V3608,official_zenodo_14171746
+scenario_062,4,True,1,V1833--V2602,official_zenodo_14171746
+scenario_063,4,True,2,V7044--V5141 | V4929--V5141,official_zenodo_14171746
+scenario_064,4,False,0,,official_zenodo_14171746
+scenario_065,4,True,1,V4800--V6365,official_zenodo_14171746
+scenario_066,4,False,0,,official_zenodo_14171746
+scenario_067,4,False,0,,official_zenodo_14171746
+scenario_068,4,False,0,,official_zenodo_14171746
+scenario_069,4,False,0,,official_zenodo_14171746
+scenario_070,4,True,1,V2457--V3310,official_zenodo_14171746
+scenario_071,4,False,0,,official_zenodo_14171746
+scenario_072,4,False,0,,official_zenodo_14171746
+scenario_073,4,True,1,V6853--V2436,official_zenodo_14171746
+scenario_074,4,False,0,,official_zenodo_14171746
+scenario_075,4,True,1,V3254--V9825,official_zenodo_14171746
+scenario_076,4,False,0,,official_zenodo_14171746
+scenario_077,4,True,1,V8396--V2471,official_zenodo_14171746
+scenario_078,4,False,0,,official_zenodo_14171746
+scenario_079,4,False,0,,official_zenodo_14171746
+scenario_080,4,True,2,V4647--V3917 | V6789--V3917,official_zenodo_14171746
+scenario_081,4,True,2,V9512--V8609 | V8609--V5092,official_zenodo_14171746
+scenario_082,4,False,0,,official_zenodo_14171746
+scenario_083,4,True,2,V4909--V4266 | V6219--V9779,official_zenodo_14171746
+scenario_084,4,True,1,V2082--V1626,official_zenodo_14171746
+scenario_085,4,False,0,,official_zenodo_14171746
+scenario_086,4,True,2,V3511--V8859 | V6510--V7686,official_zenodo_14171746
+scenario_087,4,False,0,,official_zenodo_14171746
+scenario_088,4,False,0,,official_zenodo_14171746
+scenario_089,4,True,2,V7202--V5011 | V4454--V5011,official_zenodo_14171746
+scenario_090,4,False,0,,official_zenodo_14171746
+scenario_091,4,True,1,V9626--V5510,official_zenodo_14171746
+scenario_092,4,True,2,V3246--V4728 | V4728--V6709,official_zenodo_14171746
+scenario_093,4,True,1,V9993--V6999,official_zenodo_14171746
+scenario_094,4,False,0,,official_zenodo_14171746
+scenario_095,4,True,2,V4997--V4216 | V8064--V4216,official_zenodo_14171746
+scenario_096,4,False,0,,official_zenodo_14171746
+scenario_097,4,False,0,,official_zenodo_14171746
+scenario_098,4,True,1,V1731--V7111,official_zenodo_14171746
+scenario_099,4,False,0,,official_zenodo_14171746
+scenario_100,4,False,0,,official_zenodo_14171746
+scenario_101,4,False,0,,official_zenodo_14171746
+scenario_102,4,False,0,,official_zenodo_14171746
+scenario_103,4,True,1,V2775--V1947,official_zenodo_14171746
+scenario_104,4,False,0,,official_zenodo_14171746
+scenario_105,4,False,0,,official_zenodo_14171746
+scenario_106,4,True,1,V5982--V7417,official_zenodo_14171746
+scenario_107,4,True,1,V1340--V6845,official_zenodo_14171746
+scenario_108,4,True,1,V1200--V3561,official_zenodo_14171746
+scenario_109,4,True,2,V9877--V8745 | V8745--V7788,official_zenodo_14171746
+scenario_110,4,False,0,,official_zenodo_14171746
+scenario_111,4,False,0,,official_zenodo_14171746
+scenario_112,4,False,0,,official_zenodo_14171746
+scenario_113,4,False,0,,official_zenodo_14171746
+scenario_114,4,False,0,,official_zenodo_14171746
+scenario_115,4,True,1,V7800--V4274,official_zenodo_14171746
+scenario_116,4,False,0,,official_zenodo_14171746
+scenario_117,4,True,2,V8311--V9211 | V9211--V5617,official_zenodo_14171746
+scenario_118,4,True,1,V2315--V1612,official_zenodo_14171746
+scenario_119,4,True,1,V5597--V4151,official_zenodo_14171746
+scenario_120,4,True,2,V6761--V8658 | V3319--V8810,official_zenodo_14171746
+scenario_121,4,True,1,V1518--V7136,official_zenodo_14171746
+scenario_122,4,True,1,V4473--V6508,official_zenodo_14171746
+scenario_123,4,True,1,V4216--V5632,official_zenodo_14171746
+scenario_124,4,True,2,V5994--V3449 | V8438--V3449,official_zenodo_14171746
+scenario_125,8,True,5,V7269--V8902 | V7269--V1907 | V7269--V8285 | V8902--V1907 | V8902--V8285,official_zenodo_14171746
+scenario_126,8,True,1,V3974--V8007,official_zenodo_14171746
+scenario_127,8,True,4,V2165--V4566 | V2165--V1613 | V5721--V4566 | V4566--V1613,official_zenodo_14171746
+scenario_128,8,True,4,V9968--V6134 | V9968--V8406 | V9968--V2347 | V6134--V8406,official_zenodo_14171746
+scenario_129,8,True,1,V7535--V6791,official_zenodo_14171746
+scenario_130,8,True,2,V2150--V9782 | V4032--V9105,official_zenodo_14171746
+scenario_131,8,True,1,V4273--V2209,official_zenodo_14171746
+scenario_132,8,True,2,V1758--V6044 | V9381--V3518,official_zenodo_14171746
+scenario_133,8,False,0,,official_zenodo_14171746
+scenario_134,8,True,1,V3404--V4527,official_zenodo_14171746
+scenario_135,8,True,3,V3078--V7942 | V5630--V9196 | V5068--V9196,official_zenodo_14171746
+scenario_136,8,True,4,V5007--V8173 | V4959--V2333 | V7144--V2333 | V4946--V2333,official_zenodo_14171746
+scenario_137,8,True,3,V6151--V2101 | V3217--V7458 | V1240--V2101,official_zenodo_14171746
+scenario_138,8,True,6,V8905--V8276 | V3499--V3187 | V3499--V1155 | V3499--V3175 | V3187--V3175 | V3187--V8276,official_zenodo_14171746
+scenario_139,8,True,6,V8955--V5379 | V8955--V6444 | V5379--V6444 | V7673--V7582 | V7673--V1341 | V7582--V1341,official_zenodo_14171746
+scenario_140,8,True,3,V8406--V7115 | V8406--V4782 | V8406--V1584,official_zenodo_14171746
+scenario_141,8,True,1,V5824--V2182,official_zenodo_14171746
+scenario_142,8,True,2,V7755--V9433 | V5066--V9666,official_zenodo_14171746
+scenario_143,8,True,1,V6252--V5708,official_zenodo_14171746
+scenario_144,8,True,3,V5762--V7808 | V5906--V7086 | V2358--V7086,official_zenodo_14171746
+scenario_145,8,True,1,V3569--V6674,official_zenodo_14171746
+scenario_146,8,True,5,V9092--V1756 | V1756--V1147 | V9697--V5161 | V1147--V5441 | V1147--V5161,official_zenodo_14171746
+scenario_147,8,True,1,V6806--V3453,official_zenodo_14171746
+scenario_148,8,True,3,V7614--V1312 | V7369--V7987 | V7987--V1375,official_zenodo_14171746
+scenario_149,8,True,3,V2783--V2765 | V4340--V2765 | V8368--V9445,official_zenodo_14171746
+scenario_150,8,True,3,V3395--V3854 | V3395--V7356 | V3854--V7356,official_zenodo_14171746
+scenario_151,8,True,2,V5649--V7507 | V2387--V2896,official_zenodo_14171746
+scenario_152,8,False,0,,official_zenodo_14171746
+scenario_153,8,True,3,V1906--V2740 | V2740--V4326 | V6860--V5085,official_zenodo_14171746
+scenario_154,8,True,4,V8606--V3466 | V8606--V8645 | V1018--V4318 | V3466--V8645,official_zenodo_14171746
+scenario_155,8,True,2,V1179--V2549 | V2549--V7103,official_zenodo_14171746
+scenario_156,8,True,3,V4126--V1026 | V9931--V7379 | V1026--V7976,official_zenodo_14171746
+scenario_157,8,True,2,V7683--V5466 | V6214--V4963,official_zenodo_14171746
+scenario_158,8,True,2,V4666--V8961 | V8255--V8998,official_zenodo_14171746
+scenario_159,8,True,1,V6284--V6278,official_zenodo_14171746
+scenario_160,8,True,3,V8251--V3812 | V8251--V7969 | V7398--V5633,official_zenodo_14171746
+scenario_161,8,True,4,V8960--V6264 | V8960--V5985 | V6264--V6417 | V5985--V6417,official_zenodo_14171746
+scenario_162,8,True,4,V2030--V5157 | V9665--V2871 | V2871--V4790 | V7497--V1130,official_zenodo_14171746
+scenario_163,8,True,3,V2013--V9626 | V2013--V4702 | V4150--V4702,official_zenodo_14171746
+scenario_164,8,True,2,V8169--V9316 | V9316--V5149,official_zenodo_14171746
+scenario_165,8,True,5,V7439--V1235 | V7439--V8262 | V5382--V2743 | V2743--V8656 | V1235--V8262,official_zenodo_14171746
+scenario_166,8,True,2,V8083--V4731 | V3370--V1731,official_zenodo_14171746
+scenario_167,8,True,5,V5150--V8950 | V5150--V5663 | V8950--V5663 | V8950--V7684 | V5663--V7684,official_zenodo_14171746
+scenario_168,8,False,0,,official_zenodo_14171746
+scenario_169,8,True,4,V8607--V4248 | V8756--V9959 | V9959--V1347 | V1791--V1347,official_zenodo_14171746
+scenario_170,8,True,1,V2942--V7665,official_zenodo_14171746
+scenario_171,8,True,4,V8851--V5815 | V5184--V7224 | V2183--V1093 | V3774--V7224,official_zenodo_14171746
+scenario_172,8,True,2,V3473--V2167 | V5141--V2110,official_zenodo_14171746
+scenario_173,8,True,5,V8350--V3310 | V3310--V8693 | V3310--V6348 | V5610--V4777 | V4777--V8693,official_zenodo_14171746
+scenario_174,8,True,1,V8583--V8251,official_zenodo_14171746
+scenario_175,8,True,1,V5311--V6118,official_zenodo_14171746
+scenario_176,8,True,1,V8422--V5967,official_zenodo_14171746
+scenario_177,8,True,2,V2177--V9853 | V9065--V9891,official_zenodo_14171746
+scenario_178,8,False,0,,official_zenodo_14171746
+scenario_179,8,False,0,,official_zenodo_14171746
+scenario_180,8,False,0,,official_zenodo_14171746
+scenario_181,8,False,0,,official_zenodo_14171746
+scenario_182,8,False,0,,official_zenodo_14171746
+scenario_183,8,False,0,,official_zenodo_14171746
+scenario_184,8,False,0,,official_zenodo_14171746
+scenario_185,8,False,0,,official_zenodo_14171746
+scenario_186,8,False,0,,official_zenodo_14171746
+scenario_187,8,False,0,,official_zenodo_14171746
+scenario_188,8,False,0,,official_zenodo_14171746
+scenario_189,8,False,0,,official_zenodo_14171746
+scenario_190,8,False,0,,official_zenodo_14171746
+scenario_191,8,False,0,,official_zenodo_14171746
+scenario_192,8,False,0,,official_zenodo_14171746
+scenario_193,8,False,0,,official_zenodo_14171746
+scenario_194,8,False,0,,official_zenodo_14171746
+scenario_195,8,False,0,,official_zenodo_14171746
+scenario_196,8,False,0,,official_zenodo_14171746
+scenario_197,8,False,0,,official_zenodo_14171746
+scenario_198,8,False,0,,official_zenodo_14171746
+scenario_199,8,False,0,,official_zenodo_14171746
+scenario_200,8,False,0,,official_zenodo_14171746
+scenario_201,8,False,0,,official_zenodo_14171746
+scenario_202,8,False,0,,official_zenodo_14171746
+scenario_203,8,False,0,,official_zenodo_14171746
+scenario_204,8,False,0,,official_zenodo_14171746
+scenario_205,8,False,0,,official_zenodo_14171746
+scenario_206,8,False,0,,official_zenodo_14171746
+scenario_207,8,False,0,,official_zenodo_14171746
+scenario_208,8,False,0,,official_zenodo_14171746
+scenario_209,8,False,0,,official_zenodo_14171746
+scenario_210,8,False,0,,official_zenodo_14171746
+scenario_211,8,False,0,,official_zenodo_14171746
+scenario_212,8,False,0,,official_zenodo_14171746
+scenario_213,8,False,0,,official_zenodo_14171746
+scenario_214,8,False,0,,official_zenodo_14171746
+scenario_215,8,False,0,,official_zenodo_14171746
+scenario_216,8,False,0,,official_zenodo_14171746
+scenario_217,8,False,0,,official_zenodo_14171746
+scenario_218,8,False,0,,official_zenodo_14171746
+scenario_219,8,False,0,,official_zenodo_14171746
+scenario_220,8,False,0,,official_zenodo_14171746
+scenario_221,8,False,0,,official_zenodo_14171746
+scenario_222,8,False,0,,official_zenodo_14171746
+scenario_223,8,False,0,,official_zenodo_14171746
+scenario_224,8,False,0,,official_zenodo_14171746
+scenario_225,5,True,1,V7643--V7858,official_zenodo_14171746
+scenario_226,5,True,1,V9387--V1658,official_zenodo_14171746
+scenario_227,7,True,6,V1754--V7725 | V1651--V1575 | V1651--V5234 | V1734--V1856 | V1734--V5234 | V7725--V1856,official_zenodo_14171746
+scenario_228,6,True,4,V9636--V7841 | V5290--V1988 | V1988--V6482 | V1988--V4814,official_zenodo_14171746
+scenario_229,8,True,6,V4893--V9681 | V4893--V3669 | V9681--V6739 | V9681--V3669 | V3398--V2010 | V1992--V3669,official_zenodo_14171746
+scenario_230,4,False,0,,official_zenodo_14171746
+scenario_231,7,True,3,V4494--V4382 | V4494--V6076 | V4382--V6076,official_zenodo_14171746
+scenario_232,7,True,2,V4917--V9672 | V1986--V7807,official_zenodo_14171746
+scenario_233,5,True,3,V2737--V2036 | V2737--V2201 | V2201--V2608,official_zenodo_14171746
+scenario_234,4,False,0,,official_zenodo_14171746
+scenario_235,7,True,1,V9492--V6204,official_zenodo_14171746
+scenario_236,8,True,1,V5551--V7956,official_zenodo_14171746
+scenario_237,7,True,2,V3263--V5851 | V5996--V9209,official_zenodo_14171746
+scenario_238,3,False,0,,official_zenodo_14171746
+scenario_239,8,True,5,V9094--V2072 | V7638--V2996 | V7638--V5248 | V2996--V4949 | V4949--V5248,official_zenodo_14171746
+scenario_240,3,True,2,V3363--V8450 | V7285--V8450,official_zenodo_14171746
+scenario_241,2,False,0,,official_zenodo_14171746
+scenario_242,8,True,6,V3673--V1774 | V3673--V4529 | V3673--V9201 | V1790--V6616 | V1774--V4529 | V4529--V9201,official_zenodo_14171746
+scenario_243,8,True,1,V1507--V9662,official_zenodo_14171746
+scenario_244,7,True,3,V2430--V1563 | V2430--V7606 | V3518--V7606,official_zenodo_14171746
+scenario_245,5,False,0,,official_zenodo_14171746
+scenario_246,6,True,3,V4581--V3196 | V4581--V9730 | V3196--V9730,official_zenodo_14171746
+scenario_247,5,True,1,V6012--V1825,official_zenodo_14171746
+scenario_248,5,False,0,,official_zenodo_14171746
+scenario_249,6,True,2,V2816--V1952 | V1952--V3220,official_zenodo_14171746
+scenario_250,8,True,3,V3852--V3499 | V4464--V8806 | V4464--V1774,official_zenodo_14171746
+scenario_251,6,True,4,V4139--V6594 | V5507--V3609 | V5507--V6383 | V3609--V6383,official_zenodo_14171746
+scenario_252,6,True,2,V7254--V5302 | V5302--V6717,official_zenodo_14171746
+scenario_253,2,False,0,,official_zenodo_14171746
+scenario_254,7,True,2,V3230--V4826 | V1614--V3875,official_zenodo_14171746
+scenario_255,4,False,0,,official_zenodo_14171746
+scenario_256,7,True,1,V1498--V3394,official_zenodo_14171746
+scenario_257,8,True,2,V9662--V3406 | V2814--V8623,official_zenodo_14171746
+scenario_258,3,False,0,,official_zenodo_14171746
+scenario_259,8,True,4,V1296--V4739 | V1296--V2161 | V7448--V2161 | V4739--V5444,official_zenodo_14171746
+scenario_260,7,True,2,V2208--V1292 | V5489--V1292,official_zenodo_14171746
+scenario_261,4,True,1,V4602--V4121,official_zenodo_14171746
+scenario_262,5,True,3,V8971--V7570 | V8971--V8285 | V7570--V8285,official_zenodo_14171746
+scenario_263,4,True,2,V6290--V4670 | V4670--V9855,official_zenodo_14171746
+scenario_264,3,False,0,,official_zenodo_14171746
+scenario_265,7,False,0,,official_zenodo_14171746
+scenario_266,7,False,0,,official_zenodo_14171746
+scenario_267,6,True,1,V2400--V1427,official_zenodo_14171746
+scenario_268,4,True,2,V6286--V6588 | V8497--V6588,official_zenodo_14171746
+scenario_269,8,True,4,V4034--V3655 | V4034--V3212 | V9619--V3655 | V9619--V3212,official_zenodo_14171746
+scenario_270,6,True,1,V1709--V5361,official_zenodo_14171746
+scenario_271,8,True,1,V1140--V1947,official_zenodo_14171746
+scenario_272,6,True,3,V9011--V1319 | V1319--V5182 | V1319--V2482,official_zenodo_14171746
+scenario_273,8,True,2,V3221--V6316 | V9022--V2758,official_zenodo_14171746
+scenario_274,2,False,0,,official_zenodo_14171746
+scenario_275,8,True,3,V9083--V6766 | V2041--V6766 | V6766--V2583,official_zenodo_14171746
+scenario_276,8,True,4,V1921--V4081 | V1921--V9482 | V4191--V3355 | V4081--V9482,official_zenodo_14171746
+scenario_277,6,True,3,V6776--V2142 | V4750--V7620 | V9662--V7620,official_zenodo_14171746
+scenario_278,6,False,0,,official_zenodo_14171746
+scenario_279,3,False,0,,official_zenodo_14171746
+scenario_280,7,True,2,V4207--V3547 | V8872--V1982,official_zenodo_14171746
+scenario_281,4,False,0,,official_zenodo_14171746
+scenario_282,5,False,0,,official_zenodo_14171746
+scenario_283,5,True,1,V4622--V2101,official_zenodo_14171746
+scenario_284,3,False,0,,official_zenodo_14171746
+scenario_285,8,True,1,V5718--V4075,official_zenodo_14171746
+scenario_286,7,True,2,V3939--V2365 | V2365--V8058,official_zenodo_14171746
+scenario_287,2,False,0,,official_zenodo_14171746
+scenario_288,5,False,0,,official_zenodo_14171746
+scenario_289,3,False,0,,official_zenodo_14171746
+scenario_290,2,False,0,,official_zenodo_14171746
+scenario_291,8,True,1,V1687--V7485,official_zenodo_14171746
+scenario_292,2,False,0,,official_zenodo_14171746
+scenario_293,4,False,0,,official_zenodo_14171746
+scenario_294,5,False,0,,official_zenodo_14171746
+scenario_295,7,True,2,V2565--V9089 | V2565--V6681,official_zenodo_14171746
+scenario_296,8,True,4,V1738--V7373 | V1738--V4183 | V7373--V4183 | V6522--V6448,official_zenodo_14171746
+scenario_297,7,True,2,V8286--V6068 | V1955--V7694,official_zenodo_14171746
+scenario_298,8,True,1,V9802--V2985,official_zenodo_14171746
+scenario_299,2,True,1,V4924--V9066,official_zenodo_14171746
+scenario_300,4,False,0,,official_zenodo_14171746
+scenario_301,4,False,0,,official_zenodo_14171746
+scenario_302,5,False,0,,official_zenodo_14171746
+scenario_303,2,False,0,,official_zenodo_14171746
+scenario_304,2,False,0,,official_zenodo_14171746
+scenario_305,2,False,0,,official_zenodo_14171746
+scenario_306,4,False,0,,official_zenodo_14171746
+scenario_307,2,False,0,,official_zenodo_14171746
+scenario_308,4,False,0,,official_zenodo_14171746
+scenario_309,5,False,0,,official_zenodo_14171746
+scenario_310,3,False,0,,official_zenodo_14171746
+scenario_311,4,False,0,,official_zenodo_14171746
+scenario_312,2,False,0,,official_zenodo_14171746
+scenario_313,2,False,0,,official_zenodo_14171746
+scenario_314,3,False,0,,official_zenodo_14171746
+scenario_315,2,False,0,,official_zenodo_14171746
+scenario_316,3,False,0,,official_zenodo_14171746
+scenario_317,3,False,0,,official_zenodo_14171746
+scenario_318,5,False,0,,official_zenodo_14171746
+scenario_319,4,False,0,,official_zenodo_14171746
+scenario_320,2,False,0,,official_zenodo_14171746
+scenario_321,3,False,0,,official_zenodo_14171746
+scenario_322,3,False,0,,official_zenodo_14171746
+scenario_323,4,False,0,,official_zenodo_14171746
+scenario_324,6,False,0,,official_zenodo_14171746

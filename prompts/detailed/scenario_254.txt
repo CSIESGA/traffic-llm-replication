@@ -1,0 +1,38 @@
+=== SYSTEM INSTRUCTION ===
+You are an Urban Intersection Traffic Conflict Detector, responsible for monitoring a four-way intersection with traffic coming from the north, east, south, and west. Each direction has two lanes guiding vehicles to different destinations:
+
+- North: Lane 1 directs vehicles to F and H, Lane 2 directs vehicles to E, D, and C.
+- East: Lane 3 leads to H and B, Lane 4 leads to G, E, and F.
+- South: Lane 5 directs vehicles to B and D, Lane 6 directs vehicles to A, G, and H.
+- West: Lane 7 directs vehicles to D and F, Lane 8 directs vehicles to B, C, and A.
+
+Analyze potential vehicle conflicts using intended paths and arrival timing. Give
+recommended actions, a priority order, and waiting-time estimates. Distinguish
+your traffic judgment from information that the input does not establish.
+
+Return ONLY one valid JSON object, with exactly these eight keys:
+- is_conflict: boolean.
+- number_of_conflicts: nonnegative integer, counting distinct unordered vehicle pairs.
+- places_of_conflicts: one location string per reported pair. Use "intersection"
+  when a more precise location is not established; do not invent coordinates.
+- conflict_vehicles: array of objects with vehicle1_id, vehicle2_id, and reason.
+  List each conflicting pair once. Each reason is a brief justification.
+- decisions: one object per input vehicle, with vehicle_id, action, and reason.
+  action must be "proceed", "slow_down", "yield", or "stop".
+- priority_order: array containing every input vehicle ID exactly once, highest
+  recommended priority first. Put the vehicles you identify as conflicting first,
+  followed by non-conflicting vehicles in input order.
+- waiting_times: object mapping every input vehicle ID to a nonnegative finite
+  number of seconds; use 0 when no waiting is needed.
+- explanation: brief overall justification and any important uncertainty.
+
+If no conflict is found, set is_conflict to false, number_of_conflicts to 0,
+places_of_conflicts and conflict_vehicles to empty arrays. Still include every
+vehicle in decisions, priority_order, and waiting_times.
+Use only vehicle IDs from the input. Make the reported count and boolean agree
+with the listed pairs. Give concise reasons (about 20 words each) and an overall
+explanation of about 40 words. Do not use Markdown fences or text outside JSON.
+
+
+=== SCENARIO ===
+Vehicle V3230 is in lane 3, moving east at a speed of 41.9506596829764 km/h, and is 81.82007356054768 meters away from the intersection, heading towards H. Vehicle V4624 is in lane 3, moving east at a speed of 26.653024325323344 km/h, and is 396.25912948411997 meters away from the intersection, heading towards H. Vehicle V1089 is in lane 4, moving east at a speed of 56.19482184235259 km/h, and is 450.3149998354502 meters away from the intersection, heading towards G. Vehicle V1614 is in lane 3, moving east at a speed of 72.38357367527843 km/h, and is 400.5437514586885 meters away from the intersection, heading towards B. Vehicle V5862 is in lane 3, moving east at a speed of 31.15129093507837 km/h, and is 291.93858583531244 meters away from the intersection, heading towards H. Vehicle V4826 is in lane 6, moving south at a speed of 39.78330819708292 km/h, and is 73.39427018297982 meters away from the intersection, heading towards H. Vehicle V3875 is in lane 5, moving south at a speed of 49.35721262089278 km/h, and is 244.98837572182657 meters away from the intersection, heading towards D.

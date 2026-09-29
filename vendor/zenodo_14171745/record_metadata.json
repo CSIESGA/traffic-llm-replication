@@ -1,0 +1,120 @@
+{
+  "created": "2024-11-15T20:39:51.463019+00:00",
+  "modified": "2024-11-15T20:39:51.789017+00:00",
+  "id": 14171746,
+  "conceptrecid": "14171745",
+  "doi": "10.5281/zenodo.14171746",
+  "conceptdoi": "10.5281/zenodo.14171745",
+  "doi_url": "https://doi.org/10.5281/zenodo.14171746",
+  "metadata": {
+    "title": "sarimasri3/Intersection-Conflict-Detection: Initial Release of Intersection Conflict Detection System",
+    "doi": "10.5281/zenodo.14171746",
+    "publication_date": "2024-11-15",
+    "description": "<p>This is the initial release of the Intersection Conflict Detection and Management System.</p>\n<h3>Key Features:</h3>\n<ul>\n<li><strong>Conflict Detection</strong>: Detects potential conflicts between vehicles at intersections using AI.</li>\n<li><strong>Priority Assignment</strong>: Applies traffic rules to assign priority levels to vehicles.</li>\n<li><strong>Waiting Time Calculation</strong>: Computes waiting times for vehicles to resolve conflicts.</li>\n<li><strong>Data Generation</strong>: Generates datasets with realistic intersection scenarios for training AI models.</li>\n<li><strong>GPT Fine-Tuning</strong>: Fine-tunes GPT models for traffic conflict classification.</li>\n<li><strong>LLAMA Fine-Tuning</strong>: Leverages LLAMA models for conflict detection with high accuracy.</li>\n<li><strong>Unit Testing</strong>: Includes comprehensive unit tests to ensure reliability.</li>\n</ul>\n<h3>Repository Structure:</h3>\n<ul>\n<li><strong>src/</strong>: Core functionality for conflict detection and data generation.</li>\n<li><strong>gpt_finetuning/</strong>: Scripts for fine-tuning GPT models.</li>\n<li><strong>llama_finetuning/</strong>: Scripts for fine-tuning LLAMA models.</li>\n<li><strong>tests/</strong>: Unit tests for the system.</li>\n<li><strong>data/</strong>: Contains datasets and intersection layout details.</li>\n<li><strong>images/</strong>: Illustrative figures and workflow diagrams.</li>\n</ul>\n<h3>Installation:</h3>\n<p>Refer to the <a href=\"https://github.com/sarimasri3/Intersection-Conflict-Detection#readme\">README.md</a> for detailed installation and usage instructions.</p>\n<h3>Related Research:</h3>\n<p>This release is part of the research described in the paper:\n<strong>&quot;Leveraging Large Language Models (LLMs) for Traffic Management at Urban Intersections: The Case of Mixed Traffic Scenarios&quot;</strong></p>\n<ul>\n<li><strong>Authors</strong>: Sari Masri, Huthaifa I. Ashqar, Mohammed Elhenawy</li>\n<li><strong>Preprint Link</strong>: <a href=\"https://arxiv.org/abs/2408.00948\">arXiv:2408.00948</a></li>\n</ul>\n<h3>Licensing:</h3>\n<p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for more details.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "sarimasri3",
+        "affiliation": null
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/sarimasri3/Intersection-Conflict-Detection/tree/v1.0.0",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "version": "v1.0.0",
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14171745"
+          }
+        }
+      ]
+    }
+  },
+  "title": "sarimasri3/Intersection-Conflict-Detection: Initial Release of Intersection Conflict Detection System",
+  "links": {
+    "self": "https://zenodo.org/api/records/14171746",
+    "self_html": "https://zenodo.org/records/14171746",
+    "preview_html": "https://zenodo.org/records/14171746?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.14171746",
+    "self_doi": "https://doi.org/10.5281/zenodo.14171746",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14171746",
+    "reserve_doi": "https://zenodo.org/api/records/14171746/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/14171745",
+    "parent_html": "https://zenodo.org/records/14171745",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14171745",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14171745",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14171746/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14171746/sequence/default",
+    "files": "https://zenodo.org/api/records/14171746/files",
+    "media_files": "https://zenodo.org/api/records/14171746/media-files",
+    "archive": "https://zenodo.org/api/records/14171746/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14171746/media-files-archive",
+    "latest": "https://zenodo.org/api/records/14171746/versions/latest",
+    "latest_html": "https://zenodo.org/records/14171746/latest",
+    "versions": "https://zenodo.org/api/records/14171746/versions",
+    "draft": "https://zenodo.org/api/records/14171746/draft",
+    "access_links": "https://zenodo.org/api/records/14171746/access/links",
+    "access_grants": "https://zenodo.org/api/records/14171746/access/grants",
+    "access_users": "https://zenodo.org/api/records/14171746/access/users",
+    "access_request": "https://zenodo.org/api/records/14171746/access/request",
+    "access": "https://zenodo.org/api/records/14171746/access",
+    "communities": "https://zenodo.org/api/records/14171746/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14171746/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/14171746/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/14171746/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/14171746/quota-increase",
+    "requests": "https://zenodo.org/api/records/14171746/requests"
+  },
+  "updated": "2024-11-15T20:39:51.789017+00:00",
+  "recid": "14171746",
+  "revision": 4,
+  "files": [
+    {
+      "id": "2e895dee-bbdb-4d8d-ad2e-e90f3ce91976",
+      "key": "sarimasri3/Intersection-Conflict-Detection-v1.0.0.zip",
+      "size": 851346,
+      "checksum": "md5:c51e921f9273d26fc9f9f08a0b4ef541",
+      "links": {
+        "self": "https://zenodo.org/api/records/14171746/files/sarimasri3/Intersection-Conflict-Detection-v1.0.0.zip/content"
+      }
+    }
+  ],
+  "swh": {
+    "swhid": "swh:1:dir:d25966f2b1980710a274cd04a0c5ff7f79ffaaf1;origin=https://doi.org/10.5281/zenodo.14171745;visit=swh:1:snp:8ceb1674fff7b93776125958b6d57ecda73beb39;anchor=swh:1:rel:a3d6befd4f5f7cdd636c7043900150a834264d48;path=/"
+  },
+  "owners": [
+    {
+      "id": "1220741"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 61,
+    "unique_downloads": 60,
+    "views": 312,
+    "unique_views": 297,
+    "version_downloads": 61,
+    "version_unique_downloads": 60,
+    "version_unique_views": 297,
+    "version_views": 312
+  },
+  "state": "done",
+  "submitted": true
+}

@@ -1,0 +1,12 @@
+=== SYSTEM INSTRUCTION ===
+You are an Urban Intersection Traffic Conflict Detector, responsible for monitoring a four-way intersection with traffic coming from the north, east, south, and west. Each direction has two lanes guiding vehicles to different destinations:
+
+- North: Lane 1 directs vehicles to F and H, Lane 2 directs vehicles to E, D, and C.
+- East: Lane 3 leads to H and B, Lane 4 leads to G, E, and F.
+- South: Lane 5 directs vehicles to B and D, Lane 6 directs vehicles to A, G, and H.
+- West: Lane 7 directs vehicles to D and F, Lane 8 directs vehicles to B, C, and A.
+
+Analyze the traffic data from all directions and lanes, and determine if there is a potential conflict between vehicles at the intersection. Respond only with 'yes' or 'no'.
+
+=== SCENARIO ===
+Analyze the following scenario and determine if there is a conflict (Respond only with 'yes' or 'no'): Vehicle V1358 is in lane 6, moving south at a speed of 20.07 km/h, and is 200.06 meters away from the intersection, heading towards A. Vehicle V7220 is in lane 6, moving south at a speed of 21.83 km/h, and is 366.10 meters away from the intersection, heading towards H. Vehicle V1441 is in lane 2, moving north at a speed of 32.85 km/h, and is 317.88 meters away from the intersection, heading towards C. Vehicle V6865 is in lane 4, moving east at a speed of 70.87 km/h, and is 108.65 meters away from the intersection, heading towards F. Vehicle V2150 is in lane 4, moving east at a speed of 76.37 km/h, and is 371.10 meters away from the intersection, heading towards E. Vehicle V4032 is in lane 3, moving east at a speed of 78.81 km/h, and is 310.05 meters away from the intersection, heading towards H. Vehicle V9782 is in lane 1, moving north at a speed of 52.66 km/h, and is 282.86 meters away from the intersection, heading towards F. Vehicle V9105 is in lane 8, moving west at a speed of 41.49 km/h, and is 126.15 meters away from the intersection, heading towards B.

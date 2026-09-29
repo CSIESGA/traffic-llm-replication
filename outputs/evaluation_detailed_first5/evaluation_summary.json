@@ -1,0 +1,4787 @@
+{
+  "task": "detailed_conflict_output_comparison",
+  "protocol": "project_detailed_v1_full_precision",
+  "created_at_utc": "2026-09-29T01:31:22.260347+00:00",
+  "status": "partial",
+  "n_expected": 324,
+  "n_evaluated": 5,
+  "coverage": 0.015432098765432098,
+  "status_counts": {
+    "missing_prediction": 319,
+    "evaluated": 5
+  },
+  "binary": {
+    "TP": 2,
+    "TN": 1,
+    "FP": 1,
+    "FN": 1,
+    "accuracy": 0.6,
+    "precision": 0.666667,
+    "recall": 0.666667,
+    "f1": 0.666667
+  },
+  "conflict_pairs": {
+    "tp": 1,
+    "fp": 3,
+    "fn": 7,
+    "precision": 0.25,
+    "recall": 0.125,
+    "f1": 0.16666666666666666,
+    "scenario_exact_rate": 0.2,
+    "positive_scenario_exact_rate": 0.0,
+    "n_positive_scenarios_evaluated": 3
+  },
+  "reported_conflict_count": {
+    "exact_rate": 0.2,
+    "mae": 1.6
+  },
+  "actions": {
+    "n_vehicles": 27,
+    "vehicle_accuracy": 0.7037037037037037,
+    "scenario_exact_rate": 0.2,
+    "confusion": {
+      "proceed->proceed": 18,
+      "yield->proceed": 5,
+      "yield->yield": 1,
+      "proceed->yield": 2,
+      "proceed->slow_down": 1
+    }
+  },
+  "priority": {
+    "n_applicable_scenarios": 3,
+    "order_exact_rate": 0.3333333333333333,
+    "n_ranked_vehicles": 10,
+    "rank_accuracy": 0.5,
+    "pairwise_order_accuracy": 0.8235294117647058
+  },
+  "waiting": {
+    "all_vehicles": {
+      "n_vehicles": 27,
+      "mae_seconds": 0.6296296296296297,
+      "within_tolerance_rate": 0.7037037037037037
+    },
+    "gt_conflicting_vehicles": {
+      "n_vehicles": 10,
+      "mae_seconds": 0.9,
+      "within_tolerance_rate": 0.5
+    },
+    "scenario_exact_rate": 0.2
+  },
+  "places_coarse_exact_rate": 0.2,
+  "all_scored_fields_exact_rate": 0.2,
+  "n_inconsistent_predictions": 0,
+  "n_fenced_json_predictions": 0,
+  "reason_and_explanation_semantic_score": null,
+  "by_group": {
+    "eight": {
+      "n_expected": 100,
+      "n_evaluated": 2,
+      "coverage": 0.02,
+      "status_counts": {
+        "missing_prediction": 98,
+        "evaluated": 2
+      },
+      "binary": {
+        "TP": 2,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "conflict_pairs": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 6,
+        "precision": 0.3333333333333333,
+        "recall": 0.14285714285714285,
+        "f1": 0.2,
+        "scenario_exact_rate": 0.0,
+        "positive_scenario_exact_rate": 0.0,
+        "n_positive_scenarios_evaluated": 2
+      },
+      "reported_conflict_count": {
+        "exact_rate": 0.0,
+        "mae": 3.0
+      },
+      "actions": {
+        "n_vehicles": 16,
+        "vehicle_accuracy": 0.625,
+        "scenario_exact_rate": 0.0,
+        "confusion": {
+          "proceed->proceed": 9,
+          "yield->yield": 1,
+          "yield->proceed": 4,
+          "proceed->yield": 1,
+          "proceed->slow_down": 1
+        }
+      },
+      "priority": {
+        "n_applicable_scenarios": 2,
+        "order_exact_rate": 0.0,
+        "n_ranked_vehicles": 8,
+        "rank_accuracy": 0.375,
+        "pairwise_order_accuracy": 0.8125
+      },
+      "waiting": {
+        "all_vehicles": {
+          "n_vehicles": 16,
+          "mae_seconds": 0.8125,
+          "within_tolerance_rate": 0.625
+        },
+        "gt_conflicting_vehicles": {
+          "n_vehicles": 8,
+          "mae_seconds": 1.0,
+          "within_tolerance_rate": 0.5
+        },
+        "scenario_exact_rate": 0.0
+      },
+      "places_coarse_exact_rate": 0.0,
+      "all_scored_fields_exact_rate": 0.0,
+      "n_inconsistent_predictions": 0,
+      "n_fenced_json_predictions": 0,
+      "reason_and_explanation_semantic_score": null
+    },
+    "four": {
+      "n_expected": 100,
+      "n_evaluated": 1,
+      "coverage": 0.01,
+      "status_counts": {
+        "missing_prediction": 99,
+        "evaluated": 1
+      },
+      "binary": {
+        "TP": 0,
+        "TN": 0,
+        "FP": 0,
+        "FN": 1,
+        "accuracy": 0.0,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "conflict_pairs": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "scenario_exact_rate": 0.0,
+        "positive_scenario_exact_rate": 0.0,
+        "n_positive_scenarios_evaluated": 1
+      },
+      "reported_conflict_count": {
+        "exact_rate": 0.0,
+        "mae": 1.0
+      },
+      "actions": {
+        "n_vehicles": 4,
+        "vehicle_accuracy": 0.75,
+        "scenario_exact_rate": 0.0,
+        "confusion": {
+          "proceed->proceed": 3,
+          "yield->proceed": 1
+        }
+      },
+      "priority": {
+        "n_applicable_scenarios": 1,
+        "order_exact_rate": 1.0,
+        "n_ranked_vehicles": 2,
+        "rank_accuracy": 1.0,
+        "pairwise_order_accuracy": 1.0
+      },
+      "waiting": {
+        "all_vehicles": {
+          "n_vehicles": 4,
+          "mae_seconds": 0.25,
+          "within_tolerance_rate": 0.75
+        },
+        "gt_conflicting_vehicles": {
+          "n_vehicles": 2,
+          "mae_seconds": 0.5,
+          "within_tolerance_rate": 0.5
+        },
+        "scenario_exact_rate": 0.0
+      },
+      "places_coarse_exact_rate": 0.0,
+      "all_scored_fields_exact_rate": 0.0,
+      "n_inconsistent_predictions": 0,
+      "n_fenced_json_predictions": 0,
+      "reason_and_explanation_semantic_score": null
+    },
+    "mixed": {
+      "n_expected": 100,
+      "n_evaluated": 1,
+      "coverage": 0.01,
+      "status_counts": {
+        "missing_prediction": 99,
+        "evaluated": 1
+      },
+      "binary": {
+        "TP": 0,
+        "TN": 0,
+        "FP": 1,
+        "FN": 0,
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": null,
+        "f1": 0.0
+      },
+      "conflict_pairs": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": null,
+        "f1": 0.0,
+        "scenario_exact_rate": 0.0,
+        "positive_scenario_exact_rate": null,
+        "n_positive_scenarios_evaluated": 0
+      },
+      "reported_conflict_count": {
+        "exact_rate": 0.0,
+        "mae": 1.0
+      },
+      "actions": {
+        "n_vehicles": 5,
+        "vehicle_accuracy": 0.8,
+        "scenario_exact_rate": 0.0,
+        "confusion": {
+          "proceed->proceed": 4,
+          "proceed->yield": 1
+        }
+      },
+      "priority": {
+        "n_applicable_scenarios": 0,
+        "order_exact_rate": null,
+        "n_ranked_vehicles": 0,
+        "rank_accuracy": null,
+        "pairwise_order_accuracy": null
+      },
+      "waiting": {
+        "all_vehicles": {
+          "n_vehicles": 5,
+          "mae_seconds": 0.6,
+          "within_tolerance_rate": 0.8
+        },
+        "gt_conflicting_vehicles": {
+          "n_vehicles": 0,
+          "mae_seconds": null,
+          "within_tolerance_rate": null
+        },
+        "scenario_exact_rate": 0.0
+      },
+      "places_coarse_exact_rate": 0.0,
+      "all_scored_fields_exact_rate": 0.0,
+      "n_inconsistent_predictions": 0,
+      "n_fenced_json_predictions": 0,
+      "reason_and_explanation_semantic_score": null
+    },
+    "original_or_unassigned": {
+      "n_expected": 24,
+      "n_evaluated": 1,
+      "coverage": 0.041666666666666664,
+      "status_counts": {
+        "missing_prediction": 23,
+        "evaluated": 1
+      },
+      "binary": {
+        "TP": 0,
+        "TN": 1,
+        "FP": 0,
+        "FN": 0,
+        "accuracy": 1.0,
+        "precision": null,
+        "recall": null,
+        "f1": null
+      },
+      "conflict_pairs": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "scenario_exact_rate": 1.0,
+        "positive_scenario_exact_rate": null,
+        "n_positive_scenarios_evaluated": 0
+      },
+      "reported_conflict_count": {
+        "exact_rate": 1.0,
+        "mae": 0.0
+      },
+      "actions": {
+        "n_vehicles": 2,
+        "vehicle_accuracy": 1.0,
+        "scenario_exact_rate": 1.0,
+        "confusion": {
+          "proceed->proceed": 2
+        }
+      },
+      "priority": {
+        "n_applicable_scenarios": 0,
+        "order_exact_rate": null,
+        "n_ranked_vehicles": 0,
+        "rank_accuracy": null,
+        "pairwise_order_accuracy": null
+      },
+      "waiting": {
+        "all_vehicles": {
+          "n_vehicles": 2,
+          "mae_seconds": 0.0,
+          "within_tolerance_rate": 1.0
+        },
+        "gt_conflicting_vehicles": {
+          "n_vehicles": 0,
+          "mae_seconds": null,
+          "within_tolerance_rate": null
+        },
+        "scenario_exact_rate": 1.0
+      },
+      "places_coarse_exact_rate": 1.0,
+      "all_scored_fields_exact_rate": 1.0,
+      "n_inconsistent_predictions": 0,
+      "n_fenced_json_predictions": 0,
+      "reason_and_explanation_semantic_score": null
+    }
+  },
+  "by_ground_truth_consistency": {
+    "no_pair_global_rank_disagreement": {
+      "n_expected": 272,
+      "n_evaluated": 4,
+      "coverage": 0.014705882352941176,
+      "status_counts": {
+        "evaluated": 4,
+        "missing_prediction": 268
+      },
+      "binary": {
+        "TP": 1,
+        "TN": 1,
+        "FP": 1,
+        "FN": 1,
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      },
+      "conflict_pairs": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "scenario_exact_rate": 0.25,
+        "positive_scenario_exact_rate": 0.0,
+        "n_positive_scenarios_evaluated": 2
+      },
+      "reported_conflict_count": {
+        "exact_rate": 0.25,
+        "mae": 0.75
+      },
+      "actions": {
+        "n_vehicles": 19,
+        "vehicle_accuracy": 0.7368421052631579,
+        "scenario_exact_rate": 0.25,
+        "confusion": {
+          "proceed->proceed": 14,
+          "yield->proceed": 2,
+          "proceed->yield": 2,
+          "proceed->slow_down": 1
+        }
+      },
+      "priority": {
+        "n_applicable_scenarios": 2,
+        "order_exact_rate": 0.5,
+        "n_ranked_vehicles": 4,
+        "rank_accuracy": 0.5,
+        "pairwise_order_accuracy": 0.5
+      },
+      "waiting": {
+        "all_vehicles": {
+          "n_vehicles": 19,
+          "mae_seconds": 0.47368421052631576,
+          "within_tolerance_rate": 0.7894736842105263
+        },
+        "gt_conflicting_vehicles": {
+          "n_vehicles": 4,
+          "mae_seconds": 0.25,
+          "within_tolerance_rate": 0.75
+        },
+        "scenario_exact_rate": 0.25
+      },
+      "places_coarse_exact_rate": 0.25,
+      "all_scored_fields_exact_rate": 0.25,
+      "n_inconsistent_predictions": 0,
+      "n_fenced_json_predictions": 0,
+      "reason_and_explanation_semantic_score": null
+    },
+    "pair_global_rank_disagreement": {
+      "n_expected": 52,
+      "n_evaluated": 1,
+      "coverage": 0.019230769230769232,
+      "status_counts": {
+        "missing_prediction": 51,
+        "evaluated": 1
+      },
+      "binary": {
+        "TP": 1,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "conflict_pairs": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 5,
+        "precision": 1.0,
+        "recall": 0.16666666666666666,
+        "f1": 0.2857142857142857,
+        "scenario_exact_rate": 0.0,
+        "positive_scenario_exact_rate": 0.0,
+        "n_positive_scenarios_evaluated": 1
+      },
+      "reported_conflict_count": {
+        "exact_rate": 0.0,
+        "mae": 5.0
+      },
+      "actions": {
+        "n_vehicles": 8,
+        "vehicle_accuracy": 0.625,
+        "scenario_exact_rate": 0.0,
+        "confusion": {
+          "proceed->proceed": 4,
+          "yield->yield": 1,
+          "yield->proceed": 3
+        }
+      },
+      "priority": {
+        "n_applicable_scenarios": 1,
+        "order_exact_rate": 0.0,
+        "n_ranked_vehicles": 6,
+        "rank_accuracy": 0.5,
+        "pairwise_order_accuracy": 0.8666666666666667
+      },
+      "waiting": {
+        "all_vehicles": {
+          "n_vehicles": 8,
+          "mae_seconds": 1.0,
+          "within_tolerance_rate": 0.5
+        },
+        "gt_conflicting_vehicles": {
+          "n_vehicles": 6,
+          "mae_seconds": 1.3333333333333333,
+          "within_tolerance_rate": 0.3333333333333333
+        },
+        "scenario_exact_rate": 0.0
+      },
+      "places_coarse_exact_rate": 0.0,
+      "all_scored_fields_exact_rate": 0.0,
+      "n_inconsistent_predictions": 0,
+      "n_fenced_json_predictions": 0,
+      "reason_and_explanation_semantic_score": null
+    }
+  },
+  "waiting_tolerance_seconds": 1e-06,
+  "ground_truth_warning_scenarios": [
+    {
+      "scenario": "scenario_001",
+      "warnings": [
+        "pair_yield_vs_global_rank:V101->V102"
+      ]
+    },
+    {
+      "scenario": "scenario_004",
+      "warnings": [
+        "pair_yield_vs_global_rank:V107->V108"
+      ]
+    },
+    {
+      "scenario": "scenario_005",
+      "warnings": [
+        "pair_yield_vs_global_rank:V109->V110",
+        "pair_yield_vs_global_rank:V110->V111"
+      ]
+    },
+    {
+      "scenario": "scenario_007",
+      "warnings": [
+        "pair_yield_vs_global_rank:V115->V116"
+      ]
+    },
+    {
+      "scenario": "scenario_008",
+      "warnings": [
+        "pair_yield_vs_global_rank:V217->V218",
+        "pair_yield_vs_global_rank:V218->V219",
+        "pair_yield_vs_global_rank:V219->V220"
+      ]
+    },
+    {
+      "scenario": "scenario_009",
+      "warnings": [
+        "pair_yield_vs_global_rank:V120->V119"
+      ]
+    },
+    {
+      "scenario": "scenario_010",
+      "warnings": [
+        "pair_yield_vs_global_rank:V123->V124",
+        "pair_yield_vs_global_rank:V125->V126"
+      ]
+    },
+    {
+      "scenario": "scenario_012",
+      "warnings": [
+        "pair_yield_vs_global_rank:V131->V132",
+        "pair_yield_vs_global_rank:V132->V133",
+        "pair_yield_vs_global_rank:V133->V134"
+      ]
+    },
+    {
+      "scenario": "scenario_013",
+      "warnings": [
+        "pair_yield_vs_global_rank:V136->V137",
+        "pair_yield_vs_global_rank:V137->V138"
+      ]
+    },
+    {
+      "scenario": "scenario_015",
+      "warnings": [
+        "pair_yield_vs_global_rank:V146->V147",
+        "pair_yield_vs_global_rank:V148->V149"
+      ]
+    },
+    {
+      "scenario": "scenario_016",
+      "warnings": [
+        "pair_yield_vs_global_rank:V152->V153",
+        "pair_yield_vs_global_rank:V153->V154",
+        "pair_yield_vs_global_rank:V154->V155"
+      ]
+    },
+    {
+      "scenario": "scenario_017",
+      "warnings": [
+        "pair_yield_vs_global_rank:V162->V163",
+        "pair_yield_vs_global_rank:V163->V164"
+      ]
+    },
+    {
+      "scenario": "scenario_019",
+      "warnings": [
+        "pair_yield_vs_global_rank:V172->V173",
+        "pair_yield_vs_global_rank:V173->V174",
+        "pair_yield_vs_global_rank:V173->V176",
+        "pair_yield_vs_global_rank:V174->V175",
+        "pair_yield_vs_global_rank:V174->V176",
+        "pair_yield_vs_global_rank:V174->V177",
+        "pair_yield_vs_global_rank:V175->V176",
+        "pair_yield_vs_global_rank:V175->V177",
+        "pair_yield_vs_global_rank:V175->V178",
+        "pair_yield_vs_global_rank:V176->V177",
+        "pair_yield_vs_global_rank:V177->V178",
+        "pair_yield_vs_global_rank:V178->V179"
+      ]
+    },
+    {
+      "scenario": "scenario_021",
+      "warnings": [
+        "pair_yield_vs_global_rank:V188->V189",
+        "pair_yield_vs_global_rank:V189->V190",
+        "pair_yield_vs_global_rank:V190->V191",
+        "pair_yield_vs_global_rank:V192->V193",
+        "pair_yield_vs_global_rank:V193->V194",
+        "pair_yield_vs_global_rank:V194->V195"
+      ]
+    },
+    {
+      "scenario": "scenario_022",
+      "warnings": [
+        "pair_yield_vs_global_rank:V196->V197",
+        "pair_yield_vs_global_rank:V199->V197"
+      ]
+    },
+    {
+      "scenario": "scenario_023",
+      "warnings": [
+        "pair_yield_vs_global_rank:V203->V204",
+        "pair_yield_vs_global_rank:V203->V205",
+        "pair_yield_vs_global_rank:V204->V205"
+      ]
+    },
+    {
+      "scenario": "scenario_024",
+      "warnings": [
+        "pair_yield_vs_global_rank:V213->V214",
+        "pair_yield_vs_global_rank:V214->V215",
+        "pair_yield_vs_global_rank:V215->V216"
+      ]
+    },
+    {
+      "scenario": "scenario_032",
+      "warnings": [
+        "pair_yield_vs_global_rank:V2285->V1800"
+      ]
+    },
+    {
+      "scenario": "scenario_075",
+      "warnings": [
+        "pair_yield_vs_global_rank:V9825->V3254"
+      ]
+    },
+    {
+      "scenario": "scenario_080",
+      "warnings": [
+        "pair_yield_vs_global_rank:V3917->V4647"
+      ]
+    },
+    {
+      "scenario": "scenario_091",
+      "warnings": [
+        "pair_yield_vs_global_rank:V5510->V9626"
+      ]
+    },
+    {
+      "scenario": "scenario_127",
+      "warnings": [
+        "pair_yield_vs_global_rank:V4566->V5721"
+      ]
+    },
+    {
+      "scenario": "scenario_131",
+      "warnings": [
+        "pair_yield_vs_global_rank:V4273->V2209"
+      ]
+    },
+    {
+      "scenario": "scenario_137",
+      "warnings": [
+        "pair_yield_vs_global_rank:V3217->V7458"
+      ]
+    },
+    {
+      "scenario": "scenario_138",
+      "warnings": [
+        "pair_yield_vs_global_rank:V3187->V3499"
+      ]
+    },
+    {
+      "scenario": "scenario_139",
+      "warnings": [
+        "pair_yield_vs_global_rank:V8955->V5379",
+        "pair_yield_vs_global_rank:V6444->V8955",
+        "pair_yield_vs_global_rank:V6444->V5379"
+      ]
+    },
+    {
+      "scenario": "scenario_140",
+      "warnings": [
+        "pair_yield_vs_global_rank:V8406->V1584"
+      ]
+    },
+    {
+      "scenario": "scenario_141",
+      "warnings": [
+        "pair_yield_vs_global_rank:V2182->V5824"
+      ]
+    },
+    {
+      "scenario": "scenario_144",
+      "warnings": [
+        "pair_yield_vs_global_rank:V5762->V7808",
+        "pair_yield_vs_global_rank:V5906->V7086"
+      ]
+    },
+    {
+      "scenario": "scenario_149",
+      "warnings": [
+        "pair_yield_vs_global_rank:V2765->V2783"
+      ]
+    },
+    {
+      "scenario": "scenario_150",
+      "warnings": [
+        "pair_yield_vs_global_rank:V3395->V3854"
+      ]
+    },
+    {
+      "scenario": "scenario_154",
+      "warnings": [
+        "pair_yield_vs_global_rank:V3466->V8645"
+      ]
+    },
+    {
+      "scenario": "scenario_161",
+      "warnings": [
+        "pair_yield_vs_global_rank:V6417->V6264"
+      ]
+    },
+    {
+      "scenario": "scenario_162",
+      "warnings": [
+        "pair_yield_vs_global_rank:V2030->V5157",
+        "pair_yield_vs_global_rank:V1130->V7497"
+      ]
+    },
+    {
+      "scenario": "scenario_164",
+      "warnings": [
+        "pair_yield_vs_global_rank:V9316->V8169"
+      ]
+    },
+    {
+      "scenario": "scenario_165",
+      "warnings": [
+        "pair_yield_vs_global_rank:V1235->V7439"
+      ]
+    },
+    {
+      "scenario": "scenario_166",
+      "warnings": [
+        "pair_yield_vs_global_rank:V4731->V8083"
+      ]
+    },
+    {
+      "scenario": "scenario_167",
+      "warnings": [
+        "pair_yield_vs_global_rank:V8950->V5663",
+        "pair_yield_vs_global_rank:V8950->V7684"
+      ]
+    },
+    {
+      "scenario": "scenario_171",
+      "warnings": [
+        "pair_yield_vs_global_rank:V8851->V5815"
+      ]
+    },
+    {
+      "scenario": "scenario_227",
+      "warnings": [
+        "pair_yield_vs_global_rank:V7725->V1754"
+      ]
+    },
+    {
+      "scenario": "scenario_231",
+      "warnings": [
+        "pair_yield_vs_global_rank:V6076->V4382"
+      ]
+    },
+    {
+      "scenario": "scenario_233",
+      "warnings": [
+        "pair_yield_vs_global_rank:V2737->V2201"
+      ]
+    },
+    {
+      "scenario": "scenario_237",
+      "warnings": [
+        "pair_yield_vs_global_rank:V5996->V9209"
+      ]
+    },
+    {
+      "scenario": "scenario_250",
+      "warnings": [
+        "pair_yield_vs_global_rank:V1774->V4464"
+      ]
+    },
+    {
+      "scenario": "scenario_251",
+      "warnings": [
+        "pair_yield_vs_global_rank:V6383->V5507"
+      ]
+    },
+    {
+      "scenario": "scenario_254",
+      "warnings": [
+        "pair_yield_vs_global_rank:V4826->V3230"
+      ]
+    },
+    {
+      "scenario": "scenario_257",
+      "warnings": [
+        "pair_yield_vs_global_rank:V9662->V3406",
+        "pair_yield_vs_global_rank:V2814->V8623"
+      ]
+    },
+    {
+      "scenario": "scenario_262",
+      "warnings": [
+        "pair_yield_vs_global_rank:V7570->V8971"
+      ]
+    },
+    {
+      "scenario": "scenario_272",
+      "warnings": [
+        "pair_yield_vs_global_rank:V1319->V9011"
+      ]
+    },
+    {
+      "scenario": "scenario_275",
+      "warnings": [
+        "pair_yield_vs_global_rank:V6766->V2041"
+      ]
+    },
+    {
+      "scenario": "scenario_295",
+      "warnings": [
+        "pair_yield_vs_global_rank:V6681->V2565"
+      ]
+    },
+    {
+      "scenario": "scenario_296",
+      "warnings": [
+        "pair_yield_vs_global_rank:V4183->V1738"
+      ]
+    }
+  ],
+  "extra_prediction_files": [],
+  "provenance": [
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_001.json",
+        "sha256": "0ceccdc316d44f5a0b67df496223d77508bfcd11a7e69137d111db08db1f3095"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_001_gt.json",
+        "sha256": "2290a83044bcfba67cbbdb55104447d074d958faf73bc4150a3cedac22173218"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_002.json",
+        "sha256": "7de7bc044d9b6503c21785cbacd424e37e204e5330eab78e516967cd5cc6444b"
+      },
+      "prediction_files": [
+        {
+          "path": "outputs/detailed_llm/scenario_002.txt",
+          "sha256": "ef5f6dd924ee9112083baf10b2e9774387cc7fafbe89127ce64d717edcf5bd2d"
+        }
+      ],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_002_gt.json",
+        "sha256": "3f7963751a542946937734b51a0d1af8f7ca8aa872ade745a90cbf05dc4c4af4"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_003.json",
+        "sha256": "7dd0b02872ed2e39909551b0907429eacb901dc76d182b60502c4678d37fc612"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_003_gt.json",
+        "sha256": "ec950d3f92350f84ba30a3f241017034a3326cf2354c9670f0691d61a8ff0653"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_004.json",
+        "sha256": "87ed40bb28e992b9a694cd581e321f49761e6b29b85aa5ead33202bec7e27e15"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_004_gt.json",
+        "sha256": "c5edcc6b6427ae79d2ca73a828d37e1bba87e9c6c407f19783393b6131596915"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_005.json",
+        "sha256": "39c354335f6d2a78ca32af97cf99c58b693d3a6d3a47f33d7c2ab84afd2b20c0"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_005_gt.json",
+        "sha256": "9ce907a9309ae1406cc761c231020eb235abb6468b2a8f774554810f0371f4e5"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_006.json",
+        "sha256": "eb69b219aff36e086b42e8cc8a6cbd0459bda53fd7235d81ad5b0bf91bb4d77b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_006_gt.json",
+        "sha256": "dc24a6ca0bf7ccc1f8189dde3aba80af3082bc7b9275ca4152ee58aa2648ff9e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_007.json",
+        "sha256": "7296a6ba58e67dea19046b000a76c1afba7b93fb7c500d58cef92b60f05bda02"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_007_gt.json",
+        "sha256": "bd651dd336a4ce50c433727066e76ea61e13c34f4ab837feb4ab145ae17989e3"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_008.json",
+        "sha256": "f1eb8f5c85a6b6d103dd0c20e7986713ca0f3d736eb36183791d53fde3a59f11"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_008_gt.json",
+        "sha256": "e2c417b2b4b8c8bcb7e1370bc7d7607d28a35f0d1525829ce2a38672a27a67a1"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_009.json",
+        "sha256": "1aca63fbec58bb0c3856bfa04a49e196bba51cd50b207518a3763c4ea6d37871"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_009_gt.json",
+        "sha256": "2f93f9ab13158eb532f79f274bc401438dd66ff70c6931772b43d8b19a598991"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_010.json",
+        "sha256": "757474460d649aee4eb3fa7b1ad9f81b463fffa5157b65d26c302325533d5aff"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_010_gt.json",
+        "sha256": "12b864998d622f48350cb2e80ee0e10ce625d2bb58176bd9f423175551b4b2ec"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_011.json",
+        "sha256": "779c3854ff0a35a660873e40f102f0ff7b4ce7043114f3209e39b09471593a29"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_011_gt.json",
+        "sha256": "ce0f95e7c21b48efb266e7a55c344110eafa7b6ff6a1c05cc320863409c9c197"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_012.json",
+        "sha256": "dc5e5733033169beb9b74c544cda4725ab7404ecfab617ff091caf823ded6ada"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_012_gt.json",
+        "sha256": "7633aa6d7f3984cec69ec5c6b0015b0e1fd3eae9a35cdc563c29d1e586bbbeab"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_013.json",
+        "sha256": "9e3ea7cce47f9ca40b3265f91cd2cb1fd02b28902bbf8205a2e184496da71ed2"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_013_gt.json",
+        "sha256": "124fba4cb4967c892275eb19cec1eb577fd40f2a2d8a27b6e2984bc9ee98f295"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_014.json",
+        "sha256": "c8a69c55864dc4bdc934687b15d8effb70f1b016bd642d12daea8b3026b2a05b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_014_gt.json",
+        "sha256": "1d4ba83162c0fcee0ab5df82dc56d49aa8e858c161d6fa0b4e1e2c0e92ce7ab2"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_015.json",
+        "sha256": "7c159fd25e59fb4a0c36e176b101fba104e8ce679266e6cac5dd547c52bd4f16"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_015_gt.json",
+        "sha256": "e3dce60f6caccfe8797afa9a25a5a7fffd213f9d32869d6526a4520c38edf004"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_016.json",
+        "sha256": "4adc11f6a94ad898978abc782a5da9fbf6b70d57759d126374efda4b09a6f955"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_016_gt.json",
+        "sha256": "181587973afab9f5f2bd12680f44e69bf63dac131ee0813729a6f25cfa479741"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_017.json",
+        "sha256": "5cf01f09435a2b587a11e79354c7b2bc5a9d1af5662905334923047d25ab2447"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_017_gt.json",
+        "sha256": "f03385d5301bab0fcbac134ef29569ac32010f11fa520e9ddde447f7819bed61"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_018.json",
+        "sha256": "1ce82d882aeec131f527b005a84b15d85220e85694caf6a9a0ff7d8115fae26c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_018_gt.json",
+        "sha256": "39c0698c3c999c02c2711b891ef77aaabd109b5ef8ed8ac48a94ad8a76e12a41"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_019.json",
+        "sha256": "b874ba41d241fe9464410de107ff5325a3eb0e3a27da896d2816056d00c3c6a1"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_019_gt.json",
+        "sha256": "86904125d083860b1e71261543777462331ce610ac134da402f8c16e97374007"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_020.json",
+        "sha256": "cb8886702f1d91484f6432dac3d1214e3fa4f37d753ed20a3387f818dde28cab"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_020_gt.json",
+        "sha256": "c21aef5b6dc1edda9e539a9a1a0fe2b10149ecd0f55c5a2c3857d8e126f891d1"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_021.json",
+        "sha256": "15befbda0ee2754b025235de9eab1cfb3a3da3908a98cec63f4f7290907e09ac"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_021_gt.json",
+        "sha256": "f54b63f8c343e0b6d2a1c2da6a89043f10d4d55e002c4ca2715857b21ab66897"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_022.json",
+        "sha256": "b262181a1522243391d61f76a81552a52d69807ed1e79744e6484508446e7df7"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_022_gt.json",
+        "sha256": "78938b1621420dba2e66c23d459941c7d580a10aa699d4417ec5b8cb51f1f8c4"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_023.json",
+        "sha256": "fdd79d7f234c6ccaef543f740af2078caf0f4854989561a703ede818f5c7fcff"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_023_gt.json",
+        "sha256": "b224239f09fcd752cc7a7cd5cbe9fad6507b714c9c79323ad947a8e5711c9818"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_024.json",
+        "sha256": "5ad0ad4d2c5b45ff84ec8350ec02d40d2b5abe42793d23f2abe6d77811bbd7d9"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_024_gt.json",
+        "sha256": "987dd68d831e51f87b33807a0430e234e5fe6a56192827e2aee97b4110a7c2ce"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_025.json",
+        "sha256": "76b4a5ac6257a471dd6b67bb25a1d1dd07ed818785ce88946ba46e8aba549c0c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_025_gt.json",
+        "sha256": "7102d160df8c101931e0afe65e33c54dbde8e1b2b82adbc7e51c3c26170f4c5c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_026.json",
+        "sha256": "d97552d97b38c8e7a10485d25d52edec54f2ef254de96e641a8ac12587041a0d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_026_gt.json",
+        "sha256": "b0f5f1efbac3a8e0384a4dac8f24009caf5e92d4ef6066d7daa28d49e32d66f9"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_027.json",
+        "sha256": "1d6180e88fc787b21a133047d0c2ff42c462fb6de156b31112135f1ffd48f320"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_027_gt.json",
+        "sha256": "2c33609749c3880b2384957b97ee0b9b4a2bf4db86e8b6fc27d19e4e4c45dcfe"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_028.json",
+        "sha256": "c3192a02463ec15b0317840667b1675a098a25e5d1b643a39464dd26c05e9ec3"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_028_gt.json",
+        "sha256": "b6ebd29f28964127f408f3a9da5dd73ae1e341a8f9b0f5a5d4ffbd4f31b6b82b"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_029.json",
+        "sha256": "94a57067f2f49b65cff595ddf24079b9266ce4540f38548cbcf2ead15404a42b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_029_gt.json",
+        "sha256": "d7b1e72454f8cb833dff1ef933621dbd5ac9eb176e1468915c37033b24a28ffb"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_030.json",
+        "sha256": "94480cd0f3fb08b9ce8255f919c522527f7bde916dcff2faa30439ce2ac06a00"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_030_gt.json",
+        "sha256": "5329f695b052e1cb5aabab4e6043c15a3e467b0d83d64da0440bacf9292f0604"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_031.json",
+        "sha256": "36b90c9bcb02bf7d9bd88108ab5b620b8457db90e0044c44254c3d91aef3a553"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_031_gt.json",
+        "sha256": "9063360f46b3af46d6e5a69af4caa1b53a933fc7686e175dd9058699359b69c2"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_032.json",
+        "sha256": "6ee3b107d242034fe563feb93a460d99b1ec7775d3dbb77c7e27405262186d27"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_032_gt.json",
+        "sha256": "def1cfe0dd974c6649782cb6e7d58187ee195d93f09e35c22bbce045c2c1d608"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_033.json",
+        "sha256": "68e43aa2da3610a9e3bd47530368975f353ee53fa5dc5f223203ec6c2a4c1742"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_033_gt.json",
+        "sha256": "5f5c9f0ec2b988aa27f746dc4e4a798fd03951b22e2cdd60b0c37bac7faf3630"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_034.json",
+        "sha256": "6cf08d3fabf0b90351b3e752b50ea933e5c5efd17f37f77c6d826d6448cc213c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_034_gt.json",
+        "sha256": "ae3528980761010e00f7232eb70c0429c36f516bd9e9d1290a860846f00a1e3a"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_035.json",
+        "sha256": "b7df9ba275b3518cf6935d252f152b356ba3f84a928d94ec19bc14d7e0a6da1f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_035_gt.json",
+        "sha256": "04ae890a57333282a0f6953aa0193c8e857515a0181785d0bca0cc2a64dc3ae3"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_036.json",
+        "sha256": "fa3f5431f1a7122191e0791d13d35975e70f22d5f9062ee174bac25c0113f305"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_036_gt.json",
+        "sha256": "da5f1dbad0250c55daf37cc4fad4b2ee0f0da6d466a648eb3c2a080fd8f5bf26"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_037.json",
+        "sha256": "61f70c5d43bcdd14974d25387a5a4b8424f52547b3cbdd7d039e69012664b811"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_037_gt.json",
+        "sha256": "5fb1209c9078feeaea18a220132a2837779c9fcb0db519b2000876a8a64b113e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_038.json",
+        "sha256": "6f11f143787f078608cda2a40e1436c18ea037e6d82a7b505618b2cf6ae46ae4"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_038_gt.json",
+        "sha256": "af5ada8bf91a019d4c6859b3d5880a285485bdc90d82e0f6530c0296ca5490bc"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_039.json",
+        "sha256": "f28a5a50421c4f9196ede39e84c678750f6af3ba48c57d4896ed99aff913ffc4"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_039_gt.json",
+        "sha256": "7a016b0ab887286002a993f0569ceecc3206c431a49f8268b439ceb97ccf1a74"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_040.json",
+        "sha256": "6f4a1b43fae1fd34b3220e5482557ab29dcfd19e3a446fa27b9f634c47e18d09"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_040_gt.json",
+        "sha256": "93c690f99b3a5acf2c8221ab2ba2e748d09aea8e065a3a17d03fa3506b5c2cdc"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_041.json",
+        "sha256": "113db2cb762c01ff9def11eec853cdb762d868086e7b77a0928601d7716314d3"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_041_gt.json",
+        "sha256": "8e8c3b7e4f0cfd82fc218acb7929c171d97bdb4ceb388d7420ddd97ce405ce40"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_042.json",
+        "sha256": "7880da679d5dd35e896fdb703a69a6f596ed05f6c6ccacb3630ca3591055d403"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_042_gt.json",
+        "sha256": "586dd054057650b7a27435eea5ec536762d641d0b63e4fc5bf55d205b05ae959"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_043.json",
+        "sha256": "63e114918de00fbe914766398a15ffe5e7e0c58510267be847008b0716ca0dda"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_043_gt.json",
+        "sha256": "d9b36b9c820f0a50aa0a4051728c590f2ad28415f6b5f3dc50354d5456a7b88e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_044.json",
+        "sha256": "74f60768f459c2c6d1b6175790b30e0b1462f43a617e62958455928071d10470"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_044_gt.json",
+        "sha256": "b45a034601dd3d2cf4a1831f4eba45c41db549c08e7522599665bb51d06c9032"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_045.json",
+        "sha256": "f8775f70ae45dcb6607f193d71d945fc6062b919e0b2e204eb6cc557b8cbce68"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_045_gt.json",
+        "sha256": "6170be274746268c628a6d3232f1c9338732da73bb58da45b59d4adf936af139"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_046.json",
+        "sha256": "23cb6a60b30cc7f042ddc9fbe759836b6327f90179501939e6e867adb2b2980a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_046_gt.json",
+        "sha256": "ab2c74f3ec9a71b43574d72151b6020e83f42514fc6044bcba707564dee01acf"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_047.json",
+        "sha256": "3e66a09b7c3e085b942a4ed270ea2e3e17b1637b2d52ceb145c362f2e74c35bf"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_047_gt.json",
+        "sha256": "9b36783ff89286b7fc6968f1e5197286e20c21402a6646cde8137b3fa4c5dee5"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_048.json",
+        "sha256": "e8c2385315620118a6739021d5dae2b686868a6ff80933d5eb7c0727bcdce7bd"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_048_gt.json",
+        "sha256": "35d2baf34f43764741444b0b2aedcba71b00f3ecb8cfef4bacf2ff29f4af9324"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_049.json",
+        "sha256": "36d9a66018e49e662a639c58e1ef1fc95756367494f7a9db9a9c30e60ada22d1"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_049_gt.json",
+        "sha256": "cf98b5ba862f9d54f6df2e5bbdf8a0dc5832148fd63d2dfb067fab16adf08cea"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_050.json",
+        "sha256": "48d89e89a31c0fee7cad599050a18881835604b01441619eca8c7e78cf215800"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_050_gt.json",
+        "sha256": "15fd0b5c434ac4430761580e60625005c6032d0475a86e57571d192986eb31a3"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_051.json",
+        "sha256": "68ecb59aee3fe62831658ce9aa7f7b657cbf834235ad667a139507cac3fa0bff"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_051_gt.json",
+        "sha256": "d0408f63fed7cd1bda78104ef0ebcf606d9f97f3eb9ceaa6df4e2e2f39802892"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_052.json",
+        "sha256": "c9ea2bf3c8e1a9cd72ae6706b9f6fac0f69cf0676168b104b2626b57e23587c4"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_052_gt.json",
+        "sha256": "293b0f83364bfacb2cbdce8bf102404cb1e7e5809c846d43afdd0ae9c701e65f"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_053.json",
+        "sha256": "628e675f9eadce478605051c74d63c53c510ed4c2cbc92902a3cc2a77503dbe1"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_053_gt.json",
+        "sha256": "5ae49836c1c2d4bde2b1e90bec7775a319e8f3a90fb43b43c8180ec6ac05922b"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_054.json",
+        "sha256": "6a914018089e3aa271e40c022aeb6d5370be959d7870e902a7fc35138eb483ab"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_054_gt.json",
+        "sha256": "5ec807d45e06c899113c7e827f24f5119142b4a8b21fbe6313e37978855e20e0"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_055.json",
+        "sha256": "a3cb8fd19ca32b255fa6cb00b787846a30593b5b07d0e3ec83caa2abaf2cbe1a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_055_gt.json",
+        "sha256": "87a808a1d9bdd4557d7503f65fdf1915b09b886d7a9f4c199a0553b25415634e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_056.json",
+        "sha256": "3da5c813d03278ace704b78f3330b549e3968f95266585af895937f1253ab70a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_056_gt.json",
+        "sha256": "70ada5d6d8d3fa3dfcc16c9379d7e0d6c617c9d422eea74cad3af03ddde4c7f9"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_057.json",
+        "sha256": "ce8e2e8c6bb32857f1fc19be1d7c86c619ce5223e8887d3006c2dd58d39493e8"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_057_gt.json",
+        "sha256": "4cb93d293820fc9ee423fac211b6221826c791a30c9446b6227d0c32a01faed7"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_058.json",
+        "sha256": "c9833167d2050885313d8b85d14882f3fcfbd8d0a7c5981e284e0f7e89032898"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_058_gt.json",
+        "sha256": "253c37991ec7a12c6358d03308556b6cddfaad5cf320d4c948f637f69d40d306"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_059.json",
+        "sha256": "73b92306115cfd23a1db45abf5541f69e9a4951f18f19e4514f78790e3ece68a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_059_gt.json",
+        "sha256": "c27948a6b279e0da7da0741d8acaa61236b4da1e0379c71519bac8527c398a51"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_060.json",
+        "sha256": "20af1ceeabf8121a761ec84415a40b17dae23ec18dfc094be7af1cbdf5291846"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_060_gt.json",
+        "sha256": "55b32f44046e13ab0bb4ad967d7991e54282b1a521193d7b90d60927a3a308b6"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_061.json",
+        "sha256": "6ad762acb8ceb06d3c219c93dfc6e2bc799b193d08f2665759ba64b51194bbcf"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_061_gt.json",
+        "sha256": "b7f491411a7b8cba838dbeb55e383e7c4d01a0f237a94a669d08d516e82a9ccf"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_062.json",
+        "sha256": "3f848631acf44c936dce8e16ed27280ce6d3c411c2e85d758e2d1522f985e254"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_062_gt.json",
+        "sha256": "c5a10cf502ebb00d6127c6f59aa35e5aab7e5e9d777a507a397c9ead70f14215"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_063.json",
+        "sha256": "b2867fb69944b3422ae80f4f1ef75b345c4adfe749f759c76ae37a93adb67c0d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_063_gt.json",
+        "sha256": "d89f4ca06b72edd64b1014af8fcf506f777384f46b3d86b63bfcb0db91777697"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_064.json",
+        "sha256": "9ac6c3cbcc099cf9af145a0d66c436a537c96b150c768027265a8244718f0f98"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_064_gt.json",
+        "sha256": "9a4488d0faafff58fd9c9c9f14f0a6117a798ac70ac6be19ebb4264c3d2b4d05"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_065.json",
+        "sha256": "bcef49b8661c5fbe588dabb1e2498f5abd570f529e255017b1303aeddc6b8b7b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_065_gt.json",
+        "sha256": "2fce814a17075724efbcf6404cd5f70f578bb9f63a87f985b19196ada17db941"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_066.json",
+        "sha256": "10f4e17270dc9f464d423a44ccb900fe76870fdf1ece8c4d178bf9306bce35a3"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_066_gt.json",
+        "sha256": "c80878613dfa54c64a05452fe1b4f4dfa132b992991e0d621bf5176cc70add29"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_067.json",
+        "sha256": "9cabd83ef6154def27bd581483dc4a2e3b3edd115db4309121134a933f79384f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_067_gt.json",
+        "sha256": "9a16d0e9289abc5bcc7a86c667f2091981a4e67d934cf66b6eab1fd4163d9575"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_068.json",
+        "sha256": "1a46a02450a8c4ac167bf97f3a2631fe6369ad8f5ef78e7df558122159f70333"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_068_gt.json",
+        "sha256": "27dd4c29455db6b9b20811619f6b99b8f3ccdb28eb7f124e5c24d6267a1b58d3"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_069.json",
+        "sha256": "3983eb75813cbfda384191aa03a8b11a0dce0da2ff254ff7f2e84fa3dcbea939"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_069_gt.json",
+        "sha256": "3617c73d60ecaebf13d3864a476a18c42894178c7301193723c545a61bfecb0e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_070.json",
+        "sha256": "9ebf1bcd9ab357a05cc7d2a975bbe47b4d4ea7f0b713e9ce4b98f2f486a97929"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_070_gt.json",
+        "sha256": "66933604155bb09940724c676b8959d92834a360be056a85932319cede5adc96"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_071.json",
+        "sha256": "c0e16897ba6bdc3e01f4d2bd4e42ae98940731116f3362906d4a830e1fb24022"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_071_gt.json",
+        "sha256": "e0c1101c042efaed1b99c45c67410772b8580760e2421c2ed9dff66c7186d713"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_072.json",
+        "sha256": "7437ea70cc1b8feaac2e640f16ae14f2dc857a22dd71afb9771034619bd65704"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_072_gt.json",
+        "sha256": "ca0504c5a4b4532bb0219e28e18ac5aebdb46ca62f4ddc6e56e4dec1f42bcdf0"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_073.json",
+        "sha256": "9aef794a82ba5249b94e7b64c28baa123037358d022190d279e66b64359636e3"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_073_gt.json",
+        "sha256": "c5eebe4f037b936aa33f61c8adaddd21dca7d8ae8184a80de371a4266e867e6c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_074.json",
+        "sha256": "b70a9e164f4c435f97f0d16bf76c42d6d39b82cbbc1d5bfc81a19730964e5401"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_074_gt.json",
+        "sha256": "20af3dee254999b51e61a4c6188efb13ba902e7ace36119bb7ee58df6e601762"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_075.json",
+        "sha256": "99ef309bb45c6b8a28433bda46e191bc3d1048689f2cdf512dfaa42ebb9174fd"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_075_gt.json",
+        "sha256": "316eec2331568a337bbc16b3fc1e440e4b2b08dc35c5921f429a17048eaa174d"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_076.json",
+        "sha256": "d612fffe665bf058e2bf64c775155931db5ae087d23b94121da6258635955c17"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_076_gt.json",
+        "sha256": "15e721b7def824c0c3a620db6373a63c04adc87308c267398cde94be5f09d521"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_077.json",
+        "sha256": "467977e97673c3de37e4de46ea5a317a721e15cf43e992df9e3cd4f50129d332"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_077_gt.json",
+        "sha256": "f4c233709572e25c89502a33eee02a8db86d519ba42cc439024baa568b3f3ca1"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_078.json",
+        "sha256": "655c8dd1576257460b63b8a6124e8b2a9322a66f325dbdf9a8fb536feeea964c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_078_gt.json",
+        "sha256": "554ca40ee08fae6532e8d648fb2b12a025c38c1402d681bf07df3f49943bf70a"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_079.json",
+        "sha256": "5fcd6d7471a694c476444a6dd126d236c659011fa838a22842f4bc3dd026a432"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_079_gt.json",
+        "sha256": "7c6e58e0139f9d5021e425447fca06c87ec89581ec8bfe74be94442fc0393616"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_080.json",
+        "sha256": "9429cb4926ee2d6935938499840abfa843e1cbd8851f4926d17443783a46792a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_080_gt.json",
+        "sha256": "9768260facf8e3b864ae78653a3e858602e9e9bdf223942dee771b2e5ddebece"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_081.json",
+        "sha256": "7bda6f5bec6945a496041ffca139bbd2e9206fabf49de3bf1305c15df3b81ab2"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_081_gt.json",
+        "sha256": "9e77dee5dad6065e03de94b174701b5a27437f2c9a3b558e6fc77c14908eeaed"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_082.json",
+        "sha256": "532ac123db5a3d8cf33d4b560cdf546af1ca5cf449f39020f0027e794195ba85"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_082_gt.json",
+        "sha256": "a34b29cef6a39d99597fc6c61c82f1e658e3fd79e66a554223dc15dd7169deeb"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_083.json",
+        "sha256": "03af08b72d3d6d43d584b9ca1371391eac8009646b1390a081b47bc6ad452b90"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_083_gt.json",
+        "sha256": "10ea4f2281eee9b1a59493ed1a76530562146afd35bbee3bd74dcff1a98d1766"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_084.json",
+        "sha256": "52b25ac787d0f640eccf550b522bf9061d104f33d6e00df54d8d09b0fa1784f6"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_084_gt.json",
+        "sha256": "9ffbd69c2209a8317dd621a7f9970f6cc2137b73f4871d61d7ba79159dab8aa6"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_085.json",
+        "sha256": "b3b0b2aad0a8360a94e84a695bee0fa0a92855397ce4b1662dbe5a77af05033d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_085_gt.json",
+        "sha256": "2b8ddcbbb9c5f20248e6689ed004aeb2bf961cc18c19814d35cdeea099a1b32e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_086.json",
+        "sha256": "1657bc49d4b5edf9325fed71769eed1447c3e39c49764e9df35f9e982b90d4c9"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_086_gt.json",
+        "sha256": "b42e6fd3e18403f2a98a3468eaec425d53c8f5bfcc8b1d1ef8413849bc3b0061"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_087.json",
+        "sha256": "37d871d82c2dba75d04cff0bb6d7013f1c004a60e6b1db11777777fc82a0e3f5"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_087_gt.json",
+        "sha256": "6209b345b5715633aaea9a572210deba6dc126e3896e77f6e6a8e3dc4f39b4b7"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_088.json",
+        "sha256": "57a252c046823670fb7650c6f26df4ef3b71caaf687303568cee375eacd1fabe"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_088_gt.json",
+        "sha256": "97c467017e18d5731691c594fba8af19ac3617b418950d8c03908619dd2054a9"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_089.json",
+        "sha256": "fde3d0b6a2151ef3f078a0439e06b17b5c6b8ffd66d1166513fb57ef41b4c94f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_089_gt.json",
+        "sha256": "f62cc75b46a34b1a283a37704aa62337f49e4bf681ab654f43c774bbf80751a0"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_090.json",
+        "sha256": "66b272d44b0d1f07fb58f433f8a29c7e1ea332005b87804b4dad37eff395ebff"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_090_gt.json",
+        "sha256": "e36318abc24d4a983f4269cfa4a59f2806577f8b1dccb3bf2eaf33acf34695bf"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_091.json",
+        "sha256": "09d0b7f490e61e0fa305ca89b12e352cedcd29a67f89235b6f3c45869624cea5"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_091_gt.json",
+        "sha256": "79d97883daed1f9b70d1e7870e10c15287a8449c322ebbd1a6791880b955eed4"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_092.json",
+        "sha256": "ee72efbef6cc571a21039b0d75022e923d725eff078858694678868e44fd81be"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_092_gt.json",
+        "sha256": "ced3100354313b51e2a39edcf7a9d540e4c68b93bcfdd587b3f33652df58878b"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_093.json",
+        "sha256": "29bbb35050a9dd351cca4c7f7e175deb65f23c1df4b860d7afb54790beae1674"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_093_gt.json",
+        "sha256": "9b8235de73c9873c63231b2d0fe76e55d3e9fd4789dec8d5ff87efe3d126a48d"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_094.json",
+        "sha256": "d96d8ffc50e2be30270deed6ea8fde940f74e489e185033e26ef504492769741"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_094_gt.json",
+        "sha256": "ca05a2f5c9bd669841247dc29f69e4e2491cfed132bbee0ab0e18e1832508244"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_095.json",
+        "sha256": "232d8670ecafdbedef8fd9642c4207d6056b95a4edd5f4ac1c791bb3b87384a5"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_095_gt.json",
+        "sha256": "9b32b71fa5bc4aabac16e5779d572d1890bb86fa05cd67f82cba5ba36c08e96f"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_096.json",
+        "sha256": "a1a64ef8e6db8dd11d82bab0668348d3b45b3b063d03f143e6fc5bdd6ac53f11"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_096_gt.json",
+        "sha256": "80880f6cd4c252ab43e3d5f9061d8a9a3a4926c1c9adcbfe040f9dffc6be4dd6"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_097.json",
+        "sha256": "59a3a4236d0c9518aa14c8b342184fa0a3f4c20ac9ab09e2b576b851104e0741"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_097_gt.json",
+        "sha256": "3fdcc98eb5faa9ebce5cd08c64bb7fa4fe0765e75f3e2ad12fc7eb09ebc83730"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_098.json",
+        "sha256": "0d5b62172b103156a01eba7a14c9f2fc960292800581761448c367484bd60c8f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_098_gt.json",
+        "sha256": "57ae376347578f5eb7a79bbc60fde57696688807ada378b176dd4e96f3c3552e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_099.json",
+        "sha256": "a06fa3d1bd59de0080882332cd1fff44e3d490bedb2d253efed4dcf3507a3651"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_099_gt.json",
+        "sha256": "32b3b3f43a9da83e053d66c2a1a904b78d5b50953db2b96289ec91f9e85cb827"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_100.json",
+        "sha256": "a8ab1d9b38010c6255a2304b47b52136b38f4bf456e65d5423eb4fff9f76ba0e"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_100_gt.json",
+        "sha256": "a6451b12b147c7aae0caca9b008620c2e6e3c4631d9df2111f785c08e9e166e0"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_101.json",
+        "sha256": "517127cd6dcc247651503554b93c0237e235d9c0255ceb1112bc189fdacf3093"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_101_gt.json",
+        "sha256": "9b2317bae942430247f8371f69601f55c5282e79698c611323a55be46a9b1e1d"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_102.json",
+        "sha256": "b054c8d00d4d549dec1288cc3c41175714ee0574ee3ff3da7e8e18c503781738"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_102_gt.json",
+        "sha256": "a6ae6a841531e9377a495913a8762cd7cb1f50e2b4bb81e9ad37b104ca5000ed"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_103.json",
+        "sha256": "f3de79eef5bf54c4034eb65182b8f57aad62bf6c339a3072f9a006ffe5d56b33"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_103_gt.json",
+        "sha256": "994f8a9d269641a812c392157438fb570de9d86e5a1fa715ee2a13c1dbcfc442"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_104.json",
+        "sha256": "4716e40e80d2819f2935c52cf08cf5fd93da29affe8be82c5db6dc415a25cd7c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_104_gt.json",
+        "sha256": "26e27c82e49efe6de14b6282b942bc5b61883b10cf9ccff20035fa2b293633f5"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_105.json",
+        "sha256": "47739f5e595def5dce46fac3613297c79e9d0db1b0d90df5232827d5d7393c39"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_105_gt.json",
+        "sha256": "f4a3dba2f176e6c335ed6cb68d9065dc188f29baa8b4cfc92f8019c2037a7d7e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_106.json",
+        "sha256": "28f542a3178a00809f8a2475108189316d44e381b6a6e3c05f08e29489f00f7d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_106_gt.json",
+        "sha256": "a3fe21656bab9601f6660e364663941786aab1ca5ded8a9266eb45b4bc5c093a"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_107.json",
+        "sha256": "59b9834a89a27283d07867c0eba342e038c09f3afcd6c476f82789f58b09d66d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_107_gt.json",
+        "sha256": "a68492e12af9575ea41540dd645beb6b00f719caadd0d410b16da82d84d4c014"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_108.json",
+        "sha256": "f0e014788823a3bf472ab6748b24e92dcad37d3dd5941592e13f334257edbde5"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_108_gt.json",
+        "sha256": "1bc03df0eb0abe56b72e9482e1d1051818b6614971463c790a5e51ebda2668f2"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_109.json",
+        "sha256": "a4882d4c2312a63058a0a2b35c24059665aa5f2486534ceb4c75f5471e9e68e7"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_109_gt.json",
+        "sha256": "b4315682f4b6c019e797c8cce7e8efe9ba03b47b94f32852204d8c5e92c69fa9"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_110.json",
+        "sha256": "5a1d3b0025380a2e8e15563e7b6b64c4c3f2fb93e6ba374da3523571b966bd6d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_110_gt.json",
+        "sha256": "72e5ee0998b961cf110a752e211f9e928572f13ee4a3490c7306549c55859dcf"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_111.json",
+        "sha256": "380d2614aeab67786a15fc20078cf206b62b29a096d0ee7017606e145395b74c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_111_gt.json",
+        "sha256": "16441b2508401ba58ee73c1ac2b35da7f9aa56e219b09ea6852a8da7971cf5d5"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_112.json",
+        "sha256": "21d3896b917f53c943479c95ab8a578a7bb10e3f54daf985a548fe270a612f8d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_112_gt.json",
+        "sha256": "1314fbc7e2b018a5fe59b6d89f7e82c61de2b5576c8be268936b4b717f4c4950"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_113.json",
+        "sha256": "2de6d065156266aeb74888aa1cb7e4455a737733b4aa7b3bd274f2ca2003f7e0"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_113_gt.json",
+        "sha256": "dd60e6b5d6e789f2f28f53cc9e8c17fe6b8b8c70b408eb2cdf088ce05a2ec2be"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_114.json",
+        "sha256": "69035e9c7c68f92be3ab8cd792dd9d3d1dec122a1073d59df6d35f15f18b91da"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_114_gt.json",
+        "sha256": "6bac2d05d09b501763c1709f2b1a83ed80b0d280548752ffe7d41afe6b1edb36"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_115.json",
+        "sha256": "558384fa76bcce4b92c81c2c1da4ddea640cb8d3f7ab37f578e1359f3ceb6b04"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_115_gt.json",
+        "sha256": "6566dc7869e27babd5f575a82c7035ab7779f00f13d34b71c3261f9e7c7eb516"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_116.json",
+        "sha256": "f32b4be8831cf487844afd4283ca48d6ee460b3a55347b20769c87fa76664569"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_116_gt.json",
+        "sha256": "c85a4f0e6f057d401e0f14e14498238896d4e8ec0208f4dff9bfcdd3ba7c1053"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_117.json",
+        "sha256": "2469e1d88a50a0ba396dd76fa21deafd23d42801bb981b444a94e9d14a210289"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_117_gt.json",
+        "sha256": "e763a4c49a3bb44c292e3922192a92dbd5f283905b75817fe5023513fb6b3a03"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_118.json",
+        "sha256": "094907a920bdb749be0b67818681b9dc60a8f2f7ed4843ba0724d97511bca901"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_118_gt.json",
+        "sha256": "7e1a067feb5516fa1bf32862c6f6a2405c8ff74fd54aed2999eba56f2c9b309b"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_119.json",
+        "sha256": "4095b2bd8a72ca9ac3c5cda15a657967f03c2ea6c8c803edb4b3e926056b3b69"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_119_gt.json",
+        "sha256": "257465386f985a0c7aae187cf17229cb40f68b0810f8694454b33bcaa25609ca"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_120.json",
+        "sha256": "32ec3be377e291c577fcfe865d436f9d8ee1ded0053cd6d22ec29acfd9a319a5"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_120_gt.json",
+        "sha256": "aa1f5fe3112ee20b7d347f509f391c9c5860926547a7a778cf719b9be0bcc66b"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_121.json",
+        "sha256": "4264025adafa748dd15812b001b7f24c99c2a580798bb61f4b4c5538ce36d154"
+      },
+      "prediction_files": [
+        {
+          "path": "outputs/detailed_llm/scenario_121.txt",
+          "sha256": "e6970bcf80fcb924164a95645a9261826e2d1c6f8dfcb3ab425e853adde8aa70"
+        }
+      ],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_121_gt.json",
+        "sha256": "ae436e1cba1a3a48802c0606cc50e5081f7dbfdcba940acb0390788dae4facb5"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_122.json",
+        "sha256": "a31334d2929866ec4e711835969d3645a02147b2757b2362b5cda52b5bd67baa"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_122_gt.json",
+        "sha256": "3354bc8a4250f5b9084a4054afb7a3084c8845b418db2c66b358f36584970537"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_123.json",
+        "sha256": "01ce8069293455cf9da889e3208410156c10be37ef89856ba6270b2995e44fe1"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_123_gt.json",
+        "sha256": "0674c5d3330faa203801302608c5cc24ed68293eee5d4767e21ea345d4974824"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_124.json",
+        "sha256": "a67e75dbbf6a68f58d6438c76707b99fcd2a060fc1ceaa7a47b9b32430cfd466"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_124_gt.json",
+        "sha256": "4c4679891b8ce31c4048ff7aa90b76367df143c51addb8c4dd8237fd5c66411a"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_125.json",
+        "sha256": "a7aa7869f14129f8a474c2d6aca002ddd70bedf8a6647f7a2d937087fcddbcc1"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_125_gt.json",
+        "sha256": "d58e3baaab89156f01bb8d47979ce6722ef7c69e56b963b3b6031ac2619bd477"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_126.json",
+        "sha256": "77b186ed20da743ffffe2607313e7f80683c17430105c52cd6271c0353023e16"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_126_gt.json",
+        "sha256": "44ec57a850bc4611cf7d04413fbb760c89e9a7fdc8b97c00a53751da97990630"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_127.json",
+        "sha256": "dc87a58ecf83e5ccc5f5ddb94a3e2b3c47d821bf2ad21bceb50e13a03c5c06bf"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_127_gt.json",
+        "sha256": "6808fa2c6fc6c67727b261bd794d6b8f72fcffe938a67026ee79b3e68f0b7234"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_128.json",
+        "sha256": "dbbb1d9cc097692499e296ffae4f42d92760164e0c5635011d7c20f025f7d9b2"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_128_gt.json",
+        "sha256": "17564486b0563cfddd386f750d57e22e0604548815e9cc4eb714ed88f0c5a9e8"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_129.json",
+        "sha256": "4095dbcf932651a68e6072a164ad26c5628963ca6cb8972b9de2edaaeb090cd9"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_129_gt.json",
+        "sha256": "e2dcca1e6e5a14cc266cb77ad591bced6e3b58693b205d9f62621b52dc43734f"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_130.json",
+        "sha256": "8def6db98ba99910da4560084950b76d80038a71e1d596dafc2338d7f8adfc6a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_130_gt.json",
+        "sha256": "a66842f42552de0c7197d3536315a0eeaab7c144c5985c3b08fa2edb485a9ec0"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_131.json",
+        "sha256": "e3aacd767728204be73a9ce77c60a521884eab89bc98608ee1573bcdd0a1b125"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_131_gt.json",
+        "sha256": "6e8933bfdb4f9bd805c4d15f8ef181fba3f8a36cf2a859f331d20e88035709f6"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_132.json",
+        "sha256": "4a5b2a902f4340c21ca51eee2e1b458031c86f1ff73fe96e378826edb07acb76"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_132_gt.json",
+        "sha256": "7a9e7f9c2103f98587ba93f3a415b1fa09ce6adcbad292080d1dec355062a30d"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_133.json",
+        "sha256": "f7eb89bc86f302ed18d49e12ffd5be969e5f824bd8b9ca3db16d3944fe4b5b57"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_133_gt.json",
+        "sha256": "87bbddb8a47be63a075dc8970800fc7e0bc4187dc395c5ee98cd99bbac2d9544"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_134.json",
+        "sha256": "e18288356b68b01d583680b5df0124375a495343a830b0311ae50b71398274e0"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_134_gt.json",
+        "sha256": "111109a3971a7abc77af3fed2a636cf0483657f91fc3a84de1dcfb310cdaa4f5"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_135.json",
+        "sha256": "2c0a6b1097137f22b56c21c154fceae174caaa86652dbb5eb5bc0d9d5e254a1c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_135_gt.json",
+        "sha256": "245ee1ef5ddf16041298078b9b98eb531736c47df3f7576c36dc4ec8ae98d969"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_136.json",
+        "sha256": "3cbef3c8c1658d2d687504ec7b422cfb5275db466c126ecedb474d848f60d2ba"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_136_gt.json",
+        "sha256": "2ee3433093363a5c5d1e8c151ecdf23135fb5db44718f80afda35097f9fa0d16"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_137.json",
+        "sha256": "9a2dcea3098c1eebf7d0b343b97b0ff593057e99662647907071e6ee04415021"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_137_gt.json",
+        "sha256": "129014d85e5aac019b67d8dc31049b5d2dd14551111f59542a2a4b23b21ecb91"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_138.json",
+        "sha256": "73d98f6867cc2639d866371db343303253e3e121dcf995ab9be8f06369c6a6aa"
+      },
+      "prediction_files": [
+        {
+          "path": "outputs/detailed_llm/scenario_138.txt",
+          "sha256": "77c3849521e06a9eaf6376867d2b687d522b9bff7152d8939600c5c6d46a0610"
+        }
+      ],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_138_gt.json",
+        "sha256": "fc372d7f66d36d61cc30126ad7675951114c2d78db0185eb74cb54afbd32c37c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_139.json",
+        "sha256": "af06c5cc5366d9b20cedcf3c857e55d71e8648266976870cdf12450788f89f6d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_139_gt.json",
+        "sha256": "a6fddb128de4af3d9c0a4f6f55752a75e4e71cce59be2b223fe1681f87676d38"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_140.json",
+        "sha256": "288c09fb1e0de81074eca6689cf42625fd93e91cd7582836ae78a8b6d0fbaef6"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_140_gt.json",
+        "sha256": "a763eb4bcef187b8985ebfea4630105cac0a8469cbf8f9ec5c7ac04662173167"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_141.json",
+        "sha256": "4f092e4bba3f4abc7c409e17e8b991cc52dd47dccaff97cf5bb2c0b374d1631d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_141_gt.json",
+        "sha256": "f004cb12c42f721a9d4011e5c8c2787e97c2a69c43a29cfc702a185b9c166e0a"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_142.json",
+        "sha256": "2d0e7baefd5bcba800c7233451f5fea7b01fd515f1d408a4810cef280dbe280b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_142_gt.json",
+        "sha256": "60b3619f4de8551295429a126fcca0cd27801a52560f79545e0d743a9b22f01d"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_143.json",
+        "sha256": "6746e2399927fd40c14c4850c5ab6d9264e802025a3eb096d282ac5ff6b30a70"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_143_gt.json",
+        "sha256": "3866777f06bc4d62dab3850820aa17ba120e3794f157549406c5f4a0fd22ee44"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_144.json",
+        "sha256": "c31b560497f2da50de642e93801b05e1ff4ff691bfebf6b2d266bdc46c6ca265"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_144_gt.json",
+        "sha256": "c28b7f457f6b40d6fd6bb538a480e78c19ec8842efb0bad694f7921b0889b6ce"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_145.json",
+        "sha256": "d2764098fb6dae298d31bdcfb96968cd90b853da29e82ebd1317d2b3d4228728"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_145_gt.json",
+        "sha256": "a4c40cb21060f1569fef95723bb866b66a5124cfe07bf5ee9b37ea4772b41110"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_146.json",
+        "sha256": "36ee9f2dfe2a732f503070f938adab7d123ec56beb37984110e461b7cb311739"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_146_gt.json",
+        "sha256": "7cfd669989977917433ff4aa0ba6a6c7599cfaf483bde623533c05a77ae19376"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_147.json",
+        "sha256": "b98e26943ec56e78abfa004f7bc6bf1e26d4a5323d086f7cb1da030bca95e58d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_147_gt.json",
+        "sha256": "d6e8b342ecadcabac30d5bdf70ff99a1e42bb0c7121554bb5ca166119684e4a6"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_148.json",
+        "sha256": "84b6ae7ab2b56a80b2e9f6d80b2554973937bb245b37da20200bba6a90c19b10"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_148_gt.json",
+        "sha256": "ddff87b1783019dc4c91c1f9a029398ccf68d146e36ef678fb2aea3cc8c98579"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_149.json",
+        "sha256": "2484bfe9addfd0bed488dc9006974dc65d094a98d6c51bf89e9e9660448343f5"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_149_gt.json",
+        "sha256": "249725134c3fdc5b43f622b14d7bc1969077c0e42682c4e8e8ca4017a2df3381"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_150.json",
+        "sha256": "e400f8fb566f79ec40bd67e07c66ac2cc3f9c6c6a1452ede1ed290d11243e4c4"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_150_gt.json",
+        "sha256": "2ce4001d09aa4a09a2833dc37dd2385dac31da4a4c033427c45f9d1c9ccd46d3"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_151.json",
+        "sha256": "dc6f4cf21cc952ea145bda62fe32cb86759488e06b55686abfb1a5e58d728f94"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_151_gt.json",
+        "sha256": "81ba221b0acb70638e104c7fc6e91fd29d247d33db1907d7c7d5ccb726421a56"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_152.json",
+        "sha256": "4ef7fa5cff283d47643c7308d932daa2d68aebc451029125c5cfb8ef22fa9f73"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_152_gt.json",
+        "sha256": "2b4b6bfd39c7cf978c3c561651b4e6fa7d71d60068098a242da635bea8bce2e6"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_153.json",
+        "sha256": "f570e24e04f615e4765c853d1f7ca5bfb25d8a70b5fcb0f742bfbc1752acb121"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_153_gt.json",
+        "sha256": "586360b4435cbb45d1e629cf1debf3b41c04686a950a991e984c02016a5e6053"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_154.json",
+        "sha256": "b14fef9d9eee18d6a4068d5d7a9271ee477452752f4e0ae23202e0e46e089607"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_154_gt.json",
+        "sha256": "b892b261e4f9f99b5918e2a33a70deacd4f121e8c770c5b2f5796293261f32de"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_155.json",
+        "sha256": "b52a238b0c537a35664e240190b82d17942e9ab114212f2c6d7a7345107395ae"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_155_gt.json",
+        "sha256": "84b3be97efe3b81600c3be9c1d90220050cf37ea7e99bc414795e6938e4fe1d1"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_156.json",
+        "sha256": "c39879534bd90f21c65f0b712458628b621573a2ecc173c9278efb04ee18d525"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_156_gt.json",
+        "sha256": "9cd54be493a3165c857e1beec16f47593369a0fc3c9f09f00a07c722a6aed808"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_157.json",
+        "sha256": "a6280e6de0d73ed328563bc71fde56a83be7395f9444f9afdc95190c51f05a83"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_157_gt.json",
+        "sha256": "79eb45923b878677e065a5be68d5b3ccbfbcca055eb95c33f30379a7b3da5db6"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_158.json",
+        "sha256": "224bf293b79134d899627c4ca19837971ff4a268746873aa0350bdee3509f315"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_158_gt.json",
+        "sha256": "70194b5354a652510c122f822fdf9b1a614b4782547683778bcbc559572ba704"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_159.json",
+        "sha256": "f68496728c44637dccd0ae78ecf32a45575018f4779920565b6e4983bdc0e6e6"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_159_gt.json",
+        "sha256": "4d9c5e917edf85b5ffd7e384f8df61c78800a3bd9430cf69f8c484c385beb0f1"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_160.json",
+        "sha256": "03df9f06bb972f267c9ac9afa7391489035628607dabdd067d6b60b8a19ab57d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_160_gt.json",
+        "sha256": "52e8f187ff4de11caf2f64b64ef062ee243307afd772621d822324df8939d10e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_161.json",
+        "sha256": "9c768167be9def058030ef3f730fc46db9cf40cf50a76155c35b40fc74de23f7"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_161_gt.json",
+        "sha256": "3efa559f0f49971b2b90a437edf6e6aeef12d2f83d8e3288e101bfe2000874aa"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_162.json",
+        "sha256": "1c71c2d913963d40f14bd4196388d3c53f7313821cc00c8c617d80f04ccbd18c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_162_gt.json",
+        "sha256": "2af7327afcd65bea21a43f57253749a2bfa4ff5f4d06e6f9801fbc84a0e8a6d2"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_163.json",
+        "sha256": "4b42bfa7233bd8d19288320c0034a8afe005aa1e4545144d3203b4aba26b5d32"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_163_gt.json",
+        "sha256": "9621b09b95cb00dbb50a362bf437ada762997f092b1bbe3b69fe64852682c235"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_164.json",
+        "sha256": "18ee2c2d5ba345b0347b024222cb86454f5bfefa6a5d9ff9583d31d3561ccf65"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_164_gt.json",
+        "sha256": "4223cf54f38d536e05bef2032b8737a100369a34fc284ae18693f3cf287f7826"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_165.json",
+        "sha256": "849be3f5f2681329ff1b44a5895623521992baafc775efcbafa58be2ab0344f8"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_165_gt.json",
+        "sha256": "8835e238f5400e7fe01283f5168cfce4edd01d72d58954c0e805331b22c4eb80"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_166.json",
+        "sha256": "0b63a24159a8186605e8d8c80c54258c226c4e72328ea50d269c79e349f51e21"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_166_gt.json",
+        "sha256": "eb3592a6d7df3f521e08a719ce4513515cf46306e1718ef5c7670a50cfc8109c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_167.json",
+        "sha256": "a73bd574948229a48d4ba330c73e7bcfb9d9c68899ea12ed35f97ae0d1af04fa"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_167_gt.json",
+        "sha256": "f20fb1b17c44133407b45e8c63f8cc34053a1ec485ea2e943f1b4155f45f9a63"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_168.json",
+        "sha256": "ac24a668599b0abde2f49448718b43135906db5e3b045eb081466bd031b76da5"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_168_gt.json",
+        "sha256": "31d389f00ae4ae48dd8951f9a70e7dc1384392e2f2a0dd356dcd61591e7d3303"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_169.json",
+        "sha256": "612816a746c303e909ee3433046bb8690448af9a4f8de3b22a3c4c297bac09aa"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_169_gt.json",
+        "sha256": "2abd8978a202cc39aae9ba670babb798b04e487ea4318f9960d9a42d75bd12f0"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_170.json",
+        "sha256": "1164dcbb2e7853698c706c83ffb450a0726253ffaf5423f62bd01ef64a3e1d87"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_170_gt.json",
+        "sha256": "ebeb78387ab1e13e5584544fd6bb3c394a1211e8dd804a25b4fc434da2201435"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_171.json",
+        "sha256": "d8826b0434cd39f1ed731c50a4ab9a2132e0c42c1571865c67c42d21ab726ae0"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_171_gt.json",
+        "sha256": "936c5a899d52643a448ffbf29fd11a9baca4e5b8463dd1c71c1137b6cb8a9a86"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_172.json",
+        "sha256": "68709c434073d0fe6f8470daf91fccddbade8246b92801a91b50df4857782de7"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_172_gt.json",
+        "sha256": "6b7a1b26cfbaf1f7d942aff7a496f82268cf3f3d5679b8f0c038c2b60d6f1400"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_173.json",
+        "sha256": "da428ce475ae802f9815b4bb1b6bd784e029db73cbc5ad5a396e7e035ccdd077"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_173_gt.json",
+        "sha256": "2f9eda3bba4f52d466cf52ba1d6f52a0150bc57b21561c146dffc3d018346059"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_174.json",
+        "sha256": "89fc757f429163ec7ef185cae1ff28cf6030d9fa8f9b7380676447bdf35c1c89"
+      },
+      "prediction_files": [
+        {
+          "path": "outputs/detailed_llm/scenario_174.txt",
+          "sha256": "a6630ae677217b95d01e0940e4743a4f20f56c6b8baf16a7783a87078798c90c"
+        }
+      ],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_174_gt.json",
+        "sha256": "c75de0bdd19071ad823faa585bf430045bd150c40c40e542d938b618097a734b"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_175.json",
+        "sha256": "c19191a5d7d6d90a2c0e253f1dede5a8f2698b817186fa911aa42f564903e851"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_175_gt.json",
+        "sha256": "e8986b37c1267723b52a5683c38d2c51296d85896b236d4b93fdc6abfdfd7dc2"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_176.json",
+        "sha256": "d52b51cdd5b334f471087a829b75dac31053fad4a93bb62fd9a8f3fe33b2b6ca"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_176_gt.json",
+        "sha256": "e3ae06d3235d65ee6a29dd5ffc3658cb65768605562b3e70ca66f580fcafbd1f"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_177.json",
+        "sha256": "094216881ae8d314e3b74e7cce1a0b305874e78a627e7a56be29e040e7fe9714"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_177_gt.json",
+        "sha256": "861b4868d9ba044362993063fd5571e89bc0fc7627142d070e5e6c741ac6fe74"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_178.json",
+        "sha256": "b68b83b4589157edfe445e0ed494b9956998ccb81026967c7f1da119167e102b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_178_gt.json",
+        "sha256": "6f6adad3c02789c258f056b1fafd963500b640e16860351e029a354a7cf524c3"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_179.json",
+        "sha256": "d8af0c50f31ef4a6a5fdc4f7de769e07157ae03b2d4e2ae3636e7f55a39bf072"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_179_gt.json",
+        "sha256": "4e0c87c550d3f919c70c7b5724061f3ce279c64a0b32840b0f45e56ca598a884"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_180.json",
+        "sha256": "ce20f22e119afbb7d7b5112d948a72077789198f2ede09560f3ce14edac4a357"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_180_gt.json",
+        "sha256": "85d379e9aa19b241284924743a449b926e9e0f5a197342b8f52558a918155c75"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_181.json",
+        "sha256": "7ef5c0b8fe27ee85c6d09840898ff6e0d3f40faa4a9d3d9ff2489aedd75245b1"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_181_gt.json",
+        "sha256": "13a49fa29294fab9aad56f1aedf6901db83599cf624e5efb444e0bfde5ad44b5"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_182.json",
+        "sha256": "5f642b4e52bb0f24a6a64724d5dfb892a9f61e604c61f4be3043d9df0560ee64"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_182_gt.json",
+        "sha256": "2c45d95a786e5b37b842eadc5669d31257bf3caee7fda767d01784c06dc5d361"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_183.json",
+        "sha256": "92c21401ce4ddbf9979213f1ff839114f1bafea716e583dde84127b145a2f697"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_183_gt.json",
+        "sha256": "b867239237df3e54daf1f94a2c2e4d12f6da2ba030c22121dfc6960c6dfde491"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_184.json",
+        "sha256": "0649f9e276971322adb50e6558bf8554155f35cf2030806865657c299359bb34"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_184_gt.json",
+        "sha256": "d526d17d7efcc919c158413c0dc3fc4129458a96ee32b8e3bb82c9b4595b2afb"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_185.json",
+        "sha256": "595a04140def3ef4ad44e79a1ea5c2903c069fb0f57b2af76b8d29c456119679"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_185_gt.json",
+        "sha256": "29ba916ed527196b3c81456b66212276c99aedf4c9956fce0b1440f7ba1b248c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_186.json",
+        "sha256": "445d73ae41876eca0a6004147fc793122cfddb9991f15a83ace7768d1a87045a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_186_gt.json",
+        "sha256": "1a7ff661edb8ca06b3fa5a89887532ead227dd543ad8ac99a278be8af1735b04"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_187.json",
+        "sha256": "83980ad74c288ca0f1bffe6ae8e5d0d15cd5976fade271a54c88e3b918f3f29f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_187_gt.json",
+        "sha256": "bc06facdfa6626e1e01dca9e3acc2ecd166a9de52b8a577a949dea63bd2b42e4"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_188.json",
+        "sha256": "0df44fb8d2b93c30136c2d436bb1d007f78a18d8d24f37cd969531ebdc5a1729"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_188_gt.json",
+        "sha256": "d5f029d388554b128fcc7985edf81f74755009b17506eab10c74a14b2ea2f6a5"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_189.json",
+        "sha256": "a6c60347debfa8311e361120c9d1112cffb880cda5af922790b264b6285b774b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_189_gt.json",
+        "sha256": "660f14b6e2e266f9954f874a67acbbe368c92c3e156f709d0f6e1ce28aa54207"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_190.json",
+        "sha256": "290ff4ddaa5d9f9c4dd9e2d2ffb90fc2cd0c8fd21b213479e684ad6b4f6b363f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_190_gt.json",
+        "sha256": "607fc21fb104e0747a76ae5cfba1f879bfa7b5041b0eda63eb3c77f905cf1015"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_191.json",
+        "sha256": "6149569cf998153e52bcfdcb67929421a6e7464fb8e043b20f4c4863418f2d8d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_191_gt.json",
+        "sha256": "ac0a921af1d79c938cdf5fc33721fce1b21747f5ed5b200e4383ace92d3e3cff"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_192.json",
+        "sha256": "72dcea06be71a15f530a39c09ea6f30d33d8a663dbda3c7fb1323712bf97035c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_192_gt.json",
+        "sha256": "0a272f4940992a439bf6f944f1e0a5d73ba2fd057ca86f7895ceffc94251e6c7"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_193.json",
+        "sha256": "6daa8ce92e0998d08d219e906b974e8aa23a5281a7d0fa384394fc256e175323"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_193_gt.json",
+        "sha256": "0d3823fa208894ab64ff4986524f70ba6f42a9a4074e506dfd1c8244a428b3bf"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_194.json",
+        "sha256": "a14b149b06f0728c01a13c07e632da07de7e12ca2714b6fc67e2c27fcfbbb797"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_194_gt.json",
+        "sha256": "9c5fc20c1b05784befa6548f459246ca23900f8d4554326125a8080f738b7985"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_195.json",
+        "sha256": "4f870ccae1d564be455b9e31d7fa3ac9507258c997532a2360aa3a48f984d4a2"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_195_gt.json",
+        "sha256": "a63659ca6e57fae9afee86be34ca63a1fe6bae5d3ccd8001e033bddb422307f8"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_196.json",
+        "sha256": "31e17af4758965975bc04c6c71455c05484dd4020ad379c524d104ffb21646b8"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_196_gt.json",
+        "sha256": "a7f17e12d771d7b9a12a9235f05a510f7f3a3c154d1efbe51d19044a9802bf25"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_197.json",
+        "sha256": "c6d908a745c52ef1d9064a82013cfe3f5ff1ac92f7e5042e2e4c4cbc382b2e7a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_197_gt.json",
+        "sha256": "76230ed420fddc6bf8f242e16623f20dd9faa402bf1de6b07c05cf1498b84af9"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_198.json",
+        "sha256": "1b15ca0640345c900f54f23930c370145fbe3a4ac95767d3f95aa326e2aba410"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_198_gt.json",
+        "sha256": "4e527a678fa85d89ea111d24ad3dadae9d554620bab96269f04de4542c091415"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_199.json",
+        "sha256": "aea8d9ec25bded4d83622866b39a00c5f7418fdc7950b64688d1bfb2a047d41b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_199_gt.json",
+        "sha256": "e9be854073edc8d0e5c2079451d9054d6019623d203867b937ca95107de9d9f9"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_200.json",
+        "sha256": "174282969360356768a908916434db92a0f0709ff138acdac88b3771f2228bcd"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_200_gt.json",
+        "sha256": "5209f8aa58150a023923a41b070216dad4c27b6f2df883f9a5e7d5f55166826d"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_201.json",
+        "sha256": "49f9323a9559e2bcb55efac02a680a6388bcf6a08201f4046a2c6acd63cfed67"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_201_gt.json",
+        "sha256": "3bb491895a34a415d599b59d2af68253fb48f09332f62451e805ef6a0cd73e64"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_202.json",
+        "sha256": "d7c99244ac69c25083e60fc1af0d0cd8a7c2f75634227206092d7b71b3fb1206"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_202_gt.json",
+        "sha256": "318cdff61da3fa06728b3292225685e14bfcaf3ff454ce2c1c509b1a727c4784"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_203.json",
+        "sha256": "320877bfc7c6b36537af0bae426818d0030d43cc103689a397b3ef3ac6389fc5"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_203_gt.json",
+        "sha256": "8d15f6c82e23a22d16eb0905d8c9d1c9187428fda5aa2b6c4e2b8296e992d5a9"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_204.json",
+        "sha256": "9494b39abc523e2bafec20a36d65a3e37d841db8537568086ea8da4c906e898f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_204_gt.json",
+        "sha256": "d55ea9dd30ebec2ecb1389f8f03218a7a31da916cb5fc52fd904f93485fc7b4b"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_205.json",
+        "sha256": "b87d7de4df72012c654cc1898f9ce14e11f7b3b0250cca03867e7653ad60cd45"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_205_gt.json",
+        "sha256": "887e258184970dc63414a4300e20fbc6bbf1ac7d938575e275d5cd74c476e38e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_206.json",
+        "sha256": "277d906fa5720168fda3a75618363e0f3f4d4ba3189eb6f8a715dccf1fb0c6bd"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_206_gt.json",
+        "sha256": "66b35c30455e94e71cfe1038e6e2435b01e7b53a6db17fba01552f48d762b797"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_207.json",
+        "sha256": "310ec341a5c2641b63f38176a2e5eb69d7fa4d877c6a2803bf5a7b36f5b648e7"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_207_gt.json",
+        "sha256": "2b2836433737b81dcea2f2b07959c773a27f98ad3a50e6f8b05faeff53c11b22"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_208.json",
+        "sha256": "57ac66b498a61508b38b30b1340607175e427b4e7643ccc747e97a418e14216a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_208_gt.json",
+        "sha256": "c7aee969cb8e4903a3143c23b08ac89085870d49d9f82b764dbbd6f37c3da886"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_209.json",
+        "sha256": "e97ae2be3e07855eb60c5c2ef767751b372641941e5362c1cc0847d201788db2"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_209_gt.json",
+        "sha256": "b2bfa3d12a88523198475e248562cfa50a2d8f4a508f3e25c02058344b309f30"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_210.json",
+        "sha256": "a3056672a2198fca2fe4fe63241741a7a60c4413a85a081566c498c5305314a0"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_210_gt.json",
+        "sha256": "8edafaff8c5c72ee68321e8b4b1bbb8f5684a1e77e6294df4f10d19431546e80"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_211.json",
+        "sha256": "f952a92883640e0d319e01f091a6b72072f19f1f39cd74588f12bccdf6d9e384"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_211_gt.json",
+        "sha256": "f4ddf69fa2bc6a374b22ec8d9801147ae35d96a4f78b8a4e385be36c98c063c2"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_212.json",
+        "sha256": "68711bf9d3d869fdae42fa8c3aa11b3a3a6b735417367f0d6494ca4ba5921a9f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_212_gt.json",
+        "sha256": "3f4fe370e0a01ba78bc2b5c5652035e64b66f3b4b31cd58c52e9f2afb3101a67"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_213.json",
+        "sha256": "9dd85edff8aac16535c1247c3e84e6530e15f84c1736de06e9d5e2fc7684dd4f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_213_gt.json",
+        "sha256": "f2ac159e82e7eb6d36af2aee1d017d72b8b3146d55fed573444bf48f7725624f"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_214.json",
+        "sha256": "4c645e9d8782480cbb908bfcfc39aee20e63348e13b30d4873648fd914c7cd5d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_214_gt.json",
+        "sha256": "3e1690b007f8052c859b66ae146930334a006599834ca9124918e7de69fdb241"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_215.json",
+        "sha256": "35d1f96c6f181339b43cf049335ad7d6875e187d63e485167d9a933e10e34a4b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_215_gt.json",
+        "sha256": "6aea035bb01db7e38c66d6b24d13d14289bbe1207845c1694bff12a4046add86"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_216.json",
+        "sha256": "4b36bb864797a52d3e155be9029657b4c43cd0d31526d449d0ec8f21c38c0875"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_216_gt.json",
+        "sha256": "b1737e4c8a129a0f807fd5e5d828ac4d2accdda20fd9015d7d748de67615d1a8"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_217.json",
+        "sha256": "38d4493c4972a3fb8c77263a98ce089ec12570f32d2ba6c32cb92a1feb44de33"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_217_gt.json",
+        "sha256": "7042df4f03e9123e340dac7510e0b919e8fc27bcf98eb3303df0498397bdf3a6"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_218.json",
+        "sha256": "852fca0f1f8bfc6f128ebfcfde097346b36d831e61ac30a04347e71f11db58db"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_218_gt.json",
+        "sha256": "a2414763544796dfdb2a316873bc047c949b106e873c3864f9a1fc3efd549732"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_219.json",
+        "sha256": "e16eaedc2d09c6adddd5c1c40ca7b2fdc4a1780c85a242e92167e2d6c197fa38"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_219_gt.json",
+        "sha256": "08f993b1100de325e57e25edcd0e74efe91ec512b594a10cf024ff820b1a6adf"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_220.json",
+        "sha256": "cd22a5b8e681d254b73e49eb743b68651821cc92ba96bd40ce8205c1dd13baac"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_220_gt.json",
+        "sha256": "e2b10f6635ca411e09e0b0a5119dd9d00cf50e7fc24eecf92b4d67004a72318b"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_221.json",
+        "sha256": "25441c0a94d5cf5ca0a561a691eda1b7ffbc249c4dbb78c8fd6b16b3bec238ff"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_221_gt.json",
+        "sha256": "06dfba73ef3c16fd1666c64b700562ec63a8a5ccd8ca93b20a4a06938afccd14"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_222.json",
+        "sha256": "c3530e809b6269e82b0e5b88ac4fc1f695fcb6e2d3a5b30a92e28a80de8d89bc"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_222_gt.json",
+        "sha256": "141ac318642b36acb81f29328299833547b3e29839222f269630520f82f5f5ea"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_223.json",
+        "sha256": "ab9d74cf6cd7d99614a0edb1c9f366eb89d4ef50c3f85f78d0a6162f5db143df"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_223_gt.json",
+        "sha256": "298a54c3abbeb425fdf363e0f0779dbaafd52e701e5d60be48e3c1df19349461"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_224.json",
+        "sha256": "ca8d30ad95b1222c20ba2b1240b5892d5fa75947b786f29ffed3035fcfc8b28b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_224_gt.json",
+        "sha256": "93a802a48c5540ee4f4fad8d2e3d14fe1e84cb8cce85f24eb01121aba2280b38"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_225.json",
+        "sha256": "fc9fe1cf31388ec22529b52c0396f573359dfb2963055165fee8487aace98086"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_225_gt.json",
+        "sha256": "4a4d65a6be40718ad9297c5a7500fcb59c858ebdf1736bce8cb1bfee619885cb"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_226.json",
+        "sha256": "8f267c0b62d595e8f76c411a04b1540a22c802decac507495d85de875c154289"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_226_gt.json",
+        "sha256": "ef03b67f4c56d8bc74ed5b94378f04f2cc322bf1f8493f210d7d516cd7e45b81"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_227.json",
+        "sha256": "fb8e58290db2f115516de23f3299f1e9eb9e4de3e83dd668bc602622f45d0b92"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_227_gt.json",
+        "sha256": "023016a92c447eff8c035d5244a84e60d8655aaf384777ac3ed301020c62da44"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_228.json",
+        "sha256": "eea1b25bb74c13b09781ef2172724bc6e3bb93d1e009e31b2d08757ad97954b3"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_228_gt.json",
+        "sha256": "53b1a330d04daa3c4d4f00c98d9435e39163971b2285da7e787e413f0dcedce5"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_229.json",
+        "sha256": "2432b4d128f419f053173853712beb5451da3fa5e6e831694f405328229f3484"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_229_gt.json",
+        "sha256": "470707737e0a06c98630cb66242f36e105edd09a80e5052833d6b4078519d2cc"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_230.json",
+        "sha256": "6718992318e2290f30b59a0058c397b2b2e9621e56809e9d06a54bd50a1f5eef"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_230_gt.json",
+        "sha256": "adc98d5590ee49f8aa3e5cba766ce7d2541bf6ee5bc87eba4000aabd9fea3724"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_231.json",
+        "sha256": "23e1655d2fa3b640667cd36f36e074a0e8c93be52abe3978551756016e8c79c2"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_231_gt.json",
+        "sha256": "a8bc98b2d898f04fd8c975e427b8f53f5313984aad5cebc772c828dbe580d682"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_232.json",
+        "sha256": "07c265d6e3e830028dbffb7bef8fbd58d3ac88448adf02e0696202550f8ef061"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_232_gt.json",
+        "sha256": "34acf929e4ee983848667882377cd7aa898046ab8bd77776a73d96a4b3482533"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_233.json",
+        "sha256": "89d34be6ee96156e97adc4d7c648b44e01d1a8f09091a5ff336bc779e4134b22"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_233_gt.json",
+        "sha256": "228b7eacf1597be1c292ebcc9c9cda27d8793d3c7180fdc25cccd4d99f37b69c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_234.json",
+        "sha256": "ea229024f2561898a4f3af519340e8a239f0cc9b8788fe205c18fc96dc4b909b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_234_gt.json",
+        "sha256": "c48219d539a1fb6acbab6e50d383a985023589f8c4c62b549eb55972bd468df0"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_235.json",
+        "sha256": "70facf6cba764e84d3ab7382eb5415453ff0b59c72505a622dc769f588b92bd9"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_235_gt.json",
+        "sha256": "4503bb2c1e5dd391c00f7077589dce5496d925be2bf7f25e997a485553fcdf1c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_236.json",
+        "sha256": "3841694af80023e524266da9d1c38e15915ef03c335e2e11c72d02c3e2b88489"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_236_gt.json",
+        "sha256": "f251c3f19304a77feb91593e0c932d86be8d507b7a08c14e12b312f7c2273016"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_237.json",
+        "sha256": "adb1cfcdd743729673673e7150edb26aecd3d4de40de97968f888d70db40d524"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_237_gt.json",
+        "sha256": "df757e6e58e33509a8c63eb281ce8bc083f84450f754a1087d9fcd6a075a89fb"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_238.json",
+        "sha256": "3e41dd4d83ce633255942b4d9f2e67546945f44eba13f695116a966a20d27c14"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_238_gt.json",
+        "sha256": "53bf66004ab6a03afc546c0588be66c3dfc40541be83bbd154d77f23e883d4b8"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_239.json",
+        "sha256": "a062c201bf73cc7ba82c367ebb8266d9de3ee260171a92739ed148a49890515e"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_239_gt.json",
+        "sha256": "493b132b7c8f02d06bd86594a900a1b7ca7880a6d05741e697e6847ac59f2a9a"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_240.json",
+        "sha256": "20bed8822bce9233c805a466e874638c7f1788e346595734b9edc2ae372dad7f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_240_gt.json",
+        "sha256": "dfde864874eb5c65bbd49549a62c40f922c51f6735d9ab3d494912f175f8b8ef"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_241.json",
+        "sha256": "a3a9fbd4c424f7fb704d2de2ed92d080b0e9d849ce508f2c1063e1b5cdb32e73"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_241_gt.json",
+        "sha256": "ef2f14425b2415157f52b797c1639ea6c692cdc88fe74a971b4a1c740a40096d"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_242.json",
+        "sha256": "1276e5923130ba4047d356a0453904e6e0d202f6add664cf29e624e48e8bc086"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_242_gt.json",
+        "sha256": "9bdaefdee315cecb332bf367106cea787e0fb9d5c360f5b09f5a599945bd5eb7"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_243.json",
+        "sha256": "6a325ed63713978b514e99169508dad2a813e1a0aafead6b6453afee6e9304a1"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_243_gt.json",
+        "sha256": "7bc88322f28c60d2c65b5692921a6dc670ec5558950d47f283268075e33c9536"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_244.json",
+        "sha256": "311fd154151da3925459d6f20080a81efff99ee6da4bf0fc9e4607455801810c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_244_gt.json",
+        "sha256": "4091c1ffe424993818f4e4d9e570696a38196884182d55a079029b911a7370d6"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_245.json",
+        "sha256": "11e69f2464e0ec0ffb2c60257cc789a6913d7d7acd03059b0f7298307b5009df"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_245_gt.json",
+        "sha256": "7cb8c3ec7761858139d6c47a28ed97aa1abf83fc49d2dd606ce1e94c3645aea5"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_246.json",
+        "sha256": "8f724834f5547ee9706e9e45cea69039d2e06f0b668e4dbac910041defd7a5bf"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_246_gt.json",
+        "sha256": "28b822a065e6ebd0020b62b2ce1ef26339482faf3bf1e26d1c472c903a446f0a"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_247.json",
+        "sha256": "5080faac47f2f1bf87702573671c79eb13d54568b67d0a12ac0971509001781e"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_247_gt.json",
+        "sha256": "19de13f746b77625220a1f645ee830b48ef0de198c3d300ae594dd9c087309ea"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_248.json",
+        "sha256": "98d917bda604999cdf19615d2d20e16d8643bf9ca46a7bbfee756d855dcf38a7"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_248_gt.json",
+        "sha256": "433017cd3f0d52d33772de87d54d5f07d339b4bfede620c41b145c1bd524f302"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_249.json",
+        "sha256": "ecc9d27137a85a45455ee8309d8c9accf12daadbc4192ce5828c899ffc43485d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_249_gt.json",
+        "sha256": "d1a4215c893a89abe96df7081285492a938b04d96a1f4f452091137c6cc6163b"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_250.json",
+        "sha256": "c8635bcb2144c383c057041f937fefe952879b3fe5d55c7de37f7d03b99ad31a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_250_gt.json",
+        "sha256": "632510a14f01e3e02fd20ab8d030b07011bd6b678475b5acb81527ab2947bb7a"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_251.json",
+        "sha256": "8acbb34a1eebf35ca8728e17fa092a4518f918d7ab5ffd1d59457bef99818222"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_251_gt.json",
+        "sha256": "3c3b022c4966da32973d6b1dfdcaf44a7569181de4d5af0fdb1550b54585256d"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_252.json",
+        "sha256": "53e297ff1a7a1e4bd1b543eb6ab8f0016fe240ab5ecf13c9cc0b650216185171"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_252_gt.json",
+        "sha256": "f79092ce5aee8d30b5a9c99f2691d4cfe5882581e4ec936ac5dd9fd7c107625a"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_253.json",
+        "sha256": "5acc3a461c56f60ef3bf41670d8d88287d0a6852f924945534c1498026c5af2b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_253_gt.json",
+        "sha256": "d1b74c53fed098ab19961b922b85b8b7bd691b9c8d6247df7245c6d7a1298555"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_254.json",
+        "sha256": "6387bd5021b3c893426fe09bd07f90e29d3d7275c375ca1f931c79f7841b3bcb"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_254_gt.json",
+        "sha256": "7ff11019accd049cb2b754b270a533e4347b30e31d1db9bb215728327605f4bf"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_255.json",
+        "sha256": "062588c535b6054043bece468129e1647a57cd348527a33fbca3961ef9f0f7bb"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_255_gt.json",
+        "sha256": "13fe1bce892fa654b9555f1fe2ab92ba14361c148f51dcd767b71606eaa02681"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_256.json",
+        "sha256": "c50f220e168bb6f94a289f68564bcffe1abc55f5f2636bf3b30d527fc8c55d02"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_256_gt.json",
+        "sha256": "c74c71be96286f3ab26754a10168b3a8bc16554bdec6ae8cc8584845ef3b2ad5"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_257.json",
+        "sha256": "e060ac35178589f7f2c2b22f5c2f78abe0d3851fd7af01c568530306d0739dd6"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_257_gt.json",
+        "sha256": "c0253b5925ba91ebcd6cc4f506e2f0f45286dde9969d84c73ce7c7194f750418"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_258.json",
+        "sha256": "267e484628a6593cd82690f5b48fc94f3b010edcf587647dd34a4c86384246a2"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_258_gt.json",
+        "sha256": "253ea6d5c223520ff8bd30313ceacfa7d6bbaa29ca4b2d7742bf73706dda81f1"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_259.json",
+        "sha256": "0c4b45cb8995698bce9b25ed078df4d9d4bcdaeac6b5d10fae9c40da1fa9ef52"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_259_gt.json",
+        "sha256": "df0e4194a40c5dae4f2beb788194b0fb54607bbf44d142d784283ddcdda17a1e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_260.json",
+        "sha256": "bfbc8115203d03263a16b5ea66f8895dee3a1c32836ad94ff74d819a136fe175"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_260_gt.json",
+        "sha256": "975e9003bdeff1f0bf1e469bc42bf671908a6d97e138bfebb27fa95a299d69bc"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_261.json",
+        "sha256": "0a72e327fa3597f16dbb761561b33ef12c224a4d9a39d7c4bf777571e938f4a8"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_261_gt.json",
+        "sha256": "396d2e9845827730f9c1d40a82260a6d4880a5f0677d861d2312c813b126ac6f"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_262.json",
+        "sha256": "75c2ff420a91a51b25c2dc9d4c29d9881d41d6b63d3efeb6ccae016fc71f060a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_262_gt.json",
+        "sha256": "7319770afb0b95f058ce69fa85826158bf4af3184a30823a7778431313aa7c2e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_263.json",
+        "sha256": "7a0daaee6d048f4c748907af2d89a03048e037036f9e48e2bc979f7f939ce6a3"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_263_gt.json",
+        "sha256": "d4ea858bd9070e44195edc392688aa0d06c850a4c395adf282ab849365b943f6"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_264.json",
+        "sha256": "dd715d3952ff334decc565b6c628e93e14f57386614f25116c40e1d57ebd38fa"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_264_gt.json",
+        "sha256": "fbba2a7b937e6cc6905046a3bebea9f791aae146414f4c7dd3613d696d6187c0"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_265.json",
+        "sha256": "c9985239fc5f6aff3b078c826fb7d6a7a7be10b2ad039de94d99e1f31d7ebb90"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_265_gt.json",
+        "sha256": "120e30e838d653db223ad1353f65e911cd606578850aa80d62f5a8821035aac1"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_266.json",
+        "sha256": "42072f8522c27a9218547e3ea1e26778be57ccc2695b33da5c07f4b2f32a8029"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_266_gt.json",
+        "sha256": "0a85221d5967e4812209f9891c8ab8319bcdfa846a68fb244642e0772ed02e12"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_267.json",
+        "sha256": "2496dc26767761538fb341469fe4d250c217843dc0ab9d3ed3ed898f36b13915"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_267_gt.json",
+        "sha256": "f277447edb9060e310e548d0d9b06863265b9207dd2a3977537975b20cbd66b1"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_268.json",
+        "sha256": "fd4293e1b39c6795db552fa9dd67fff9793a2a6670f85a9919aee3798e9564ca"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_268_gt.json",
+        "sha256": "8ce46153894a370420bbfb77663ba4300acb077d8f5377b59cc8156a4fade4ea"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_269.json",
+        "sha256": "e1a9bc3b486a31a9d11dce08261f06c694c264d084218aad448c759ec889b549"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_269_gt.json",
+        "sha256": "549a41b64799f6443ac0f2123bb01a06be88b452c459aeaad749943a17178ad2"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_270.json",
+        "sha256": "dc1894d5d0aadd913c2cc604afc87198ef612b2b5b0c571a9708eb59b57831ed"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_270_gt.json",
+        "sha256": "44198a270b7caf0b35b27ec8e6d9d663c0ed31083b0b2948a69c27b419111c86"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_271.json",
+        "sha256": "d14048f25c10ce4df668e9ec76a721061f5417d3574a9bf710fe7f567028409d"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_271_gt.json",
+        "sha256": "d790209b5801624eef59d8233ecd7c5acffc2bbdbaac48dc07be2417ea7cc67f"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_272.json",
+        "sha256": "cc7048432ada591be5c4d1da3f4a94f3659e85ee696838d323c00cbcada80b25"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_272_gt.json",
+        "sha256": "218c9a4d7bf11be04fb2b5db338da69946e9d101c6e4c3fbc871c29771039cdf"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_273.json",
+        "sha256": "bffe71a0cdef29a801d9b89075eb661daa99df04e7f3660232d43fa4575dedc9"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_273_gt.json",
+        "sha256": "25be9af809f1d7771a5f320c76a5e91a195a72b4deca6b464c832cfe232b6289"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_274.json",
+        "sha256": "645b9bf5a2c50606deffe018b055cab768bcc8fe4169a1497cf657bd57e972d7"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_274_gt.json",
+        "sha256": "cdf223be3c517d9c86c39a05f0757859bfc51962a22509e64def5b0de7482456"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_275.json",
+        "sha256": "39123f70277af71da260152e8bfdcd64f7ff5c7708ae71ed0f919df0af773aed"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_275_gt.json",
+        "sha256": "8ee1b8e65bcd03e8c36f6a85d0ebc39dcaf620d0ae3b130be03178b81906098f"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_276.json",
+        "sha256": "c664a20832849d5395f2d2f7c3fcfc9e90e661fbb6a32eac222f0ca97ff1419f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_276_gt.json",
+        "sha256": "7a4c14aecb6015b09c59bda2e2d29c86b8824a94ab7681de53cfdc6bfc43b3d7"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_277.json",
+        "sha256": "72d96745a9c361e6f0c94acf61c5856723ac1c1def9d402a7b2e17f0e69554e3"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_277_gt.json",
+        "sha256": "fc7d78347a0cc00e1ebf141af8619cb3740dfb14f6775cb0a8df26c4f6fef704"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_278.json",
+        "sha256": "c0b0e8406b51ce651769acec00f93c6d64a8b8fb45665e301155497ad7f7c44c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_278_gt.json",
+        "sha256": "5efbb2da56c17172ff0841d0398acb29d4269cb32edf7174a0037ad1cff98f6c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_279.json",
+        "sha256": "90c38866e1d1b7b961d4c66d6afab7849bf2792d2048a8a536a8c15fe9113709"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_279_gt.json",
+        "sha256": "ffbc04d2efe2c72ff51b1f0d6c625b1f468fbbcc8a19b882ec8cf064c6e22827"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_280.json",
+        "sha256": "b6ae38ff1a5bf893d47460c0d560454de68e25d752ccb03bc1e3b5f8bcbf8a93"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_280_gt.json",
+        "sha256": "7794d08a88f5b4c2278dbcc131c154c09cab4716c25cbc230cfc6a5e60d0251b"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_281.json",
+        "sha256": "be105a9d1b488f0ee8a79b4aed5699c12d966f92483b79ed32f234e6a36267e0"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_281_gt.json",
+        "sha256": "b4427564a1247d6d5a32f9403b1bd2f109fb7032feab979d11c253381e794788"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_282.json",
+        "sha256": "0570c62eb9ad3a4d74f51c120d4e75afdfc8a4bcb47070a9557187b1444c92bd"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_282_gt.json",
+        "sha256": "d93d4694e87a58a6573f3bbe8d1e30180ddb803a53c4851a61c76d6e1d5c1364"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_283.json",
+        "sha256": "6fe179ce3c2b0d86c7388641b56fd4a6c0bc37d2df31414f7a39cede905f9aaa"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_283_gt.json",
+        "sha256": "8b3135de222d08679d63b6d68843159184eb51168f1ae6aba8d87827c479eb16"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_284.json",
+        "sha256": "c465d6b4eb488037f4a2f018a9b2c78e78e25c602197278465285a3b7d9ccdd4"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_284_gt.json",
+        "sha256": "4e53e8e64077c7b9573213dceb7efc129952ae98ef011f76194e4698a1ce6999"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_285.json",
+        "sha256": "508c9f06035af581691f6f58c568ffa579725320361db249f486d1264cdd60b1"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_285_gt.json",
+        "sha256": "54738332a370661cbba632bc67bf52d47dbc2bb27d81e8ba1ae33f772e80ad45"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_286.json",
+        "sha256": "e3384ea6fbab74ed615edb81a4b8f1586a016118ee7516322967c91d01541be1"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_286_gt.json",
+        "sha256": "e92e8ba74b0412614360392e93b697b7615c3b2494a1cb950b579d4c3b6fa308"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_287.json",
+        "sha256": "2f7e89a512a7d8c7b357384a244951a1dc8d5349076c78ccd41677d3a04f442a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_287_gt.json",
+        "sha256": "4acd92ba39f50dff0e6dd817ebc3c0753c05b291f6ac27b3b2033400ded5ecd4"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_288.json",
+        "sha256": "7b88f90b503c589e70604e41d7d0d86892c37c4f92f1933605736958622d0e37"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_288_gt.json",
+        "sha256": "b4a43762b842437a4cbbb96347f7b0898e70961ecf9eb642c2db93908b32f397"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_289.json",
+        "sha256": "625260cfa3ab3f4fc1328047b9d70dbaee150bbf84d8ff611dfb6b4797588a2f"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_289_gt.json",
+        "sha256": "3bf842de49590850b88081955d923723920404b725e7aeb5b6605b319c5c6cb9"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_290.json",
+        "sha256": "15596ce6e48d93568e107f51e17c70b5563b06b5630ee73df14ce4e5220a21a4"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_290_gt.json",
+        "sha256": "a5d11c8abfb1de2d43e70f5a109697aa8d50978467a17ae0acc5bd7716339023"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_291.json",
+        "sha256": "5f17c8a32153efc5a7db3630e9e744cb5c868c715447d5765e844150eb47cc37"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_291_gt.json",
+        "sha256": "28b6cde30026cd05a4e4de6fbf44cbe597e8b701c8388ca350d1107195f2f00e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_292.json",
+        "sha256": "215c614c6f67092b7ab9a40bc3087e80bf692cbf686b945899ec27866456a6d6"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_292_gt.json",
+        "sha256": "1267647133f92b297d8f827d7861c677f7cf326adf54072cad531ea9e2ab10f0"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_293.json",
+        "sha256": "e92c232084363761b71129a880a3f8e7409ca0378afb131672f42b6d7f1fb2fc"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_293_gt.json",
+        "sha256": "1ecc2e318922e13a663a2b280c3014965b2d6c62ee7f9c183c39bee151fb29fd"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_294.json",
+        "sha256": "27b98d652b1a4c2ec0c4fd9a29860244058c25be5d0abb45436090334a0125ca"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_294_gt.json",
+        "sha256": "6ecce682e5566236b3159bbb0a12290058949c91307ca15570a77948db81f8e6"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_295.json",
+        "sha256": "68fb8b03e3f14d3156f6765c83c198fa145b520b4b015b22bf5b6a56b01be465"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_295_gt.json",
+        "sha256": "f65b50201b451fd697ba32b13de87dca4acde22eba737e1b9a39f2f68cf8508c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_296.json",
+        "sha256": "cb5c3b0a6eb061b5018437ae739afe96a4389f7c1cca40f737bcf06525dc9de7"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_296_gt.json",
+        "sha256": "f1fd4326cbe99404e3a9a24e66d319debf30ed2aef5ec81c9299c0c857b8357e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_297.json",
+        "sha256": "1b095ce0526230d332e5cfc820ec95b3ad24d4eda26fb13fa827c6c92b4002e3"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_297_gt.json",
+        "sha256": "ec34227fea8407f6ad098e4c830f8c2cdac4e15e033b21aa747e8fa22b4fafdb"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_298.json",
+        "sha256": "5993a61641140a662f31b8b2793cd20b7e9bacdf85bf5eb528939c86d3fe2595"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_298_gt.json",
+        "sha256": "a8aa5ed1062dc71fa2fcdc117118660db54b33bb4b2044292b02536cde05c064"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_299.json",
+        "sha256": "25eb151c9fe19ea0009dc5a221916fce9927f593dbc4c18b42c0f147a8f75ebc"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_299_gt.json",
+        "sha256": "44717797b388ec30211a7abbfab3c1ec3495a87f131edc2502e78632238fec41"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_300.json",
+        "sha256": "30e942785d345e5efec801a287e6ec92b6244ed5ca9c8f3c2edcb7eb5708cb43"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_300_gt.json",
+        "sha256": "6d8c37cf73b56df6a5a2272bf2cb1bb20af08de7e1a796647800f352e8b1c36c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_301.json",
+        "sha256": "3bb77a9d08bc842f8561b7dab38cc2dd19bece7097f550c3eed36a155f0c19f8"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_301_gt.json",
+        "sha256": "3259a82bd1aac4f7e6abcc7944365bbdde47c0f201671d365d518d849f6055f8"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_302.json",
+        "sha256": "bf4ba7c14353976925ac77f2d40233824876f17151302362c619d6b3db849b3c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_302_gt.json",
+        "sha256": "22b7c5657f069c3a15619cec3a73ecd445c92fdec8acb2ff2daf0a7ef907ea13"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_303.json",
+        "sha256": "e2690cc1f0c2bc806d7afdad8c6a1437dfc9569c5594287ee13bc2a42a5c87c0"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_303_gt.json",
+        "sha256": "8931660ca0cb10825c55200d8bffb445cf0358c6172b22469986fb5b46b89fe0"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_304.json",
+        "sha256": "3bfd480b54d6e96bd78f503ec8a1e44a75977024eef1cad024ef6f299ae28759"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_304_gt.json",
+        "sha256": "b786bfb1865791950f9199a294f706562bf4a54bb7d79239038472d062f2ca70"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_305.json",
+        "sha256": "4351e350fe5bdd9811198e7dd9d0de53f30cb3b03056f567ca4d8d79fd124227"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_305_gt.json",
+        "sha256": "081b7df982f4a3acad03843c2728fd87f802b3999d041330b4e8cd3bd35b0ac1"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_306.json",
+        "sha256": "7ca9a94142c52b2ac5b2e525ad95a001f37215eb62ad7945d7dcb4acaff923b5"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_306_gt.json",
+        "sha256": "2e8c889efe2ee08b4a1eb6ba3f418ee0e10b1f1cbeadc45a0b30fed19e203b5c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_307.json",
+        "sha256": "75109b04957a156df4b6d3d0ad6cae55b3455fb86069675ed0c3409823cc05cd"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_307_gt.json",
+        "sha256": "9f52dc350fff403b12eb2fda8485852b8d2c4e3a2d3b23e695df5ac7b0141737"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_308.json",
+        "sha256": "213ab6c6f833f01efa1375a01343fce5cfc0a3c6efb851fa7c20ebe730da9a1a"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_308_gt.json",
+        "sha256": "cf2f2a6928a2cb27948399ca9648032c030c1ed285dc58aca0ba3a6692cbd661"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_309.json",
+        "sha256": "58bd85bd4c2f5a426453f8ea86a3da73f042309f9d500396cf8e193d94d3eff5"
+      },
+      "prediction_files": [
+        {
+          "path": "outputs/detailed_llm/scenario_309.txt",
+          "sha256": "757cbc680a39faf15cd051372ff2d159db1562a4cb5d1e7aae83a38cb36182cd"
+        }
+      ],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_309_gt.json",
+        "sha256": "6f7275fd6b63b64bd55748c625598df2508324e09c39100fc71a06f00035d2c9"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_310.json",
+        "sha256": "81690713ee2b6237ffa79c5a3c1ba51fdf9bff4e1f0ef59fe39c36584e8a869e"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_310_gt.json",
+        "sha256": "294e20899683aef8ab3fc5351163db444dd898b5b51a2700aeccd7e93c3c6bef"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_311.json",
+        "sha256": "4052bcabc516f63732a29d07fcade1952817316fca0663ed35c872bc490d1706"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_311_gt.json",
+        "sha256": "5a2055b30935051cc58311791fad245e385f5e1d04d0fb9036da1e212280d758"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_312.json",
+        "sha256": "fb9f83f1343f482fb5176176c8cf377f697e5ef9dd841ded7030c18670752ddf"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_312_gt.json",
+        "sha256": "33edad3427a3e0a49749901be1ad4c76729c84302a156881f593c2d3e6986870"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_313.json",
+        "sha256": "1c147b08badbcd8f424425c37733518cca31895b66719e828dd42fdbe8b6b8ff"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_313_gt.json",
+        "sha256": "e291ae0b78df3f89b0d4127f19e9c085fa03a48010a48fdb87cb0baa6de40f32"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_314.json",
+        "sha256": "451396bacd014e186eb6528f21365d62e29622671efce05497d531dfe3b95c03"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_314_gt.json",
+        "sha256": "b5f9736db8d5dd2811cf145ad4eff03e8939b66e0451efd2dd2e68d987dcb1a7"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_315.json",
+        "sha256": "9c3e62b7b98a9db51a25b33cfb1d4bdb721868f600506a70098c711989407e13"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_315_gt.json",
+        "sha256": "cc0b40ecc6472d6b4eb0743fe4b53b98fc5ddd30890b8f03ce26ed647d59c33e"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_316.json",
+        "sha256": "5649642562a3e23563c32f317494c7e8110139a0d6285388fd2b237e4c7a1d0b"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_316_gt.json",
+        "sha256": "336e725c1ff2b23c5f3b44d2aa128e8652beb410139067c7975f6f69379169c8"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_317.json",
+        "sha256": "47f0d8cf420aca2795bb6d8318731bf8dccdb6a57cb0feaeae8dd0deb23f6432"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_317_gt.json",
+        "sha256": "fb04c10d19fedf5fe1c1fbfb94c35d3c441bc926a97b2bd93c24197b87917f96"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_318.json",
+        "sha256": "e81523aaf8b8cae6e320543861e19c36475ddbcc0659f33589de723334b8d610"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_318_gt.json",
+        "sha256": "9609e13012067ff726777f1a9908c780a7f4d8ce08f1cf7958c6d4e5dfbe748c"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_319.json",
+        "sha256": "4e3650f0c717110fe26690d39b490868ae3238698f0868658890ae70817af077"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_319_gt.json",
+        "sha256": "16e51c597976dc88378bbca87e202feb4826aabf9ab3f506b950bd9a41b274d3"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_320.json",
+        "sha256": "9259b5089a5bce80380398cbe242f58506537c6fb33524f20d09ebffcd58cd9c"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_320_gt.json",
+        "sha256": "9a370bd7ef05d88fea18d12541856bc3afbf50855432950ff70a94d58ff74206"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_321.json",
+        "sha256": "8a294b234e626c5dba554de53ecc3703e1b1f001f8861b2c8682e7ef4e6d7974"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_321_gt.json",
+        "sha256": "6acd81a23bc055f44ebaae71ace31f4366fac17c0b9043a8e28350e587a50275"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_322.json",
+        "sha256": "55bfdbd8f69270b21ea31abd774c41787c2c2eb04177a4f4efae3b728ace9a14"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_322_gt.json",
+        "sha256": "4ed953c6eb9fab217995df195b8fa1070be74e748bd82a6a0f0bf2ea392457ce"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_323.json",
+        "sha256": "781268c26484b5af4fcfdc04666d43d4ded78ec579002d8e00f2a76a60be23b8"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_323_gt.json",
+        "sha256": "103239e0e461cfd0f0e4616fe9fc724346cb4d045fc6ebf3099f445015c3113b"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    },
+    {
+      "scenario": {
+        "path": "data/scenarios/scenario_324.json",
+        "sha256": "056c19321f6e04b5f14a36da4184cf2f725579bc27035f3cc71e3c3dce497a99"
+      },
+      "prediction_files": [],
+      "ground_truth": {
+        "path": "data/ground_truth_official/scenario_324_gt.json",
+        "sha256": "8fc83202f77c48212df45c3543210e01fdd41f250bcbb9e837272e73a5af1b20"
+      },
+      "ground_truth_backend": "official_zenodo_14171746"
+    }
+  ],
+  "run_metadata": null,
+  "run_metadata_file": null,
+  "evaluation_code": [
+    {
+      "path": "/mnt/c/Users/黃翊峰/Desktop/專題研究/traffic_llm_replication_zenodo_ready/traffic_llm_replication_expanded/evaluate_detailed.py",
+      "sha256": "a8ee7c5edebb616e05e2465f9752f0adf27b0999dc91678a67e32f9384495800"
+    },
+    {
+      "path": "/mnt/c/Users/黃翊峰/Desktop/專題研究/traffic_llm_replication_zenodo_ready/traffic_llm_replication_expanded/detailed_output.py",
+      "sha256": "9b7614eb61f6567a2904da0d2c8dcf4838458c8bd71c4883de0ce510e7d26e50"
+    }
+  ],
+  "metric_policy": {
+    "scope": "Project-defined detailed metrics; not a claim of exact paper evaluation replication.",
+    "population": "Only structurally valid complete predictions are scored. Missing/invalid/ambiguous predictions are unscored and included in coverage denominator.",
+    "conflicts": "Unordered vehicle-pair sets. Empty/empty exact match is true; zero micro denominators are null.",
+    "actions": "Project normalization of author pair decisions: yield if named as yielding in ANY pair, otherwise proceed. stop/slow_down remain distinct and count as mismatches.",
+    "priority": "Compare relative order only among author non-null ranks. Do not score order of nonconflicting vehicles. Zero applicable vehicles/scenarios gives null.",
+    "waiting": "Compare full-precision author dataset-level waits. Report all vehicles and author-conflicting vehicles separately.",
+    "places": "Only coarse location multiset is scored; intersection_center explicitly aliases intersection. No precise spatial GT exists.",
+    "explanations": "Validate/store text only; no semantic correctness score and no ROUGE claimed.",
+    "yield_relations": "Not directly scored: archived output schema has per-vehicle actions but no structured yield-to ID.",
+    "gt_inconsistency": "Retain and report author pair-yield versus global-rank contradictions; score these fields separately, not as a single physical ground truth.",
+    "all_fields": "All scored structured fields exact (waiting uses declared tolerance), excluding reason/explanation semantics and unranked order; requires consistency checks to pass.",
+    "run_metadata": "Recorded experiment metadata is not independently verified by evaluator."
+  }
+}

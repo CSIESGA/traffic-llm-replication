@@ -1,0 +1,145 @@
+{
+  "is_conflict": false,
+  "number_of_conflicts": 0,
+  "places_of_conflicts": [],
+  "conflict_vehicles": [],
+  "decisions": [
+    {
+      "vehicle_id": "V7997",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V7875",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V1895",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V1683",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V5927",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V7340",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V3038",
+      "action": "proceed"
+    },
+    {
+      "vehicle_id": "V4899",
+      "action": "proceed"
+    }
+  ],
+  "decision_normalization": "yield if named as yielding in any author pair decision; otherwise proceed",
+  "priority_order": [],
+  "priority_ranks": {
+    "V7997": null,
+    "V7875": null,
+    "V1895": null,
+    "V1683": null,
+    "V5927": null,
+    "V7340": null,
+    "V3038": null,
+    "V4899": null
+  },
+  "unranked_vehicle_ids": [
+    "V7997",
+    "V7875",
+    "V1895",
+    "V1683",
+    "V5927",
+    "V7340",
+    "V3038",
+    "V4899"
+  ],
+  "waiting_times": {
+    "V7997": 0,
+    "V7875": 0,
+    "V1895": 0,
+    "V1683": 0,
+    "V5927": 0,
+    "V7340": 0,
+    "V3038": 0,
+    "V4899": 0
+  },
+  "ground_truth_method": "authors_v1.0.0_generate_dataset",
+  "ground_truth_backend": "official_zenodo_14171746",
+  "official_raw_output": {
+    "scenario": "{\"vehicles_scenario\": [{\"vehicle_id\": \"V7997\", \"lane\": \"4\", \"speed\": 74.88960898165828, \"distance_to_intersection\": 400.8808526544138, \"direction\": \"east\", \"destination\": \"G\"}, {\"vehicle_id\": \"V7875\", \"lane\": \"8\", \"speed\": 60.609007968556185, \"distance_to_intersection\": 54.143951522066104, \"direction\": \"west\", \"destination\": \"A\"}, {\"vehicle_id\": \"V1895\", \"lane\": \"6\", \"speed\": 44.809181590089835, \"distance_to_intersection\": 408.5015917786369, \"direction\": \"south\", \"destination\": \"H\"}, {\"vehicle_id\": \"V1683\", \"lane\": \"2\", \"speed\": 32.247010763724006, \"distance_to_intersection\": 280.7031285189568, \"direction\": \"north\", \"destination\": \"D\"}, {\"vehicle_id\": \"V5927\", \"lane\": \"6\", \"speed\": 56.110106274236855, \"distance_to_intersection\": 222.46445247951002, \"direction\": \"south\", \"destination\": \"H\"}, {\"vehicle_id\": \"V7340\", \"lane\": \"1\", \"speed\": 73.2535938036422, \"distance_to_intersection\": 180.63819953692746, \"direction\": \"north\", \"destination\": \"H\"}, {\"vehicle_id\": \"V3038\", \"lane\": \"3\", \"speed\": 28.252959051463215, \"distance_to_intersection\": 150.1158911645441, \"direction\": \"east\", \"destination\": \"B\"}, {\"vehicle_id\": \"V4899\", \"lane\": \"3\", \"speed\": 32.40073523499234, \"distance_to_intersection\": 362.7652746636616, \"direction\": \"east\", \"destination\": \"H\"}]}",
+    "is_conflict": "no",
+    "number_of_conflicts": 0,
+    "places_of_conflicts": [],
+    "conflict_vehicles": [],
+    "decisions": [],
+    "priority_order": {
+      "V7997": null,
+      "V7875": null,
+      "V1895": null,
+      "V1683": null,
+      "V5927": null,
+      "V7340": null,
+      "V3038": null,
+      "V4899": null
+    },
+    "waiting_times": {
+      "V7997": 0,
+      "V7875": 0,
+      "V1895": 0,
+      "V1683": 0,
+      "V5927": 0,
+      "V7340": 0,
+      "V3038": 0,
+      "V4899": 0
+    }
+  },
+  "ground_truth_provenance": {
+    "concept_doi": "10.5281/zenodo.14171745",
+    "version_doi": "10.5281/zenodo.14171746",
+    "version": "v1.0.0",
+    "archive_sha256": "db45efac0100d1c9e7e42fe4b5423fbd9fae9c72ad2d597a11080aa5de9244a5",
+    "source_repository": "https://github.com/sarimasri3/Intersection-Conflict-Detection/tree/v1.0.0",
+    "source_sha256": {
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/data/generated_dataset.csv": "9ab709e7cb9187b95cdd2b10bd63b6afb32a2ff8ec5cc98f15035d9ba7b8a939",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/generate_data.py": "408e08b4d6ccdd16fcd1129904eb4c63e501c4bd44e137112633aff3c3afcb67",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/gpt_finetuning/__init__.py": "e81ab43be524eb10e2fee895b754502b3ec17d0927a3705a4f7407b5c5361dcf",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/gpt_finetuning/evaluation.py": "2d1c2f662857b44d5bd649665e40be09a4af7e5ccc1d4a4dffc0e39f2f5e7f29",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/gpt_finetuning/fine_tune_gpt.py": "5235a1e0584bbe349ec47e669e112ff2b502e47219e9304ad110390a7441e5ab",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/gpt_finetuning/prepare_data.py": "9266965fef36f43366220eba2f98518aaa643fac0318c5004f5a9621cec01d66",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/gpt_finetuning/utils.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/images/conflict_intersection.png": "4478ec8c03c7d821582c3161df37f8b2836134e3a35c8bb6ffb4d9c00094675e",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/images/dataset_creation_system_workflow.png": "44922dcaca2220505a0005c4d119e5760e1c349b28b0612fe3bd687050574c84",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/images/layout_intersection.png": "f5fe24d24850ef147ebf9311c8ae8014833a51360d641c9e3047f7e473706231",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/images/workflow.png": "869f8d7b74be59b3f12a1b76c2f531a5408521b695b66fa5d8b0d92a7bd23ca0",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/LICENSE": "bc93ce21d8ac91aeb0f0cbfdcc1bb7261b618f16420f58710cf6326dd4d67f5d",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/llama_finetuning/__init__.py": "cea7913fdf11a35d0f184748745568780aca0d6f65e3b38bb18e5c432c1893fb",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/llama_finetuning/evaluation.py": "0472c031e7a03715c76e47283ab7e303f5ea37c2fa5de2e8f48820e9e8b545db",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/llama_finetuning/fine_tune_llama.py": "6e2a42259a61abc5520b21c63101a9f9461978bc48ad6321d3ea965e4609fc8e",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/llama_finetuning/prepare_data.py": "2aeb2f2751f4bd2ac892c7279b26500f4fa6140787971f03b2138dd2bb88eb2e",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/llama_finetuning/together_utils.py": "1529da882cb05856293ddb92031a7796662e9bb977bdee670eb59bc9972f3f1e",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/README.md": "4bd4bbf4bc6c4c35e49a809847b5e251ad69012567134db09eae3147e9437b00",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/requirements.txt": "180e16ad711bd77c87a2fc66ce0b5ce65d23c97b3c0625eb312738ad03b9e162",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/run_evaluation.py": "ba21c698c1d34e9f793300f5169f1fc9bad12187e4d70911eb0905bc0aae68b7",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/run_fine_tuning.py": "b56951964a9f1a74bfa273195b98099d54243e3f667a8d98d658acf3c3bd898a",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/run_llama_evaluation.py": "e7c89a153f0177b9b63de865622f6e41e9f605920978ec4220eb2c546d4dc5a3",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/run_llama_fine_tuning.py": "ead6180d3e63b35c026721756c90dd6a7ae7a9ff848836eca9722d94dfcc22cb",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/src/__init__.py": "f92b3594a06b990586a50f7347d80ebb5b33d95e1f91eb7dcbaaafe0580002e2",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/src/conflict_detection.py": "91851236006de79846eb7652d44b86de7fe44eb10f936a4b9d701f1631f9edb2",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/src/data_generation.py": "f544e80a7d08312f3e24c049d2149540c9f17e20a29afee5c6d60db432a2920d",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/src/utils.py": "bf59863155f5f5938864f89d8905c6d45051ab18e5e0d00f6ea5b14427d08abd",
+      "sarimasri3-Intersection-Conflict-Detection-06ee9d5/tests/test_conflict_detection.py": "6287e249505bb2fc54c0b0516da380f7e3930f69b8b0e5a0bd044c5f0e215900"
+    },
+    "adapter_sha256": "f7866f48be6cb32df2c7e4a96860cf01048bac2375a6b5ffab0238903f3a14e7",
+    "adapter_config_sha256": "4c42377eeb3ce23e5231dc878a19f19c0c3fdaff3d450a66df3ecbaca5ff75e6",
+    "aggregation": "Unmodified src.data_generation.generate_dataset",
+    "scope": "Authors' public v1.0.0 release; not a claim of recovered final paper splits."
+  },
+  "scenario_id": "scenario_186",
+  "scenario_sha256": "445d73ae41876eca0a6004147fc793122cfddb9991f15a83ace7768d1a87045a"
+}

@@ -1,0 +1,2283 @@
+{
+  "schema_version": 1,
+  "protocol": "author_v1_binary_manual",
+  "author_tag": "v1.0.0",
+  "expected_output": "yes_or_no",
+  "prompt_sources": [
+    "https://github.com/sarimasri3/Intersection-Conflict-Detection/blob/v1.0.0/run_evaluation.py",
+    "https://github.com/sarimasri3/Intersection-Conflict-Detection/blob/v1.0.0/gpt_finetuning/prepare_data.py"
+  ],
+  "manual_role_note": "System and user text are combined in one user message for manual chat; this does not reproduce API system-role separation.",
+  "numeric_format": "speed and distance formatted to two decimal places, as in author v1.0.0",
+  "n_scenarios": 324,
+  "prompts": [
+    {
+      "scenario_id": "scenario_001",
+      "scenario_file": "data/scenarios/scenario_001.json",
+      "scenario_sha256": "0ceccdc316d44f5a0b67df496223d77508bfcd11a7e69137d111db08db1f3095",
+      "prompt_file": "prompts/scenario_001.txt",
+      "prompt_sha256": "3c847a38e04aba9a5c3edbdfc3fc6bb4a68d7d5c6493c9a5912bc322491b7c7a"
+    },
+    {
+      "scenario_id": "scenario_002",
+      "scenario_file": "data/scenarios/scenario_002.json",
+      "scenario_sha256": "7de7bc044d9b6503c21785cbacd424e37e204e5330eab78e516967cd5cc6444b",
+      "prompt_file": "prompts/scenario_002.txt",
+      "prompt_sha256": "f6b3b45f55596eccd782076ac760f59d5811ad9f1391872762df7a38a8ab446f"
+    },
+    {
+      "scenario_id": "scenario_003",
+      "scenario_file": "data/scenarios/scenario_003.json",
+      "scenario_sha256": "7dd0b02872ed2e39909551b0907429eacb901dc76d182b60502c4678d37fc612",
+      "prompt_file": "prompts/scenario_003.txt",
+      "prompt_sha256": "b233a0a644608ed78a5f1b16528f3df257a6053a5b0bf47466e157cd97699205"
+    },
+    {
+      "scenario_id": "scenario_004",
+      "scenario_file": "data/scenarios/scenario_004.json",
+      "scenario_sha256": "87ed40bb28e992b9a694cd581e321f49761e6b29b85aa5ead33202bec7e27e15",
+      "prompt_file": "prompts/scenario_004.txt",
+      "prompt_sha256": "4c06dd1631414e4e11349b4b645652141a0ede7a1fa9a0c6fa45f12759b45301"
+    },
+    {
+      "scenario_id": "scenario_005",
+      "scenario_file": "data/scenarios/scenario_005.json",
+      "scenario_sha256": "39c354335f6d2a78ca32af97cf99c58b693d3a6d3a47f33d7c2ab84afd2b20c0",
+      "prompt_file": "prompts/scenario_005.txt",
+      "prompt_sha256": "941a5d01afb1a7e6acbdc33fea6d0e73e4e913adadfb3840b25d0ce39bd1f80a"
+    },
+    {
+      "scenario_id": "scenario_006",
+      "scenario_file": "data/scenarios/scenario_006.json",
+      "scenario_sha256": "eb69b219aff36e086b42e8cc8a6cbd0459bda53fd7235d81ad5b0bf91bb4d77b",
+      "prompt_file": "prompts/scenario_006.txt",
+      "prompt_sha256": "9211d56766131f90b9fbefcaacdf0c98ca8e60426c7bb1acdffbeb5f5476bef4"
+    },
+    {
+      "scenario_id": "scenario_007",
+      "scenario_file": "data/scenarios/scenario_007.json",
+      "scenario_sha256": "7296a6ba58e67dea19046b000a76c1afba7b93fb7c500d58cef92b60f05bda02",
+      "prompt_file": "prompts/scenario_007.txt",
+      "prompt_sha256": "3aa50008b7b3f4129d2f34abaadd3029fc7f7e44103ac99f31d1b2c106f39562"
+    },
+    {
+      "scenario_id": "scenario_008",
+      "scenario_file": "data/scenarios/scenario_008.json",
+      "scenario_sha256": "f1eb8f5c85a6b6d103dd0c20e7986713ca0f3d736eb36183791d53fde3a59f11",
+      "prompt_file": "prompts/scenario_008.txt",
+      "prompt_sha256": "43a7c46a5f28cc5c30c3beb4e8ee55a02ea820e5073babee2a14452c36337d2f"
+    },
+    {
+      "scenario_id": "scenario_009",
+      "scenario_file": "data/scenarios/scenario_009.json",
+      "scenario_sha256": "1aca63fbec58bb0c3856bfa04a49e196bba51cd50b207518a3763c4ea6d37871",
+      "prompt_file": "prompts/scenario_009.txt",
+      "prompt_sha256": "d6e41491fdb93fbb82208e4de5f0aee285d6e98d6f54989c21d4e7f836eaf010"
+    },
+    {
+      "scenario_id": "scenario_010",
+      "scenario_file": "data/scenarios/scenario_010.json",
+      "scenario_sha256": "757474460d649aee4eb3fa7b1ad9f81b463fffa5157b65d26c302325533d5aff",
+      "prompt_file": "prompts/scenario_010.txt",
+      "prompt_sha256": "23b0e160231e28a43e71b8b15e2a3077f7d3db86ea69302581521e15d22081c0"
+    },
+    {
+      "scenario_id": "scenario_011",
+      "scenario_file": "data/scenarios/scenario_011.json",
+      "scenario_sha256": "779c3854ff0a35a660873e40f102f0ff7b4ce7043114f3209e39b09471593a29",
+      "prompt_file": "prompts/scenario_011.txt",
+      "prompt_sha256": "17fbacab17212713002331493b849c1853a02785de8a20599cd07de9ecaf1fc8"
+    },
+    {
+      "scenario_id": "scenario_012",
+      "scenario_file": "data/scenarios/scenario_012.json",
+      "scenario_sha256": "dc5e5733033169beb9b74c544cda4725ab7404ecfab617ff091caf823ded6ada",
+      "prompt_file": "prompts/scenario_012.txt",
+      "prompt_sha256": "f58384b5e37fd4ef22daf7066a96e2b39dd2071e3c86c1b3ba61415d5125d5e3"
+    },
+    {
+      "scenario_id": "scenario_013",
+      "scenario_file": "data/scenarios/scenario_013.json",
+      "scenario_sha256": "9e3ea7cce47f9ca40b3265f91cd2cb1fd02b28902bbf8205a2e184496da71ed2",
+      "prompt_file": "prompts/scenario_013.txt",
+      "prompt_sha256": "7f8b33f6bdb28a0eb5ff6a0b0341bf81bae50bfa00cfb739a2c8906f429c35b1"
+    },
+    {
+      "scenario_id": "scenario_014",
+      "scenario_file": "data/scenarios/scenario_014.json",
+      "scenario_sha256": "c8a69c55864dc4bdc934687b15d8effb70f1b016bd642d12daea8b3026b2a05b",
+      "prompt_file": "prompts/scenario_014.txt",
+      "prompt_sha256": "6203c339453f756623bd8745e90ff4beb790bae73bb9a989c740669d963cdcd7"
+    },
+    {
+      "scenario_id": "scenario_015",
+      "scenario_file": "data/scenarios/scenario_015.json",
+      "scenario_sha256": "7c159fd25e59fb4a0c36e176b101fba104e8ce679266e6cac5dd547c52bd4f16",
+      "prompt_file": "prompts/scenario_015.txt",
+      "prompt_sha256": "555047230dfaa21856251d319be97808c3bef2aab846b74982bb6143a15d5f51"
+    },
+    {
+      "scenario_id": "scenario_016",
+      "scenario_file": "data/scenarios/scenario_016.json",
+      "scenario_sha256": "4adc11f6a94ad898978abc782a5da9fbf6b70d57759d126374efda4b09a6f955",
+      "prompt_file": "prompts/scenario_016.txt",
+      "prompt_sha256": "d1c1e9100857d96eda763814ecb546261f78ab9574fd869d1eb879d437c795fe"
+    },
+    {
+      "scenario_id": "scenario_017",
+      "scenario_file": "data/scenarios/scenario_017.json",
+      "scenario_sha256": "5cf01f09435a2b587a11e79354c7b2bc5a9d1af5662905334923047d25ab2447",
+      "prompt_file": "prompts/scenario_017.txt",
+      "prompt_sha256": "58e5b56f043e7c357eab5fe83cc24f4b92a1d2cf48ba067f9f49680f538dff20"
+    },
+    {
+      "scenario_id": "scenario_018",
+      "scenario_file": "data/scenarios/scenario_018.json",
+      "scenario_sha256": "1ce82d882aeec131f527b005a84b15d85220e85694caf6a9a0ff7d8115fae26c",
+      "prompt_file": "prompts/scenario_018.txt",
+      "prompt_sha256": "fb78cf096e515bd62f19f998e364b61823adadaa8f4277a548136ff9c1bc9e49"
+    },
+    {
+      "scenario_id": "scenario_019",
+      "scenario_file": "data/scenarios/scenario_019.json",
+      "scenario_sha256": "b874ba41d241fe9464410de107ff5325a3eb0e3a27da896d2816056d00c3c6a1",
+      "prompt_file": "prompts/scenario_019.txt",
+      "prompt_sha256": "074a5d6d38429cd4029b9146332da85af2bff04c841a224b7fbdbdcfb6154b34"
+    },
+    {
+      "scenario_id": "scenario_020",
+      "scenario_file": "data/scenarios/scenario_020.json",
+      "scenario_sha256": "cb8886702f1d91484f6432dac3d1214e3fa4f37d753ed20a3387f818dde28cab",
+      "prompt_file": "prompts/scenario_020.txt",
+      "prompt_sha256": "308eb29a5afc8a22862c4ae5e29d5c828fbf0ec2b1f283b59c2dbc4b907a1704"
+    },
+    {
+      "scenario_id": "scenario_021",
+      "scenario_file": "data/scenarios/scenario_021.json",
+      "scenario_sha256": "15befbda0ee2754b025235de9eab1cfb3a3da3908a98cec63f4f7290907e09ac",
+      "prompt_file": "prompts/scenario_021.txt",
+      "prompt_sha256": "75e29a1c47c30ad7235c9873f59b2b84cbbd6daf24c2d2690240f75bcdf8da75"
+    },
+    {
+      "scenario_id": "scenario_022",
+      "scenario_file": "data/scenarios/scenario_022.json",
+      "scenario_sha256": "b262181a1522243391d61f76a81552a52d69807ed1e79744e6484508446e7df7",
+      "prompt_file": "prompts/scenario_022.txt",
+      "prompt_sha256": "b5e73e366c13aa74e9d6aa0583de95f6cbc094395eb150a2407a5eb5ceda6c3c"
+    },
+    {
+      "scenario_id": "scenario_023",
+      "scenario_file": "data/scenarios/scenario_023.json",
+      "scenario_sha256": "fdd79d7f234c6ccaef543f740af2078caf0f4854989561a703ede818f5c7fcff",
+      "prompt_file": "prompts/scenario_023.txt",
+      "prompt_sha256": "08b65102344ad58e852a5e99d8d2457297ad1b3e7a5419413bea6507bd249dee"
+    },
+    {
+      "scenario_id": "scenario_024",
+      "scenario_file": "data/scenarios/scenario_024.json",
+      "scenario_sha256": "5ad0ad4d2c5b45ff84ec8350ec02d40d2b5abe42793d23f2abe6d77811bbd7d9",
+      "prompt_file": "prompts/scenario_024.txt",
+      "prompt_sha256": "691383b9b3738339dc3f26f68eeff806b1e3d6d7c660533d7a5e049341229947"
+    },
+    {
+      "scenario_id": "scenario_025",
+      "scenario_file": "data/scenarios/scenario_025.json",
+      "scenario_sha256": "76b4a5ac6257a471dd6b67bb25a1d1dd07ed818785ce88946ba46e8aba549c0c",
+      "prompt_file": "prompts/scenario_025.txt",
+      "prompt_sha256": "8e64d51dd8d6ac16eaea83fd3ed0adfabd9d94fea8657af11d7107276f4ca910"
+    },
+    {
+      "scenario_id": "scenario_026",
+      "scenario_file": "data/scenarios/scenario_026.json",
+      "scenario_sha256": "d97552d97b38c8e7a10485d25d52edec54f2ef254de96e641a8ac12587041a0d",
+      "prompt_file": "prompts/scenario_026.txt",
+      "prompt_sha256": "41372e83ca2802c60694eb9cb7b0bc68edd60d9789792f5e548c552e96702caa"
+    },
+    {
+      "scenario_id": "scenario_027",
+      "scenario_file": "data/scenarios/scenario_027.json",
+      "scenario_sha256": "1d6180e88fc787b21a133047d0c2ff42c462fb6de156b31112135f1ffd48f320",
+      "prompt_file": "prompts/scenario_027.txt",
+      "prompt_sha256": "536d2ac446c479567895eabca37e8cc6930b2dbb2a6c5c724f42c19dcab4b803"
+    },
+    {
+      "scenario_id": "scenario_028",
+      "scenario_file": "data/scenarios/scenario_028.json",
+      "scenario_sha256": "c3192a02463ec15b0317840667b1675a098a25e5d1b643a39464dd26c05e9ec3",
+      "prompt_file": "prompts/scenario_028.txt",
+      "prompt_sha256": "ce7e20573848948342bed0dde689dbef21de3a6a65b1c7d34bddcb6a61b5e417"
+    },
+    {
+      "scenario_id": "scenario_029",
+      "scenario_file": "data/scenarios/scenario_029.json",
+      "scenario_sha256": "94a57067f2f49b65cff595ddf24079b9266ce4540f38548cbcf2ead15404a42b",
+      "prompt_file": "prompts/scenario_029.txt",
+      "prompt_sha256": "7dc7e52514ade50754fdfb3f4f144aeb908ab2e52713fde80bfba28dedb916d5"
+    },
+    {
+      "scenario_id": "scenario_030",
+      "scenario_file": "data/scenarios/scenario_030.json",
+      "scenario_sha256": "94480cd0f3fb08b9ce8255f919c522527f7bde916dcff2faa30439ce2ac06a00",
+      "prompt_file": "prompts/scenario_030.txt",
+      "prompt_sha256": "fa50b05b8b636bd3087a7624f811ee309e86809cb90b28dcd53904d542945cd2"
+    },
+    {
+      "scenario_id": "scenario_031",
+      "scenario_file": "data/scenarios/scenario_031.json",
+      "scenario_sha256": "36b90c9bcb02bf7d9bd88108ab5b620b8457db90e0044c44254c3d91aef3a553",
+      "prompt_file": "prompts/scenario_031.txt",
+      "prompt_sha256": "5df6f46bae7b06d9f47f0b2d6923df0b0efa41e711636378a496f0427263afc6"
+    },
+    {
+      "scenario_id": "scenario_032",
+      "scenario_file": "data/scenarios/scenario_032.json",
+      "scenario_sha256": "6ee3b107d242034fe563feb93a460d99b1ec7775d3dbb77c7e27405262186d27",
+      "prompt_file": "prompts/scenario_032.txt",
+      "prompt_sha256": "9b6b76362c409d9c97933f4f4089ea057aa22cf03754db91f0633f19e39d0aee"
+    },
+    {
+      "scenario_id": "scenario_033",
+      "scenario_file": "data/scenarios/scenario_033.json",
+      "scenario_sha256": "68e43aa2da3610a9e3bd47530368975f353ee53fa5dc5f223203ec6c2a4c1742",
+      "prompt_file": "prompts/scenario_033.txt",
+      "prompt_sha256": "85273bc3f103e5d487f20cec3ff45947ac22a481574de46a1670eb72096d9a76"
+    },
+    {
+      "scenario_id": "scenario_034",
+      "scenario_file": "data/scenarios/scenario_034.json",
+      "scenario_sha256": "6cf08d3fabf0b90351b3e752b50ea933e5c5efd17f37f77c6d826d6448cc213c",
+      "prompt_file": "prompts/scenario_034.txt",
+      "prompt_sha256": "1f2d297b971f1b51c197c457ce2a4a32e16b482072447213c96528a1a375c072"
+    },
+    {
+      "scenario_id": "scenario_035",
+      "scenario_file": "data/scenarios/scenario_035.json",
+      "scenario_sha256": "b7df9ba275b3518cf6935d252f152b356ba3f84a928d94ec19bc14d7e0a6da1f",
+      "prompt_file": "prompts/scenario_035.txt",
+      "prompt_sha256": "62dfc0ff2e5f91e326f7c215302d6fa0cecfcb17af924d17e52dd4fe5b1d5033"
+    },
+    {
+      "scenario_id": "scenario_036",
+      "scenario_file": "data/scenarios/scenario_036.json",
+      "scenario_sha256": "fa3f5431f1a7122191e0791d13d35975e70f22d5f9062ee174bac25c0113f305",
+      "prompt_file": "prompts/scenario_036.txt",
+      "prompt_sha256": "59b4cc7f3df4613eedc2d7339016235d018e063ecd60402a971264f71b511537"
+    },
+    {
+      "scenario_id": "scenario_037",
+      "scenario_file": "data/scenarios/scenario_037.json",
+      "scenario_sha256": "61f70c5d43bcdd14974d25387a5a4b8424f52547b3cbdd7d039e69012664b811",
+      "prompt_file": "prompts/scenario_037.txt",
+      "prompt_sha256": "52875495b74dc79a5f2c98ed9bd31b21a049f63b022b16816e450b12233fa3da"
+    },
+    {
+      "scenario_id": "scenario_038",
+      "scenario_file": "data/scenarios/scenario_038.json",
+      "scenario_sha256": "6f11f143787f078608cda2a40e1436c18ea037e6d82a7b505618b2cf6ae46ae4",
+      "prompt_file": "prompts/scenario_038.txt",
+      "prompt_sha256": "c2a83748587cc15b4c4ae7ddf1c9a733d50c7e34dd2087282bea27f828d809bb"
+    },
+    {
+      "scenario_id": "scenario_039",
+      "scenario_file": "data/scenarios/scenario_039.json",
+      "scenario_sha256": "f28a5a50421c4f9196ede39e84c678750f6af3ba48c57d4896ed99aff913ffc4",
+      "prompt_file": "prompts/scenario_039.txt",
+      "prompt_sha256": "73e39c05da8178e02027befc77b11e25bd6f4855f6bc82fe81e1af236774cb77"
+    },
+    {
+      "scenario_id": "scenario_040",
+      "scenario_file": "data/scenarios/scenario_040.json",
+      "scenario_sha256": "6f4a1b43fae1fd34b3220e5482557ab29dcfd19e3a446fa27b9f634c47e18d09",
+      "prompt_file": "prompts/scenario_040.txt",
+      "prompt_sha256": "46c6ef5697728007f5756a765ebef3dd868568f4371565565a709c9ad1398b37"
+    },
+    {
+      "scenario_id": "scenario_041",
+      "scenario_file": "data/scenarios/scenario_041.json",
+      "scenario_sha256": "113db2cb762c01ff9def11eec853cdb762d868086e7b77a0928601d7716314d3",
+      "prompt_file": "prompts/scenario_041.txt",
+      "prompt_sha256": "260b8b3ce6a5e7878a745cf4fb9fc670fb47fe419ccfd24d24b755977fcb26d6"
+    },
+    {
+      "scenario_id": "scenario_042",
+      "scenario_file": "data/scenarios/scenario_042.json",
+      "scenario_sha256": "7880da679d5dd35e896fdb703a69a6f596ed05f6c6ccacb3630ca3591055d403",
+      "prompt_file": "prompts/scenario_042.txt",
+      "prompt_sha256": "01bc3e976fac9e9baaea95a27d9e4c961f94ba0388eb61fec17fe3ab0b36277d"
+    },
+    {
+      "scenario_id": "scenario_043",
+      "scenario_file": "data/scenarios/scenario_043.json",
+      "scenario_sha256": "63e114918de00fbe914766398a15ffe5e7e0c58510267be847008b0716ca0dda",
+      "prompt_file": "prompts/scenario_043.txt",
+      "prompt_sha256": "b79b5e086356d8e2ed06219841a290c8d0a6fd454fa261c615be69782d7e572d"
+    },
+    {
+      "scenario_id": "scenario_044",
+      "scenario_file": "data/scenarios/scenario_044.json",
+      "scenario_sha256": "74f60768f459c2c6d1b6175790b30e0b1462f43a617e62958455928071d10470",
+      "prompt_file": "prompts/scenario_044.txt",
+      "prompt_sha256": "8860b8c8178e97c777a009f6f6f61e0c2bd37c905526a15f1d4cfe5ef3c9941b"
+    },
+    {
+      "scenario_id": "scenario_045",
+      "scenario_file": "data/scenarios/scenario_045.json",
+      "scenario_sha256": "f8775f70ae45dcb6607f193d71d945fc6062b919e0b2e204eb6cc557b8cbce68",
+      "prompt_file": "prompts/scenario_045.txt",
+      "prompt_sha256": "4daf88208ea52ae7af12a1a125c960b911eb90fbdb7be3036fbd0ec63229df50"
+    },
+    {
+      "scenario_id": "scenario_046",
+      "scenario_file": "data/scenarios/scenario_046.json",
+      "scenario_sha256": "23cb6a60b30cc7f042ddc9fbe759836b6327f90179501939e6e867adb2b2980a",
+      "prompt_file": "prompts/scenario_046.txt",
+      "prompt_sha256": "de603a2adff3a8f1b326f1bdae4a6020692c5bcd8698785724a14139accd37a4"
+    },
+    {
+      "scenario_id": "scenario_047",
+      "scenario_file": "data/scenarios/scenario_047.json",
+      "scenario_sha256": "3e66a09b7c3e085b942a4ed270ea2e3e17b1637b2d52ceb145c362f2e74c35bf",
+      "prompt_file": "prompts/scenario_047.txt",
+      "prompt_sha256": "67a3019ef93942aa3d9b30a87bdb1e01c951ee54dfe5602b9585e68a7a1da05b"
+    },
+    {
+      "scenario_id": "scenario_048",
+      "scenario_file": "data/scenarios/scenario_048.json",
+      "scenario_sha256": "e8c2385315620118a6739021d5dae2b686868a6ff80933d5eb7c0727bcdce7bd",
+      "prompt_file": "prompts/scenario_048.txt",
+      "prompt_sha256": "a0d98a86f745c5531415b4e2cfd121f9584faa40ee7f17004f1bc340d3022c1d"
+    },
+    {
+      "scenario_id": "scenario_049",
+      "scenario_file": "data/scenarios/scenario_049.json",
+      "scenario_sha256": "36d9a66018e49e662a639c58e1ef1fc95756367494f7a9db9a9c30e60ada22d1",
+      "prompt_file": "prompts/scenario_049.txt",
+      "prompt_sha256": "edf48c4d4148ea12bc72a015fba6c159f91abf0e82cd6efd907485c6caf3c933"
+    },
+    {
+      "scenario_id": "scenario_050",
+      "scenario_file": "data/scenarios/scenario_050.json",
+      "scenario_sha256": "48d89e89a31c0fee7cad599050a18881835604b01441619eca8c7e78cf215800",
+      "prompt_file": "prompts/scenario_050.txt",
+      "prompt_sha256": "047f6041b7ed17a7c82dcfc3f90e4c0abc36f3a271469d5c811f5d4f822e6af3"
+    },
+    {
+      "scenario_id": "scenario_051",
+      "scenario_file": "data/scenarios/scenario_051.json",
+      "scenario_sha256": "68ecb59aee3fe62831658ce9aa7f7b657cbf834235ad667a139507cac3fa0bff",
+      "prompt_file": "prompts/scenario_051.txt",
+      "prompt_sha256": "c8e18f78416cae6f790d9096bf6ac95222ff9a457c35b0892419ef93dccf4fdc"
+    },
+    {
+      "scenario_id": "scenario_052",
+      "scenario_file": "data/scenarios/scenario_052.json",
+      "scenario_sha256": "c9ea2bf3c8e1a9cd72ae6706b9f6fac0f69cf0676168b104b2626b57e23587c4",
+      "prompt_file": "prompts/scenario_052.txt",
+      "prompt_sha256": "44126f9243195b155ba1ea1c3d28e71ebe615f78f70d28e89bf5a766c011b9c4"
+    },
+    {
+      "scenario_id": "scenario_053",
+      "scenario_file": "data/scenarios/scenario_053.json",
+      "scenario_sha256": "628e675f9eadce478605051c74d63c53c510ed4c2cbc92902a3cc2a77503dbe1",
+      "prompt_file": "prompts/scenario_053.txt",
+      "prompt_sha256": "6e199e78eac18ee0b22c9aecdf76188211c92546f348be887e8e2d27839495c8"
+    },
+    {
+      "scenario_id": "scenario_054",
+      "scenario_file": "data/scenarios/scenario_054.json",
+      "scenario_sha256": "6a914018089e3aa271e40c022aeb6d5370be959d7870e902a7fc35138eb483ab",
+      "prompt_file": "prompts/scenario_054.txt",
+      "prompt_sha256": "e8fdaf5d30784757b1c579f7b50865ec6ca2bd1636dde34820675fb7f721c769"
+    },
+    {
+      "scenario_id": "scenario_055",
+      "scenario_file": "data/scenarios/scenario_055.json",
+      "scenario_sha256": "a3cb8fd19ca32b255fa6cb00b787846a30593b5b07d0e3ec83caa2abaf2cbe1a",
+      "prompt_file": "prompts/scenario_055.txt",
+      "prompt_sha256": "f6817e156ef832fdf7c0234133eb35a01786c0c1e01b30afd3ee0a20f0d91afa"
+    },
+    {
+      "scenario_id": "scenario_056",
+      "scenario_file": "data/scenarios/scenario_056.json",
+      "scenario_sha256": "3da5c813d03278ace704b78f3330b549e3968f95266585af895937f1253ab70a",
+      "prompt_file": "prompts/scenario_056.txt",
+      "prompt_sha256": "f362c88fe24f3303f7ed86f4409eaf55b756ad7a0a16d913f599709b5999bf90"
+    },
+    {
+      "scenario_id": "scenario_057",
+      "scenario_file": "data/scenarios/scenario_057.json",
+      "scenario_sha256": "ce8e2e8c6bb32857f1fc19be1d7c86c619ce5223e8887d3006c2dd58d39493e8",
+      "prompt_file": "prompts/scenario_057.txt",
+      "prompt_sha256": "655638b62dce6ef4d4fde50f1ddde365c1759cc2cc6b238c6e849adf6b792d13"
+    },
+    {
+      "scenario_id": "scenario_058",
+      "scenario_file": "data/scenarios/scenario_058.json",
+      "scenario_sha256": "c9833167d2050885313d8b85d14882f3fcfbd8d0a7c5981e284e0f7e89032898",
+      "prompt_file": "prompts/scenario_058.txt",
+      "prompt_sha256": "c73f3d6522a152d135ac5caa627dcfadbc88a5170e17bbd7bfd4f77dbe7a7d3d"
+    },
+    {
+      "scenario_id": "scenario_059",
+      "scenario_file": "data/scenarios/scenario_059.json",
+      "scenario_sha256": "73b92306115cfd23a1db45abf5541f69e9a4951f18f19e4514f78790e3ece68a",
+      "prompt_file": "prompts/scenario_059.txt",
+      "prompt_sha256": "1bde9e73338c18b3fa5e779f82f6e543a0258080dccfdbfda9d37f6d17eff106"
+    },
+    {
+      "scenario_id": "scenario_060",
+      "scenario_file": "data/scenarios/scenario_060.json",
+      "scenario_sha256": "20af1ceeabf8121a761ec84415a40b17dae23ec18dfc094be7af1cbdf5291846",
+      "prompt_file": "prompts/scenario_060.txt",
+      "prompt_sha256": "d1cf8a7c8aa7a3214315c550cb7bbc4cdb77befc6b8e965302304be22fe4f8bd"
+    },
+    {
+      "scenario_id": "scenario_061",
+      "scenario_file": "data/scenarios/scenario_061.json",
+      "scenario_sha256": "6ad762acb8ceb06d3c219c93dfc6e2bc799b193d08f2665759ba64b51194bbcf",
+      "prompt_file": "prompts/scenario_061.txt",
+      "prompt_sha256": "646aaaf1ee8c1441f5f7bf75b5936ec6a7bfaceadaa1e2f1e63dbf3b924bd3d8"
+    },
+    {
+      "scenario_id": "scenario_062",
+      "scenario_file": "data/scenarios/scenario_062.json",
+      "scenario_sha256": "3f848631acf44c936dce8e16ed27280ce6d3c411c2e85d758e2d1522f985e254",
+      "prompt_file": "prompts/scenario_062.txt",
+      "prompt_sha256": "172fbaf62e9b96599d459914f49a5e7197bd459a05c830ed94444fc12312be82"
+    },
+    {
+      "scenario_id": "scenario_063",
+      "scenario_file": "data/scenarios/scenario_063.json",
+      "scenario_sha256": "b2867fb69944b3422ae80f4f1ef75b345c4adfe749f759c76ae37a93adb67c0d",
+      "prompt_file": "prompts/scenario_063.txt",
+      "prompt_sha256": "befb7023a9ff0d885d27cbbab4330c0d99358508369a32fc97bb87ff8ea940ea"
+    },
+    {
+      "scenario_id": "scenario_064",
+      "scenario_file": "data/scenarios/scenario_064.json",
+      "scenario_sha256": "9ac6c3cbcc099cf9af145a0d66c436a537c96b150c768027265a8244718f0f98",
+      "prompt_file": "prompts/scenario_064.txt",
+      "prompt_sha256": "49809d21ca5c14ee5a03d468b2591b0bf0b05b6c4db6a158348f2fdff46cfb5c"
+    },
+    {
+      "scenario_id": "scenario_065",
+      "scenario_file": "data/scenarios/scenario_065.json",
+      "scenario_sha256": "bcef49b8661c5fbe588dabb1e2498f5abd570f529e255017b1303aeddc6b8b7b",
+      "prompt_file": "prompts/scenario_065.txt",
+      "prompt_sha256": "b00b58b62cb0b2aa2e66fc697823d053f208775854c05d1fefb4eea873534654"
+    },
+    {
+      "scenario_id": "scenario_066",
+      "scenario_file": "data/scenarios/scenario_066.json",
+      "scenario_sha256": "10f4e17270dc9f464d423a44ccb900fe76870fdf1ece8c4d178bf9306bce35a3",
+      "prompt_file": "prompts/scenario_066.txt",
+      "prompt_sha256": "808082339799c876be1f69eb1982faf5be49637040e1977e41ea6caa87eda627"
+    },
+    {
+      "scenario_id": "scenario_067",
+      "scenario_file": "data/scenarios/scenario_067.json",
+      "scenario_sha256": "9cabd83ef6154def27bd581483dc4a2e3b3edd115db4309121134a933f79384f",
+      "prompt_file": "prompts/scenario_067.txt",
+      "prompt_sha256": "67e749354716d5466746f31c4987480c97cc8ada836ef97c4d2cb7832221f262"
+    },
+    {
+      "scenario_id": "scenario_068",
+      "scenario_file": "data/scenarios/scenario_068.json",
+      "scenario_sha256": "1a46a02450a8c4ac167bf97f3a2631fe6369ad8f5ef78e7df558122159f70333",
+      "prompt_file": "prompts/scenario_068.txt",
+      "prompt_sha256": "0d464e570ed20e43402fb954580ffdef6f065a76b83cc5e01f9d8810aaf64406"
+    },
+    {
+      "scenario_id": "scenario_069",
+      "scenario_file": "data/scenarios/scenario_069.json",
+      "scenario_sha256": "3983eb75813cbfda384191aa03a8b11a0dce0da2ff254ff7f2e84fa3dcbea939",
+      "prompt_file": "prompts/scenario_069.txt",
+      "prompt_sha256": "b5d30ef5b8413e283f18dff3ed9febe91c79fbb69d4c12f371f903752b41308d"
+    },
+    {
+      "scenario_id": "scenario_070",
+      "scenario_file": "data/scenarios/scenario_070.json",
+      "scenario_sha256": "9ebf1bcd9ab357a05cc7d2a975bbe47b4d4ea7f0b713e9ce4b98f2f486a97929",
+      "prompt_file": "prompts/scenario_070.txt",
+      "prompt_sha256": "3b6500d804a3205912dd86e6f8d27ee15832c070358d84ae9568df4ae5b3d587"
+    },
+    {
+      "scenario_id": "scenario_071",
+      "scenario_file": "data/scenarios/scenario_071.json",
+      "scenario_sha256": "c0e16897ba6bdc3e01f4d2bd4e42ae98940731116f3362906d4a830e1fb24022",
+      "prompt_file": "prompts/scenario_071.txt",
+      "prompt_sha256": "f2e6840ae90f0d75f34141b6a2ab70c659b251a92c95546e221e5a68d2ea5dfc"
+    },
+    {
+      "scenario_id": "scenario_072",
+      "scenario_file": "data/scenarios/scenario_072.json",
+      "scenario_sha256": "7437ea70cc1b8feaac2e640f16ae14f2dc857a22dd71afb9771034619bd65704",
+      "prompt_file": "prompts/scenario_072.txt",
+      "prompt_sha256": "7dd55dc7da3cedada673692ebb44d3568570c6fe3789c1ea585588dede86741d"
+    },
+    {
+      "scenario_id": "scenario_073",
+      "scenario_file": "data/scenarios/scenario_073.json",
+      "scenario_sha256": "9aef794a82ba5249b94e7b64c28baa123037358d022190d279e66b64359636e3",
+      "prompt_file": "prompts/scenario_073.txt",
+      "prompt_sha256": "fc0bf4fc8caf7a83ddf8dd2631de4e9cd96dcc4bfea9fb7e0b3ea7c590653ca2"
+    },
+    {
+      "scenario_id": "scenario_074",
+      "scenario_file": "data/scenarios/scenario_074.json",
+      "scenario_sha256": "b70a9e164f4c435f97f0d16bf76c42d6d39b82cbbc1d5bfc81a19730964e5401",
+      "prompt_file": "prompts/scenario_074.txt",
+      "prompt_sha256": "a5421c7f3ba16c3e4a0b5800d8d3112927563680556b62599a0d2f87c5acf573"
+    },
+    {
+      "scenario_id": "scenario_075",
+      "scenario_file": "data/scenarios/scenario_075.json",
+      "scenario_sha256": "99ef309bb45c6b8a28433bda46e191bc3d1048689f2cdf512dfaa42ebb9174fd",
+      "prompt_file": "prompts/scenario_075.txt",
+      "prompt_sha256": "914e876a25c5e0f95845a54846979b2ede8b6b87328173729a5536ef18811454"
+    },
+    {
+      "scenario_id": "scenario_076",
+      "scenario_file": "data/scenarios/scenario_076.json",
+      "scenario_sha256": "d612fffe665bf058e2bf64c775155931db5ae087d23b94121da6258635955c17",
+      "prompt_file": "prompts/scenario_076.txt",
+      "prompt_sha256": "42a176f082c0367953b8ad01dcd1ee0fe97c9e03396ce5c9147ca10f5b57f4e1"
+    },
+    {
+      "scenario_id": "scenario_077",
+      "scenario_file": "data/scenarios/scenario_077.json",
+      "scenario_sha256": "467977e97673c3de37e4de46ea5a317a721e15cf43e992df9e3cd4f50129d332",
+      "prompt_file": "prompts/scenario_077.txt",
+      "prompt_sha256": "6f2e624709df0cc6770ca53e71c2fbec8185a0910e3ff2806fdd0d400582abc3"
+    },
+    {
+      "scenario_id": "scenario_078",
+      "scenario_file": "data/scenarios/scenario_078.json",
+      "scenario_sha256": "655c8dd1576257460b63b8a6124e8b2a9322a66f325dbdf9a8fb536feeea964c",
+      "prompt_file": "prompts/scenario_078.txt",
+      "prompt_sha256": "67612fa5f9ee3ae2e051277c39fc5c81865378cbabca5f9efadb240189fe8c45"
+    },
+    {
+      "scenario_id": "scenario_079",
+      "scenario_file": "data/scenarios/scenario_079.json",
+      "scenario_sha256": "5fcd6d7471a694c476444a6dd126d236c659011fa838a22842f4bc3dd026a432",
+      "prompt_file": "prompts/scenario_079.txt",
+      "prompt_sha256": "36ff7e151c29700ac52365ceb5997acb1723f34c876b63fa7cb5625082baff75"
+    },
+    {
+      "scenario_id": "scenario_080",
+      "scenario_file": "data/scenarios/scenario_080.json",
+      "scenario_sha256": "9429cb4926ee2d6935938499840abfa843e1cbd8851f4926d17443783a46792a",
+      "prompt_file": "prompts/scenario_080.txt",
+      "prompt_sha256": "c6d3eaf373f0b537e70b31232a02241f550647ae127406d15c20c534b32370c3"
+    },
+    {
+      "scenario_id": "scenario_081",
+      "scenario_file": "data/scenarios/scenario_081.json",
+      "scenario_sha256": "7bda6f5bec6945a496041ffca139bbd2e9206fabf49de3bf1305c15df3b81ab2",
+      "prompt_file": "prompts/scenario_081.txt",
+      "prompt_sha256": "bbc4031b24fec898ec79c766c81ccd04ea3ae486b3043c1d4742e4241a4cfd6b"
+    },
+    {
+      "scenario_id": "scenario_082",
+      "scenario_file": "data/scenarios/scenario_082.json",
+      "scenario_sha256": "532ac123db5a3d8cf33d4b560cdf546af1ca5cf449f39020f0027e794195ba85",
+      "prompt_file": "prompts/scenario_082.txt",
+      "prompt_sha256": "fc5c28243592ee1f3a896881052a319c7a2a6f2551e480781ea59481e07785c6"
+    },
+    {
+      "scenario_id": "scenario_083",
+      "scenario_file": "data/scenarios/scenario_083.json",
+      "scenario_sha256": "03af08b72d3d6d43d584b9ca1371391eac8009646b1390a081b47bc6ad452b90",
+      "prompt_file": "prompts/scenario_083.txt",
+      "prompt_sha256": "5d531b59b4ea8e597b7efb9d4b3be25e3d3ba949e06da025cd1823635deaba3b"
+    },
+    {
+      "scenario_id": "scenario_084",
+      "scenario_file": "data/scenarios/scenario_084.json",
+      "scenario_sha256": "52b25ac787d0f640eccf550b522bf9061d104f33d6e00df54d8d09b0fa1784f6",
+      "prompt_file": "prompts/scenario_084.txt",
+      "prompt_sha256": "c0cbcdec817f8dc9c809304e2a99f740fbecc1731f822c2b7e787a6cb4431326"
+    },
+    {
+      "scenario_id": "scenario_085",
+      "scenario_file": "data/scenarios/scenario_085.json",
+      "scenario_sha256": "b3b0b2aad0a8360a94e84a695bee0fa0a92855397ce4b1662dbe5a77af05033d",
+      "prompt_file": "prompts/scenario_085.txt",
+      "prompt_sha256": "164a0cb1a880839352e15e15f9b015c291164618f3b43b9a161b54a78851b0be"
+    },
+    {
+      "scenario_id": "scenario_086",
+      "scenario_file": "data/scenarios/scenario_086.json",
+      "scenario_sha256": "1657bc49d4b5edf9325fed71769eed1447c3e39c49764e9df35f9e982b90d4c9",
+      "prompt_file": "prompts/scenario_086.txt",
+      "prompt_sha256": "82ebb29673d3d7662906b36ed7708d70fcd9145ff9a78bdd72c07f46bd538be6"
+    },
+    {
+      "scenario_id": "scenario_087",
+      "scenario_file": "data/scenarios/scenario_087.json",
+      "scenario_sha256": "37d871d82c2dba75d04cff0bb6d7013f1c004a60e6b1db11777777fc82a0e3f5",
+      "prompt_file": "prompts/scenario_087.txt",
+      "prompt_sha256": "124966f435f3afacbd62895d42875ddc1738ed527a32e5637df73b7a54e59174"
+    },
+    {
+      "scenario_id": "scenario_088",
+      "scenario_file": "data/scenarios/scenario_088.json",
+      "scenario_sha256": "57a252c046823670fb7650c6f26df4ef3b71caaf687303568cee375eacd1fabe",
+      "prompt_file": "prompts/scenario_088.txt",
+      "prompt_sha256": "8d1dc6c48631de3d38e53e07992266cbd32008ce624fde4cede95d1a05c670bf"
+    },
+    {
+      "scenario_id": "scenario_089",
+      "scenario_file": "data/scenarios/scenario_089.json",
+      "scenario_sha256": "fde3d0b6a2151ef3f078a0439e06b17b5c6b8ffd66d1166513fb57ef41b4c94f",
+      "prompt_file": "prompts/scenario_089.txt",
+      "prompt_sha256": "9e3d64b6fbf216a66383f4b9f22977d53b3abb46fff970afb4632ef26eb255b4"
+    },
+    {
+      "scenario_id": "scenario_090",
+      "scenario_file": "data/scenarios/scenario_090.json",
+      "scenario_sha256": "66b272d44b0d1f07fb58f433f8a29c7e1ea332005b87804b4dad37eff395ebff",
+      "prompt_file": "prompts/scenario_090.txt",
+      "prompt_sha256": "3b40fd6be2def5afb2ac84e9b0581619884809da2e071124a6bcf861da458649"
+    },
+    {
+      "scenario_id": "scenario_091",
+      "scenario_file": "data/scenarios/scenario_091.json",
+      "scenario_sha256": "09d0b7f490e61e0fa305ca89b12e352cedcd29a67f89235b6f3c45869624cea5",
+      "prompt_file": "prompts/scenario_091.txt",
+      "prompt_sha256": "321f4ad134d1ab712350b836208e0065a198a2278cabf74ca218bae2ecf0b72c"
+    },
+    {
+      "scenario_id": "scenario_092",
+      "scenario_file": "data/scenarios/scenario_092.json",
+      "scenario_sha256": "ee72efbef6cc571a21039b0d75022e923d725eff078858694678868e44fd81be",
+      "prompt_file": "prompts/scenario_092.txt",
+      "prompt_sha256": "6837bd49a4b0677d68da23ecbff25356da0b06c1d73f927c012a463417359371"
+    },
+    {
+      "scenario_id": "scenario_093",
+      "scenario_file": "data/scenarios/scenario_093.json",
+      "scenario_sha256": "29bbb35050a9dd351cca4c7f7e175deb65f23c1df4b860d7afb54790beae1674",
+      "prompt_file": "prompts/scenario_093.txt",
+      "prompt_sha256": "ed7ac55c384801233359d05e48036699fe8e1ac8149280a5aada45763bcdec70"
+    },
+    {
+      "scenario_id": "scenario_094",
+      "scenario_file": "data/scenarios/scenario_094.json",
+      "scenario_sha256": "d96d8ffc50e2be30270deed6ea8fde940f74e489e185033e26ef504492769741",
+      "prompt_file": "prompts/scenario_094.txt",
+      "prompt_sha256": "02835a0e686a73aadbf94a6aad471d528afef75efdce3bace920a57167d21f56"
+    },
+    {
+      "scenario_id": "scenario_095",
+      "scenario_file": "data/scenarios/scenario_095.json",
+      "scenario_sha256": "232d8670ecafdbedef8fd9642c4207d6056b95a4edd5f4ac1c791bb3b87384a5",
+      "prompt_file": "prompts/scenario_095.txt",
+      "prompt_sha256": "225c2b01b8c2ed0d8af51e1c05365588969c91b538daed3648ef48e5bc9a3a63"
+    },
+    {
+      "scenario_id": "scenario_096",
+      "scenario_file": "data/scenarios/scenario_096.json",
+      "scenario_sha256": "a1a64ef8e6db8dd11d82bab0668348d3b45b3b063d03f143e6fc5bdd6ac53f11",
+      "prompt_file": "prompts/scenario_096.txt",
+      "prompt_sha256": "254a455bd7cc5d8bd9eeb6c38984bf457ab3ca6d7b9c3ab01240cbec8e92ef51"
+    },
+    {
+      "scenario_id": "scenario_097",
+      "scenario_file": "data/scenarios/scenario_097.json",
+      "scenario_sha256": "59a3a4236d0c9518aa14c8b342184fa0a3f4c20ac9ab09e2b576b851104e0741",
+      "prompt_file": "prompts/scenario_097.txt",
+      "prompt_sha256": "c295db86663ffbe16f871e422072287b2f07cf6c9af8368345b28a95d9007a40"
+    },
+    {
+      "scenario_id": "scenario_098",
+      "scenario_file": "data/scenarios/scenario_098.json",
+      "scenario_sha256": "0d5b62172b103156a01eba7a14c9f2fc960292800581761448c367484bd60c8f",
+      "prompt_file": "prompts/scenario_098.txt",
+      "prompt_sha256": "133fb840ca70f578156a609a3478188b439d3a8eec855a5678851122b1eca2a1"
+    },
+    {
+      "scenario_id": "scenario_099",
+      "scenario_file": "data/scenarios/scenario_099.json",
+      "scenario_sha256": "a06fa3d1bd59de0080882332cd1fff44e3d490bedb2d253efed4dcf3507a3651",
+      "prompt_file": "prompts/scenario_099.txt",
+      "prompt_sha256": "211223589f3a9b7ee3fc1b5f7af73fd44dbbd3d81a8ba3048c9517cfbde043ea"
+    },
+    {
+      "scenario_id": "scenario_100",
+      "scenario_file": "data/scenarios/scenario_100.json",
+      "scenario_sha256": "a8ab1d9b38010c6255a2304b47b52136b38f4bf456e65d5423eb4fff9f76ba0e",
+      "prompt_file": "prompts/scenario_100.txt",
+      "prompt_sha256": "762ac77c0ab963a618848386ecae1df253d254b37d74e3e814db87347aa99c2f"
+    },
+    {
+      "scenario_id": "scenario_101",
+      "scenario_file": "data/scenarios/scenario_101.json",
+      "scenario_sha256": "517127cd6dcc247651503554b93c0237e235d9c0255ceb1112bc189fdacf3093",
+      "prompt_file": "prompts/scenario_101.txt",
+      "prompt_sha256": "757504a7ff43c1097f09a1a64c7237d401f67d98c23239907b97a16d93ce5b8e"
+    },
+    {
+      "scenario_id": "scenario_102",
+      "scenario_file": "data/scenarios/scenario_102.json",
+      "scenario_sha256": "b054c8d00d4d549dec1288cc3c41175714ee0574ee3ff3da7e8e18c503781738",
+      "prompt_file": "prompts/scenario_102.txt",
+      "prompt_sha256": "b889f53d14f9c268ff612be4267311fb1a25b0228e049cc7d56b095aac238deb"
+    },
+    {
+      "scenario_id": "scenario_103",
+      "scenario_file": "data/scenarios/scenario_103.json",
+      "scenario_sha256": "f3de79eef5bf54c4034eb65182b8f57aad62bf6c339a3072f9a006ffe5d56b33",
+      "prompt_file": "prompts/scenario_103.txt",
+      "prompt_sha256": "d93eb52906b74ae768fb96810c2a4a0280096c55159f834166f37988129e775c"
+    },
+    {
+      "scenario_id": "scenario_104",
+      "scenario_file": "data/scenarios/scenario_104.json",
+      "scenario_sha256": "4716e40e80d2819f2935c52cf08cf5fd93da29affe8be82c5db6dc415a25cd7c",
+      "prompt_file": "prompts/scenario_104.txt",
+      "prompt_sha256": "f677e3d50a1847c2cc127fed7a92f2f096f802be80fa98b0c52aad4cd37542fe"
+    },
+    {
+      "scenario_id": "scenario_105",
+      "scenario_file": "data/scenarios/scenario_105.json",
+      "scenario_sha256": "47739f5e595def5dce46fac3613297c79e9d0db1b0d90df5232827d5d7393c39",
+      "prompt_file": "prompts/scenario_105.txt",
+      "prompt_sha256": "9a9538d91f4b8338b1ee83b6793250163c4c1dceffbaabecd2d5e39eee8cde72"
+    },
+    {
+      "scenario_id": "scenario_106",
+      "scenario_file": "data/scenarios/scenario_106.json",
+      "scenario_sha256": "28f542a3178a00809f8a2475108189316d44e381b6a6e3c05f08e29489f00f7d",
+      "prompt_file": "prompts/scenario_106.txt",
+      "prompt_sha256": "46646d503e2f06bd9a1d91cfa36cf69cccff871647524f747781414128cd85c7"
+    },
+    {
+      "scenario_id": "scenario_107",
+      "scenario_file": "data/scenarios/scenario_107.json",
+      "scenario_sha256": "59b9834a89a27283d07867c0eba342e038c09f3afcd6c476f82789f58b09d66d",
+      "prompt_file": "prompts/scenario_107.txt",
+      "prompt_sha256": "2395927c64d16518fe3a530b172fcfd4abe2ca4b3b32e6290a11433ed7496d64"
+    },
+    {
+      "scenario_id": "scenario_108",
+      "scenario_file": "data/scenarios/scenario_108.json",
+      "scenario_sha256": "f0e014788823a3bf472ab6748b24e92dcad37d3dd5941592e13f334257edbde5",
+      "prompt_file": "prompts/scenario_108.txt",
+      "prompt_sha256": "4f34fdf15e7f3f527f6669e10edd6c5df2d4b623eb26b7baf017ded670d3ace7"
+    },
+    {
+      "scenario_id": "scenario_109",
+      "scenario_file": "data/scenarios/scenario_109.json",
+      "scenario_sha256": "a4882d4c2312a63058a0a2b35c24059665aa5f2486534ceb4c75f5471e9e68e7",
+      "prompt_file": "prompts/scenario_109.txt",
+      "prompt_sha256": "098e4b2456d6b10c212b6ad84dfe33b9472eef02de4017c9da73cd0375d8492e"
+    },
+    {
+      "scenario_id": "scenario_110",
+      "scenario_file": "data/scenarios/scenario_110.json",
+      "scenario_sha256": "5a1d3b0025380a2e8e15563e7b6b64c4c3f2fb93e6ba374da3523571b966bd6d",
+      "prompt_file": "prompts/scenario_110.txt",
+      "prompt_sha256": "0ff090fab072a8929feecbf31ca519dde2586bac7d6472e5d30cef8cc9a0398e"
+    },
+    {
+      "scenario_id": "scenario_111",
+      "scenario_file": "data/scenarios/scenario_111.json",
+      "scenario_sha256": "380d2614aeab67786a15fc20078cf206b62b29a096d0ee7017606e145395b74c",
+      "prompt_file": "prompts/scenario_111.txt",
+      "prompt_sha256": "9409f8ee157695c917f342b05ed764173901021dbbe3eb977c36c30405023e40"
+    },
+    {
+      "scenario_id": "scenario_112",
+      "scenario_file": "data/scenarios/scenario_112.json",
+      "scenario_sha256": "21d3896b917f53c943479c95ab8a578a7bb10e3f54daf985a548fe270a612f8d",
+      "prompt_file": "prompts/scenario_112.txt",
+      "prompt_sha256": "b15df044dcc4c49086c8b345dea8da1946a85e980781218ef77030d8861533d0"
+    },
+    {
+      "scenario_id": "scenario_113",
+      "scenario_file": "data/scenarios/scenario_113.json",
+      "scenario_sha256": "2de6d065156266aeb74888aa1cb7e4455a737733b4aa7b3bd274f2ca2003f7e0",
+      "prompt_file": "prompts/scenario_113.txt",
+      "prompt_sha256": "c493ec94a0b7e10c73fbf33451f73d1512aad6178cb1556bb1f4abd8ef7d1688"
+    },
+    {
+      "scenario_id": "scenario_114",
+      "scenario_file": "data/scenarios/scenario_114.json",
+      "scenario_sha256": "69035e9c7c68f92be3ab8cd792dd9d3d1dec122a1073d59df6d35f15f18b91da",
+      "prompt_file": "prompts/scenario_114.txt",
+      "prompt_sha256": "1ac3e462afdeb4c0431bebf91898d8c52c9f7952572764ff27255b12990e6e75"
+    },
+    {
+      "scenario_id": "scenario_115",
+      "scenario_file": "data/scenarios/scenario_115.json",
+      "scenario_sha256": "558384fa76bcce4b92c81c2c1da4ddea640cb8d3f7ab37f578e1359f3ceb6b04",
+      "prompt_file": "prompts/scenario_115.txt",
+      "prompt_sha256": "1012d11bbbc6d46394ff1750b8936bbd35e7cf2183b7f14c9905cfd57cd5fb18"
+    },
+    {
+      "scenario_id": "scenario_116",
+      "scenario_file": "data/scenarios/scenario_116.json",
+      "scenario_sha256": "f32b4be8831cf487844afd4283ca48d6ee460b3a55347b20769c87fa76664569",
+      "prompt_file": "prompts/scenario_116.txt",
+      "prompt_sha256": "9936e3a09fa5296ae350f5af1617a216e0c9074b8d1672bf10326c08e4d5293f"
+    },
+    {
+      "scenario_id": "scenario_117",
+      "scenario_file": "data/scenarios/scenario_117.json",
+      "scenario_sha256": "2469e1d88a50a0ba396dd76fa21deafd23d42801bb981b444a94e9d14a210289",
+      "prompt_file": "prompts/scenario_117.txt",
+      "prompt_sha256": "e61ba91de3277cd2febcae0fcdea55ed3961cc469430526e8717eafba9c55e15"
+    },
+    {
+      "scenario_id": "scenario_118",
+      "scenario_file": "data/scenarios/scenario_118.json",
+      "scenario_sha256": "094907a920bdb749be0b67818681b9dc60a8f2f7ed4843ba0724d97511bca901",
+      "prompt_file": "prompts/scenario_118.txt",
+      "prompt_sha256": "1537b5b82f0b6c04382a757ede953976fc2d4fe13a863839debebcb2425934c0"
+    },
+    {
+      "scenario_id": "scenario_119",
+      "scenario_file": "data/scenarios/scenario_119.json",
+      "scenario_sha256": "4095b2bd8a72ca9ac3c5cda15a657967f03c2ea6c8c803edb4b3e926056b3b69",
+      "prompt_file": "prompts/scenario_119.txt",
+      "prompt_sha256": "e3995952029c82d2fa300406d13c4aa147f004517b15abf3508431b7279d9726"
+    },
+    {
+      "scenario_id": "scenario_120",
+      "scenario_file": "data/scenarios/scenario_120.json",
+      "scenario_sha256": "32ec3be377e291c577fcfe865d436f9d8ee1ded0053cd6d22ec29acfd9a319a5",
+      "prompt_file": "prompts/scenario_120.txt",
+      "prompt_sha256": "e9a6fdbc3aaf1804c93c3cb046680f0401703738b2ce85eba9f8aa294d617087"
+    },
+    {
+      "scenario_id": "scenario_121",
+      "scenario_file": "data/scenarios/scenario_121.json",
+      "scenario_sha256": "4264025adafa748dd15812b001b7f24c99c2a580798bb61f4b4c5538ce36d154",
+      "prompt_file": "prompts/scenario_121.txt",
+      "prompt_sha256": "ae5144ef831cb2df244a428ded8c1c3c45d17c9639076ab2c01e5b99b7fc502e"
+    },
+    {
+      "scenario_id": "scenario_122",
+      "scenario_file": "data/scenarios/scenario_122.json",
+      "scenario_sha256": "a31334d2929866ec4e711835969d3645a02147b2757b2362b5cda52b5bd67baa",
+      "prompt_file": "prompts/scenario_122.txt",
+      "prompt_sha256": "a0ed1a9fa1da8ed044b63add695b275bf327502a137b2d901b62127cfa92ed88"
+    },
+    {
+      "scenario_id": "scenario_123",
+      "scenario_file": "data/scenarios/scenario_123.json",
+      "scenario_sha256": "01ce8069293455cf9da889e3208410156c10be37ef89856ba6270b2995e44fe1",
+      "prompt_file": "prompts/scenario_123.txt",
+      "prompt_sha256": "1d13c68ede1cc7aa7c50e4192858b823a1f6cd54c0e8bb429d91333d46e30276"
+    },
+    {
+      "scenario_id": "scenario_124",
+      "scenario_file": "data/scenarios/scenario_124.json",
+      "scenario_sha256": "a67e75dbbf6a68f58d6438c76707b99fcd2a060fc1ceaa7a47b9b32430cfd466",
+      "prompt_file": "prompts/scenario_124.txt",
+      "prompt_sha256": "58462e023bd2c2d0c916dcd718e27ac78dc0743d4ff836b7eda863743f8bb3ec"
+    },
+    {
+      "scenario_id": "scenario_125",
+      "scenario_file": "data/scenarios/scenario_125.json",
+      "scenario_sha256": "a7aa7869f14129f8a474c2d6aca002ddd70bedf8a6647f7a2d937087fcddbcc1",
+      "prompt_file": "prompts/scenario_125.txt",
+      "prompt_sha256": "30ef0133e6b7c95200210bb97f91dd3b84209dc4f4df161bd26fc5e850943217"
+    },
+    {
+      "scenario_id": "scenario_126",
+      "scenario_file": "data/scenarios/scenario_126.json",
+      "scenario_sha256": "77b186ed20da743ffffe2607313e7f80683c17430105c52cd6271c0353023e16",
+      "prompt_file": "prompts/scenario_126.txt",
+      "prompt_sha256": "84575e04638c7b785cc42be3a7c71f3ae1d6eef55a53a4e4046f598fa62fed4e"
+    },
+    {
+      "scenario_id": "scenario_127",
+      "scenario_file": "data/scenarios/scenario_127.json",
+      "scenario_sha256": "dc87a58ecf83e5ccc5f5ddb94a3e2b3c47d821bf2ad21bceb50e13a03c5c06bf",
+      "prompt_file": "prompts/scenario_127.txt",
+      "prompt_sha256": "2add93486ccf7820dde94af873bdf616418ceb7d287979917f5f4f759c8fda9e"
+    },
+    {
+      "scenario_id": "scenario_128",
+      "scenario_file": "data/scenarios/scenario_128.json",
+      "scenario_sha256": "dbbb1d9cc097692499e296ffae4f42d92760164e0c5635011d7c20f025f7d9b2",
+      "prompt_file": "prompts/scenario_128.txt",
+      "prompt_sha256": "dc84e28666773a22414523890296847f3b8fb605203f9520dc6e2b2b9b7e111c"
+    },
+    {
+      "scenario_id": "scenario_129",
+      "scenario_file": "data/scenarios/scenario_129.json",
+      "scenario_sha256": "4095dbcf932651a68e6072a164ad26c5628963ca6cb8972b9de2edaaeb090cd9",
+      "prompt_file": "prompts/scenario_129.txt",
+      "prompt_sha256": "3cfd398793b232185aff251be67337184beb0a20c91169f5f3e15b113add71b9"
+    },
+    {
+      "scenario_id": "scenario_130",
+      "scenario_file": "data/scenarios/scenario_130.json",
+      "scenario_sha256": "8def6db98ba99910da4560084950b76d80038a71e1d596dafc2338d7f8adfc6a",
+      "prompt_file": "prompts/scenario_130.txt",
+      "prompt_sha256": "7259c61afb1975a5791824ddb3a631a3c5eede291dc5232f89d70c1b9c1ca782"
+    },
+    {
+      "scenario_id": "scenario_131",
+      "scenario_file": "data/scenarios/scenario_131.json",
+      "scenario_sha256": "e3aacd767728204be73a9ce77c60a521884eab89bc98608ee1573bcdd0a1b125",
+      "prompt_file": "prompts/scenario_131.txt",
+      "prompt_sha256": "88d8eb1b839db4e2fd55e071c59e99492d0b6ff7d43299118ad923b138c646a5"
+    },
+    {
+      "scenario_id": "scenario_132",
+      "scenario_file": "data/scenarios/scenario_132.json",
+      "scenario_sha256": "4a5b2a902f4340c21ca51eee2e1b458031c86f1ff73fe96e378826edb07acb76",
+      "prompt_file": "prompts/scenario_132.txt",
+      "prompt_sha256": "8f934e6d2754977d32482e9652dd9e83827f9a17aed0d7bfc21005a4befc1c0c"
+    },
+    {
+      "scenario_id": "scenario_133",
+      "scenario_file": "data/scenarios/scenario_133.json",
+      "scenario_sha256": "f7eb89bc86f302ed18d49e12ffd5be969e5f824bd8b9ca3db16d3944fe4b5b57",
+      "prompt_file": "prompts/scenario_133.txt",
+      "prompt_sha256": "607a6ad67fd0f37bcadf900cda2c07e76db4e879574845e1bab4c86357503bca"
+    },
+    {
+      "scenario_id": "scenario_134",
+      "scenario_file": "data/scenarios/scenario_134.json",
+      "scenario_sha256": "e18288356b68b01d583680b5df0124375a495343a830b0311ae50b71398274e0",
+      "prompt_file": "prompts/scenario_134.txt",
+      "prompt_sha256": "7032edc160f2a31c8abdd72c89695bc4433eb08f8c61aaa97e363dcfc7c0a28b"
+    },
+    {
+      "scenario_id": "scenario_135",
+      "scenario_file": "data/scenarios/scenario_135.json",
+      "scenario_sha256": "2c0a6b1097137f22b56c21c154fceae174caaa86652dbb5eb5bc0d9d5e254a1c",
+      "prompt_file": "prompts/scenario_135.txt",
+      "prompt_sha256": "2ee36347bf759b0014186b78e57609ee318734d6ff24cf124cd9ba21f06111a5"
+    },
+    {
+      "scenario_id": "scenario_136",
+      "scenario_file": "data/scenarios/scenario_136.json",
+      "scenario_sha256": "3cbef3c8c1658d2d687504ec7b422cfb5275db466c126ecedb474d848f60d2ba",
+      "prompt_file": "prompts/scenario_136.txt",
+      "prompt_sha256": "ec12e90ea1ab8b3ee2330e729faf007508651fd532e1a62929f21a5f3eb16b56"
+    },
+    {
+      "scenario_id": "scenario_137",
+      "scenario_file": "data/scenarios/scenario_137.json",
+      "scenario_sha256": "9a2dcea3098c1eebf7d0b343b97b0ff593057e99662647907071e6ee04415021",
+      "prompt_file": "prompts/scenario_137.txt",
+      "prompt_sha256": "14110d7fc65b7e22584e66463b6dec4ca6799c456bed1f8ab3f226638a6522e2"
+    },
+    {
+      "scenario_id": "scenario_138",
+      "scenario_file": "data/scenarios/scenario_138.json",
+      "scenario_sha256": "73d98f6867cc2639d866371db343303253e3e121dcf995ab9be8f06369c6a6aa",
+      "prompt_file": "prompts/scenario_138.txt",
+      "prompt_sha256": "2465a61a287c8d540d06de4a2aa8c65642a782fa342ce3b9acca47109585ffec"
+    },
+    {
+      "scenario_id": "scenario_139",
+      "scenario_file": "data/scenarios/scenario_139.json",
+      "scenario_sha256": "af06c5cc5366d9b20cedcf3c857e55d71e8648266976870cdf12450788f89f6d",
+      "prompt_file": "prompts/scenario_139.txt",
+      "prompt_sha256": "50f642c8311012f444970704fd93db2f157662344590d3968ec945a8bb6b99a8"
+    },
+    {
+      "scenario_id": "scenario_140",
+      "scenario_file": "data/scenarios/scenario_140.json",
+      "scenario_sha256": "288c09fb1e0de81074eca6689cf42625fd93e91cd7582836ae78a8b6d0fbaef6",
+      "prompt_file": "prompts/scenario_140.txt",
+      "prompt_sha256": "ffc40966c495a2d6a122acf9e0009729b06804df1582d310f1d843f8901f2b91"
+    },
+    {
+      "scenario_id": "scenario_141",
+      "scenario_file": "data/scenarios/scenario_141.json",
+      "scenario_sha256": "4f092e4bba3f4abc7c409e17e8b991cc52dd47dccaff97cf5bb2c0b374d1631d",
+      "prompt_file": "prompts/scenario_141.txt",
+      "prompt_sha256": "9ecc276c1b8bd61dd5497a3e587eb70b1ef08d8fa30cc8ce317a49e117eba9f3"
+    },
+    {
+      "scenario_id": "scenario_142",
+      "scenario_file": "data/scenarios/scenario_142.json",
+      "scenario_sha256": "2d0e7baefd5bcba800c7233451f5fea7b01fd515f1d408a4810cef280dbe280b",
+      "prompt_file": "prompts/scenario_142.txt",
+      "prompt_sha256": "f6a27f3ea816feb7cbcaa94ec7a2a1ec5c0707ca99d620cdeeb8155fcb651d5f"
+    },
+    {
+      "scenario_id": "scenario_143",
+      "scenario_file": "data/scenarios/scenario_143.json",
+      "scenario_sha256": "6746e2399927fd40c14c4850c5ab6d9264e802025a3eb096d282ac5ff6b30a70",
+      "prompt_file": "prompts/scenario_143.txt",
+      "prompt_sha256": "1e1a449b114f754e1277065ebcff2ee92a78886046bb98707ecdd3e469ad8eee"
+    },
+    {
+      "scenario_id": "scenario_144",
+      "scenario_file": "data/scenarios/scenario_144.json",
+      "scenario_sha256": "c31b560497f2da50de642e93801b05e1ff4ff691bfebf6b2d266bdc46c6ca265",
+      "prompt_file": "prompts/scenario_144.txt",
+      "prompt_sha256": "e011fd61bbcffc5392a51854a51e89eaf46285c95d6b340789c3daa174bc693c"
+    },
+    {
+      "scenario_id": "scenario_145",
+      "scenario_file": "data/scenarios/scenario_145.json",
+      "scenario_sha256": "d2764098fb6dae298d31bdcfb96968cd90b853da29e82ebd1317d2b3d4228728",
+      "prompt_file": "prompts/scenario_145.txt",
+      "prompt_sha256": "cd625bd5b976c8abb9763eb32059f8590e2b6f52cea962f770b6975364febfae"
+    },
+    {
+      "scenario_id": "scenario_146",
+      "scenario_file": "data/scenarios/scenario_146.json",
+      "scenario_sha256": "36ee9f2dfe2a732f503070f938adab7d123ec56beb37984110e461b7cb311739",
+      "prompt_file": "prompts/scenario_146.txt",
+      "prompt_sha256": "aa88ce1c998c82f240fac79b0f5ddedf10710e847d97e88447b33cf21931cd8d"
+    },
+    {
+      "scenario_id": "scenario_147",
+      "scenario_file": "data/scenarios/scenario_147.json",
+      "scenario_sha256": "b98e26943ec56e78abfa004f7bc6bf1e26d4a5323d086f7cb1da030bca95e58d",
+      "prompt_file": "prompts/scenario_147.txt",
+      "prompt_sha256": "20c6ff33bce852f10651a7128459257617afc453602145984a27ba71eaff3a59"
+    },
+    {
+      "scenario_id": "scenario_148",
+      "scenario_file": "data/scenarios/scenario_148.json",
+      "scenario_sha256": "84b6ae7ab2b56a80b2e9f6d80b2554973937bb245b37da20200bba6a90c19b10",
+      "prompt_file": "prompts/scenario_148.txt",
+      "prompt_sha256": "6e03edd439a370ce2fcb62dc66516313130dc88532af677d33e3444a002ac7b4"
+    },
+    {
+      "scenario_id": "scenario_149",
+      "scenario_file": "data/scenarios/scenario_149.json",
+      "scenario_sha256": "2484bfe9addfd0bed488dc9006974dc65d094a98d6c51bf89e9e9660448343f5",
+      "prompt_file": "prompts/scenario_149.txt",
+      "prompt_sha256": "3aef801395a50c90268dbd00fb030a943f0fa20caef0bde85d94e6b349472b52"
+    },
+    {
+      "scenario_id": "scenario_150",
+      "scenario_file": "data/scenarios/scenario_150.json",
+      "scenario_sha256": "e400f8fb566f79ec40bd67e07c66ac2cc3f9c6c6a1452ede1ed290d11243e4c4",
+      "prompt_file": "prompts/scenario_150.txt",
+      "prompt_sha256": "14c51a229f40932bb09523cf511707ce5fbb04154bad60a6e8f6f9889348ee57"
+    },
+    {
+      "scenario_id": "scenario_151",
+      "scenario_file": "data/scenarios/scenario_151.json",
+      "scenario_sha256": "dc6f4cf21cc952ea145bda62fe32cb86759488e06b55686abfb1a5e58d728f94",
+      "prompt_file": "prompts/scenario_151.txt",
+      "prompt_sha256": "1659c77be4423b0797204e6fd5e5ed2114084492c65e60e360de9cc44675f05c"
+    },
+    {
+      "scenario_id": "scenario_152",
+      "scenario_file": "data/scenarios/scenario_152.json",
+      "scenario_sha256": "4ef7fa5cff283d47643c7308d932daa2d68aebc451029125c5cfb8ef22fa9f73",
+      "prompt_file": "prompts/scenario_152.txt",
+      "prompt_sha256": "9b5a031ed5e4db24f29d4cdeee0a8773cea352064b90de2f21ed57e7c0578743"
+    },
+    {
+      "scenario_id": "scenario_153",
+      "scenario_file": "data/scenarios/scenario_153.json",
+      "scenario_sha256": "f570e24e04f615e4765c853d1f7ca5bfb25d8a70b5fcb0f742bfbc1752acb121",
+      "prompt_file": "prompts/scenario_153.txt",
+      "prompt_sha256": "fa61cdf5879fd414e51cdc23a8e71aafa17708e2cd554238adefbaaba8be8b93"
+    },
+    {
+      "scenario_id": "scenario_154",
+      "scenario_file": "data/scenarios/scenario_154.json",
+      "scenario_sha256": "b14fef9d9eee18d6a4068d5d7a9271ee477452752f4e0ae23202e0e46e089607",
+      "prompt_file": "prompts/scenario_154.txt",
+      "prompt_sha256": "4415bffdb0bbe37b9c98e4f5c1c02b1d717923c95012466e4cc99e8894c8754d"
+    },
+    {
+      "scenario_id": "scenario_155",
+      "scenario_file": "data/scenarios/scenario_155.json",
+      "scenario_sha256": "b52a238b0c537a35664e240190b82d17942e9ab114212f2c6d7a7345107395ae",
+      "prompt_file": "prompts/scenario_155.txt",
+      "prompt_sha256": "f64ef6feb194798059e2c2aaac169593756a4e5306e5975d6281c54722775db8"
+    },
+    {
+      "scenario_id": "scenario_156",
+      "scenario_file": "data/scenarios/scenario_156.json",
+      "scenario_sha256": "c39879534bd90f21c65f0b712458628b621573a2ecc173c9278efb04ee18d525",
+      "prompt_file": "prompts/scenario_156.txt",
+      "prompt_sha256": "a611af4159faf31615f5bcc804a91ec2e572ea1289d12a037a6f8e4601955631"
+    },
+    {
+      "scenario_id": "scenario_157",
+      "scenario_file": "data/scenarios/scenario_157.json",
+      "scenario_sha256": "a6280e6de0d73ed328563bc71fde56a83be7395f9444f9afdc95190c51f05a83",
+      "prompt_file": "prompts/scenario_157.txt",
+      "prompt_sha256": "fd6b45e399c452002acb88cc6e5554d0e76e42582df794eec79d9b60f56a888c"
+    },
+    {
+      "scenario_id": "scenario_158",
+      "scenario_file": "data/scenarios/scenario_158.json",
+      "scenario_sha256": "224bf293b79134d899627c4ca19837971ff4a268746873aa0350bdee3509f315",
+      "prompt_file": "prompts/scenario_158.txt",
+      "prompt_sha256": "94dad02156190f3e9c9684b1091ffd8dac74d61d65d7b0ff74a904ae5ea8fd90"
+    },
+    {
+      "scenario_id": "scenario_159",
+      "scenario_file": "data/scenarios/scenario_159.json",
+      "scenario_sha256": "f68496728c44637dccd0ae78ecf32a45575018f4779920565b6e4983bdc0e6e6",
+      "prompt_file": "prompts/scenario_159.txt",
+      "prompt_sha256": "880abdf3c194a27a4ded32495a3a1b896fac9083a52acdbde866fb93b4520c58"
+    },
+    {
+      "scenario_id": "scenario_160",
+      "scenario_file": "data/scenarios/scenario_160.json",
+      "scenario_sha256": "03df9f06bb972f267c9ac9afa7391489035628607dabdd067d6b60b8a19ab57d",
+      "prompt_file": "prompts/scenario_160.txt",
+      "prompt_sha256": "c806ef24d2138070070a70bcb5a4ba22ee424f9676e09540c44651519a33f9c5"
+    },
+    {
+      "scenario_id": "scenario_161",
+      "scenario_file": "data/scenarios/scenario_161.json",
+      "scenario_sha256": "9c768167be9def058030ef3f730fc46db9cf40cf50a76155c35b40fc74de23f7",
+      "prompt_file": "prompts/scenario_161.txt",
+      "prompt_sha256": "4060f179ad33bb59347bbe659e44e46d0b9715e1fc05c798238e58aa3fe86380"
+    },
+    {
+      "scenario_id": "scenario_162",
+      "scenario_file": "data/scenarios/scenario_162.json",
+      "scenario_sha256": "1c71c2d913963d40f14bd4196388d3c53f7313821cc00c8c617d80f04ccbd18c",
+      "prompt_file": "prompts/scenario_162.txt",
+      "prompt_sha256": "9bc0a9e413cc9c5b5889c7a51fa0b4b3801f90d124ae38ed0f6dec35bc43a298"
+    },
+    {
+      "scenario_id": "scenario_163",
+      "scenario_file": "data/scenarios/scenario_163.json",
+      "scenario_sha256": "4b42bfa7233bd8d19288320c0034a8afe005aa1e4545144d3203b4aba26b5d32",
+      "prompt_file": "prompts/scenario_163.txt",
+      "prompt_sha256": "fb77a5095149efcb5e5ff78f0699dac46317431697c6b53668078bfe18f6661d"
+    },
+    {
+      "scenario_id": "scenario_164",
+      "scenario_file": "data/scenarios/scenario_164.json",
+      "scenario_sha256": "18ee2c2d5ba345b0347b024222cb86454f5bfefa6a5d9ff9583d31d3561ccf65",
+      "prompt_file": "prompts/scenario_164.txt",
+      "prompt_sha256": "6bee8950248444e77c329e7b0afd95bf4511b6a70f372fc915fbdd6981db8a03"
+    },
+    {
+      "scenario_id": "scenario_165",
+      "scenario_file": "data/scenarios/scenario_165.json",
+      "scenario_sha256": "849be3f5f2681329ff1b44a5895623521992baafc775efcbafa58be2ab0344f8",
+      "prompt_file": "prompts/scenario_165.txt",
+      "prompt_sha256": "44242b981be59477624e7f09a9c445b606be78cdb0097dc3b7c8d9e5c09f88fa"
+    },
+    {
+      "scenario_id": "scenario_166",
+      "scenario_file": "data/scenarios/scenario_166.json",
+      "scenario_sha256": "0b63a24159a8186605e8d8c80c54258c226c4e72328ea50d269c79e349f51e21",
+      "prompt_file": "prompts/scenario_166.txt",
+      "prompt_sha256": "fb119e3fb97cb2531ec403855f488bf7cff87bd3f3b2910cb24f8d827d606cb4"
+    },
+    {
+      "scenario_id": "scenario_167",
+      "scenario_file": "data/scenarios/scenario_167.json",
+      "scenario_sha256": "a73bd574948229a48d4ba330c73e7bcfb9d9c68899ea12ed35f97ae0d1af04fa",
+      "prompt_file": "prompts/scenario_167.txt",
+      "prompt_sha256": "10b6e8c93ba791eb2af42abe4209a1c29d2b0d1b696b5ff0cfba534a8e9a1f2f"
+    },
+    {
+      "scenario_id": "scenario_168",
+      "scenario_file": "data/scenarios/scenario_168.json",
+      "scenario_sha256": "ac24a668599b0abde2f49448718b43135906db5e3b045eb081466bd031b76da5",
+      "prompt_file": "prompts/scenario_168.txt",
+      "prompt_sha256": "b37f2ebef997ebb0173409fffc60ef33f0585eab36d321661f9589cbc595eb6f"
+    },
+    {
+      "scenario_id": "scenario_169",
+      "scenario_file": "data/scenarios/scenario_169.json",
+      "scenario_sha256": "612816a746c303e909ee3433046bb8690448af9a4f8de3b22a3c4c297bac09aa",
+      "prompt_file": "prompts/scenario_169.txt",
+      "prompt_sha256": "bfc0503c736de37841db5449f8d5a4be8ae22e7c8486400b2ff9a4463ce928da"
+    },
+    {
+      "scenario_id": "scenario_170",
+      "scenario_file": "data/scenarios/scenario_170.json",
+      "scenario_sha256": "1164dcbb2e7853698c706c83ffb450a0726253ffaf5423f62bd01ef64a3e1d87",
+      "prompt_file": "prompts/scenario_170.txt",
+      "prompt_sha256": "bcd34911950a521be5f7b4003eef1c6a82c6a75e5fd6321a0dc55ce68ef3e3f5"
+    },
+    {
+      "scenario_id": "scenario_171",
+      "scenario_file": "data/scenarios/scenario_171.json",
+      "scenario_sha256": "d8826b0434cd39f1ed731c50a4ab9a2132e0c42c1571865c67c42d21ab726ae0",
+      "prompt_file": "prompts/scenario_171.txt",
+      "prompt_sha256": "88124c8189b3a146671e9611ac95f70516093157caa144f5ecb0bf60f58bae66"
+    },
+    {
+      "scenario_id": "scenario_172",
+      "scenario_file": "data/scenarios/scenario_172.json",
+      "scenario_sha256": "68709c434073d0fe6f8470daf91fccddbade8246b92801a91b50df4857782de7",
+      "prompt_file": "prompts/scenario_172.txt",
+      "prompt_sha256": "07b6af24ba33c02b2d9dc0a85372cfa879953528286613d3d7d065d1ce11a1de"
+    },
+    {
+      "scenario_id": "scenario_173",
+      "scenario_file": "data/scenarios/scenario_173.json",
+      "scenario_sha256": "da428ce475ae802f9815b4bb1b6bd784e029db73cbc5ad5a396e7e035ccdd077",
+      "prompt_file": "prompts/scenario_173.txt",
+      "prompt_sha256": "8efc6e6d90881ea2ec3c303fc82ee9ca746ae6bc1c0f755440f76ccb504bb5cd"
+    },
+    {
+      "scenario_id": "scenario_174",
+      "scenario_file": "data/scenarios/scenario_174.json",
+      "scenario_sha256": "89fc757f429163ec7ef185cae1ff28cf6030d9fa8f9b7380676447bdf35c1c89",
+      "prompt_file": "prompts/scenario_174.txt",
+      "prompt_sha256": "a502389bc17beeabef107622df1acaa0a6b95a6c7204428d1cfba8c85adfcc58"
+    },
+    {
+      "scenario_id": "scenario_175",
+      "scenario_file": "data/scenarios/scenario_175.json",
+      "scenario_sha256": "c19191a5d7d6d90a2c0e253f1dede5a8f2698b817186fa911aa42f564903e851",
+      "prompt_file": "prompts/scenario_175.txt",
+      "prompt_sha256": "2a3c85c559d2b6f503658f38a799b34c7f10cc042d9c5a5e811e1901aef59a9e"
+    },
+    {
+      "scenario_id": "scenario_176",
+      "scenario_file": "data/scenarios/scenario_176.json",
+      "scenario_sha256": "d52b51cdd5b334f471087a829b75dac31053fad4a93bb62fd9a8f3fe33b2b6ca",
+      "prompt_file": "prompts/scenario_176.txt",
+      "prompt_sha256": "3fc01521dae1209ea9a95029369eb340008f5e94d1a2f302567829c6d8429bb1"
+    },
+    {
+      "scenario_id": "scenario_177",
+      "scenario_file": "data/scenarios/scenario_177.json",
+      "scenario_sha256": "094216881ae8d314e3b74e7cce1a0b305874e78a627e7a56be29e040e7fe9714",
+      "prompt_file": "prompts/scenario_177.txt",
+      "prompt_sha256": "97322af9478bbc31927a1ee9c4b503c587c03520aeb3bc513ba5ed239b35ca68"
+    },
+    {
+      "scenario_id": "scenario_178",
+      "scenario_file": "data/scenarios/scenario_178.json",
+      "scenario_sha256": "b68b83b4589157edfe445e0ed494b9956998ccb81026967c7f1da119167e102b",
+      "prompt_file": "prompts/scenario_178.txt",
+      "prompt_sha256": "20f836226eab10bcf350a3cab50d2bdc9f8c243e204c1f16381b68eeb304f559"
+    },
+    {
+      "scenario_id": "scenario_179",
+      "scenario_file": "data/scenarios/scenario_179.json",
+      "scenario_sha256": "d8af0c50f31ef4a6a5fdc4f7de769e07157ae03b2d4e2ae3636e7f55a39bf072",
+      "prompt_file": "prompts/scenario_179.txt",
+      "prompt_sha256": "9af6776fccb458c3259e0291d8a649f250d7652e2a1232e8e5b005d12d9e807f"
+    },
+    {
+      "scenario_id": "scenario_180",
+      "scenario_file": "data/scenarios/scenario_180.json",
+      "scenario_sha256": "ce20f22e119afbb7d7b5112d948a72077789198f2ede09560f3ce14edac4a357",
+      "prompt_file": "prompts/scenario_180.txt",
+      "prompt_sha256": "7cd956299f75b5cc58c3319703aba7d61a0a8f7eb18ea7fc1f5e72f63bb21730"
+    },
+    {
+      "scenario_id": "scenario_181",
+      "scenario_file": "data/scenarios/scenario_181.json",
+      "scenario_sha256": "7ef5c0b8fe27ee85c6d09840898ff6e0d3f40faa4a9d3d9ff2489aedd75245b1",
+      "prompt_file": "prompts/scenario_181.txt",
+      "prompt_sha256": "751cdc5cdac530c40a8da6f5a4d8e924e5225b00e4dc5aaf4b12f0397d48f3cf"
+    },
+    {
+      "scenario_id": "scenario_182",
+      "scenario_file": "data/scenarios/scenario_182.json",
+      "scenario_sha256": "5f642b4e52bb0f24a6a64724d5dfb892a9f61e604c61f4be3043d9df0560ee64",
+      "prompt_file": "prompts/scenario_182.txt",
+      "prompt_sha256": "fb49222ba896ad25ab296fb60e0aff8e11440b92d04308882b5791b5cfb441e5"
+    },
+    {
+      "scenario_id": "scenario_183",
+      "scenario_file": "data/scenarios/scenario_183.json",
+      "scenario_sha256": "92c21401ce4ddbf9979213f1ff839114f1bafea716e583dde84127b145a2f697",
+      "prompt_file": "prompts/scenario_183.txt",
+      "prompt_sha256": "acb37768b06183774e8d5a061703fed52afe2437b1deefc6886989142bdf9df0"
+    },
+    {
+      "scenario_id": "scenario_184",
+      "scenario_file": "data/scenarios/scenario_184.json",
+      "scenario_sha256": "0649f9e276971322adb50e6558bf8554155f35cf2030806865657c299359bb34",
+      "prompt_file": "prompts/scenario_184.txt",
+      "prompt_sha256": "757597c4d85be57fa8b42c1d213f48eacec428fb674fcf08b4d39bb56eafff57"
+    },
+    {
+      "scenario_id": "scenario_185",
+      "scenario_file": "data/scenarios/scenario_185.json",
+      "scenario_sha256": "595a04140def3ef4ad44e79a1ea5c2903c069fb0f57b2af76b8d29c456119679",
+      "prompt_file": "prompts/scenario_185.txt",
+      "prompt_sha256": "ea79cc77d8abc3bbfff8556f9fc14b160415bc5862b7eeedd35c44947d6beb52"
+    },
+    {
+      "scenario_id": "scenario_186",
+      "scenario_file": "data/scenarios/scenario_186.json",
+      "scenario_sha256": "445d73ae41876eca0a6004147fc793122cfddb9991f15a83ace7768d1a87045a",
+      "prompt_file": "prompts/scenario_186.txt",
+      "prompt_sha256": "11a9a5e80529cec1aed3875564b6b2b2d9d7603cc43b9b8d7730f2c64c8b4458"
+    },
+    {
+      "scenario_id": "scenario_187",
+      "scenario_file": "data/scenarios/scenario_187.json",
+      "scenario_sha256": "83980ad74c288ca0f1bffe6ae8e5d0d15cd5976fade271a54c88e3b918f3f29f",
+      "prompt_file": "prompts/scenario_187.txt",
+      "prompt_sha256": "5c8acfe4d0f1f8561cfdc37dcc16aca593d11b1308ad1f312d191975cde82ab4"
+    },
+    {
+      "scenario_id": "scenario_188",
+      "scenario_file": "data/scenarios/scenario_188.json",
+      "scenario_sha256": "0df44fb8d2b93c30136c2d436bb1d007f78a18d8d24f37cd969531ebdc5a1729",
+      "prompt_file": "prompts/scenario_188.txt",
+      "prompt_sha256": "be37caa310ecf535ec9396d8a4f64ec32522ca29287aecf5056c7e3519d56823"
+    },
+    {
+      "scenario_id": "scenario_189",
+      "scenario_file": "data/scenarios/scenario_189.json",
+      "scenario_sha256": "a6c60347debfa8311e361120c9d1112cffb880cda5af922790b264b6285b774b",
+      "prompt_file": "prompts/scenario_189.txt",
+      "prompt_sha256": "d9c7d06e419d37459b93b87fbc68f061f9dc1532f2e88672d9a6435f76c5c81f"
+    },
+    {
+      "scenario_id": "scenario_190",
+      "scenario_file": "data/scenarios/scenario_190.json",
+      "scenario_sha256": "290ff4ddaa5d9f9c4dd9e2d2ffb90fc2cd0c8fd21b213479e684ad6b4f6b363f",
+      "prompt_file": "prompts/scenario_190.txt",
+      "prompt_sha256": "427dd2b2b083d4e60e19595409cf137a3ca6e995f0c5c0ec379725e5399d87e5"
+    },
+    {
+      "scenario_id": "scenario_191",
+      "scenario_file": "data/scenarios/scenario_191.json",
+      "scenario_sha256": "6149569cf998153e52bcfdcb67929421a6e7464fb8e043b20f4c4863418f2d8d",
+      "prompt_file": "prompts/scenario_191.txt",
+      "prompt_sha256": "037c8b331b7ded399eaaa9f89665edc6fb90617df6b085bdea09365d9ebfee07"
+    },
+    {
+      "scenario_id": "scenario_192",
+      "scenario_file": "data/scenarios/scenario_192.json",
+      "scenario_sha256": "72dcea06be71a15f530a39c09ea6f30d33d8a663dbda3c7fb1323712bf97035c",
+      "prompt_file": "prompts/scenario_192.txt",
+      "prompt_sha256": "afb8b8e7409422c451b8fc4c26ec44a9736603817a497094bdc9b8240c567730"
+    },
+    {
+      "scenario_id": "scenario_193",
+      "scenario_file": "data/scenarios/scenario_193.json",
+      "scenario_sha256": "6daa8ce92e0998d08d219e906b974e8aa23a5281a7d0fa384394fc256e175323",
+      "prompt_file": "prompts/scenario_193.txt",
+      "prompt_sha256": "f54c5083874e40dc0fbc4e28230cdd55b57b7c0d6214402fdc405c3735a941de"
+    },
+    {
+      "scenario_id": "scenario_194",
+      "scenario_file": "data/scenarios/scenario_194.json",
+      "scenario_sha256": "a14b149b06f0728c01a13c07e632da07de7e12ca2714b6fc67e2c27fcfbbb797",
+      "prompt_file": "prompts/scenario_194.txt",
+      "prompt_sha256": "b830eed7faa1014ab50469bd340d4c42c73c3e041be77e1dc359127ad05e98d6"
+    },
+    {
+      "scenario_id": "scenario_195",
+      "scenario_file": "data/scenarios/scenario_195.json",
+      "scenario_sha256": "4f870ccae1d564be455b9e31d7fa3ac9507258c997532a2360aa3a48f984d4a2",
+      "prompt_file": "prompts/scenario_195.txt",
+      "prompt_sha256": "ae44bfa15442a2113b10927926580cb15c21e9b13b8548e3a2adce354c34b871"
+    },
+    {
+      "scenario_id": "scenario_196",
+      "scenario_file": "data/scenarios/scenario_196.json",
+      "scenario_sha256": "31e17af4758965975bc04c6c71455c05484dd4020ad379c524d104ffb21646b8",
+      "prompt_file": "prompts/scenario_196.txt",
+      "prompt_sha256": "3f71a91fdbac3c218aa9f6139b863a189eee80e91737db09cb0804418c9a17ba"
+    },
+    {
+      "scenario_id": "scenario_197",
+      "scenario_file": "data/scenarios/scenario_197.json",
+      "scenario_sha256": "c6d908a745c52ef1d9064a82013cfe3f5ff1ac92f7e5042e2e4c4cbc382b2e7a",
+      "prompt_file": "prompts/scenario_197.txt",
+      "prompt_sha256": "03aa944bedab07c6e4686edc3925d305645862285f38149e29304c1240c7c3a8"
+    },
+    {
+      "scenario_id": "scenario_198",
+      "scenario_file": "data/scenarios/scenario_198.json",
+      "scenario_sha256": "1b15ca0640345c900f54f23930c370145fbe3a4ac95767d3f95aa326e2aba410",
+      "prompt_file": "prompts/scenario_198.txt",
+      "prompt_sha256": "3e14f282c6edd0e8a4ac41547d47f68d2fc23ee760fb5342a9dc488d0f822612"
+    },
+    {
+      "scenario_id": "scenario_199",
+      "scenario_file": "data/scenarios/scenario_199.json",
+      "scenario_sha256": "aea8d9ec25bded4d83622866b39a00c5f7418fdc7950b64688d1bfb2a047d41b",
+      "prompt_file": "prompts/scenario_199.txt",
+      "prompt_sha256": "bf04a725a76d8b8d436c663b1b94d4f2746dcba5e431210ad8afe6122c70eeb0"
+    },
+    {
+      "scenario_id": "scenario_200",
+      "scenario_file": "data/scenarios/scenario_200.json",
+      "scenario_sha256": "174282969360356768a908916434db92a0f0709ff138acdac88b3771f2228bcd",
+      "prompt_file": "prompts/scenario_200.txt",
+      "prompt_sha256": "4d15c21f09c12e84a1be025f13874daa1ee6eb7a76902aa22673558f9ad9c9a6"
+    },
+    {
+      "scenario_id": "scenario_201",
+      "scenario_file": "data/scenarios/scenario_201.json",
+      "scenario_sha256": "49f9323a9559e2bcb55efac02a680a6388bcf6a08201f4046a2c6acd63cfed67",
+      "prompt_file": "prompts/scenario_201.txt",
+      "prompt_sha256": "258faf6e34bf833be0d4eee90f149f5e4dd7fc0fd4f9dd6a8728eeeb5dba9fb8"
+    },
+    {
+      "scenario_id": "scenario_202",
+      "scenario_file": "data/scenarios/scenario_202.json",
+      "scenario_sha256": "d7c99244ac69c25083e60fc1af0d0cd8a7c2f75634227206092d7b71b3fb1206",
+      "prompt_file": "prompts/scenario_202.txt",
+      "prompt_sha256": "61356aba369cc12812d8fb75c1b0c21d576d271f0b443b2f48e6d5adc30f2422"
+    },
+    {
+      "scenario_id": "scenario_203",
+      "scenario_file": "data/scenarios/scenario_203.json",
+      "scenario_sha256": "320877bfc7c6b36537af0bae426818d0030d43cc103689a397b3ef3ac6389fc5",
+      "prompt_file": "prompts/scenario_203.txt",
+      "prompt_sha256": "8a075aaa1b2d2e17439d4cf49778340624656454b8394adb36771a193677ad8a"
+    },
+    {
+      "scenario_id": "scenario_204",
+      "scenario_file": "data/scenarios/scenario_204.json",
+      "scenario_sha256": "9494b39abc523e2bafec20a36d65a3e37d841db8537568086ea8da4c906e898f",
+      "prompt_file": "prompts/scenario_204.txt",
+      "prompt_sha256": "3370b07ef333bc39632b15d895047891167ff1230c01ef18e4cbd963bc227853"
+    },
+    {
+      "scenario_id": "scenario_205",
+      "scenario_file": "data/scenarios/scenario_205.json",
+      "scenario_sha256": "b87d7de4df72012c654cc1898f9ce14e11f7b3b0250cca03867e7653ad60cd45",
+      "prompt_file": "prompts/scenario_205.txt",
+      "prompt_sha256": "40f3d00f40913cd813e358e65c07d54216e4d91c0c01a1638e82b5a0a5771ebd"
+    },
+    {
+      "scenario_id": "scenario_206",
+      "scenario_file": "data/scenarios/scenario_206.json",
+      "scenario_sha256": "277d906fa5720168fda3a75618363e0f3f4d4ba3189eb6f8a715dccf1fb0c6bd",
+      "prompt_file": "prompts/scenario_206.txt",
+      "prompt_sha256": "8a427a8071eb379e32565502e66151bd2525ab023c281d4197ed4e1b703d5c80"
+    },
+    {
+      "scenario_id": "scenario_207",
+      "scenario_file": "data/scenarios/scenario_207.json",
+      "scenario_sha256": "310ec341a5c2641b63f38176a2e5eb69d7fa4d877c6a2803bf5a7b36f5b648e7",
+      "prompt_file": "prompts/scenario_207.txt",
+      "prompt_sha256": "f2f79cd24ceab73203bad4908c0ba42d8d05d475e0889c0699c29dfd4bfc1a6e"
+    },
+    {
+      "scenario_id": "scenario_208",
+      "scenario_file": "data/scenarios/scenario_208.json",
+      "scenario_sha256": "57ac66b498a61508b38b30b1340607175e427b4e7643ccc747e97a418e14216a",
+      "prompt_file": "prompts/scenario_208.txt",
+      "prompt_sha256": "adc81d8081886c9758dc7695675ec5814a8c47c07ae8b029b55676caf1e6befd"
+    },
+    {
+      "scenario_id": "scenario_209",
+      "scenario_file": "data/scenarios/scenario_209.json",
+      "scenario_sha256": "e97ae2be3e07855eb60c5c2ef767751b372641941e5362c1cc0847d201788db2",
+      "prompt_file": "prompts/scenario_209.txt",
+      "prompt_sha256": "859bea8ac3680b069d42561b768ccb76cbb96452a55e5916b421b50a9c3d8620"
+    },
+    {
+      "scenario_id": "scenario_210",
+      "scenario_file": "data/scenarios/scenario_210.json",
+      "scenario_sha256": "a3056672a2198fca2fe4fe63241741a7a60c4413a85a081566c498c5305314a0",
+      "prompt_file": "prompts/scenario_210.txt",
+      "prompt_sha256": "d80d3bb6b0e464b89e889e1bb5b43861577da0e83de247b2c09bb08b0d0d87eb"
+    },
+    {
+      "scenario_id": "scenario_211",
+      "scenario_file": "data/scenarios/scenario_211.json",
+      "scenario_sha256": "f952a92883640e0d319e01f091a6b72072f19f1f39cd74588f12bccdf6d9e384",
+      "prompt_file": "prompts/scenario_211.txt",
+      "prompt_sha256": "d727fd3441f6b9725177718337d51ca0901a193b8e513253ec8c1caca027808b"
+    },
+    {
+      "scenario_id": "scenario_212",
+      "scenario_file": "data/scenarios/scenario_212.json",
+      "scenario_sha256": "68711bf9d3d869fdae42fa8c3aa11b3a3a6b735417367f0d6494ca4ba5921a9f",
+      "prompt_file": "prompts/scenario_212.txt",
+      "prompt_sha256": "a3f5f95a52ee438cc8055035583aa0131e70cc7628fe3b207dfd9cb1fdd9a183"
+    },
+    {
+      "scenario_id": "scenario_213",
+      "scenario_file": "data/scenarios/scenario_213.json",
+      "scenario_sha256": "9dd85edff8aac16535c1247c3e84e6530e15f84c1736de06e9d5e2fc7684dd4f",
+      "prompt_file": "prompts/scenario_213.txt",
+      "prompt_sha256": "d42064bfad19f0e1be5e694314f883df4b49bf0e6ed5faeff7f87204824392b5"
+    },
+    {
+      "scenario_id": "scenario_214",
+      "scenario_file": "data/scenarios/scenario_214.json",
+      "scenario_sha256": "4c645e9d8782480cbb908bfcfc39aee20e63348e13b30d4873648fd914c7cd5d",
+      "prompt_file": "prompts/scenario_214.txt",
+      "prompt_sha256": "1bf0bf9ca0a32f1d9067efee00874222f408721176e57b8c8e3f4101cc52ebd6"
+    },
+    {
+      "scenario_id": "scenario_215",
+      "scenario_file": "data/scenarios/scenario_215.json",
+      "scenario_sha256": "35d1f96c6f181339b43cf049335ad7d6875e187d63e485167d9a933e10e34a4b",
+      "prompt_file": "prompts/scenario_215.txt",
+      "prompt_sha256": "d89663815e80838c144282475b5e6457b3527fff3dcde8f029a4d9879343fbaf"
+    },
+    {
+      "scenario_id": "scenario_216",
+      "scenario_file": "data/scenarios/scenario_216.json",
+      "scenario_sha256": "4b36bb864797a52d3e155be9029657b4c43cd0d31526d449d0ec8f21c38c0875",
+      "prompt_file": "prompts/scenario_216.txt",
+      "prompt_sha256": "52aec0f4b6f92b5ef88facddd863cd7e499cab11667cbfba922a95013ddb8850"
+    },
+    {
+      "scenario_id": "scenario_217",
+      "scenario_file": "data/scenarios/scenario_217.json",
+      "scenario_sha256": "38d4493c4972a3fb8c77263a98ce089ec12570f32d2ba6c32cb92a1feb44de33",
+      "prompt_file": "prompts/scenario_217.txt",
+      "prompt_sha256": "f90e262700b6cc148b1e05c0bcf2114b6f8e239b6fdd908898738113b46c275e"
+    },
+    {
+      "scenario_id": "scenario_218",
+      "scenario_file": "data/scenarios/scenario_218.json",
+      "scenario_sha256": "852fca0f1f8bfc6f128ebfcfde097346b36d831e61ac30a04347e71f11db58db",
+      "prompt_file": "prompts/scenario_218.txt",
+      "prompt_sha256": "9046d1d4af737b3b89131ec7964e65686aadfe54278f41f41eab526984c8da4d"
+    },
+    {
+      "scenario_id": "scenario_219",
+      "scenario_file": "data/scenarios/scenario_219.json",
+      "scenario_sha256": "e16eaedc2d09c6adddd5c1c40ca7b2fdc4a1780c85a242e92167e2d6c197fa38",
+      "prompt_file": "prompts/scenario_219.txt",
+      "prompt_sha256": "8fdecfefa3d6ae980c8e11a71126956cb3e3ccf08047ad788cfebdcb450706bd"
+    },
+    {
+      "scenario_id": "scenario_220",
+      "scenario_file": "data/scenarios/scenario_220.json",
+      "scenario_sha256": "cd22a5b8e681d254b73e49eb743b68651821cc92ba96bd40ce8205c1dd13baac",
+      "prompt_file": "prompts/scenario_220.txt",
+      "prompt_sha256": "554a44a76d55bb81f776929bc14d0c1d928b3860ab6982812bca30c4639a9679"
+    },
+    {
+      "scenario_id": "scenario_221",
+      "scenario_file": "data/scenarios/scenario_221.json",
+      "scenario_sha256": "25441c0a94d5cf5ca0a561a691eda1b7ffbc249c4dbb78c8fd6b16b3bec238ff",
+      "prompt_file": "prompts/scenario_221.txt",
+      "prompt_sha256": "08ab626f5d3667ae1d04b31e04e4823302fa37dd923ff46e03936c0507513fae"
+    },
+    {
+      "scenario_id": "scenario_222",
+      "scenario_file": "data/scenarios/scenario_222.json",
+      "scenario_sha256": "c3530e809b6269e82b0e5b88ac4fc1f695fcb6e2d3a5b30a92e28a80de8d89bc",
+      "prompt_file": "prompts/scenario_222.txt",
+      "prompt_sha256": "2752c019a280239ea3310b9a46d704c69b8c437dd55a51602873c9f0139c855e"
+    },
+    {
+      "scenario_id": "scenario_223",
+      "scenario_file": "data/scenarios/scenario_223.json",
+      "scenario_sha256": "ab9d74cf6cd7d99614a0edb1c9f366eb89d4ef50c3f85f78d0a6162f5db143df",
+      "prompt_file": "prompts/scenario_223.txt",
+      "prompt_sha256": "2a9dce2ebbf0753b77d2613accd97da2c0355a7c8f2e11eff48b447dbe4efe7f"
+    },
+    {
+      "scenario_id": "scenario_224",
+      "scenario_file": "data/scenarios/scenario_224.json",
+      "scenario_sha256": "ca8d30ad95b1222c20ba2b1240b5892d5fa75947b786f29ffed3035fcfc8b28b",
+      "prompt_file": "prompts/scenario_224.txt",
+      "prompt_sha256": "a4fa6f4e2867b9467109ff4628026f1e3b20f95035412905fda7e7bcfa41b97f"
+    },
+    {
+      "scenario_id": "scenario_225",
+      "scenario_file": "data/scenarios/scenario_225.json",
+      "scenario_sha256": "fc9fe1cf31388ec22529b52c0396f573359dfb2963055165fee8487aace98086",
+      "prompt_file": "prompts/scenario_225.txt",
+      "prompt_sha256": "6332b728f160a8ccda67cf6f4ab71a46cee5de9a074d85954292bf0a8ff4db07"
+    },
+    {
+      "scenario_id": "scenario_226",
+      "scenario_file": "data/scenarios/scenario_226.json",
+      "scenario_sha256": "8f267c0b62d595e8f76c411a04b1540a22c802decac507495d85de875c154289",
+      "prompt_file": "prompts/scenario_226.txt",
+      "prompt_sha256": "822c7e929a2e2a660e8577d7eebea32f458e095a183924354313447d656fdc88"
+    },
+    {
+      "scenario_id": "scenario_227",
+      "scenario_file": "data/scenarios/scenario_227.json",
+      "scenario_sha256": "fb8e58290db2f115516de23f3299f1e9eb9e4de3e83dd668bc602622f45d0b92",
+      "prompt_file": "prompts/scenario_227.txt",
+      "prompt_sha256": "cbda4baf6eb7f821e4b01dafd5ea88cfd379adc027fd3db5695d1e7303eaad6f"
+    },
+    {
+      "scenario_id": "scenario_228",
+      "scenario_file": "data/scenarios/scenario_228.json",
+      "scenario_sha256": "eea1b25bb74c13b09781ef2172724bc6e3bb93d1e009e31b2d08757ad97954b3",
+      "prompt_file": "prompts/scenario_228.txt",
+      "prompt_sha256": "515db831240b21906a5f9176ff3679862e268d24e35d741bc65b73a6fc21ae6f"
+    },
+    {
+      "scenario_id": "scenario_229",
+      "scenario_file": "data/scenarios/scenario_229.json",
+      "scenario_sha256": "2432b4d128f419f053173853712beb5451da3fa5e6e831694f405328229f3484",
+      "prompt_file": "prompts/scenario_229.txt",
+      "prompt_sha256": "9127a733c3cde85067c253c21e623fb078898581d4ce68480d1b01a12a1f70cb"
+    },
+    {
+      "scenario_id": "scenario_230",
+      "scenario_file": "data/scenarios/scenario_230.json",
+      "scenario_sha256": "6718992318e2290f30b59a0058c397b2b2e9621e56809e9d06a54bd50a1f5eef",
+      "prompt_file": "prompts/scenario_230.txt",
+      "prompt_sha256": "a3954c5984e5736f8a56a7938687236c2ee7d86634de6e347d0d624fd5230725"
+    },
+    {
+      "scenario_id": "scenario_231",
+      "scenario_file": "data/scenarios/scenario_231.json",
+      "scenario_sha256": "23e1655d2fa3b640667cd36f36e074a0e8c93be52abe3978551756016e8c79c2",
+      "prompt_file": "prompts/scenario_231.txt",
+      "prompt_sha256": "a2b48e24ce8fe53fc45f82b7dd2f46ff6e7d2372cc22257ac130b0ad7a57b1e9"
+    },
+    {
+      "scenario_id": "scenario_232",
+      "scenario_file": "data/scenarios/scenario_232.json",
+      "scenario_sha256": "07c265d6e3e830028dbffb7bef8fbd58d3ac88448adf02e0696202550f8ef061",
+      "prompt_file": "prompts/scenario_232.txt",
+      "prompt_sha256": "45b93a16ce2230207c547763bb47cfb6d245cf3bf2a42576757b038d1afaa416"
+    },
+    {
+      "scenario_id": "scenario_233",
+      "scenario_file": "data/scenarios/scenario_233.json",
+      "scenario_sha256": "89d34be6ee96156e97adc4d7c648b44e01d1a8f09091a5ff336bc779e4134b22",
+      "prompt_file": "prompts/scenario_233.txt",
+      "prompt_sha256": "ba48bbd261c1df851ad46db218ca2b8df5dfdae35b09c039411417c31a57bb4a"
+    },
+    {
+      "scenario_id": "scenario_234",
+      "scenario_file": "data/scenarios/scenario_234.json",
+      "scenario_sha256": "ea229024f2561898a4f3af519340e8a239f0cc9b8788fe205c18fc96dc4b909b",
+      "prompt_file": "prompts/scenario_234.txt",
+      "prompt_sha256": "1e064b90ada66c38ff34ef56ca4046b4a424d943c8f82176307cab44a608c128"
+    },
+    {
+      "scenario_id": "scenario_235",
+      "scenario_file": "data/scenarios/scenario_235.json",
+      "scenario_sha256": "70facf6cba764e84d3ab7382eb5415453ff0b59c72505a622dc769f588b92bd9",
+      "prompt_file": "prompts/scenario_235.txt",
+      "prompt_sha256": "c956489d70a7fa5a226274ee6a9bcb1eb362277e37b8a95f3917e803070919fc"
+    },
+    {
+      "scenario_id": "scenario_236",
+      "scenario_file": "data/scenarios/scenario_236.json",
+      "scenario_sha256": "3841694af80023e524266da9d1c38e15915ef03c335e2e11c72d02c3e2b88489",
+      "prompt_file": "prompts/scenario_236.txt",
+      "prompt_sha256": "e81e1f245bf3d4c59360d2a2aae9d5fa1e23f71c2ec34f8530a5265944dd7f56"
+    },
+    {
+      "scenario_id": "scenario_237",
+      "scenario_file": "data/scenarios/scenario_237.json",
+      "scenario_sha256": "adb1cfcdd743729673673e7150edb26aecd3d4de40de97968f888d70db40d524",
+      "prompt_file": "prompts/scenario_237.txt",
+      "prompt_sha256": "0946a7612e33e87f8811c745131f2f6f56b912e4df0abe36dbc5b5db05e8342f"
+    },
+    {
+      "scenario_id": "scenario_238",
+      "scenario_file": "data/scenarios/scenario_238.json",
+      "scenario_sha256": "3e41dd4d83ce633255942b4d9f2e67546945f44eba13f695116a966a20d27c14",
+      "prompt_file": "prompts/scenario_238.txt",
+      "prompt_sha256": "fe5eff8940a8542efe6d428ca4390b92df69193e583ccd1698c0cd8fd32f69fb"
+    },
+    {
+      "scenario_id": "scenario_239",
+      "scenario_file": "data/scenarios/scenario_239.json",
+      "scenario_sha256": "a062c201bf73cc7ba82c367ebb8266d9de3ee260171a92739ed148a49890515e",
+      "prompt_file": "prompts/scenario_239.txt",
+      "prompt_sha256": "cf2b3531b7e3499f1f4dfdaa18fd44d1028f082fe0bd5d8f43a5c08debc301b7"
+    },
+    {
+      "scenario_id": "scenario_240",
+      "scenario_file": "data/scenarios/scenario_240.json",
+      "scenario_sha256": "20bed8822bce9233c805a466e874638c7f1788e346595734b9edc2ae372dad7f",
+      "prompt_file": "prompts/scenario_240.txt",
+      "prompt_sha256": "844c17bf7a610340bfdd8082fa009ac32f95ce492d759f2f08178544f869052c"
+    },
+    {
+      "scenario_id": "scenario_241",
+      "scenario_file": "data/scenarios/scenario_241.json",
+      "scenario_sha256": "a3a9fbd4c424f7fb704d2de2ed92d080b0e9d849ce508f2c1063e1b5cdb32e73",
+      "prompt_file": "prompts/scenario_241.txt",
+      "prompt_sha256": "e91f70ec9b1853ecd95670b0d0cf01defca40419cfc5a215d23ec35df082b46e"
+    },
+    {
+      "scenario_id": "scenario_242",
+      "scenario_file": "data/scenarios/scenario_242.json",
+      "scenario_sha256": "1276e5923130ba4047d356a0453904e6e0d202f6add664cf29e624e48e8bc086",
+      "prompt_file": "prompts/scenario_242.txt",
+      "prompt_sha256": "3a8f554e847fd614542a13ebcbe09b1b08459c1002741ff59e84ef89bb6f56e0"
+    },
+    {
+      "scenario_id": "scenario_243",
+      "scenario_file": "data/scenarios/scenario_243.json",
+      "scenario_sha256": "6a325ed63713978b514e99169508dad2a813e1a0aafead6b6453afee6e9304a1",
+      "prompt_file": "prompts/scenario_243.txt",
+      "prompt_sha256": "61cf7692c93c75c5141213b71b79214cd623d7ec7fd7cf66d4440e2389701817"
+    },
+    {
+      "scenario_id": "scenario_244",
+      "scenario_file": "data/scenarios/scenario_244.json",
+      "scenario_sha256": "311fd154151da3925459d6f20080a81efff99ee6da4bf0fc9e4607455801810c",
+      "prompt_file": "prompts/scenario_244.txt",
+      "prompt_sha256": "99b97dc7795ecc49209515cc4f9a761c3e83a73c6d162655dd3dad60bfbf30f9"
+    },
+    {
+      "scenario_id": "scenario_245",
+      "scenario_file": "data/scenarios/scenario_245.json",
+      "scenario_sha256": "11e69f2464e0ec0ffb2c60257cc789a6913d7d7acd03059b0f7298307b5009df",
+      "prompt_file": "prompts/scenario_245.txt",
+      "prompt_sha256": "d42dcdc16e42c3821939297a349fbc6caf5d432ce52ae370f7244c7c8cbb5680"
+    },
+    {
+      "scenario_id": "scenario_246",
+      "scenario_file": "data/scenarios/scenario_246.json",
+      "scenario_sha256": "8f724834f5547ee9706e9e45cea69039d2e06f0b668e4dbac910041defd7a5bf",
+      "prompt_file": "prompts/scenario_246.txt",
+      "prompt_sha256": "d6e0b0614163c47a0e72c7f0b2df7deb2861bea98ba25a6ac50e908d29a6ee05"
+    },
+    {
+      "scenario_id": "scenario_247",
+      "scenario_file": "data/scenarios/scenario_247.json",
+      "scenario_sha256": "5080faac47f2f1bf87702573671c79eb13d54568b67d0a12ac0971509001781e",
+      "prompt_file": "prompts/scenario_247.txt",
+      "prompt_sha256": "6f1670e40c654c5bbf40719bcef249932c3abc19b56ab1a8cb5c7a58bbf6d426"
+    },
+    {
+      "scenario_id": "scenario_248",
+      "scenario_file": "data/scenarios/scenario_248.json",
+      "scenario_sha256": "98d917bda604999cdf19615d2d20e16d8643bf9ca46a7bbfee756d855dcf38a7",
+      "prompt_file": "prompts/scenario_248.txt",
+      "prompt_sha256": "aae9f612cca18ea7bb5350cd0ee83236466c400a83eab113ea78b499b18f90bd"
+    },
+    {
+      "scenario_id": "scenario_249",
+      "scenario_file": "data/scenarios/scenario_249.json",
+      "scenario_sha256": "ecc9d27137a85a45455ee8309d8c9accf12daadbc4192ce5828c899ffc43485d",
+      "prompt_file": "prompts/scenario_249.txt",
+      "prompt_sha256": "3219ad0278dad2325377fb5bf98f0d963f956420ceb8bf692fe87221dbb3df14"
+    },
+    {
+      "scenario_id": "scenario_250",
+      "scenario_file": "data/scenarios/scenario_250.json",
+      "scenario_sha256": "c8635bcb2144c383c057041f937fefe952879b3fe5d55c7de37f7d03b99ad31a",
+      "prompt_file": "prompts/scenario_250.txt",
+      "prompt_sha256": "9211f8f62e0e534cb72ba3fb25b168f77dbdacbda3b8146b20fea08ba39629fa"
+    },
+    {
+      "scenario_id": "scenario_251",
+      "scenario_file": "data/scenarios/scenario_251.json",
+      "scenario_sha256": "8acbb34a1eebf35ca8728e17fa092a4518f918d7ab5ffd1d59457bef99818222",
+      "prompt_file": "prompts/scenario_251.txt",
+      "prompt_sha256": "09f123e81b5ad85a0cbb40ebffaa51242fed860234276bf094b6fe2222b9fe26"
+    },
+    {
+      "scenario_id": "scenario_252",
+      "scenario_file": "data/scenarios/scenario_252.json",
+      "scenario_sha256": "53e297ff1a7a1e4bd1b543eb6ab8f0016fe240ab5ecf13c9cc0b650216185171",
+      "prompt_file": "prompts/scenario_252.txt",
+      "prompt_sha256": "af5eb4e2ffb458fb643691b8c7213379dc808994702c400dc31891153002c4d7"
+    },
+    {
+      "scenario_id": "scenario_253",
+      "scenario_file": "data/scenarios/scenario_253.json",
+      "scenario_sha256": "5acc3a461c56f60ef3bf41670d8d88287d0a6852f924945534c1498026c5af2b",
+      "prompt_file": "prompts/scenario_253.txt",
+      "prompt_sha256": "56c16b36123cde8aa57d6aa9671a30091c3db07a36bf5e8c42bde693117e9a4c"
+    },
+    {
+      "scenario_id": "scenario_254",
+      "scenario_file": "data/scenarios/scenario_254.json",
+      "scenario_sha256": "6387bd5021b3c893426fe09bd07f90e29d3d7275c375ca1f931c79f7841b3bcb",
+      "prompt_file": "prompts/scenario_254.txt",
+      "prompt_sha256": "f1b60a0ded51cea8b8ddb9a7ab1972ed4ebc2bda9f20a23f137dc291258ee9df"
+    },
+    {
+      "scenario_id": "scenario_255",
+      "scenario_file": "data/scenarios/scenario_255.json",
+      "scenario_sha256": "062588c535b6054043bece468129e1647a57cd348527a33fbca3961ef9f0f7bb",
+      "prompt_file": "prompts/scenario_255.txt",
+      "prompt_sha256": "b346b636592d22fa2d1e872bc7446fb5ea6a6a53db68080fa024102ce8157648"
+    },
+    {
+      "scenario_id": "scenario_256",
+      "scenario_file": "data/scenarios/scenario_256.json",
+      "scenario_sha256": "c50f220e168bb6f94a289f68564bcffe1abc55f5f2636bf3b30d527fc8c55d02",
+      "prompt_file": "prompts/scenario_256.txt",
+      "prompt_sha256": "aec83e2e62ca18fe7910254870f6a13a4114efe6e030956db0d9c28bae35009e"
+    },
+    {
+      "scenario_id": "scenario_257",
+      "scenario_file": "data/scenarios/scenario_257.json",
+      "scenario_sha256": "e060ac35178589f7f2c2b22f5c2f78abe0d3851fd7af01c568530306d0739dd6",
+      "prompt_file": "prompts/scenario_257.txt",
+      "prompt_sha256": "25a4b72bdc2b0e4f5e54ef5616d2533ca7e3b57861ae4014c9153d14e28dd1c7"
+    },
+    {
+      "scenario_id": "scenario_258",
+      "scenario_file": "data/scenarios/scenario_258.json",
+      "scenario_sha256": "267e484628a6593cd82690f5b48fc94f3b010edcf587647dd34a4c86384246a2",
+      "prompt_file": "prompts/scenario_258.txt",
+      "prompt_sha256": "d2dee025fe37f6f777e3eccf17fcf565f4e945b1ff25c0480b5dde2d716dd9f2"
+    },
+    {
+      "scenario_id": "scenario_259",
+      "scenario_file": "data/scenarios/scenario_259.json",
+      "scenario_sha256": "0c4b45cb8995698bce9b25ed078df4d9d4bcdaeac6b5d10fae9c40da1fa9ef52",
+      "prompt_file": "prompts/scenario_259.txt",
+      "prompt_sha256": "6551a57856c468343c736ccce0b3746eaf7da988a7f65d4d1557334ed9d719a0"
+    },
+    {
+      "scenario_id": "scenario_260",
+      "scenario_file": "data/scenarios/scenario_260.json",
+      "scenario_sha256": "bfbc8115203d03263a16b5ea66f8895dee3a1c32836ad94ff74d819a136fe175",
+      "prompt_file": "prompts/scenario_260.txt",
+      "prompt_sha256": "8194e103b090f634c3801913ede5ffdcf02c79ca5ff313a226ca669a100575fc"
+    },
+    {
+      "scenario_id": "scenario_261",
+      "scenario_file": "data/scenarios/scenario_261.json",
+      "scenario_sha256": "0a72e327fa3597f16dbb761561b33ef12c224a4d9a39d7c4bf777571e938f4a8",
+      "prompt_file": "prompts/scenario_261.txt",
+      "prompt_sha256": "0651697e0dbfcc4cd5eb7b33dee81d51eee91ceff8b665079106725364b58b24"
+    },
+    {
+      "scenario_id": "scenario_262",
+      "scenario_file": "data/scenarios/scenario_262.json",
+      "scenario_sha256": "75c2ff420a91a51b25c2dc9d4c29d9881d41d6b63d3efeb6ccae016fc71f060a",
+      "prompt_file": "prompts/scenario_262.txt",
+      "prompt_sha256": "7f4c8df9bf7c9399faafe610034047d2ec2173afd59711747125970788b74b1b"
+    },
+    {
+      "scenario_id": "scenario_263",
+      "scenario_file": "data/scenarios/scenario_263.json",
+      "scenario_sha256": "7a0daaee6d048f4c748907af2d89a03048e037036f9e48e2bc979f7f939ce6a3",
+      "prompt_file": "prompts/scenario_263.txt",
+      "prompt_sha256": "7cb231577b0f101bd05deafb1a4e322e16eebe06dd75350d03e41356eed7e6f6"
+    },
+    {
+      "scenario_id": "scenario_264",
+      "scenario_file": "data/scenarios/scenario_264.json",
+      "scenario_sha256": "dd715d3952ff334decc565b6c628e93e14f57386614f25116c40e1d57ebd38fa",
+      "prompt_file": "prompts/scenario_264.txt",
+      "prompt_sha256": "37b904f856e0e42852f7e88a9b716dd512f44d7ad81adb0d6dc58156f25bb2a4"
+    },
+    {
+      "scenario_id": "scenario_265",
+      "scenario_file": "data/scenarios/scenario_265.json",
+      "scenario_sha256": "c9985239fc5f6aff3b078c826fb7d6a7a7be10b2ad039de94d99e1f31d7ebb90",
+      "prompt_file": "prompts/scenario_265.txt",
+      "prompt_sha256": "17b50249ccce5e96bc71ca2ef87df5510c1c8800dcde33e4233b055a622874c7"
+    },
+    {
+      "scenario_id": "scenario_266",
+      "scenario_file": "data/scenarios/scenario_266.json",
+      "scenario_sha256": "42072f8522c27a9218547e3ea1e26778be57ccc2695b33da5c07f4b2f32a8029",
+      "prompt_file": "prompts/scenario_266.txt",
+      "prompt_sha256": "ad81b8bb3200ba714dbf85800ad5776657c33f476d85428fa012d0028c211025"
+    },
+    {
+      "scenario_id": "scenario_267",
+      "scenario_file": "data/scenarios/scenario_267.json",
+      "scenario_sha256": "2496dc26767761538fb341469fe4d250c217843dc0ab9d3ed3ed898f36b13915",
+      "prompt_file": "prompts/scenario_267.txt",
+      "prompt_sha256": "1ffc5f75da4d6d0c965227d4e5adf160d92f3da0b4b0731b80b883562ee12ed1"
+    },
+    {
+      "scenario_id": "scenario_268",
+      "scenario_file": "data/scenarios/scenario_268.json",
+      "scenario_sha256": "fd4293e1b39c6795db552fa9dd67fff9793a2a6670f85a9919aee3798e9564ca",
+      "prompt_file": "prompts/scenario_268.txt",
+      "prompt_sha256": "68481fa664f288d7070e8067e9e6e94081ae146b854e3eeef12206caf2a27663"
+    },
+    {
+      "scenario_id": "scenario_269",
+      "scenario_file": "data/scenarios/scenario_269.json",
+      "scenario_sha256": "e1a9bc3b486a31a9d11dce08261f06c694c264d084218aad448c759ec889b549",
+      "prompt_file": "prompts/scenario_269.txt",
+      "prompt_sha256": "e5768ed400e3d410e528f28ea59d10fbfabf5545f5b4b2056d5877f702af3ef5"
+    },
+    {
+      "scenario_id": "scenario_270",
+      "scenario_file": "data/scenarios/scenario_270.json",
+      "scenario_sha256": "dc1894d5d0aadd913c2cc604afc87198ef612b2b5b0c571a9708eb59b57831ed",
+      "prompt_file": "prompts/scenario_270.txt",
+      "prompt_sha256": "f928ed39780231f34411ab0b5363193e0faf95ad52499a06206cbfe6295b0241"
+    },
+    {
+      "scenario_id": "scenario_271",
+      "scenario_file": "data/scenarios/scenario_271.json",
+      "scenario_sha256": "d14048f25c10ce4df668e9ec76a721061f5417d3574a9bf710fe7f567028409d",
+      "prompt_file": "prompts/scenario_271.txt",
+      "prompt_sha256": "853879c4b292a556132b969f90157f38ecfc88d99c4788a7899b444c1a2e9af7"
+    },
+    {
+      "scenario_id": "scenario_272",
+      "scenario_file": "data/scenarios/scenario_272.json",
+      "scenario_sha256": "cc7048432ada591be5c4d1da3f4a94f3659e85ee696838d323c00cbcada80b25",
+      "prompt_file": "prompts/scenario_272.txt",
+      "prompt_sha256": "89d4b0dff38cbe5080b0e37659a6d866b70531b950bba22241e4c67898fd4fb3"
+    },
+    {
+      "scenario_id": "scenario_273",
+      "scenario_file": "data/scenarios/scenario_273.json",
+      "scenario_sha256": "bffe71a0cdef29a801d9b89075eb661daa99df04e7f3660232d43fa4575dedc9",
+      "prompt_file": "prompts/scenario_273.txt",
+      "prompt_sha256": "763855565a92650ce29b8af1bf6148668b989b9d4084b3f54c73b5f1ad7cb778"
+    },
+    {
+      "scenario_id": "scenario_274",
+      "scenario_file": "data/scenarios/scenario_274.json",
+      "scenario_sha256": "645b9bf5a2c50606deffe018b055cab768bcc8fe4169a1497cf657bd57e972d7",
+      "prompt_file": "prompts/scenario_274.txt",
+      "prompt_sha256": "d38bffba9744dd176cb41a24068fd8694dcd994612b2f7cdc61567338de65a6c"
+    },
+    {
+      "scenario_id": "scenario_275",
+      "scenario_file": "data/scenarios/scenario_275.json",
+      "scenario_sha256": "39123f70277af71da260152e8bfdcd64f7ff5c7708ae71ed0f919df0af773aed",
+      "prompt_file": "prompts/scenario_275.txt",
+      "prompt_sha256": "235b4f26da71f68247050394acd957758dbd30d10217c833f5b38d15555e09ae"
+    },
+    {
+      "scenario_id": "scenario_276",
+      "scenario_file": "data/scenarios/scenario_276.json",
+      "scenario_sha256": "c664a20832849d5395f2d2f7c3fcfc9e90e661fbb6a32eac222f0ca97ff1419f",
+      "prompt_file": "prompts/scenario_276.txt",
+      "prompt_sha256": "6b1d5e3861af1f2932038f1101623de80a546474a533a71f735a1af0d2c55640"
+    },
+    {
+      "scenario_id": "scenario_277",
+      "scenario_file": "data/scenarios/scenario_277.json",
+      "scenario_sha256": "72d96745a9c361e6f0c94acf61c5856723ac1c1def9d402a7b2e17f0e69554e3",
+      "prompt_file": "prompts/scenario_277.txt",
+      "prompt_sha256": "4d82486e1eb982cb178f00984607eda6588260fc522e1de8d823a1318a1219d3"
+    },
+    {
+      "scenario_id": "scenario_278",
+      "scenario_file": "data/scenarios/scenario_278.json",
+      "scenario_sha256": "c0b0e8406b51ce651769acec00f93c6d64a8b8fb45665e301155497ad7f7c44c",
+      "prompt_file": "prompts/scenario_278.txt",
+      "prompt_sha256": "6d1e56d70a6f970f0fdd173e149c484e865862b5c927991c2ddc0152a78a9a95"
+    },
+    {
+      "scenario_id": "scenario_279",
+      "scenario_file": "data/scenarios/scenario_279.json",
+      "scenario_sha256": "90c38866e1d1b7b961d4c66d6afab7849bf2792d2048a8a536a8c15fe9113709",
+      "prompt_file": "prompts/scenario_279.txt",
+      "prompt_sha256": "a0d2502317eecd77c45ceae6d14021f64703a92fcc037232e56aea02d6dc4547"
+    },
+    {
+      "scenario_id": "scenario_280",
+      "scenario_file": "data/scenarios/scenario_280.json",
+      "scenario_sha256": "b6ae38ff1a5bf893d47460c0d560454de68e25d752ccb03bc1e3b5f8bcbf8a93",
+      "prompt_file": "prompts/scenario_280.txt",
+      "prompt_sha256": "1e7e619d8535785437225878e08c5a924792b54c1abe0e40002175c21ece9929"
+    },
+    {
+      "scenario_id": "scenario_281",
+      "scenario_file": "data/scenarios/scenario_281.json",
+      "scenario_sha256": "be105a9d1b488f0ee8a79b4aed5699c12d966f92483b79ed32f234e6a36267e0",
+      "prompt_file": "prompts/scenario_281.txt",
+      "prompt_sha256": "b7d4ef2ecf8d21cac6a6ca002ec2de88029f64ed50f54adccb274df0330506b7"
+    },
+    {
+      "scenario_id": "scenario_282",
+      "scenario_file": "data/scenarios/scenario_282.json",
+      "scenario_sha256": "0570c62eb9ad3a4d74f51c120d4e75afdfc8a4bcb47070a9557187b1444c92bd",
+      "prompt_file": "prompts/scenario_282.txt",
+      "prompt_sha256": "3d2b38318c411d667514485c1d059d2e1f8bbef87825de67d51092fe6ca7afaa"
+    },
+    {
+      "scenario_id": "scenario_283",
+      "scenario_file": "data/scenarios/scenario_283.json",
+      "scenario_sha256": "6fe179ce3c2b0d86c7388641b56fd4a6c0bc37d2df31414f7a39cede905f9aaa",
+      "prompt_file": "prompts/scenario_283.txt",
+      "prompt_sha256": "622229f50d90b4be2d1f790fb2cb450561fd124de73a1adf1963505f4ef1a6fe"
+    },
+    {
+      "scenario_id": "scenario_284",
+      "scenario_file": "data/scenarios/scenario_284.json",
+      "scenario_sha256": "c465d6b4eb488037f4a2f018a9b2c78e78e25c602197278465285a3b7d9ccdd4",
+      "prompt_file": "prompts/scenario_284.txt",
+      "prompt_sha256": "b07bbf35d1b71d385d1e6803c15815edc4450c213b32a727abddd4a38ac37756"
+    },
+    {
+      "scenario_id": "scenario_285",
+      "scenario_file": "data/scenarios/scenario_285.json",
+      "scenario_sha256": "508c9f06035af581691f6f58c568ffa579725320361db249f486d1264cdd60b1",
+      "prompt_file": "prompts/scenario_285.txt",
+      "prompt_sha256": "b2248ffe179d40bc926d126beaf40156099e5376939479b3608219f83439a097"
+    },
+    {
+      "scenario_id": "scenario_286",
+      "scenario_file": "data/scenarios/scenario_286.json",
+      "scenario_sha256": "e3384ea6fbab74ed615edb81a4b8f1586a016118ee7516322967c91d01541be1",
+      "prompt_file": "prompts/scenario_286.txt",
+      "prompt_sha256": "7debca8db96a956bac7142e25c9121ca8de8ab8a8f0afda2c12ccf3ab9f1d325"
+    },
+    {
+      "scenario_id": "scenario_287",
+      "scenario_file": "data/scenarios/scenario_287.json",
+      "scenario_sha256": "2f7e89a512a7d8c7b357384a244951a1dc8d5349076c78ccd41677d3a04f442a",
+      "prompt_file": "prompts/scenario_287.txt",
+      "prompt_sha256": "190a71b9c28ac058897f51bda40dc1545f194fca413607e12549e7c508c03c33"
+    },
+    {
+      "scenario_id": "scenario_288",
+      "scenario_file": "data/scenarios/scenario_288.json",
+      "scenario_sha256": "7b88f90b503c589e70604e41d7d0d86892c37c4f92f1933605736958622d0e37",
+      "prompt_file": "prompts/scenario_288.txt",
+      "prompt_sha256": "a9e15b395c19dc7912a4d492d95ec88aed28edb98ecd5b2ca80482c4d7ce1754"
+    },
+    {
+      "scenario_id": "scenario_289",
+      "scenario_file": "data/scenarios/scenario_289.json",
+      "scenario_sha256": "625260cfa3ab3f4fc1328047b9d70dbaee150bbf84d8ff611dfb6b4797588a2f",
+      "prompt_file": "prompts/scenario_289.txt",
+      "prompt_sha256": "341fd8dd6da56f2548c17c0279a6a85f49c0636c59078be2a1e569aa9eb76579"
+    },
+    {
+      "scenario_id": "scenario_290",
+      "scenario_file": "data/scenarios/scenario_290.json",
+      "scenario_sha256": "15596ce6e48d93568e107f51e17c70b5563b06b5630ee73df14ce4e5220a21a4",
+      "prompt_file": "prompts/scenario_290.txt",
+      "prompt_sha256": "6a2069163916a473ad3f1aaf180bd5c40971d4b77ec632052357063f5db1c7ea"
+    },
+    {
+      "scenario_id": "scenario_291",
+      "scenario_file": "data/scenarios/scenario_291.json",
+      "scenario_sha256": "5f17c8a32153efc5a7db3630e9e744cb5c868c715447d5765e844150eb47cc37",
+      "prompt_file": "prompts/scenario_291.txt",
+      "prompt_sha256": "36fa3ab6fa52d260df8eab2025b2e1c4491090c9ed70e43a9e44387770c2360e"
+    },
+    {
+      "scenario_id": "scenario_292",
+      "scenario_file": "data/scenarios/scenario_292.json",
+      "scenario_sha256": "215c614c6f67092b7ab9a40bc3087e80bf692cbf686b945899ec27866456a6d6",
+      "prompt_file": "prompts/scenario_292.txt",
+      "prompt_sha256": "050a531f260616da8124446291524d6b0385f78213fe8cd024d23a2dd9aa94d8"
+    },
+    {
+      "scenario_id": "scenario_293",
+      "scenario_file": "data/scenarios/scenario_293.json",
+      "scenario_sha256": "e92c232084363761b71129a880a3f8e7409ca0378afb131672f42b6d7f1fb2fc",
+      "prompt_file": "prompts/scenario_293.txt",
+      "prompt_sha256": "79fc9d34a9343fc70314ebd48498742fb21b784c8ded87f7005f540974892c98"
+    },
+    {
+      "scenario_id": "scenario_294",
+      "scenario_file": "data/scenarios/scenario_294.json",
+      "scenario_sha256": "27b98d652b1a4c2ec0c4fd9a29860244058c25be5d0abb45436090334a0125ca",
+      "prompt_file": "prompts/scenario_294.txt",
+      "prompt_sha256": "cc952878f193a1c97de211081f0568ec260094f3e4eb5bbfe835a5c5b83303f3"
+    },
+    {
+      "scenario_id": "scenario_295",
+      "scenario_file": "data/scenarios/scenario_295.json",
+      "scenario_sha256": "68fb8b03e3f14d3156f6765c83c198fa145b520b4b015b22bf5b6a56b01be465",
+      "prompt_file": "prompts/scenario_295.txt",
+      "prompt_sha256": "7b4dd5a6077c22acbf8ad5e40c76e1e8c06e17b2ddc6dcd36d1c9b0e1faba3e2"
+    },
+    {
+      "scenario_id": "scenario_296",
+      "scenario_file": "data/scenarios/scenario_296.json",
+      "scenario_sha256": "cb5c3b0a6eb061b5018437ae739afe96a4389f7c1cca40f737bcf06525dc9de7",
+      "prompt_file": "prompts/scenario_296.txt",
+      "prompt_sha256": "d859bf9cfd67a23be96d6ffb0220d79de5d7eae8062ef5a2018a14247fa98179"
+    },
+    {
+      "scenario_id": "scenario_297",
+      "scenario_file": "data/scenarios/scenario_297.json",
+      "scenario_sha256": "1b095ce0526230d332e5cfc820ec95b3ad24d4eda26fb13fa827c6c92b4002e3",
+      "prompt_file": "prompts/scenario_297.txt",
+      "prompt_sha256": "aec0c4a152383b0a4170fa2c960ac2fc366bb89b68496ff365369b2271515974"
+    },
+    {
+      "scenario_id": "scenario_298",
+      "scenario_file": "data/scenarios/scenario_298.json",
+      "scenario_sha256": "5993a61641140a662f31b8b2793cd20b7e9bacdf85bf5eb528939c86d3fe2595",
+      "prompt_file": "prompts/scenario_298.txt",
+      "prompt_sha256": "e507265cfbde7411a9ff7ced5eddb744fc65ce0fa6ef6c0f9379a781d1bc92b8"
+    },
+    {
+      "scenario_id": "scenario_299",
+      "scenario_file": "data/scenarios/scenario_299.json",
+      "scenario_sha256": "25eb151c9fe19ea0009dc5a221916fce9927f593dbc4c18b42c0f147a8f75ebc",
+      "prompt_file": "prompts/scenario_299.txt",
+      "prompt_sha256": "f1bcb725d0ffad921fbafe402d4e07e02ab524782ffcd85c4d934bcd4f0e65a3"
+    },
+    {
+      "scenario_id": "scenario_300",
+      "scenario_file": "data/scenarios/scenario_300.json",
+      "scenario_sha256": "30e942785d345e5efec801a287e6ec92b6244ed5ca9c8f3c2edcb7eb5708cb43",
+      "prompt_file": "prompts/scenario_300.txt",
+      "prompt_sha256": "e89195e57549470d80e01390f428d87898f21c5e029fd910516e2f40fd2e846d"
+    },
+    {
+      "scenario_id": "scenario_301",
+      "scenario_file": "data/scenarios/scenario_301.json",
+      "scenario_sha256": "3bb77a9d08bc842f8561b7dab38cc2dd19bece7097f550c3eed36a155f0c19f8",
+      "prompt_file": "prompts/scenario_301.txt",
+      "prompt_sha256": "a3ef79f93ba7ac28c29b48eee6ce9d53adb7572f39ce069b21ec2ac8e979f5bd"
+    },
+    {
+      "scenario_id": "scenario_302",
+      "scenario_file": "data/scenarios/scenario_302.json",
+      "scenario_sha256": "bf4ba7c14353976925ac77f2d40233824876f17151302362c619d6b3db849b3c",
+      "prompt_file": "prompts/scenario_302.txt",
+      "prompt_sha256": "ce46540fd73ca3b079ee28e429c869b103ae9c0b6e1d355fcb134320d14cbd11"
+    },
+    {
+      "scenario_id": "scenario_303",
+      "scenario_file": "data/scenarios/scenario_303.json",
+      "scenario_sha256": "e2690cc1f0c2bc806d7afdad8c6a1437dfc9569c5594287ee13bc2a42a5c87c0",
+      "prompt_file": "prompts/scenario_303.txt",
+      "prompt_sha256": "3bbd94db26983160588a8ae6af967c5548c5118ae1d0159b10b30bbe2eef73be"
+    },
+    {
+      "scenario_id": "scenario_304",
+      "scenario_file": "data/scenarios/scenario_304.json",
+      "scenario_sha256": "3bfd480b54d6e96bd78f503ec8a1e44a75977024eef1cad024ef6f299ae28759",
+      "prompt_file": "prompts/scenario_304.txt",
+      "prompt_sha256": "9f9966582ce1a27514228c52f3285931ecdbcfe466534cfbaeb92b42931894e6"
+    },
+    {
+      "scenario_id": "scenario_305",
+      "scenario_file": "data/scenarios/scenario_305.json",
+      "scenario_sha256": "4351e350fe5bdd9811198e7dd9d0de53f30cb3b03056f567ca4d8d79fd124227",
+      "prompt_file": "prompts/scenario_305.txt",
+      "prompt_sha256": "bbaebfd7dd4ad61433de59e5d9af004ae75acff60c016bd8a02e94ec8e180fa5"
+    },
+    {
+      "scenario_id": "scenario_306",
+      "scenario_file": "data/scenarios/scenario_306.json",
+      "scenario_sha256": "7ca9a94142c52b2ac5b2e525ad95a001f37215eb62ad7945d7dcb4acaff923b5",
+      "prompt_file": "prompts/scenario_306.txt",
+      "prompt_sha256": "879578d6909364103927330fb4eff43d3d717c19ae683607022b8e80c3beb5e9"
+    },
+    {
+      "scenario_id": "scenario_307",
+      "scenario_file": "data/scenarios/scenario_307.json",
+      "scenario_sha256": "75109b04957a156df4b6d3d0ad6cae55b3455fb86069675ed0c3409823cc05cd",
+      "prompt_file": "prompts/scenario_307.txt",
+      "prompt_sha256": "691eb05b789bc86cb2d9e24991539da53c5a6c9184c7ce251f6317c27035be91"
+    },
+    {
+      "scenario_id": "scenario_308",
+      "scenario_file": "data/scenarios/scenario_308.json",
+      "scenario_sha256": "213ab6c6f833f01efa1375a01343fce5cfc0a3c6efb851fa7c20ebe730da9a1a",
+      "prompt_file": "prompts/scenario_308.txt",
+      "prompt_sha256": "cfbb3ad38a02c8360b2f0fa2247595a9cef26b43ecdba61c42e0a9754177b548"
+    },
+    {
+      "scenario_id": "scenario_309",
+      "scenario_file": "data/scenarios/scenario_309.json",
+      "scenario_sha256": "58bd85bd4c2f5a426453f8ea86a3da73f042309f9d500396cf8e193d94d3eff5",
+      "prompt_file": "prompts/scenario_309.txt",
+      "prompt_sha256": "e8a7ba60a72d7e21d1673de9dd05ae8e275e308871afdae83d57f2002368d03d"
+    },
+    {
+      "scenario_id": "scenario_310",
+      "scenario_file": "data/scenarios/scenario_310.json",
+      "scenario_sha256": "81690713ee2b6237ffa79c5a3c1ba51fdf9bff4e1f0ef59fe39c36584e8a869e",
+      "prompt_file": "prompts/scenario_310.txt",
+      "prompt_sha256": "f5d46e2c1aae121edb4b9aaaab4c937a0dacb8903f78e8785ca162a054a10e39"
+    },
+    {
+      "scenario_id": "scenario_311",
+      "scenario_file": "data/scenarios/scenario_311.json",
+      "scenario_sha256": "4052bcabc516f63732a29d07fcade1952817316fca0663ed35c872bc490d1706",
+      "prompt_file": "prompts/scenario_311.txt",
+      "prompt_sha256": "4b2282bd2f1ae4ae3b868fad065807591c9f57bfb2658a320b094454396aaa60"
+    },
+    {
+      "scenario_id": "scenario_312",
+      "scenario_file": "data/scenarios/scenario_312.json",
+      "scenario_sha256": "fb9f83f1343f482fb5176176c8cf377f697e5ef9dd841ded7030c18670752ddf",
+      "prompt_file": "prompts/scenario_312.txt",
+      "prompt_sha256": "8ac1fde7c5bb432aaa7c7640d9b270a5fe0a1b5529a038c5456cae0b0eb98238"
+    },
+    {
+      "scenario_id": "scenario_313",
+      "scenario_file": "data/scenarios/scenario_313.json",
+      "scenario_sha256": "1c147b08badbcd8f424425c37733518cca31895b66719e828dd42fdbe8b6b8ff",
+      "prompt_file": "prompts/scenario_313.txt",
+      "prompt_sha256": "dc5f16a841ae9999618e79d84d211059b1a4be442f25f13475e7b35abd81df0e"
+    },
+    {
+      "scenario_id": "scenario_314",
+      "scenario_file": "data/scenarios/scenario_314.json",
+      "scenario_sha256": "451396bacd014e186eb6528f21365d62e29622671efce05497d531dfe3b95c03",
+      "prompt_file": "prompts/scenario_314.txt",
+      "prompt_sha256": "2f0e47efa34d63344d28862460104b173933e3ca8d1a0201c19ada9a6eaf5773"
+    },
+    {
+      "scenario_id": "scenario_315",
+      "scenario_file": "data/scenarios/scenario_315.json",
+      "scenario_sha256": "9c3e62b7b98a9db51a25b33cfb1d4bdb721868f600506a70098c711989407e13",
+      "prompt_file": "prompts/scenario_315.txt",
+      "prompt_sha256": "a524ce563a1682d82e0cebddb0f74f10bf2c4166a26e1c89da402b86df557851"
+    },
+    {
+      "scenario_id": "scenario_316",
+      "scenario_file": "data/scenarios/scenario_316.json",
+      "scenario_sha256": "5649642562a3e23563c32f317494c7e8110139a0d6285388fd2b237e4c7a1d0b",
+      "prompt_file": "prompts/scenario_316.txt",
+      "prompt_sha256": "083e9e415aafb2107d5e4c634d8a960e0bf822ae5aa042fa54e680a33d52d82f"
+    },
+    {
+      "scenario_id": "scenario_317",
+      "scenario_file": "data/scenarios/scenario_317.json",
+      "scenario_sha256": "47f0d8cf420aca2795bb6d8318731bf8dccdb6a57cb0feaeae8dd0deb23f6432",
+      "prompt_file": "prompts/scenario_317.txt",
+      "prompt_sha256": "77ff94881ebc534874ae2271064c048cc3cd52db87aac44bcab6d8583d3f7371"
+    },
+    {
+      "scenario_id": "scenario_318",
+      "scenario_file": "data/scenarios/scenario_318.json",
+      "scenario_sha256": "e81523aaf8b8cae6e320543861e19c36475ddbcc0659f33589de723334b8d610",
+      "prompt_file": "prompts/scenario_318.txt",
+      "prompt_sha256": "1298c57ff1611d2125fe731723d1e60f2ddeb90e8b1955028b4311aaaec82525"
+    },
+    {
+      "scenario_id": "scenario_319",
+      "scenario_file": "data/scenarios/scenario_319.json",
+      "scenario_sha256": "4e3650f0c717110fe26690d39b490868ae3238698f0868658890ae70817af077",
+      "prompt_file": "prompts/scenario_319.txt",
+      "prompt_sha256": "ba8bcbaf48b0a9c69e038ac14ad83de15e1ed0d0a670abd1944383251ba6a785"
+    },
+    {
+      "scenario_id": "scenario_320",
+      "scenario_file": "data/scenarios/scenario_320.json",
+      "scenario_sha256": "9259b5089a5bce80380398cbe242f58506537c6fb33524f20d09ebffcd58cd9c",
+      "prompt_file": "prompts/scenario_320.txt",
+      "prompt_sha256": "043438016a819df12fb93f77098a86e2805f39624b4a87da3474a47be0ae9fd2"
+    },
+    {
+      "scenario_id": "scenario_321",
+      "scenario_file": "data/scenarios/scenario_321.json",
+      "scenario_sha256": "8a294b234e626c5dba554de53ecc3703e1b1f001f8861b2c8682e7ef4e6d7974",
+      "prompt_file": "prompts/scenario_321.txt",
+      "prompt_sha256": "b9f1291def9b945e900a48a2d8124dfa770537071638ad7bf99d53db435a37f4"
+    },
+    {
+      "scenario_id": "scenario_322",
+      "scenario_file": "data/scenarios/scenario_322.json",
+      "scenario_sha256": "55bfdbd8f69270b21ea31abd774c41787c2c2eb04177a4f4efae3b728ace9a14",
+      "prompt_file": "prompts/scenario_322.txt",
+      "prompt_sha256": "5d45281a39c581d4889dc5aeccaca76b025d47649ce4ca111cfe50c235a3683c"
+    },
+    {
+      "scenario_id": "scenario_323",
+      "scenario_file": "data/scenarios/scenario_323.json",
+      "scenario_sha256": "781268c26484b5af4fcfdc04666d43d4ded78ec579002d8e00f2a76a60be23b8",
+      "prompt_file": "prompts/scenario_323.txt",
+      "prompt_sha256": "e982494bb4036d82a0b28eb6cb6e0594558eccf2ec525e7514adb82db252476b"
+    },
+    {
+      "scenario_id": "scenario_324",
+      "scenario_file": "data/scenarios/scenario_324.json",
+      "scenario_sha256": "056c19321f6e04b5f14a36da4184cf2f725579bc27035f3cc71e3c3dce497a99",
+      "prompt_file": "prompts/scenario_324.txt",
+      "prompt_sha256": "78ecfd6322ae0cecf5d3d85a00d2dd6ea446c78ba9e3a60454791429b8afd17e"
+    }
+  ]
+}

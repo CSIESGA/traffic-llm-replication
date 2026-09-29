@@ -25,7 +25,7 @@ class GroundTruthBackendError(RuntimeError):
 def analyze_ground_truth(
     vehicles: Iterable,
     cfg: GTConfig | None = None,
-    backend: str = "reconstruction",
+    backend: str = "official",
 ) -> dict:
     """Run one of the supported ground-truth backends.
 
@@ -50,7 +50,7 @@ def analyze_ground_truth(
         from official_ground_truth_adapter import analyze_official_ground_truth
 
         result = analyze_official_ground_truth(list(vehicles))
-        result["ground_truth_backend"] = "official_zenodo_14171745"
+        result["ground_truth_backend"] = "official_zenodo_14171746"
         return result
 
     raise GroundTruthBackendError(
