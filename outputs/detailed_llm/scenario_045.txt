@@ -1,0 +1,41 @@
+{
+  "is_conflict": false,
+  "number_of_conflicts": 0,
+  "places_of_conflicts": [],
+  "conflict_vehicles": [],
+  "decisions": [
+    {
+      "vehicle_id": "V1239",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 17.6 seconds; no sufficiently simultaneous conflicting path is established."
+    },
+    {
+      "vehicle_id": "V8144",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 10.8 seconds; other vehicles have materially separated estimated arrival times."
+    },
+    {
+      "vehicle_id": "V7173",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 39.6 seconds, substantially later than all other vehicles."
+    },
+    {
+      "vehicle_id": "V7056",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 6.6 seconds, providing substantial temporal separation from the other vehicles."
+    }
+  ],
+  "priority_order": [
+    "V1239",
+    "V8144",
+    "V7173",
+    "V7056"
+  ],
+  "waiting_times": {
+    "V1239": 0,
+    "V8144": 0,
+    "V7173": 0,
+    "V7056": 0
+  },
+  "explanation": "Constant-speed arrival estimates are approximately 17.6, 10.8, 39.6, and 6.6 seconds respectively. Their timing does not establish a conflict. Exact path geometry, vehicle lengths, acceleration, signal state, and intersection occupancy duration are not provided, so spatial conflicts cannot be determined more precisely."
+}

@@ -1,0 +1,41 @@
+{
+  "is_conflict": false,
+  "number_of_conflicts": 0,
+  "places_of_conflicts": [],
+  "conflict_vehicles": [],
+  "decisions": [
+    {
+      "vehicle_id": "V9221",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 36.5 seconds, well separated from the other vehicles."
+    },
+    {
+      "vehicle_id": "V6837",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 14.9 seconds, with no established simultaneous crossing conflict."
+    },
+    {
+      "vehicle_id": "V1388",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 21.6 seconds, sufficiently separated from earlier traffic."
+    },
+    {
+      "vehicle_id": "V5960",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 16.3 seconds; timing does not establish a conflict with V6837."
+    }
+  ],
+  "priority_order": [
+    "V9221",
+    "V6837",
+    "V1388",
+    "V5960"
+  ],
+  "waiting_times": {
+    "V9221": 0,
+    "V6837": 0,
+    "V1388": 0,
+    "V5960": 0
+  },
+  "explanation": "Constant-speed arrival estimates are approximately 14.9, 16.3, 21.6, and 36.5 seconds for V6837, V5960, V1388, and V9221. No sufficiently simultaneous conflict is established. Exact trajectories, intersection dimensions, signal states, and acceleration behavior are unspecified."
+}

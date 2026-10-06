@@ -1,0 +1,41 @@
+{
+  "is_conflict": false,
+  "number_of_conflicts": 0,
+  "places_of_conflicts": [],
+  "conflict_vehicles": [],
+  "decisions": [
+    {
+      "vehicle_id": "V2735",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 6.88 seconds; no path conflict is established from the provided lane and timing information."
+    },
+    {
+      "vehicle_id": "V5421",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 24.08 seconds, substantially later than the other vehicles, so no immediate conflict is indicated."
+    },
+    {
+      "vehicle_id": "V1301",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 13.88 seconds, temporally separated from the northbound vehicles and not demonstrably conflicting."
+    },
+    {
+      "vehicle_id": "V7943",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 6.04 seconds; it is ahead and faster than V2735, so their same-lane gap increases."
+    }
+  ],
+  "priority_order": [
+    "V2735",
+    "V5421",
+    "V1301",
+    "V7943"
+  ],
+  "waiting_times": {
+    "V2735": 0,
+    "V5421": 0,
+    "V1301": 0,
+    "V7943": 0
+  },
+  "explanation": "Constant-speed arrival estimates show V7943 and V2735 reaching first, about 0.84 seconds apart, but their same-lane separation increases. V1301 and V5421 arrive much later. Exact trajectories, intersection geometry, signal states, and conflict-point locations are not established by the input."
+}

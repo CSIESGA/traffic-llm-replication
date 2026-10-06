@@ -1,0 +1,41 @@
+{
+  "is_conflict": false,
+  "number_of_conflicts": 0,
+  "places_of_conflicts": [],
+  "conflict_vehicles": [],
+  "decisions": [
+    {
+      "vehicle_id": "V1311",
+      "action": "proceed",
+      "reason": "Estimated arrival is 13.69 seconds; no sufficiently simultaneous conflicting path is established."
+    },
+    {
+      "vehicle_id": "V3065",
+      "action": "proceed",
+      "reason": "Estimated arrival is 6.02 seconds, substantially earlier than the other vehicles."
+    },
+    {
+      "vehicle_id": "V9405",
+      "action": "proceed",
+      "reason": "Estimated arrival is 9.22 seconds; timing separates it from the nearest potentially interacting movement."
+    },
+    {
+      "vehicle_id": "V3472",
+      "action": "proceed",
+      "reason": "Estimated arrival is 15.02 seconds; no simultaneous conflicting movement is established."
+    }
+  ],
+  "priority_order": [
+    "V1311",
+    "V3065",
+    "V9405",
+    "V3472"
+  ],
+  "waiting_times": {
+    "V1311": 0,
+    "V3065": 0,
+    "V9405": 0,
+    "V3472": 0
+  },
+  "explanation": "Constant-speed arrival estimates are approximately 13.69, 6.02, 9.22, and 15.02 seconds respectively. The input establishes lane destinations and timing but not exact trajectories, intersection dimensions, signal states, or a conflict-time threshold; therefore no definite conflict is established."
+}

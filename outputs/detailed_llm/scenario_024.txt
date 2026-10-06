@@ -1,0 +1,143 @@
+{
+  "is_conflict": true,
+  "number_of_conflicts": 12,
+  "places_of_conflicts": [
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection"
+  ],
+  "conflict_vehicles": [
+    {
+      "vehicle1_id": "V209",
+      "vehicle2_id": "V210",
+      "reason": "Both approach from perpendicular directions with approximately 4-second arrival times; their simultaneous intersection occupancy creates a potential conflict."
+    },
+    {
+      "vehicle1_id": "V209",
+      "vehicle2_id": "V212",
+      "reason": "Both reach the intersection at approximately the same time from different approaches, creating a potential path conflict."
+    },
+    {
+      "vehicle1_id": "V210",
+      "vehicle2_id": "V211",
+      "reason": "Both approach from perpendicular directions with approximately 4-second arrival times, so simultaneous entry could produce a conflict."
+    },
+    {
+      "vehicle1_id": "V211",
+      "vehicle2_id": "V212",
+      "reason": "Both reach the intersection at approximately the same time from different approaches, creating a potential path conflict."
+    },
+    {
+      "vehicle1_id": "V213",
+      "vehicle2_id": "V214",
+      "reason": "Both approach from perpendicular directions with approximately 8-second arrival times; their simultaneous intersection occupancy creates a potential conflict."
+    },
+    {
+      "vehicle1_id": "V213",
+      "vehicle2_id": "V216",
+      "reason": "Both reach the intersection at approximately the same time from different approaches, creating a potential path conflict."
+    },
+    {
+      "vehicle1_id": "V214",
+      "vehicle2_id": "V215",
+      "reason": "Both approach from perpendicular directions with approximately 8-second arrival times, so simultaneous entry could produce a conflict."
+    },
+    {
+      "vehicle1_id": "V215",
+      "vehicle2_id": "V216",
+      "reason": "Both reach the intersection at approximately the same time from different approaches, creating a potential path conflict."
+    },
+    {
+      "vehicle1_id": "V209",
+      "vehicle2_id": "V213",
+      "reason": "Both use the north approach and may interact as the later vehicle reaches the intersection after the earlier vehicle."
+    },
+    {
+      "vehicle1_id": "V210",
+      "vehicle2_id": "V214",
+      "reason": "Both use the east approach and may interact as the later vehicle reaches the intersection after the earlier vehicle."
+    },
+    {
+      "vehicle1_id": "V211",
+      "vehicle2_id": "V215",
+      "reason": "Both use the south approach and may interact as the later vehicle reaches the intersection after the earlier vehicle."
+    },
+    {
+      "vehicle1_id": "V212",
+      "vehicle2_id": "V216",
+      "reason": "Both use the west approach and may interact as the later vehicle reaches the intersection after the earlier vehicle."
+    }
+  ],
+  "decisions": [
+    {
+      "vehicle_id": "V209",
+      "action": "proceed",
+      "reason": "Earliest arrival cohort; assign first priority while monitoring simultaneous perpendicular approaches."
+    },
+    {
+      "vehicle_id": "V210",
+      "action": "yield",
+      "reason": "Arrival coincides with V209; yielding separates potentially conflicting intersection occupancy."
+    },
+    {
+      "vehicle_id": "V211",
+      "action": "slow_down",
+      "reason": "Arrival coincides with other first-cohort vehicles; slowing creates additional temporal separation."
+    },
+    {
+      "vehicle_id": "V212",
+      "action": "stop",
+      "reason": "Arrival coincides with the first cohort; stopping provides separation from higher-priority vehicles."
+    },
+    {
+      "vehicle_id": "V213",
+      "action": "proceed",
+      "reason": "Second-cohort arrival occurs about four seconds later; proceed after the first cohort clears."
+    },
+    {
+      "vehicle_id": "V214",
+      "action": "yield",
+      "reason": "Arrival coincides with V213; yielding separates potentially conflicting second-cohort movements."
+    },
+    {
+      "vehicle_id": "V215",
+      "action": "slow_down",
+      "reason": "Arrival coincides with other second-cohort vehicles; slowing creates temporal separation."
+    },
+    {
+      "vehicle_id": "V216",
+      "action": "stop",
+      "reason": "Arrival coincides with the second cohort; stopping provides separation from higher-priority vehicles."
+    }
+  ],
+  "priority_order": [
+    "V209",
+    "V210",
+    "V211",
+    "V212",
+    "V213",
+    "V214",
+    "V215",
+    "V216"
+  ],
+  "waiting_times": {
+    "V209": 0,
+    "V210": 2,
+    "V211": 4,
+    "V212": 6,
+    "V213": 0,
+    "V214": 2,
+    "V215": 4,
+    "V216": 6
+  },
+  "explanation": "At 35 km/h, the nearer vehicles arrive in about 4 seconds and the farther vehicles in about 8 seconds. Simultaneous approaches create potential conflicts. Exact path geometry, signal phases, vehicle dimensions, and intersection clearing times are not established, so locations and waiting estimates are conservative."
+}

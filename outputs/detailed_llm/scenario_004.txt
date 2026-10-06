@@ -1,0 +1,35 @@
+{
+  "is_conflict": true,
+  "number_of_conflicts": 1,
+  "places_of_conflicts": [
+    "intersection"
+  ],
+  "conflict_vehicles": [
+    {
+      "vehicle1_id": "V107",
+      "vehicle2_id": "V108",
+      "reason": "Estimated arrival times are about 5.0 and 5.3 seconds, creating potential overlap; exact path geometry is not established."
+    }
+  ],
+  "decisions": [
+    {
+      "vehicle_id": "V107",
+      "action": "proceed",
+      "reason": "V107 is estimated to arrive slightly earlier, so it receives recommended priority while remaining alert to V108."
+    },
+    {
+      "vehicle_id": "V108",
+      "action": "yield",
+      "reason": "V108 has a nearly simultaneous estimated arrival and should yield to reduce the potential intersection conflict."
+    }
+  ],
+  "priority_order": [
+    "V107",
+    "V108"
+  ],
+  "waiting_times": {
+    "V107": 0,
+    "V108": 2
+  },
+  "explanation": "Constant-speed estimates place V107 and V108 at the intersection about 0.3 seconds apart, indicating potential temporal conflict. V107 is given priority and V108 should yield briefly. The input does not establish exact trajectories, right-of-way controls, acceleration, or precise collision geometry."
+}

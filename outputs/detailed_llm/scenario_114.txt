@@ -1,0 +1,41 @@
+{
+  "is_conflict": false,
+  "number_of_conflicts": 0,
+  "places_of_conflicts": [],
+  "conflict_vehicles": [],
+  "decisions": [
+    {
+      "vehicle_id": "V3282",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 35.4 seconds; no conflicting path or overlapping arrival is established."
+    },
+    {
+      "vehicle_id": "V7749",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 19.1 seconds; the input does not establish a conflicting trajectory."
+    },
+    {
+      "vehicle_id": "V2297",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 6.0 seconds; no simultaneous conflicting movement is established by the input."
+    },
+    {
+      "vehicle_id": "V2010",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 15.5 seconds; path geometry needed to establish a conflict is unspecified."
+    }
+  ],
+  "priority_order": [
+    "V3282",
+    "V7749",
+    "V2297",
+    "V2010"
+  ],
+  "waiting_times": {
+    "V3282": 0,
+    "V7749": 0,
+    "V2297": 0,
+    "V2010": 0
+  },
+  "explanation": "Constant-speed arrival estimates are approximately 35.4, 19.1, 6.0, and 15.5 seconds respectively. Lane destinations are valid, but the input does not define the geometry of routes D, C, and E sufficiently to establish intersecting trajectories."
+}

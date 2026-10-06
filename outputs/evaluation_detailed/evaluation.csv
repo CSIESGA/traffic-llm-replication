@@ -1,54 +1,54 @@
 ﻿scenario,group,status,error,binary_correct,pair_tp,pair_fp,pair_fn,pair_set_exact,reported_count_exact,reported_count_absolute_error,action_correct,action_total,priority_order_exact,waiting_mae,places_coarse_exact,all_scored_fields_exact
-scenario_001,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_002,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_003,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_004,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_005,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_006,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_007,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_008,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_009,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_010,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_011,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_012,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_013,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_014,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_015,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_016,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_017,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_018,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_019,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_020,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_021,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_022,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_023,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_024,original_or_unassigned,missing_prediction,,,,,,,,,,,,,,
-scenario_025,four,missing_prediction,,,,,,,,,,,,,,
-scenario_026,four,missing_prediction,,,,,,,,,,,,,,
-scenario_027,four,missing_prediction,,,,,,,,,,,,,,
-scenario_028,four,missing_prediction,,,,,,,,,,,,,,
-scenario_029,four,missing_prediction,,,,,,,,,,,,,,
-scenario_030,four,missing_prediction,,,,,,,,,,,,,,
-scenario_031,four,missing_prediction,,,,,,,,,,,,,,
-scenario_032,four,missing_prediction,,,,,,,,,,,,,,
-scenario_033,four,missing_prediction,,,,,,,,,,,,,,
-scenario_034,four,missing_prediction,,,,,,,,,,,,,,
-scenario_035,four,missing_prediction,,,,,,,,,,,,,,
-scenario_036,four,missing_prediction,,,,,,,,,,,,,,
-scenario_037,four,missing_prediction,,,,,,,,,,,,,,
-scenario_038,four,missing_prediction,,,,,,,,,,,,,,
-scenario_039,four,missing_prediction,,,,,,,,,,,,,,
-scenario_040,four,missing_prediction,,,,,,,,,,,,,,
-scenario_041,four,missing_prediction,,,,,,,,,,,,,,
-scenario_042,four,missing_prediction,,,,,,,,,,,,,,
-scenario_043,four,missing_prediction,,,,,,,,,,,,,,
-scenario_044,four,missing_prediction,,,,,,,,,,,,,,
-scenario_045,four,missing_prediction,,,,,,,,,,,,,,
-scenario_046,four,missing_prediction,,,,,,,,,,,,,,
-scenario_047,four,missing_prediction,,,,,,,,,,,,,,
-scenario_048,four,missing_prediction,,,,,,,,,,,,,,
-scenario_049,four,missing_prediction,,,,,,,,,,,,,,
-scenario_050,four,missing_prediction,,,,,,,,,,,,,,
+scenario_001,original_or_unassigned,evaluated,,True,1,0,0,True,True,0,0,2,True,0.5,True,False
+scenario_002,original_or_unassigned,evaluated,,True,0,0,0,True,True,0,2,2,,0.0,True,True
+scenario_003,original_or_unassigned,evaluated,,True,0,0,0,True,True,0,2,2,,0.0,True,True
+scenario_004,original_or_unassigned,evaluated,,True,1,0,0,True,True,0,0,2,True,0.0,True,False
+scenario_005,original_or_unassigned,evaluated,,True,2,1,0,False,False,1,1,3,True,1.0,False,False
+scenario_006,original_or_unassigned,evaluated,,False,0,0,1,False,False,1,2,3,True,0.0,False,False
+scenario_007,original_or_unassigned,evaluated,,True,2,0,2,False,False,2,2,4,False,2.0,False,False
+scenario_008,original_or_unassigned,evaluated,,True,4,2,0,False,False,2,2,4,True,0.0,False,False
+scenario_009,original_or_unassigned,evaluated,,True,1,0,1,False,False,1,3,4,False,1.0,False,False
+scenario_010,original_or_unassigned,evaluated,,True,4,2,0,False,False,2,2,4,True,0.0,False,False
+scenario_011,original_or_unassigned,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_012,original_or_unassigned,evaluated,,True,4,2,3,False,False,1,1,5,True,1.0,False,False
+scenario_013,original_or_unassigned,evaluated,,True,4,2,0,False,False,2,2,5,False,1.6,False,False
+scenario_014,original_or_unassigned,evaluated,,False,0,0,1,False,False,1,4,5,True,0.0,False,False
+scenario_015,original_or_unassigned,evaluated,,False,0,0,4,False,False,4,2,6,False,2.0,False,False
+scenario_016,original_or_unassigned,evaluated,,True,4,2,0,False,False,2,2,6,True,0.0,False,False
+scenario_017,original_or_unassigned,evaluated,,True,3,3,8,False,False,5,4,7,True,2.7142857142857144,False,False
+scenario_018,original_or_unassigned,evaluated,,False,0,0,3,False,False,3,4,7,True,0.0,False,False
+scenario_019,original_or_unassigned,evaluated,,False,0,0,20,False,False,20,0,8,True,6.625,False,False
+scenario_020,original_or_unassigned,evaluated,,False,0,0,4,False,False,4,4,8,True,0.0,False,False
+scenario_021,original_or_unassigned,evaluated,,False,0,0,20,False,False,20,0,8,True,6.0,False,False
+scenario_022,original_or_unassigned,evaluated,,True,5,1,1,False,True,0,0,6,False,3.3333333333333335,True,False
+scenario_023,original_or_unassigned,evaluated,,True,6,0,3,False,False,3,4,7,True,1.2857142857142858,False,False
+scenario_024,original_or_unassigned,evaluated,,True,4,8,0,False,False,8,2,8,True,1.5,False,False
+scenario_025,four,evaluated,,False,0,0,1,False,False,1,3,4,True,0.0,False,False
+scenario_026,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_027,four,evaluated,,False,0,1,0,False,False,1,3,4,,0.75,False,False
+scenario_028,four,evaluated,,False,0,0,1,False,False,1,3,4,True,0.0,False,False
+scenario_029,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_030,four,evaluated,,True,1,0,0,True,True,0,3,4,True,0.5,True,False
+scenario_031,four,evaluated,,True,0,1,1,False,True,0,2,4,True,1.375,True,False
+scenario_032,four,evaluated,,False,0,0,1,False,False,1,3,4,True,0.5,False,False
+scenario_033,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_034,four,evaluated,,False,0,0,1,False,False,1,3,4,False,0.0,False,False
+scenario_035,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_036,four,evaluated,,False,0,0,1,False,False,1,3,4,True,0.0,False,False
+scenario_037,four,evaluated,,False,0,0,1,False,False,1,3,4,True,0.25,False,False
+scenario_038,four,invalid_prediction,Decision has unknown vehicle ID,,,,,,,,,,,,,
+scenario_039,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_040,four,evaluated,,True,0,1,1,False,True,0,2,4,True,0.75,True,False
+scenario_041,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_042,four,evaluated,,True,1,0,0,True,True,0,4,4,True,0.25,True,False
+scenario_043,four,evaluated,,False,0,0,1,False,False,1,3,4,True,0.0,False,False
+scenario_044,four,evaluated,,False,0,0,1,False,False,1,3,4,True,0.0,False,False
+scenario_045,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_046,four,evaluated,,False,0,0,1,False,False,1,3,4,False,0.25,False,False
+scenario_047,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_048,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_049,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_050,four,evaluated,,True,0,1,1,False,True,0,1,4,True,0.75,True,False
 scenario_051,four,missing_prediction,,,,,,,,,,,,,,
 scenario_052,four,missing_prediction,,,,,,,,,,,,,,
 scenario_053,four,missing_prediction,,,,,,,,,,,,,,
@@ -99,56 +99,56 @@ scenario_097,four,missing_prediction,,,,,,,,,,,,,,
 scenario_098,four,missing_prediction,,,,,,,,,,,,,,
 scenario_099,four,missing_prediction,,,,,,,,,,,,,,
 scenario_100,four,missing_prediction,,,,,,,,,,,,,,
-scenario_101,four,missing_prediction,,,,,,,,,,,,,,
-scenario_102,four,missing_prediction,,,,,,,,,,,,,,
-scenario_103,four,missing_prediction,,,,,,,,,,,,,,
-scenario_104,four,missing_prediction,,,,,,,,,,,,,,
-scenario_105,four,missing_prediction,,,,,,,,,,,,,,
-scenario_106,four,missing_prediction,,,,,,,,,,,,,,
-scenario_107,four,missing_prediction,,,,,,,,,,,,,,
-scenario_108,four,missing_prediction,,,,,,,,,,,,,,
-scenario_109,four,missing_prediction,,,,,,,,,,,,,,
-scenario_110,four,missing_prediction,,,,,,,,,,,,,,
-scenario_111,four,missing_prediction,,,,,,,,,,,,,,
-scenario_112,four,missing_prediction,,,,,,,,,,,,,,
-scenario_113,four,missing_prediction,,,,,,,,,,,,,,
-scenario_114,four,missing_prediction,,,,,,,,,,,,,,
-scenario_115,four,missing_prediction,,,,,,,,,,,,,,
-scenario_116,four,missing_prediction,,,,,,,,,,,,,,
-scenario_117,four,missing_prediction,,,,,,,,,,,,,,
-scenario_118,four,missing_prediction,,,,,,,,,,,,,,
-scenario_119,four,missing_prediction,,,,,,,,,,,,,,
-scenario_120,four,missing_prediction,,,,,,,,,,,,,,
-scenario_121,four,missing_prediction,,,,,,,,,,,,,,
-scenario_122,four,missing_prediction,,,,,,,,,,,,,,
-scenario_123,four,missing_prediction,,,,,,,,,,,,,,
-scenario_124,four,missing_prediction,,,,,,,,,,,,,,
-scenario_125,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_126,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_127,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_128,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_129,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_130,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_131,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_132,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_133,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_134,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_135,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_136,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_137,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_138,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_139,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_140,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_141,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_142,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_143,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_144,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_145,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_146,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_147,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_148,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_149,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_150,eight,missing_prediction,,,,,,,,,,,,,,
+scenario_101,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_102,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_103,four,evaluated,,False,0,0,1,False,False,1,3,4,False,0.0,False,False
+scenario_104,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_105,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_106,four,evaluated,,False,0,0,1,False,False,1,3,4,True,0.25,False,False
+scenario_107,four,evaluated,,False,0,0,1,False,False,1,3,4,True,0.0,False,False
+scenario_108,four,evaluated,,True,1,0,0,True,True,0,3,4,True,0.5,True,False
+scenario_109,four,evaluated,,False,0,0,2,False,False,2,2,4,False,0.25,False,False
+scenario_110,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_111,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_112,four,evaluated,,False,0,1,0,False,False,1,3,4,,0.75,False,False
+scenario_113,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_114,four,evaluated,,True,0,0,0,True,True,0,4,4,,0.0,True,True
+scenario_115,four,evaluated,,False,0,0,1,False,False,1,3,4,False,0.0,False,False
+scenario_116,four,evaluated,,False,0,1,0,False,False,1,3,4,,0.75,False,False
+scenario_117,four,evaluated,,False,0,0,2,False,False,2,2,4,False,0.0,False,False
+scenario_118,four,evaluated,,False,0,0,1,False,False,1,3,4,False,0.0,False,False
+scenario_119,four,evaluated,,True,1,0,0,True,True,0,4,4,True,0.75,True,False
+scenario_120,four,evaluated,,False,0,0,2,False,False,2,2,4,False,0.0,False,False
+scenario_121,four,evaluated,,False,0,0,1,False,False,1,3,4,True,0.25,False,False
+scenario_122,four,evaluated,,False,0,0,1,False,False,1,3,4,False,0.25,False,False
+scenario_123,four,evaluated,,False,0,0,1,False,False,1,3,4,True,0.0,False,False
+scenario_124,four,evaluated,,False,0,0,2,False,False,2,2,4,False,1.0,False,False
+scenario_125,eight,evaluated,,True,2,1,3,False,False,2,6,8,True,0.625,False,False
+scenario_126,eight,evaluated,,True,0,1,1,False,True,0,6,8,True,0.25,True,False
+scenario_127,eight,evaluated,,True,0,2,4,False,False,2,3,8,False,1.25,False,False
+scenario_128,eight,evaluated,,True,2,0,2,False,False,2,6,8,False,0.3125,False,False
+scenario_129,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_130,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_131,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_132,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_133,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_134,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_135,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_136,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_137,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_138,eight,evaluated,,True,1,0,5,False,False,5,5,8,False,1.0,False,False
+scenario_139,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_140,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_141,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_142,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_143,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_144,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_145,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_146,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_147,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_148,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_149,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
+scenario_150,eight,invalid_prediction,Expecting value: line 1 column 1 (char 0),,,,,,,,,,,,,
 scenario_151,eight,missing_prediction,,,,,,,,,,,,,,
 scenario_152,eight,missing_prediction,,,,,,,,,,,,,,
 scenario_153,eight,missing_prediction,,,,,,,,,,,,,,
@@ -172,7 +172,7 @@ scenario_170,eight,missing_prediction,,,,,,,,,,,,,,
 scenario_171,eight,missing_prediction,,,,,,,,,,,,,,
 scenario_172,eight,missing_prediction,,,,,,,,,,,,,,
 scenario_173,eight,missing_prediction,,,,,,,,,,,,,,
-scenario_174,eight,missing_prediction,,,,,,,,,,,,,,
+scenario_174,eight,evaluated,,True,0,2,1,False,False,1,5,8,False,0.625,False,False
 scenario_175,eight,missing_prediction,,,,,,,,,,,,,,
 scenario_176,eight,missing_prediction,,,,,,,,,,,,,,
 scenario_177,eight,missing_prediction,,,,,,,,,,,,,,
@@ -307,7 +307,7 @@ scenario_305,mixed,missing_prediction,,,,,,,,,,,,,,
 scenario_306,mixed,missing_prediction,,,,,,,,,,,,,,
 scenario_307,mixed,missing_prediction,,,,,,,,,,,,,,
 scenario_308,mixed,missing_prediction,,,,,,,,,,,,,,
-scenario_309,mixed,missing_prediction,,,,,,,,,,,,,,
+scenario_309,mixed,evaluated,,False,0,1,0,False,False,1,4,5,,0.6,False,False
 scenario_310,mixed,missing_prediction,,,,,,,,,,,,,,
 scenario_311,mixed,missing_prediction,,,,,,,,,,,,,,
 scenario_312,mixed,missing_prediction,,,,,,,,,,,,,,

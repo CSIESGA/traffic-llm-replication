@@ -1,0 +1,79 @@
+{
+  "is_conflict": true,
+  "number_of_conflicts": 6,
+  "places_of_conflicts": [
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection",
+    "intersection"
+  ],
+  "conflict_vehicles": [
+    {
+      "vehicle1_id": "V217",
+      "vehicle2_id": "V218",
+      "reason": "Both approach the intersection simultaneously from different directions, so their movements may conflict without established path geometry."
+    },
+    {
+      "vehicle1_id": "V217",
+      "vehicle2_id": "V219",
+      "reason": "Both reach the intersection at approximately 7.2 seconds, creating potential conflict because precise movement geometry is unspecified."
+    },
+    {
+      "vehicle1_id": "V217",
+      "vehicle2_id": "V220",
+      "reason": "Simultaneous arrival from different approaches creates a potential intersection conflict; the input does not establish exact crossing points."
+    },
+    {
+      "vehicle1_id": "V218",
+      "vehicle2_id": "V219",
+      "reason": "Both have essentially identical arrival times from different directions, requiring separation because detailed path geometry is not established."
+    },
+    {
+      "vehicle1_id": "V218",
+      "vehicle2_id": "V220",
+      "reason": "Both approach simultaneously from opposing directions, and the provided destination labels do not establish whether their trajectories remain separated."
+    },
+    {
+      "vehicle1_id": "V219",
+      "vehicle2_id": "V220",
+      "reason": "Their estimated intersection arrival times coincide, creating potential conflict because exact trajectories through the intersection are unspecified."
+    }
+  ],
+  "decisions": [
+    {
+      "vehicle_id": "V217",
+      "action": "proceed",
+      "reason": "Assign first priority to separate the four approximately simultaneous arrivals."
+    },
+    {
+      "vehicle_id": "V218",
+      "action": "yield",
+      "reason": "Yield to V217, then proceed after its intersection movement clears."
+    },
+    {
+      "vehicle_id": "V219",
+      "action": "yield",
+      "reason": "Yield to higher-priority vehicles because arrival timing substantially overlaps."
+    },
+    {
+      "vehicle_id": "V220",
+      "action": "stop",
+      "reason": "Lowest assigned priority should wait until the other potentially conflicting movements clear."
+    }
+  ],
+  "priority_order": [
+    "V217",
+    "V218",
+    "V219",
+    "V220"
+  ],
+  "waiting_times": {
+    "V217": 0,
+    "V218": 2,
+    "V219": 4,
+    "V220": 6
+  },
+  "explanation": "All vehicles are 80 meters away at 40 km/h, giving approximately 7.2-second arrivals. Simultaneous entry therefore warrants conservative separation. Exact path-crossing geometry, signal state, vehicle dimensions, and intersection clearance times are not established, so pair locations and waiting estimates are approximate."
+}

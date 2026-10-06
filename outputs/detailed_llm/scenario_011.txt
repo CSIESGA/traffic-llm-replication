@@ -1,0 +1,41 @@
+{
+  "is_conflict": false,
+  "number_of_conflicts": 0,
+  "places_of_conflicts": [],
+  "conflict_vehicles": [],
+  "decisions": [
+    {
+      "vehicle_id": "V127",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 4 seconds; no other vehicle is expected to reach the intersection simultaneously."
+    },
+    {
+      "vehicle_id": "V128",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 5 seconds; its lane and destination are valid, with no established temporal conflict."
+    },
+    {
+      "vehicle_id": "V129",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 11 seconds, substantially later than the northbound vehicles, so no temporal conflict is established."
+    },
+    {
+      "vehicle_id": "V130",
+      "action": "proceed",
+      "reason": "Estimated arrival is about 12 seconds, substantially later than the northbound vehicles, so no temporal conflict is established."
+    }
+  ],
+  "priority_order": [
+    "V127",
+    "V128",
+    "V129",
+    "V130"
+  ],
+  "waiting_times": {
+    "V127": 0,
+    "V128": 0,
+    "V129": 0,
+    "V130": 0
+  },
+  "explanation": "Constant-speed arrival estimates are approximately 4, 5, 11, and 12 seconds respectively. The large timing separation between opposing approaches indicates no established conflict. Exact path geometry, vehicle dimensions, signal states, and intersection occupancy durations are not provided."
+}
