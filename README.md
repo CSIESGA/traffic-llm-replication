@@ -39,7 +39,11 @@ The complete reasoning and `explanation` fields are preserved. However, because 
 
 Some cases in the authors' ground truth contain inconsistencies between pairwise and global priority assignments. These cases are explicitly identified in the evaluation report, which also provides separate results for consistent and inconsistent subsets.
 
-**Current experiment status:** Only six genuine responses from the previous binary-classification pilot are available. No responses have been collected for the new detailed-output experiment.
+**Current experiment status (October 6, 2026):** The detailed-output experiment has collected responses for a subset of the 324 prepared scenarios. The saved evaluation report records **80 structurally valid, scored responses covering 369 vehicle instances**, along with 22 invalid predictions and 222 missing predictions. The experiment remains partial; the 80 scored scenarios must not be confused with the full 324-scenario dataset.
+
+Among the 80 valid responses, the LLM achieved **60.00% binary conflict accuracy**, **31.95% conflict-pair recall**, and **26.25% exact agreement across all scored structured fields** relative to the published rule-based reference implementation. The analysis also identified **76 instances where the LLM recommended `proceed` for vehicles required to yield by the reference rules**. These figures measure agreement with the reference implementation, not real-world driving safety or deployed traffic-control performance.
+
+The evaluated outputs and aggregate metrics are preserved in [`outputs/evaluation_detailed/`](outputs/evaluation_detailed/), including [`evaluation_summary.json`](outputs/evaluation_detailed/evaluation_summary.json). The six original binary-classification pilot responses remain separate from this detailed-output experiment.
 
 Test fixtures are not treated as LLM-generated responses and are never stored in the official prediction directory.
 
